@@ -1,0 +1,190 @@
+id,nome_antigone,nome_ministero,coperto_antigone_ultimo_anno,regione,provincia,tipo,tipo_esteso,lat,lon,indirizzo,capienza,presenti
+001,Casa circondariale a custodia attenuata di Avezzano,AVEZZANO,NO,ABRUZZO,AQ,CC,Casa circondariale,42.0264187,13.4251444,"Via S. Francesco, 8, 67051 Avezzano AQ, Italy",53,69
+002,Casa Circondariale de L'Aquila,L'AQUILA,NO,ABRUZZO,AQ,CC,Casa circondariale,42.350697,13.399934,"Corso Vittorio Emanuele, 65, 67100 L'Aquila AQ, Italy",232,160
+003,Casa di reclusione di Sulmona,SULMONA,NO,ABRUZZO,AQ,CR,Casa di Reclusione,42.0685149,13.9279477,"3W9H+C5 Sulmona, Province of L'Aquila, Italy",323,446
+004,Casa Circondariale di Chieti,CHIETI,NO,ABRUZZO,CH,CC,Casa circondariale,42.3568963,14.1927411,"Via Ettore Ianni, 30, 66100 Chieti CH, Italy",79,134
+005,Casa Circondariale Lanciano,LANCIANO,NO,ABRUZZO,CH,CC,Casa circondariale,42.2244423,14.4236613,"6CFF+QF Lanciano, Province of Chieti, Italy",289,256
+006,Casa di Lavoro di Vasto,VASTO,NO,ABRUZZO,CH,CL,Casa Lavoro con sezione Circondariale,42.177685,14.661448,"Via Torre Sinello, 23, 66054 Vasto CH, Italy",197,88
+007,Casa Circondariale di Pescara,PESCARA,NO,ABRUZZO,PE,CC,Casa circondariale,42.4617624,14.2160321,"SS16bis, 44, 65126 Pescara PE, Italy",276,399
+008,"Casa Circondariale Castrogno, Teramo",TERAMO,SI,ABRUZZO,TE,CC,Casa circondariale,42.6837394,13.6984628,"Contrada Castrogno, 64100 Teramo TE",255,383
+009,Casa Circondariale di Matera,MATERA,SI,BASILICATA,MT,CC,Casa circondariale,40.6762113,16.6058596,"Via Cererie, 24, 75100 Matera MT, Italy",132,199
+010,Casa Circondariale di Melfi,MELFI,NO,BASILICATA,PZ,CC,Casa circondariale,41.0043759,15.639704,"2J3Q+QV Melfi, Province of Potenza, Italy",126,196
+011,Casa Circondariale di Melfi,"POTENZA ""A. SANTORO""",SI,BASILICATA,PZ,CC,Casa circondariale,40.6414497,15.8236732,"Via Appia, 175, 85100 Potenza PZ",110,96
+012,Casa Circondariale di Castrovillari,"CASTROVILLARI ""R. SISCA""",NO,CALABRIA,CS,CC,Casa circondariale,39.8152678,16.1997438,"C/da Archidero, 1, 87012 Castrovillari CS, Italy",122,162
+013,"Casa Circondariale ""Sergio Cosmai"" di Cosenza","COSENZA ""S. COSMAI""",SI,CALABRIA,CS,CC,Casa circondariale,39.3191885,16.2530709,"Viale Giacomo Mancini, 320, 87100 Cosenza CS, Italy",220,276
+014,Casa Circondariale di Paola,PAOLA,SI,CALABRIA,CS,CC,Casa circondariale,39.3250471,16.0459482,"Contrada Deuda, Paola, CS 87027, 87027 Paola CS, Italy",181,197
+015,Casa di Reclusione di Rossano Nuovo Complesso,"ROSSANO ""N.C.""",NO,CALABRIA,CS,CR,Casa di Reclusione,39.5758997,16.6346518,"Via XX Settembre, 1, 87067 Rossano CS, Italy",263,315
+016,"Casa circondariale ""Ugo Caridi"" di Catanzaro","CATANZARO ""U. CARIDI""",SI,CALABRIA,CZ,CC,Casa circondariale,38.9241013,16.5994469,"Via Tre Fontane, 28, 88100 Siano CZ, Italy",682,629
+017,Casa Circondariale di Crotone,CROTONE,NO,CALABRIA,KR,CC,Casa circondariale,39.1150919,17.0891042,"Rotonda Loc Passovecchio, 5555, 88900 Crotone KR, Italy",99,138
+018,Istituto a custodia attenuata “L. DAGA” di Laureana di Borrello (RC),"LAUREANA DI BORRELLO ""L. DAGA""",SI,CALABRIA,RC,CR,Casa di Reclusione,38.4905465999999,16.0805716,"Viale Margherita, 1, 89023 Laureana di Borrello RC, Italy",37,55
+019,Casa Circondariale di Locri,LOCRI,NO,CALABRIA,RC,CC,Casa circondariale,38.239143,16.2648926,"Via Professor Francesco Panzera, 70, 89044 Locri RC, Italy",86,130
+020,"Casa circondariale di Palmi ""Filippo Salsone""","PALMI ""F. SALSONE""",SI,CALABRIA,RC,CC,Casa circondariale,38.3667969,15.8582982,"Via Trodio, 2, 89015 Palmi RC",141,177
+021,"Istituto penitenziario ""G.Panzera"" di Reggio Calabria  plessio Arghillà","REGGIO CALABRIA ""ARGHILLA'""",SI,CALABRIA,RC,CC,Casa circondariale,38.1929473,15.6841153,"Contrada Rugola, 89135 Reggio Calabria RC",294,364
+022,"Casa circondariale di Reggio Calabria ""Giuseppe Panzera""","REGGIO CALABRIA ""G. PANZERA""",SI,CALABRIA,RC,CC,Casa circondariale,38.0995421,15.6412068,"Via Carcere Nuovo, 15, 89133 Reggio Calabria RC",180,212
+023,Nuovo Complesso Penitenziario di Vibo Valentia,"VIBO VALENTIA ""N.C.""",NO,CALABRIA,VV,CC,Casa circondariale,38.6755587,16.0994697,"Viale John Fitzgerald Kennedy, 75, 89900 Vibo Valentia VV, Italy",406,380
+024,Casa Circondariale di Ariano Irpino,"ARIANO IRPINO ""P. CAMPANELLO""",NO,CAMPANIA,AV,CC,Casa circondariale,41.1280043,15.0816689,"Via Cardito, 60, 83031 Ariano Irpino AV, Italy",276,305
+025,Casa Circondariale Antimo Graziano Bellizzi di Avellino,"AVELLINO ""A. GRAZIANO"" BELLIZZI",SI,CAMPANIA,AV,CC,Casa circondariale,40.8992212,14.8019529,"Contrada Sant'Oronzo, 1, 83100 Avellino AV",503,625
+026,Istituto Custodia Attenuata per Madri (ICAM) di Lauro,LAURO,SI,CAMPANIA,AV,ICAM,Istituto a custodia attenuata per madri con bambini al seguito,40.880787,14.6296497,"n., Via Agostino Casoria Frate, 1, 83023 Lauro AV",50,5
+027,Casa di reclusione di Sant'Angelo dei Lombardi,"SANT'ANGELO DEI LOMBARDI ""L.FAMIGLIETTI - R.FORGETTA - G.BARTOLO""",SI,CAMPANIA,AV,CR,Casa di Reclusione,40.9286577,15.1781207,"SP149, 1, 83054 Sant'Angelo dei Lombardi AV, Italy",124,192
+028,Casa Circondariale di Benevento,"BENEVENTO ""M. GAGLIONE""",SI,CAMPANIA,BN,CC,Casa circondariale,41.1380086,14.8067145,"Via Ermete Novelli, 11, 82100 Benevento BN, Italy",261,430
+029,Casa di reclusione G. De Angelis di Arienzo,"ARIENZO ""G. DE ANGELIS""",SI,CAMPANIA,CE,CR,Casa di Reclusione,41.0220441,14.4959899,"Piazza Nicola Valletta, 28, 81021 Arienzo CE, Italy",58,86
+030,Casa di reclusione di Aversa Filippo Saporito,"AVERSA ""F. SAPORITO""",SI,CAMPANIA,CE,CR,Casa di Reclusione,40.9766769,14.2061983,"Via S. Francesco da Paola, 2, 81031 Aversa CE",254,246
+031,Casa di Reclusione di Carinola,"CARINOLA ""G.B. NOVELLI""",NO,CAMPANIA,CE,CR,Casa di Reclusione,41.1849503,13.981095,"5XMJ+XC Carinola, Province of Caserta, Italy",552,485
+032,"Casa circondariale ""Francesco Uccella"" di Santa Maria Capua Vetere (CE)","SANTA MARIA CAPUA VETERE ""F. UCCELLA""",SI,CAMPANIA,CE,CC,Casa circondariale,41.0445546,14.2381854,"Strada Statale Appia 7 bis Km. 6+500, 81055 Santa Maria Capua Vetere CE",818,962
+033,"Casa Circondariale di Napoli Poggioreale ""G. Salvia""","NAPOLI ""G. SALVIA"" POGGIOREALE",SI,CAMPANIA,NA,CC,Casa circondariale,40.8651359,14.2878969,"Nuova Poggioreale - Caramanico, 80143 Napoli NA, Italy",,
+034,"Casa Circondariale ""Pasquale Mandato"" di Napoli  Secondigliano","NAPOLI ""P. MANDATO"" SECONDIGLIANO",SI,CAMPANIA,NA,CC,Casa circondariale,40.8922073,14.261485,"Via Regina Margherita, 325, 80144 Napoli NA, Italy",,
+035,Casa Circondariale Femminile di Pozzuoli,POZZUOLI,SI,CAMPANIA,NA,CCF,Casa cirondariale femminile,40.8287851,14.1206359,"Via G. Pergolesi, 140, 80078 Pozzuoli NA, Italy",98,145
+036,Icatt - Casa di Reclusione di Eboli,EBOLI,NO,CAMPANIA,SA,CR,Casa di Reclusione,40.6210023,15.054588,"Via Castello, 10, 84025 Eboli SA, Italy",54,40
+037,"Casa Circondariale di Salerno ""Antonio Caputo""","SALERNO ""A. CAPUTO""",SI,CAMPANIA,SA,CC,Casa circondariale,40.6519892,14.8505911,"Via del Tonnazzo, 1, 84131 Fuorni SA",376,554
+038,Casa Circondariale di Vallo della Lucania,"VALLO DELLA LUCANIA ""A. PARAGANO""",NO,CAMPANIA,SA,CC,Casa circondariale,40.2305213,15.2652465,"zona industriale, 84078 Vallo della Lucania SA, Italy",40,56
+039,"Casa Circondariale ""Rocco D'Amato"" di Bologna","BOLOGNA ""R. D'AMATO""",SI,EMILIA ROMAGNA,BO,CC,Casa circondariale,44.5357835999999,11.3711286,"Via del Gomito, 2, 40127 Bologna BO, Italy",498,851
+040,"Casa circondariale ""C. Satta"" di Ferrara","FERRARA ""C. SATTA""",SI,EMILIA ROMAGNA,FE,CC,Casa circondariale,44.842401,11.582091,"Casa Circondariale, 44122 Ferrara FE, Italy",244,407
+041,Casa circondariale di Forlì,FORLI',SI,EMILIA ROMAGNA,FO,CC,Casa circondariale,44.2168456,12.0389355,"Via della Rocca, 4, 47121 Forlì FC, Italy",144,148
+042,Casa di reclusione di Castelfranco Emilia,CASTELFRANCO EMILIA -,SI,EMILIA ROMAGNA,MO,CR,Casa di Reclusione,44.6006176,11.0436543,"Via Forte Urbano, 1, 41013 Castelfranco Emilia MO, Italy",191,107
+043,Casa circondariale di Modena,MODENA,SI,EMILIA ROMAGNA,MO,CC,Casa circondariale,44.6704207,10.9190188,"Str. Sant'Anna, 370, 41122 Modena MO, Italy",372,550
+044,Casa circondariale  San Lazzaro di Piacenza,"PIACENZA ""SAN LAZZARO""",SI,EMILIA ROMAGNA,PC,CC,Casa circondariale,45.0247039,9.72564869999999,"Str. delle Novate, 65, 29122 Piacenza PC",416,399
+045,Casa di reclusione di Parma,PARMA,SI,EMILIA ROMAGNA,PR,CR,Casa di Reclusione,44.8164562,10.3662848,"Str. Burla, 57, 43122 Parma PR, Italy",655,683
+046,Casa circondariale di Ravenna,RAVENNA,SI,EMILIA ROMAGNA,RA,CC,Casa circondariale,44.414387,12.1924945,"Via Port'Aurea, 57, 48121 Ravenna RA, Italy",49,81
+047,Istituti penali di Reggio Emilia,"REGGIO EMILIA ""C.C. E C.R.""",SI,EMILIA ROMAGNA,RE,IP,Istituti di pena,44.6645644,10.6377283,"Via Luigi Settembrini, 8, 42123 Reggio Emilia RE",292,283
+048,Casa circondariale di Rimini,RIMINI,SI,EMILIA ROMAGNA,RN,CC,Casa circondariale,44.0430147999999,12.5363308,"Via Santa Cristina, 19, 47923 Rimini RN",118,137
+049,Casa Circondariale di Gorizia,GORIZIA,NO,FRIULI VENEZIA GIULIA,GO,CC,Casa circondariale,45.9403727,13.6215281,"Via Giuseppe Barzellini, 8, 34170 Gorizia GO, Italy",53,76
+050,Casa Circondariale di Pordenone,PORDENONE,SI,FRIULI VENEZIA GIULIA,PN,CC,Casa circondariale,45.9561352,12.6628324,"Piazza della Motta, 10, 33170 Pordenone PN, Italy",37,53
+051,"Casa Circondariale ""Ernesto Mari"" di Trieste",TRIESTE,SI,FRIULI VENEZIA GIULIA,TS,CC,Casa circondariale,45.6554572,13.7810006,"Via del Coroneo, 26, 34133 Trieste TS, Italy",150,247
+052,Casa Circondariale di Tolmezzo,TOLMEZZO,NO,FRIULI VENEZIA GIULIA,UD,CC,Casa circondariale,46.4059105,13.0147625,"Piazza XX Settembre, 13, 33028 Tolmezzo UD, Italy",149,165
+053,"Casa circondariale ""Antonio Santoro"" di Udine",UDINE,SI,FRIULI VENEZIA GIULIA,UD,CC,Casa circondariale,46.0666346999999,13.2479876,"Via Spalato, 30, 33100 Udine UD",86,154
+054,Casa Circondariale di Cassino,CASSINO,NO,LAZIO,FR,CC,Casa circondariale,41.4985879,13.830776,"Via Sferracavalli, 3, 03043 Cassino FR, Italy",200,197
+055,"Casa Circondariale di Frosinone ""G. Pagliei""","FROSINONE ""G. PAGLIEI""",NO,LAZIO,FR,CC,Casa circondariale,41.653425,13.3121682,"Via Cerreto, 55, 03100 Frosinone FR, Italy",513,607
+056,Casa di Reclusione di Paliano,PALIANO,NO,LAZIO,FR,CR,Casa di Reclusione,41.8066787,13.0555847,"Viale Garibaldi, 233, 03018 Paliano FR, Italy",156,56
+057,Casa Circondariale di Latina,LATINA,NO,LAZIO,LT,CC,Casa circondariale,41.4610920999999,12.899707,"Via Aspromonte, 100, 04100 Latina LT, Italy",77,118
+058,Casa Circondariale Nuovo Complesso Rieti,"RIETI ""N.C.""",SI,LAZIO,RI,CC,Casa circondariale,42.4237017,12.9129446,"Viale Maestri Del Lavoro, 2, 02100 Rieti RI",295,498
+059,Casa di Reclusione di Civitavecchia Passerini,"CIVITAVECCHIA ""G. PASSERINI""",NO,LAZIO,RM,CR,Casa di Reclusione,42.0995694,11.7875513,"Via Tarquinia, 20, 00053 Civitavecchia RM, Italy",144,75
+060,Casa Circondariale di Civitavecchia,"CIVITAVECCHIA ""N.C.""",NO,LAZIO,RM,CC,Casa circondariale,42.0923121999999,11.7955319,"Via Francesco Crispi, 2, 00053 Civitavecchia RM, Italy",357,534
+061,Casa Circondariale di Rebibbia Femminile,"ROMA ""G. STEFANINI"" REBIBBIA FEMMINILE",NO,LAZIO,RM,CCF,Casa circondariale femminile,41.9375553,12.5725593,"Via Bartolo Longo, 92, 00156 Roma RM, Italy",272,344
+062,Casa Circondariale Roma Rebibbia Nuovo Complesso,"ROMA ""R. CINOTTI"" REBIBBIA N.C.1",SI,LAZIO,RM,CC,Casa circondariale,41.9313777,12.5721032,"Via Raffaele Majetti, 70, 00156 Roma RM",,
+063,Casa Circondariale di Rebibbia Terza Casa,"ROMA ""REBIBBIA TERZA CASA""",NO,LAZIO,RM,CC,Casa circondariale,41.9258461,12.5729612,"Via Bartolo Longo, 82, 00156 Roma RM",172,79
+064,Casa di Reclusione di Rebibbia,"ROMA ""REBIBBIA""",NO,LAZIO,RM,CR,Casa di Reclusione,41.9258461,12.5729612,"Via Bartolo Longo, 72, 00156 Roma RM",445,291
+065,"Casa Circondariale di Roma ""Regina Coeli""","ROMA ""REGINA COELI""",NO,LAZIO,RM,CC,Casa circondariale,41.8954941,12.4647001,"Via della Lungara, 29, 00165 Roma RM, Italy",628,
+066,Casa Circondariale maschile Nuovo Complesso di Velletri,VELLETRI,NO,LAZIO,RM,CC,Casa circondariale,41.6121768,12.7327315,"SP Cisterna Campoleone, 97, 00049 Velletri RM, Italy",412,636
+067,Casa Circondariale di Viterbo,"VITERBO ""N. IZZO""",SI,LAZIO,VT,CC,Casa circondariale,42.4530914,12.0939676,"F33V+6H Casa Circondariale Mammagialla, VT, Italy",440,667
+068,Casa di reclusione di Chiavari,CHIAVARI,NO,LIGURIA,GE,CR,Casa di Reclusione,44.3135294,9.3286079,"Via Gasometro, 2, 16043 Chiavari GE, Italy",52,60
+069,Casa Circondariale Genova Marassi,"GENOVA ""MARASSI""",SI,LIGURIA,GE,CC,Casa circondariale,44.4179134,8.9511004,"Piazzale Marassi, 2, 16139 Genova GE",535,706
+070,Casa Circondariale Genova Pontedecimo,"GENOVA ""PONTEDECIMO""",SI,LIGURIA,GE,CC,Casa circondariale,44.4993633,8.8974525,"Via Coni Zugna, 33, 16164 Genova GE, Italy",96,164
+071,Casa Circondariale di Imperia,IMPERIA,NO,LIGURIA,IM,CC,Casa circondariale,43.892007,8.040765,"Via Giacomo Agnesi, 2, 18100 Imperia IM, Italy",53,65
+072,Casa Circondariale di Sanremo,SANREMO,NO,LIGURIA,IM,CC,Casa circondariale,43.8159670999999,7.7760567,"Piazzale Pian di Nave, 14, 18038 Sanremo IM, Italy",223,247
+073,Casa Circondariale di La Spezia,LA SPEZIA,NO,LIGURIA,SP,CC,Casa circondariale,44.1236221,9.8376617,"Via Fontevivo, 43, 19125 La Spezia SP, Italy",151,158
+074,Casa Circondariale di Bergamo,"BERGAMO ""Don Fausto RESMINI""",NO,LOMBARDIA,BG,CC,Casa circondariale,45.6953652,9.7063696,"Via Monte Gleno, 61, 24125 Bergamo BG, Italy",319,582
+075,"Casa Circondariale ""Nerio Fischione"" di Brescia Canton Mombello","BRESCIA ""N. FISCHIONE"" CANTON MONBELLO",SI,LOMBARDIA,BS,CC,Casa circondariale,45.5335817,10.2305708,"Via Spalto S. Marco, 20, 25100 Brescia BS, Italy",182,377
+076,Casa di Reclusione di Brescia Verziano,"BRESCIA ""VERZIANO""",SI,LOMBARDIA,BS,CR,Casa di Reclusione,45.5004448,10.1876443,"Via Flero, 157, 25125 Brescia BS, Italy",71,131
+077,Casa Circondariale di Como,COMO,NO,LOMBARDIA,CO,CC,Casa circondariale,45.7700077,9.08189539999999,"Via Al Bassone, 11, 22100 Como CO, Italy",226,413
+078,Casa Circondariale di Cremona,CREMONA,SI,LOMBARDIA,CR,CC,Casa circondariale,45.1315386,10.0610548,"Via Palosca, 2, 26100 Cremona CR",394,549
+079,Casa Circondariale di Lecco,LECCO,NO,LOMBARDIA,LC,CC,Casa circondariale,45.8448692,9.4022648,"Via Cesare Beccaria, 9, 23900 Lecco LC, Italy",53,79
+080,Casa Circondariale di Lodi,LODI,SI,LOMBARDIA,LO,CC,Casa circondariale,45.3177915,9.5020018,"Via Cagnola, 2, 26900 Lodi LO, Italy",45,89
+081,Seconda casa di reclusione Milano – Bollate,"BOLLATE ""II C.R.""",NO,LOMBARDIA,MI,CR,Casa di Reclusione,45.5253218999999,9.0971397,"Via Cristina Belgioioso, 216, 20157 Rho MI, Italy",,
+082,Casa Circondariale di Milano San Vittore,"MILANO ""F. DI CATALDO"" SAN VITTORE",NO,LOMBARDIA,MI,CC,Casa circondariale,45.4600816,9.1713335,"Via Olona, 14, 20123 Milano MI, Italy",754,
+083,Casa Circondariale di Monza,MONZA,SI,LOMBARDIA,MI,CC,Casa circondariale,45.458626,9.181873,"via Alessandro Sanquirico, 6, 20900 Monza MB",411,694
+084,Casa di reclusione di Milano-Opera,"OPERA ""I C.R.""",NO,LOMBARDIA,MI,CR,Casa di Reclusione,45.3959655,9.2066688,"Via Camporgnago, 40, 20141 Milano MI, Italy",918,
+085,Casa Circondariale di Mantova,MANTOVA,NO,LOMBARDIA,MN,CC,Casa circondariale,45.1536104,10.787428,"Via Carlo Poma, 3, 46100 Mantova MN, Italy",97,141
+086,Casa Circondariale di Pavia,PAVIA,NO,LOMBARDIA,PV,CC,Casa circondariale,45.2074851,9.1776358,"Via Vigentina, 85, 27100 Pavia PV, Italy",515,675
+087,Casa di reclusione di Vigevano,VIGEVANO,SI,LOMBARDIA,PV,CR,Casa di Reclusione,45.3229094999999,8.8110891,"Via Gravellona, 240, 27029 Vigevano PV, Italy",242,350
+088,Casa Circondariale di Voghera,"VOGHERA ""N.C.""",NO,LOMBARDIA,PV,CC,Casa circondariale,44.9978807,8.99281169999999,"Str. dei Prati Nuovi, 7, 27058 Voghera PV, Italy",341,381
+089,Casa Circondariale di Sondrio,SONDRIO,NO,LOMBARDIA,SO,CC,Casa circondariale,46.1675973,9.86887999999999,"Via Antonio Caimi, 80, 23100 Sondrio SO, Italy",26,30
+090,Casa Circondariale di Busto Arsizio,BUSTO ARSIZIO,SI,LOMBARDIA,VA,CC,Casa circondariale,45.6400079999999,8.847769,"Via Cassano Magnago, 102, 21052 Busto Arsizio VA, Italy",240,419
+091,Casa circondariale di Varese,VARESE,SI,LOMBARDIA,VA,CC,Casa circondariale,45.8220013,8.8217793,"Via Felicita Morandi, 5, 21100 Varese VA, Italy",53,93
+092,Casa Circondariale di Ancona  Montacuto,ANCONA,SI,MARCHE,AN,CC,Casa circondariale,43.5815923,13.5348078,"23 Frazione Montacuto, Ancona, AN 60129, Str. Passo Varano Montacuto, 60129 Ancona AN, Italy",256,328
+093,Casa di Reclusione di Ancona Barcaglione,"ANCONA ""BARCAGLIONE""",SI,MARCHE,AN,CR,Casa di Reclusione,43.6002616,13.4219185,"Str. del Barcaglione, 27, 60126 Barcaglione AN, Italy",100,93
+094,Casa Circondariale Ascoli Piceno,ASCOLI PICENO,SI,MARCHE,AP,CC,Casa circondariale,42.8419082,13.6447281,"Via dei Meli, 218, 63100 Ascoli Piceno AP, Italy",103,99
+095,Casa di Reclusione di Fermo,FERMO,SI,MARCHE,AP,CR,Casa di Reclusione,42.8638933,13.5899733,"Via XX Giugno, 1/3, 63900 Fermo FM",43,53
+096,Casa di Reclusione di Fossombrone,FOSSOMBRONE,SI,MARCHE,PS,CR,Casa di Reclusione,43.6896904,12.8109979,"Via Trieste, 2, 61034 Fossombrone PU, Italy",182,87
+097,Casa Circondariale Pesaro,PESARO,SI,MARCHE,PS,CC,Casa circondariale,43.8736841,12.8568614,"Str. di Fontesecco, 88 ingresso A, 61122 Pesaro PU, Italy",153,236
+098,Casa circondariale e di reclusione di Campobasso,CAMPOBASSO,SI,MOLISE,CB,CC,Casa circondariale,41.5602674,14.6617334,"Via Cavour, 52, 86100 Campobasso CB",106,149
+099,Casa Circondariale e Reclusione di Larino,LARINO,SI,MOLISE,CB,CC,Casa circondariale,41.8259876,14.9040262,"Contrada Monte Arcano, 2, 86035 Larino CB, Italy",119,121
+100,Casa Circondariale di Isernia,ISERNIA,SI,MOLISE,IS,CC,Casa circondariale,41.6044804,14.2388161,"Via Ponte S. Leonardo, 3, 86170 Isernia IS, Italy",50,65
+101,"Casa Circondariale ""Cantiello e Gaeta"" - Alessandria","ALESSANDRIA ""G. CANTIELLO - S. GAETA""",NO,PIEMONTE,AL,CC,Casa circondariale,44.8981455,8.6067034,"Via Sebastiano Gaeta, 17, 15121 Alessandria AL, Italy",233,195
+102,Casa di Reclusione “San Michele” – Alessandria,"ALESSANDRIA ""SAN MICHELE""",NO,PIEMONTE,AL,CR,Casa di Reclusione,44.9072727,8.6116796,"Via carena, 9, 27058 Voghera PV, Italy",265,350
+103,Casa di reclusione di Asti,ASTI,NO,PIEMONTE,AT,CR,Casa di Reclusione,44.900765,8.20643499999999,"Corso Dante Alighieri, 3, 14100 Asti AT, Italy",205,262
+104,Casa Circondariale di Biella,BIELLA,SI,PIEMONTE,BI,CC,Casa circondariale,45.5539119,8.0366682,"Viale dei Tigli, 14, 13900 Biella BI, Italy",394,321
+105,Casa di reclusione di Alba,"ALBA ""G. MONTALTO""",NO,PIEMONTE,CN,CR,Casa di Reclusione,44.7009526,8.0353488,"Via Camillo Benso Conte di Cavour, 1C, 12051 Alba CN, Italy",138,42
+106,Casa Circondariale di Cuneo,CUNEO,NO,PIEMONTE,CN,CC,Casa circondariale,44.697121,8.0039115,"Località Vivaro, 14, 12051 Alba CN, Italy",433,368
+107,Casa di reclusione di Fossano,FOSSANO,SI,PIEMONTE,CN,CR,Casa di Reclusione,44.5514766,7.72718729999999,"Via S. Giovanni Bosco, 48, 12048 Fossano CN",136,89
+108,Casa di reclusione di Saluzzo,"SALUZZO ""R. MORANDI""",NO,PIEMONTE,CN,CR,Casa di Reclusione,44.6431702,7.4364138,"Via Regione Bronda, 19/B, 12037 Saluzzo CN, Italy",424,337
+109,Casa Circondariale di Novara,NOVARA,SI,PIEMONTE,NO,CC,Casa circondariale,45.4467749,8.6168696,"Corso Italia, 51c, 28100 Novara NO, Italy",156,171
+110,Casa circondariale di Ivrea,IVREA,SI,PIEMONTE,TO,CC,Casa circondariale,45.4715717,7.9139976,"Corso Vercelli, 165, 10015 Ivrea TO, Italy",195,275
+111,Casa Circondariale di Torino,"TORINO ""G. LORUSSO - L. CUTUGNO"" LE VALLETTE",NO,PIEMONTE,TO,CC,Casa circondariale,45.1030027,7.6319136,"Viale dei Mughetti, 13bis, 10151 Torino TO, Italy",,
+112,Casa Circondariale Verbania,VERBANIA,SI,PIEMONTE,VB,CC,Casa circondariale,45.9239487,8.54984129999999,"Via Giuseppe Castelli, 8, 28922 Pallanza VB, Italy",53,84
+113,Casa Circondariale di Vercelli,VERCELLI,SI,PIEMONTE,VC,CC,Casa circondariale,45.3063009,8.42899639999999,"Str. Vicinale del Rollone, 19, 13100 Vercelli VC, Italy",230,323
+114,Casa di Reclusione di Altamura,ALTAMURA,SI,PUGLIA,BA,CR,Casa di Reclusione,40.8306475,16.5371009,"Via Dell'Uva Spina, 18, 70022 Altamura BA, Italy",52,82
+115,"Casa Circondariale ""Francesco Rucci"" di Bari","BARI ""F. RUCCI""",SI,PUGLIA,BA,CC,Casa circondariale,41.1065949,16.8708943,"Corso Alcide de Gasperi, 307, 70125 Bari BA, Italy",294,406
+116,Casa di Reclusione di Turi,TURI,SI,PUGLIA,BA,CR,Casa di Reclusione,40.917215,17.0194451,"P.za Aldo Moro, 4, 70010 Turi BA",108,166
+117,Casa Circondariale di Brindisi,BRINDISI,SI,PUGLIA,BR,CC,Casa circondariale,40.6324624,17.9315852,"Via Appia, 131, 72100 Brindisi BR, Italy",119,211
+118,Casa Circondariale di Trani,TRANI,SI,PUGLIA,BT,CC,Casa circondariale,41.2767912,16.39763,"Via Andria, 300, 76125 Trani BT",447,423
+119,Casa di reclusione femminile - Trani,TRANI,NO,PUGLIA,BT,CRF,Casa di reclusione femminile,41.2767912,16.39763,"Via Andria, 300, 76125 Trani BT, Italy",447,423
+120,Casa Circondariale di Foggia,FOGGIA,NO,PUGLIA,FG,CC,Casa circondariale,41.4763274,15.5613008,"Via delle Casermette, 22, 71121 Foggia FG, Italy",364,689
+121,Casa Circondariale di Lucera,LUCERA,SI,PUGLIA,FG,CC,Casa circondariale,41.5107107,15.3341376,"Via Silvio Pellico, 1, 71036 Lucera FG, Italy",135,160
+122,Casa Circondariale di San Severo,SAN SEVERO,SI,PUGLIA,FG,CC,Casa circondariale,41.6849729,15.3791848,"Via Carcere Vecchio, 2, 71016 San Severo FG, Italy",61,74
+123,"Casa Circondariale di Lecce ""Borgo San Nicola""","LECCE ""N.C.""",SI,PUGLIA,LE,CC,Casa circondariale,40.3515255,18.174966,"Via Paolo Perrone, 4, 73100 Super Carcere LE",798,
+124,"Casa Circondariale ""Carmelo Magli"" di Taranto",TARANTO,SI,PUGLIA,TA,CC,Casa circondariale,40.455729,17.2939784,"Via Giuseppe Speziale, 1, 74121 Taranto TA",500,916
+125,Casa di reclusione di Arbus Is Arenas,"ARBUS ""IS ARENAS""",SI,SARDEGNA,CA,CR,Casa di Reclusione,39.500752078377,8.47824274106797,"Località Bau, 09031 Arbus SU",176,83
+126,"Casa Circondariale di Cagliari  Uta ""E Scalas""","CAGLIARI ""E.SCALAS""",SI,SARDEGNA,CA,CC,Casa circondariale,39.2237323,9.1217194,"Via Francesco Cocco Ortu, 99, 09128 Cagliari CA, Italy",561,649
+127,Casa di Reclusione di Isili,ISILI,SI,SARDEGNA,CA,CR,Casa di Reclusione,39.740281,9.1092028,"Corso Vittorio Emanuele, 17, 08033 Isili SU, Italy",130,91
+128,Casa circondariale San Daniele Lanusei,"LANUSEI ""SAN DANIELE""",SI,SARDEGNA,NU,CC,Casa circondariale,39.8792473,9.54110169999999,"Viale Europa, 10, 08045 Lanusei NU",33,27
+129,Casa Circondariale Badu 'e Carros (Nuoro),NUORO,NO,SARDEGNA,NU,CC,Casa circondariale,40.3130218,9.3037467,"Via Badu e Carros, 1, 08100 Nuoro NU, Italy",378,206
+130,Casa di reclusione  OnanìMamone,"ONANI ""MAMONE""",SI,SARDEGNA,NU,CR,Casa di Reclusione,40.572207,9.4212454,"HCCC+VF Mamone, Province of Nuoro, Italy",292,138
+131,Casa di Reclusione di Oristano “Salvatore Soro”,"ORISTANO ""S. SORO""",SI,SARDEGNA,OR,CR,Casa di Reclusione,39.9408549,8.6126264,"Loc. Su Pedriaxiu Massama, 09170 Oristano OR",264,227
+132,"Casa di reclusione ""Giuseppe Tomasiello"" di Alghero","ALGHERO ""G. TOMASIELLO""",SI,SARDEGNA,SS,CR,Casa di Reclusione,40.5607881,8.3194298,"Via Vittorio Emanuele II, 28, 07041 Alghero SS, Italy",156,95
+133,"Casa Circondariale di Sassari ""Giovanni Bachiddu""","SASSARI ""G. BACCHIDDU""",SI,SARDEGNA,SS,CC,Casa circondariale,40.7418493,8.448366,"PCRX+P8 Sassari, Province of Sassari, Italy",454,468
+134,"Casa di reclusione ""Paolo Pittalis"" di Tempio Pausania","TEMPIO PAUSANIA ""P. PITTALIS""",SI,SARDEGNA,SS,CR,Casa di Reclusione,40.9030888,9.1040224,"SP9, 07029 Nuchis SS, Tempio Pausania SS",170,172
+135,"Casa Circondariale ""Petrusa"" di Agrigento","AGRIGENTO ""P. DI LORENZO""",NO,SICILIA,AG,CC,Casa circondariale,37.3193829,13.6166771,"8J98+QM Agrigento, AG, Italy",283,348
+136,Casa Circondariale di Sciacca,SCIACCA,NO,SICILIA,AG,CC,Casa circondariale,37.5086753,13.0782746,"9 Piazza Carmine, Sciacca, AG 92019, 92019 Sciacca AG, Italy",73,23
+137,Casa Circondariale di Caltanissetta,CALTANISSETTA,NO,SICILIA,CL,CC,Casa circondariale,37.4941872,14.0561024,"Via Messina, 94, 93100 Caltanissetta CL, Italy",180,241
+138,Casa circondariale di Gela,GELA,NO,SICILIA,CL,CC,Casa circondariale,37.0880713,14.2658017,"37Q8+68 Gela, Free municipal consortium of Caltanissetta, Italy",48,64
+139,Casa di Reclusione di San Cataldo,SAN CATALDO,NO,SICILIA,CL,CR,Casa di Reclusione,37.4874997999999,13.9878134,"Via Caltanissetta, 145, 93017 San Cataldo CL, Italy",135,111
+140,Casa Circondariale Caltagirone,CALTAGIRONE,SI,SICILIA,CT,CC,Casa circondariale,37.2371653,14.5133945,"Via Emanuele Taranto, 1, 95041 Caltagirone CT, Italy",541,419
+141,"Casa Circondariale di Catania ""Bicocca""","CATANIA ""BICOCCA""",SI,SICILIA,CT,CC,Casa circondariale,37.457799,15.0279667,"Tangenziale Ovest, km 8, 95030 Catania CT",136,207
+142,"Casa Circondariale di Catania ""Piazza Lanza""","CATANIA ""PIAZZA LANZA""",NO,SICILIA,CT,CC,Casa circondariale,37.5146351,15.0794321,"Piazza Vincenzo Lanza, 11, 95123 Catania CT, Italy",279,398
+143,Casa Circondariale di Giarre,GIARRE,NO,SICILIA,CT,CC,Casa circondariale,37.7056721,15.181524,"Via Ugo Foscolo, 67, 95014 Giarre CT, Italy",58,73
+144,"Casa Circondariale di Enna ""Luigi Bodenza""","ENNA ""L. BODENZA""",NO,SICILIA,EN,CC,Casa circondariale,37.5660079,14.2718699,"Via Palermo, 20, 94100 Enna EN, Italy",167,214
+145,Casa Circondariale di Piazza Armerina (EN),PIAZZA ARMERINA,NO,SICILIA,EN,CC,Casa circondariale,37.3856182,14.3705567,"Piazza Generale Cascino, 44, 94015 Piazza Armerina EN, Italy",49,69
+146,"Casa circondariale di Barcellona Pozzo di Gotto ""Vittorio Madia""",BARCELLONA POZZO DI GOTTO,NO,SICILIA,ME,CC,Casa circondariale,38.1472547,15.2128296,"ewsdghj, 98051 Barcellona Pozzo di Gotto ME, Italy",414,228
+147,"Casa Circondariale di Messina ""Gazzi""",MESSINA,NO,SICILIA,ME,CC,Casa circondariale,38.167706,15.5397138,"Via Consolare Valeria, 2, 98124 Messina ME, Italy",302,209
+148,"Casa Circondariale Palermo ""Pagliarelli""","PALERMO ""A. LORUSSO"" PAGLIARELLI",NO,SICILIA,PA,CC,Casa circondariale,38.0911578,13.3391142,"38RQ+FJ Palermo, PA, Italy",,
+149,"Casa di Reclusione di Palermo ""Ucciardone""","PALERMO ""C. DI BONA"" UCCIARDONE",NO,SICILIA,PA,CR,Casa di Reclusione,38.1329062,13.3581366,"Via Enrico Albanese, 3, 90139 Palermo PA, Italy",569,493
+150,Casa Circondariale di Termini Imerese,"TERMINI IMERESE ""A. BURRAFATO""",NO,SICILIA,PA,CC,Casa circondariale,37.9841066,13.6959242,"Via Stesicoro, 194, 90018 Termini Imerese PA, Italy",97,100
+151,Casa Circondariale di Ragusa,RAGUSA,NO,SICILIA,RG,CC,Casa circondariale,36.9143798,14.7245217,"Via Giuseppe di Vittorio, 26, 97100 Ragusa RG, Italy",196,196
+152,Casa di Reclusione di Augusta,AUGUSTA,SI,SICILIA,SR,CR,Casa di Reclusione,37.267044,15.197084,"Contrada Piano Ippolito, 1, 96011 Augusta SR",364,568
+153,Casa di Reclusione di Noto,"NOTO ""A. BONINCONTRO""",NO,SICILIA,SR,CR,Casa di Reclusione,36.8932602,15.0722953,"Via Garibaldi, 8, 96017 Noto SR, Italy",176,150
+154,Casa Circondariale di Siracusa,SIRACUSA,NO,SICILIA,SR,CC,Casa circondariale,37.0337822,15.1614795,"Str. Monasteri, 21, 96100 Siracusa SR, Italy",545,670
+155,Casa Circondariale di Castelvetrano,CASTELVETRANO,NO,SICILIA,TP,CC,Casa circondariale,37.680965,12.7904881,"Piazza Diodoro Siculo, 1, 91022 Castelvetrano TP, Italy",44,75
+156,"Favignana - Casa di Reclusione ""Giuseppe Barraco""","FAVIGNANA ""G. BARRACO""",NO,SICILIA,TP,CR,Casa di Reclusione,37.9283423,12.3258426,"Via Aurelio Padovani, 1, 91023 Favignana TP, Italy",89,99
+157,Casa Circondariale - Casa di Reclusione di Trapani,"TRAPANI ""P. CERULLI""",NO,SICILIA,TP,CC,Casa circondariale,38.0174282,12.5364464,"Via Milo, 96, 91100 Trapani TP, Italy",555,506
+158,Casa Circondariale di Arezzo,AREZZO,NO,TOSCANA,AR,CC,Casa circondariale,43.4701469,11.879303,"Via Giuseppe Garibaldi, 259, 52100 Arezzo AR, Italy",108,41
+159,Nuovo Complesso Penitenziario Sollicciano Firenze,"FIRENZE ""MARIO GOZZINI""",NO,TOSCANA,FI,CC,Casa circondariale,43.7707112999999,11.1686101,"Via Girolamo Minervini, 8, 50142 Firenze FI, Italy",92,91
+160,Nuovo Complesso Penitenziario Sollicciano Firenze,"FIRENZE ""SOLLICCIANO""",SI,TOSCANA,FI,CC,Casa circondariale,43.7713137,11.177488,"Via Bassa, 7, 50142 Firenze FI, Italy",497,555
+161,Casa Circondariale di Grosseto,GROSSETO,SI,TOSCANA,GR,CC,Casa circondariale,42.7608712,11.1166007,"Via Aurelio Saffi, 23, 58100 Grosseto GR, Italy",15,28
+162,Casa Circondariale di Massa Marittima,MASSA MARITTIMA,NO,TOSCANA,GR,CC,Casa circondariale,43.0438009,10.9045114,"Viale Martiri della Niccioleta, 148, 58024 Massa Marittima GR, Italy",48,31
+163,"Casa Circondariale Livorno ""Le Sughere""",LIVORNO,SI,TOSCANA,LI,CC,Casa circondariale,43.548476,10.3106087,"Via delle Macchie, 9, 57124 Livorno LI",391,253
+164,"Casa Circondariale di Livorno ""Le Sughere""","LIVORNO ""GORGONA""",NO,TOSCANA,LI,CR,Casa di Reclusione,43.5479267,10.3045926,"Via Enrico Cialdini, 45, 57123 Livorno LI, Italy",89,77
+165,Casa di Reclusione di Porto Azzurro,"PORTO AZZURRO ""P. DE SANTIS""",NO,TOSCANA,LI,CR,Casa di Reclusione,42.7648485,10.3957889,"Largo Colonnello Andreoni, 7, 57036 Porto Azzurro LI, Italy",334,307
+166,Casa Circondariale di Lucca,LUCCA,NO,TOSCANA,LU,CC,Casa circondariale,43.8453683,10.4996893,"Piazza delle carceri, 108, 55100 Lucca LU, Italy",63,59
+167,Casa di Reclusione di Massa,MASSA,SI,TOSCANA,MS,CR,Casa di Reclusione,44.0230989999999,10.1393542,"Via Pietro Pellegrini, 17, 54100 Massa MS, Italy",174,219
+168,Casa Circondariale di Pisa “Don Bosco”,PISA,NO,TOSCANA,PI,CC,Casa circondariale,43.718995,10.4140529,"Via S. Giovanni Bosco, 43, 56127 Pisa PI, Italy",197,287
+169,Casa di Reclusione di Volterra,VOLTERRA,NO,TOSCANA,PI,CR,Casa di Reclusione,43.3999722,10.8656613,"Rampa di Castello, 4, 56048 Volterra PI, Italy",189,182
+170,Casa Circondariale di Prato “La Dogaia”,PRATO,NO,TOSCANA,PO,CC,Casa circondariale,43.8777049,11.102228,"Piazza San Marco, 30, 59100 Prato PO, Italy",589,593
+171,Casa Circondariale di Pistoia,PISTOIA,SI,TOSCANA,PT,CC,Casa circondariale,43.9386857999999,10.9154186,"Via dei Macelli, 13, 51100 Pistoia PT, Italy",76,70
+172,Casa di Reclusione di San Gimignano,SAN GIMIGNANO,NO,TOSCANA,SI,CR,Casa di Reclusione,43.4266063,11.0252802,"Ranza, 53037 San Gimignano SI, Italy",243,320
+173,Casa Circondariale di Siena,SIENA,NO,TOSCANA,SI,CC,Casa circondariale,43.3178823,11.3376174,"Piazza S. Spirito, 3, 53100 Siena SI, Italy",58,77
+174,Casa Circondariale di Bolzano,BOLZANO,SI,TRENTINO ALTO ADIGE,BZ,CC,Casa circondariale,46.4958935,11.3486526,"Via Dante, 28, 39100 Bolzano BZ, Italy",88,111
+175,Casa Circondariale di Trento,"TRENTO ""SPINI DI GARDOLO""",NO,TRENTINO ALTO ADIGE,TN,CC,Casa circondariale,46.1216249999999,11.090102,"Spini di Gardolo, 38121 Località Produttiva I TN, Italy",422,378
+176,Casa Circondariale di Perugia  Capanne,"PERUGIA ""NUOVO COMPLESSO PENITENZIARIO CAPANNE""",SI,UMBRIA,PG,CC,Casa circondariale,43.0529964,12.2628288,"S.da Regionale 220 Pievaiola, 252, 06132 Perugia PG, Italy",363,446
+177,Casa di Reclusione di Spoleto,SPOLETO,SI,UMBRIA,PG,CR,Casa di Reclusione,42.7799172,12.7282137,"Località Maiano, 10, 06049 Spoleto PG",456,451
+178,Casa di reclusione di Orvieto,ORVIETO,SI,UMBRIA,TR,CR,Casa di Reclusione,42.7209948,12.1154955,"Via Roma, 1, 05018 Orvieto TR, Italy",98,109
+179,Casa Circondariale di Terni,TERNI,SI,UMBRIA,TR,CC,Casa circondariale,42.5537417,12.5978013,"Str. delle Campore, 32, 05100 Terni TR, Italy",422,560
+180,Casa Circondariale Brissogne  Aosta,"BRISSOGNE ""AOSTA""",SI,VALLE D'AOSTA,AO,CC,Casa circondariale,45.7254252,7.3916833,"Località Les Iles, 14, 11020 Pollein AO",181,142
+181,Casa Circondariale di Belluno,BELLUNO,NO,VENETO,BL,CC,Casa circondariale,46.1441555,12.2209181,"Via Baldenich, 11, 32100 Belluno BL, Italy",90,106
+182,Casa Circondariale di Padova,PADOVA,NO,VENETO,PD,CC,Casa circondariale,45.4445795,11.8406493,"Via Due Palazzi, 25/a, 35136 Padova PD, Italy",188,201
+183,Casa di Reclusione di Padova,"PADOVA ""N.C.""",NO,VENETO,PD,CR,Casa di Reclusione,45.4431316,11.8454481,"Via Due Palazzi, 35a, 35136 Padova PD, Italy",438,568
+184,Casa Circondariale di Rovigo,ROVIGO,SI,VENETO,RO,CC,Casa circondariale,45.0851386,11.812934,"Via Vittorio Bachelet, 4, 45100 Rovigo RO, Italy",211,264
+185,Casa Circondariale di Treviso,TREVISO,NO,VENETO,TV,CC,Casa circondariale,45.6738698,12.2304089,"Via Santa Bona Nuova, 5/b, 31100 Treviso TV, Italy",138,248
+186,Casa di reclusione femminile di Venezia-Giudecca,"VENEZIA ""GIUDECCA""",NO,VENETO,VE,CRF,Casa di reclusione femminile,45.425867,12.3216355,"Isola della Giudecca, Calle de le Cape 194, 30133 Venezia VE, Italy",112,84
+187,Casa Circondariale di Venezia-Santa Maria Maggiore,"VENEZIA ""SANTA MARIA MAGGIORE""",NO,VENETO,VE,CC,Casa circondariale,45.4349285,12.3167454,"Fondamenta Santa Maria Maggiore, 321, 30135 Venezia VE, Italy",159,246
+188,"Casa circondariale ""Filippo del Papa"" di Vicenza",VICENZA,SI,VENETO,VI,CC,Casa circondariale,45.5523949,11.5780462,"Via Basilio Dalla Scola, 150, 36100 Vicenza VI",276,365
+189,Casa circondariale di VeronaMontorio,"VERONA ""MONTORIO""",SI,VENETO,VR,CC,Casa circondariale,45.4433951,11.0458904,"Via S. Michele, 15, 37141 Verona VR, Italy",335,582

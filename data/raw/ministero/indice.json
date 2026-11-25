@@ -1,0 +1,17 @@
+{
+  "2026-10-31": {
+    "data": "2026-10-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1527243",
+    "scaricato": "2026-11-25",
+    "metodo": "estratto a mano dal browser (prima raccolta)",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51283,
+      "presenti": 66285,
+      "donne": 2996,
+      "stranieri": 20928
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l'abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  }
+}

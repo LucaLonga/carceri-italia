@@ -1,0 +1,173 @@
+# Registro delle fonti di carceri-italia
+#
+# Ogni fonte ha:
+#   id          identificativo stabile (usato nei nomi dei file)
+#   ente        chi la pubblica
+#   url         indirizzo da cui si legge o si scarica
+#   tipo        html | pdf | csv | xlsx | looker | flourish
+#   metodo      scrape (script automatico) | download (script scarica il file) | manuale (si ottiene a mano, si tiene copia in data/manual)
+#   frequenza   quanto spesso cambia alla fonte
+#   archivia    true = lo script salva copia locale + estratto + Wayback Machine; la lista alimenta anche ArchiveBox in locale
+#   licenza     licenza o condizioni d'uso dichiarate [VERIFICARE dove indicato]
+#   note        cosa contiene e perché serve
+
+fonti:
+
+  # --- Ministero della Giustizia / DAP -------------------------------------
+  - id: min-capienze-istituto
+    ente: Ministero della Giustizia, DAP, Sezione statistica
+    url: https://www.giustizia.it/giustizia/page/it/statistiche?selectedNode=0_2
+    tipo: html
+    metodo: scrape
+    frequenza: mensile
+    archivia: true
+    licenza: "[VERIFICARE] note legali giustizia.it"
+    note: >
+      Elenco delle statistiche. Lo script cerca le voci "Detenuti italiani e stranieri presenti e
+      capienze per istituto" di ogni mese (archivio dal 2018 circa) e salva la tabella per istituto:
+      capienza regolamentare, presenti, donne, stranieri. Fonte ufficiale della serie storica.
+
+  - id: min-capienze-istituto-2026-10
+    ente: Ministero della Giustizia, DAP
+    url: https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1527243
+    tipo: html
+    metodo: scrape
+    frequenza: una tantum (mese 31.10.2026)
+    archivia: true
+    licenza: "[VERIFICARE]"
+    note: >
+      Tabella del 31.10.2026. Contiene la nota (*) sul criterio della capienza: 9 m² per detenuto
+      singolo + 5 m² per ogni altro.
+
+  - id: dap-schede-trasparenza
+    ente: Ministero della Giustizia, DAP
+    url: https://www.giustizia.it/giustizia/page/it/istituti_penitenziari
+    tipo: html
+    metodo: scrape
+    frequenza: giornaliera (capienza) / variabile (spazi, personale)
+    archivia: true
+    licenza: "[VERIFICARE]"
+    note: >
+      Mappa con 190 schede istituto (codice DAP, coordinate, indirizzo). Ogni scheda (richiesta POST
+      a dettaglio_scheda_istituto_penitenziario) dà posti regolamentari, POSTI NON DISPONIBILI,
+      presenti, numero di stanze e stanze non disponibili, dotazioni delle stanze, personale.
+      È la fonte da cui Antigone ricava i "posti disponibili". Le singole schede non sono archiviabili
+      su Wayback (sono POST): lo script ne salva una copia propria.
+
+  - id: min-regione-residenza
+    ente: Ministero della Giustizia, DAP
+    url: https://www.giustizia.it/giustizia/page/it/statistiche?selectedNode=0_2
+    tipo: html
+    metodo: scrape
+    frequenza: semestrale
+    archivia: true
+    licenza: "[VERIFICARE]"
+    note: >
+      "Detenuti per regione di residenza" e "per regione di nascita" (30.6 e 31.12, serie 2005-2025).
+      Copre in parte "il vuoto" sulla provenienza, ma per regione e non per istituto [VERIFICARE la struttura].
+
+  # --- Antigone -------------------------------------------------------------
+  - id: antigone-xxii-rapporto
+    ente: Associazione Antigone
+    url: https://www.rapportoantigone.it/ventiduesimo-rapporto-sulle-condizioni-di-detenzione/i-numeri-della-detenzione/
+    tipo: html
+    metodo: download
+    frequenza: annuale
+    archivia: true
+    licenza: "[VERIFICARE] chiedere ad Antigone per il riuso dei dati"
+    note: 'XXII Rapporto "Tutto chiuso" (2026), capitolo sui numeri. Dati al 30.4.2026.'
+
+  - id: antigone-xxii-rapporto-pdf
+    ente: Associazione Antigone
+    url: https://www.antigone.it/upload/AntigoneXXIIRapporto_TuttoChiuso.pdf
+    tipo: pdf
+    metodo: download
+    frequenza: annuale
+    archivia: true
+    licenza: "[VERIFICARE]"
+    note: Versione PDF del XXII Rapporto.
+
+  - id: antigone-looker-osservatorio
+    ente: Associazione Antigone
+    url: https://datastudio.google.com/u/0/reporting/67110e79-ceab-4a0c-8a53-b14ea9c98c0f/page/p_5n52diyy4d
+    tipo: looker
+    metodo: manuale
+    frequenza: continua
+    archivia: true
+    licenza: "[VERIFICARE]"
+    note: >
+      Pagina 1 = dati DAP dalle schede trasparenza (ricavabili direttamente dal Ministero).
+      Pagine 2-7 = Osservatorio, visite degli ultimi 12 mesi (69 al 25.11.2026): tra l'altro la domanda
+      "In tutte le celle visitate sono garantiti 3 mq calpestabili per ogni persona?" (NO 38, SI 23, ND 8).
+      È l'unica verifica sul campo della soglia Torreggiani: da usare per calibrare la stima.
+      Non scaricabile in modo automatico; copia a mano in data/manual/antigone/.
+
+  - id: antigone-looker-breve
+    ente: Associazione Antigone
+    url: https://datastudio.google.com/s/uZQebppc_pA
+    tipo: looker
+    metodo: manuale
+    frequenza: continua
+    archivia: true
+    licenza: "[VERIFICARE]"
+    note: Link breve allo stesso report.
+
+  # --- Garante nazionale ----------------------------------------------------
+  - id: garante-report-aprile-2026
+    ente: Garante nazionale dei diritti delle persone private della libertà personale
+    url: https://www.garantenazionaleprivatiliberta.it/gnpl/resources/cms/documents/Report_aprile_2026.pdf
+    tipo: pdf
+    metodo: download
+    frequenza: irregolare (report analitici)
+    archivia: true
+    licenza: "[VERIFICARE]"
+    note: >
+      Report analitico al 7.4.2026: presenti, capienza, posti "regolarmente disponibili", camere a uso
+      detentivo, per istituto [VERIFICARE]. Fonte DAP rielaborata: utile come controllo incrociato.
+
+  # --- ISTAT ----------------------------------------------------------------
+  - id: istat-scheda-qualita-detenuti
+    ente: ISTAT
+    url: https://www.istat.it/scheda-qualita/detenuti-adulti-e-minori-nel-sistema-penitenziario/
+    tipo: html
+    metodo: download
+    frequenza: annuale
+    archivia: true
+    licenza: CC BY 4.0
+    note: >
+      ISTAT ripubblica i dati DAP (Annuario statistico, cap. 6; IstatData). Indice di affollamento su
+      posti regolamentari, nessun dato per istituto. Utile per serie lunghe e definizioni.
+
+  - id: istat-storie-dati-2026
+    ente: ISTAT
+    url: https://www.istat.it/wp-content/uploads/2026/06/Criminalita-giustizia.pdf
+    tipo: pdf
+    metodo: download
+    frequenza: una tantum (giugno 2026)
+    archivia: true
+    licenza: CC BY 4.0
+    note: '"Dei delitti e delle pene: criminalità, giustizia, detenzione" (serie storiche dal 1880).'
+
+  # --- Europa ---------------------------------------------------------------
+  - id: coe-space-i
+    ente: Consiglio d'Europa / Università di Losanna
+    url: https://wp.unil.ch/space/space-i/annual-reports/
+    tipo: html
+    metodo: download
+    frequenza: annuale
+    archivia: true
+    licenza: "[VERIFICARE]"
+    note: >
+      SPACE I: densità carceraria per 100 posti, confronto europeo. Usa la capacità dichiarata
+      dall'Italia (posti regolamentari): non coincide con i posti disponibili.
+
+  # --- Dati del 2024 (progetto DV-24.01) -----------------------------------
+  - id: dv-24-01
+    ente: Luca Longa
+    url: https://lucalonga.com/projects/dv-24-01
+    tipo: html
+    metodo: download
+    frequenza: una tantum
+    archivia: true
+    licenza: "CC BY 4.0 [DA DECIDERE]"
+    note: Pagina del progetto 2024.

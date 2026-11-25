@@ -1,0 +1,72 @@
+name: raccolta
+
+# Schede trasparenza: ogni lunedì (i numeri cambiano ogni giorno; una lettura a settimana basta
+# per la serie e non pesa sul sito del Ministero).
+# Tabella mensile del Ministero + archivio delle fonti: il 12 di ogni mese (il Ministero pubblica
+# di solito entro la prima decade del mese successivo [VERIFICARE]).
+on:
+  schedule:
+    - cron: "17 5 * * 1"     # lunedì 05:17 UTC
+    - cron: "37 5 12 * *"    # giorno 12, 05:37 UTC
+  workflow_dispatch:
+    inputs:
+      cosa:
+        description: "tutto | schede | ministero | archivio"
+        default: "tutto"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: raccolta
+  cancel-in-progress: false
+
+jobs:
+  raccolta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Schede trasparenza
+        if: github.event.schedule == '17 5 * * 1' || inputs.cosa == 'tutto' || inputs.cosa == 'schede'
+        working-directory: scripts
+        run: python fetch_schede.py
+
+      - name: Tabelle mensili del Ministero
+        if: github.event.schedule == '37 5 12 * *' || inputs.cosa == 'tutto' || inputs.cosa == 'ministero'
+        working-directory: scripts
+        run: python fetch_ministero.py
+
+      - name: Archivio delle fonti (copia, testo, Wayback)
+        if: github.event.schedule == '37 5 12 * *' || inputs.cosa == 'tutto' || inputs.cosa == 'archivio'
+        working-directory: scripts
+        env:
+          IA_ACCESS_KEY: ${{ secrets.IA_ACCESS_KEY }}
+          IA_SECRET_KEY: ${{ secrets.IA_SECRET_KEY }}
+        run: python archive_sources.py
+        continue-on-error: true   # la Wayback Machine a volte rifiuta: non deve bloccare i dati
+
+      - name: Controlli
+        working-directory: scripts
+        run: python checks.py
+
+      - name: Commit solo se qualcosa è cambiato
+        if: always()
+        run: |
+          git config user.name  "raccolta-automatica"
+          git config user.email "actions@users.noreply.github.com"
+          git add data archive
+          if git diff --cached --quiet; then
+            echo "Nessun cambiamento."
+          else
+            git commit -m "dati: raccolta del $(date -u +%Y-%m-%d)"
+            git push
+          fi

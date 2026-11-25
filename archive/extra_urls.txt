@@ -1,0 +1,18 @@
+# Pagine da conservare oltre alle fonti di sources.yml: articoli, comunicati, PDF.
+# Una per riga:  URL  [id-facoltativo]
+# Le righe che iniziano con # sono ignorate.
+
+# Garante nazionale, report e comunicati
+https://sistemapenale.it/it/documenti/pubblicato-il-report-analitico-osservatorio-penitenziario-adulti-del-garante-nazionale-dei-diritti-delle-persone-private-della-liberta-personale  sistemapenale-garante-report-2025
+https://sistemapenale.it/pdf_contenuti/1751906645_20250530-analisi-dati-adulti.pdf  garante-analisi-dati-2025-05-30
+https://sistemapenale.it/it/documenti/decessi-in-carcere-pubblicato-il-report-del-garante-nazionale-aggiornato-al-31-agosto-2026  sistemapenale-garante-decessi-2026
+
+# Stampa
+https://www.agi.it/cronaca/news/2026-04-24/carceri-italia-dati-36741480/  agi-2026-04-24-garante
+https://www.agi.it/cronaca/news/2026-05-19/carceri-antigone-sovraffollamento-alternative-37126425/  agi-2026-05-19-antigone
+
+# Antigone, rapporti precedenti
+https://www.antigone.it/upload2/uploads/docs/CSNodoallagola.pdf  antigone-xx-rapporto-cs
+
+# Ministero: schede trasparenza (pagina indice) e note sul calcolo della capienza
+https://www.giustizia.it/giustizia/page/it/istituti_penitenziari  dap-schede-indice
