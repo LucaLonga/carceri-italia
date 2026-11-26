@@ -1,0 +1,81 @@
+/* Stile del sito. Font IBM Plex (OFL 1.1) ospitati nel sito: nessuna risorsa esterna. */
+@import url("observablehq:default.css");
+@import url("observablehq:theme-air.css") (prefers-color-scheme: light);
+@import url("observablehq:theme-near-midnight.css") (prefers-color-scheme: dark);
+@import url("assets/fonts/plex.css");
+
+
+:root {
+  --sans-serif: "IBM Plex Sans", system-ui, sans-serif;
+  --serif: var(--sans-serif);
+  --monospace: "IBM Plex Mono", ui-monospace, monospace;
+  /* Classi della banda: una tinta, tre passi (validati: ordinale, contrasto ≥ 2:1 sul fondo). */
+  --classe-sopra: #86b6ef;
+  --classe-attraversa: #2a78d6;
+  --classe-sotto: #104281;
+  --classe-mancante: #8a8984;
+  --soglia: #0b0b0b;
+  --superficie: var(--theme-background);
+  --tratteggio: #52514e;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --classe-sopra: #1c5cab;
+    --classe-attraversa: #3987e5;
+    --classe-sotto: #9ec5f4;
+    --classe-mancante: #8a8984;
+    --soglia: #f0efec;
+    --tratteggio: #c3c2b7;
+  }
+}
+
+body { font: 17px/1.55 var(--sans-serif); }
+h1, h2, h3 { font-family: var(--sans-serif); font-weight: 600; }
+h1 { font-size: 2rem; line-height: 1.15; max-width: 28ch; }
+.domanda { font-size: 1.2rem; color: var(--theme-foreground-muted); max-width: 52ch; margin-top: .25rem; }
+p, li { max-width: 68ch; }
+
+/* Numeri chiave */
+.numeri { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.numero { border-top: 2px solid var(--theme-foreground-faintest); padding-top: .5rem; }
+.numero .valore { font-size: 2.2rem; font-weight: 600; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.numero .spiega { font-size: .9rem; color: var(--theme-foreground-muted); }
+
+.etichetta { font: 12px var(--monospace); color: var(--theme-foreground-muted); white-space: nowrap; }
+.nota { font-size: .9rem; color: var(--theme-foreground-muted); }
+.avviso { border-left: 3px solid var(--theme-foreground-muted); padding: .25rem .75rem; font-size: .95rem; }
+
+/* Legenda delle classi */
+.legenda { display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; font-size: .9rem; margin: .5rem 0; padding: 0; list-style: none; }
+.legenda li { display: flex; align-items: center; gap: .4rem; }
+.legenda svg { flex: none; }
+
+/* Pannelli Dati / Codice */
+details.pannello { margin: .4rem 0; border-top: 1px solid var(--theme-foreground-faintest); padding: .3rem 0; }
+details.pannello summary { cursor: pointer; font-size: .95rem; }
+details.pannello pre { max-height: 32rem; overflow: auto; font-size: 12.5px; }
+.tabella-scorrevole { max-height: 24rem; overflow: auto; margin-top: .5rem; }
+.tabella-scorrevole table { font-size: 13px; font-variant-numeric: tabular-nums; }
+
+/* Tooltip della mappa */
+.tooltip { position: absolute; pointer-events: none; background: var(--theme-background); color: var(--theme-foreground);
+  border: 1px solid var(--theme-foreground-faint); border-radius: 4px; padding: .5rem .65rem; font-size: 13px; line-height: 1.4;
+  max-width: 260px; box-shadow: 0 2px 8px rgb(0 0 0 / .12); z-index: 10; }
+.tooltip strong { display: block; font-size: 14px; }
+
+.mappa a:focus-visible circle { stroke: var(--theme-foreground-focus); stroke-width: 3; }
+.mappa { position: relative; }
+
+/* Il vuoto: posti non disponibili tratteggiati */
+.vuoto-griglia { display: block; max-width: 100%; height: auto; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+}
+@media (max-width: 480px) {
+  h1 { font-size: 1.6rem; }
+  .numero .valore { font-size: 1.8rem; }
+}
+
+/* Apertura della home: mappa più larga dei numeri su schermi ampi */
+@media (min-width: 900px) { .grid.apertura { grid-template-columns: 3fr 2fr; } }
