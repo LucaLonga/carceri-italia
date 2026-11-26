@@ -280,6 +280,8 @@ def main() -> None:
         scrivi(OUT / "regionale_mensile.csv", reg, ["data", "regione", "istituti", "capienza_regolamentare", "presenti", "donne", "stranieri"])
         pi = per_istituto(voci, errori)
         scrivi(OUT / "per_istituto_mensile.csv", pi, ["data", "regione", "provincia", "istituto", "tipo", "capienza_regolamentare", "presenti", "donne", "stranieri"])
+    if a.solo_copertura and (OUT / "indice.json").exists():
+        errori = json.loads((OUT / "indice.json").read_text(encoding="utf-8")).get("errori", [])  # dell'ultima raccolta completa
     cop = copertura()
     scrivi(OUT / "copertura.csv", cop)
     (OUT / "indice.json").write_text(json.dumps({

@@ -1,0 +1,213 @@
+scheda_id,codice_dap,metodo,somiglianza,nome_antigone,regione_slug,url,nota
+2,LL10,nome simile,0.86,"Casa Circondariale di Sassari - Bancali ""Giovanni Bachiddu""",sardegna,https://www.antigone.it/osservatorio_detenzione/sardegna/2-giovanni-bachiddu,
+3,EE17,nome identico,1.00,Casa Circondariale di Chieti,abruzzo,https://www.antigone.it/osservatorio_detenzione/abruzzo/3-chieti,
+4,HH02,eccezione,,Casa circondariale - Casa di reclusione di Potenza,basilicata,https://www.antigone.it/osservatorio_detenzione/basilicata/4-casa-circondariale-casa-di-reclusione-di-potenza,Potenza: unico istituto di Potenza nella tabella di raccordo
+5,HH11,eccezione,,Casa Circondariale di Catanzaro,calabria,https://www.antigone.it/osservatorio_detenzione/calabria/5-casa-circondariale-di-catanzaro,Catanzaro: unico istituto di Catanzaro
+6,,eccezione,,Ospedale Psichiatrico Giudiziario di Aversa “Filippo Saporito” (Chiuso nel 2016),campania,https://www.antigone.it/osservatorio_detenzione/campania/6-ospedale-psichiatrico-giudiziario-filippo-saporito,ex ospedale psichiatrico giudiziario chiuso nel 2016 (Antigone)
+8,CC10,nome simile,1.00,Casa Circondariale di Udine,friuli-venezia-giulia,https://www.antigone.it/osservatorio_detenzione/friuli-venezia-giulia/8-casa-circondariale-di-udine,
+9,EE07,nome identico,1.00,"Casa Circondariale di Frosinone ""G. Pagliei""",lazio,https://www.antigone.it/osservatorio_detenzione/lazio/9-casa-circondariale-di-frosinone-g-pagliei,
+10,AA02,nome simile,1.00,Casa circondariale di Genova Marassi,liguria,https://www.antigone.it/osservatorio_detenzione/liguria/10-casa-circondariale-di-genova-marassi,
+11,BB50,nome identico,1.00,Seconda casa di reclusione Milano – Bollate,lombardia,https://www.antigone.it/osservatorio_detenzione/lombardia/11-seconda-casa-di-reclusione-milano-bollate,
+12,EE04,nome simile,1.00,Casa Circondariale di Ancona - Montacuto,marche,https://www.antigone.it/osservatorio_detenzione/marche/12-casa-circondariale-di-ancona-montacuto,
+13,FF19,nome identico,1.00,Casa Circondariale di Isernia,molise,https://www.antigone.it/osservatorio_detenzione/molise/13-casa-circondariale-di-isernia,
+14,AA04,nome identico,1.00,Casa di Reclusione “San Michele” – Alessandria,piemonte,https://www.antigone.it/osservatorio_detenzione/piemonte/14-casa-di-reclusione-san-michele-alessandria,
+15,FF06,nome identico,1.00,Casa Circondariale di Brindisi,puglia,https://www.antigone.it/osservatorio_detenzione/puglia/15-casa-circondariale-di-brindisi,
+16,KK23,nome identico,1.00,"Casa Circondariale Palermo ""Pagliarelli""",sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/16-casa-circondariale-palermo-pagliarelli,
+17,DD02,nome identico,1.00,Casa Circondariale di Pisa “Don Bosco”,toscana,https://www.antigone.it/osservatorio_detenzione/toscana/17-casa-circondariale-di-pisa-don-bosco,
+18,CC03,nome identico,1.00,Casa Circondariale di Bolzano,trentino-alto-adige,https://www.antigone.it/osservatorio_detenzione/trentino-alto-adige/18-casa-circondariale-di-bolzano,
+19,DD23,nome identico,1.00,Casa di Reclusione di Spoleto,umbria,https://www.antigone.it/osservatorio_detenzione/umbria/19-casa-di-reclusione-di-spoleto,
+20,AA11,nome simile,1.00,Casa Circondariale Brissogne - Aosta,val-d-aosta,https://www.antigone.it/osservatorio_detenzione/val-d-aosta/20-casa-circondariale-brissogne-aosta,
+21,CC18,nome identico,1.00,Casa Circondariale di Padova,veneto,https://www.antigone.it/osservatorio_detenzione/veneto/21-casa-circondariale-di-padova,
+22,LL08,nome simile,1.00,Casa Circondariale Badu ‘e Carros (Nuoro),sardegna,https://www.antigone.it/osservatorio_detenzione/sardegna/22-istituto-c-c-badu-e-carros-nuoro,
+23,,eccezione,,OPG di Montelupo Fiorentino (Chiuso nel 2016),toscana,https://www.antigone.it/osservatorio_detenzione/toscana/23-opg-montelupo-fiorentino,ex OPG chiuso nel 2016 (Antigone)
+24,HH15,eccezione,,Casa Circondariale di Melfi,basilicata,https://www.antigone.it/osservatorio_detenzione/basilicata/24-casa-circondariale-di-melfi,Melfi: unico candidato (nome identico al Ministero)
+25,HH14,nome identico,1.00,Casa circondariale di Matera,basilicata,https://www.antigone.it/osservatorio_detenzione/basilicata/25-casa-circondariale-casa-di-reclusione-di-matera,
+26,FF24,nome identico,1.00,Casa Circondariale di Vallo della Lucania,campania,https://www.antigone.it/osservatorio_detenzione/campania/26-casa-circondariale-di-vallo-della-lucania,
+27,FF17,nome identico,1.00,"Casa Circondariale ""Carmelo Magli"" di Taranto",puglia,https://www.antigone.it/osservatorio_detenzione/puglia/27-casa-circondariale-carmelo-magli-di-taranto,
+28,,eccezione,,Casa Circondariale di Sala Consilina (Chiusa),campania,https://www.antigone.it/osservatorio_detenzione/campania/28-casa-circondariale-di-sala-consilina,chiuso (Antigone)
+29,FF34,nome simile,1.00,"Casa Circondariale ""N.C"" di Lecce",puglia,https://www.antigone.it/osservatorio_detenzione/puglia/29-casa-circondariale-n-c-di-lecce,
+30,LL06,nome simile,1.00,Casa Circondariale San Daniele di Lanusei,sardegna,https://www.antigone.it/osservatorio_detenzione/sardegna/30-casa-circondariale-san-daniele-di-lanusei,
+31,FF05,nome identico,1.00,"Casa Circondariale ""Francesco Rucci"" di Bari",puglia,https://www.antigone.it/osservatorio_detenzione/puglia/31-casa-circondariale-francesco-rucci-di-bari,
+32,FF15,nome identico,1.00,Casa Circondariale di Trani,puglia,https://www.antigone.it/osservatorio_detenzione/puglia/32-casa-circondariale-di-trani,
+33,,eccezione,,Casa Circondariale di Spinazzola (Chiuso),puglia,https://www.antigone.it/osservatorio_detenzione/puglia/33-casa-circondariale-di-spinazzola,chiuso (Antigone)
+34,FF16,nome identico,1.00,Casa di reclusione di Turi,puglia,https://www.antigone.it/osservatorio_detenzione/puglia/34-casa-di-reclusione-di-turi-di-bari,
+35,EE10,nome identico,1.00,Casa circondariale a custodia attenuata di Avezzano,abruzzo,https://www.antigone.it/osservatorio_detenzione/abruzzo/35-casa-circondariale-a-custodia-attenuata-di-avezzano,
+36,EE18,nome identico,1.00,Casa Circondariale Lanciano,abruzzo,https://www.antigone.it/osservatorio_detenzione/abruzzo/36-casa-circondariale-lanciano,
+37,EE05,nome identico,1.00,Casa Circondariale di Pescara,abruzzo,https://www.antigone.it/osservatorio_detenzione/abruzzo/37-casa-circondariale-di-pescara,
+38,EE12,nome identico,1.00,Casa di reclusione di Sulmona,abruzzo,https://www.antigone.it/osservatorio_detenzione/abruzzo/38-casa-di-reclusione-casa-di-lavoro-di-sulmona,
+39,EE13,nome simile,1.00,Casa Circondariale di Teramo,abruzzo,https://www.antigone.it/osservatorio_detenzione/abruzzo/39-casa-circondariale-di-teramo,
+40,EE19,nome identico,1.00,Casa di Lavoro di Vasto,abruzzo,https://www.antigone.it/osservatorio_detenzione/abruzzo/40-casa-di-lavoro-di-vasto,
+41,DD14,nome identico,1.00,Casa di Reclusione di Orvieto,umbria,https://www.antigone.it/osservatorio_detenzione/umbria/41-casa-di-reclusione-di-orvieto,
+42,FF68,nome identico,1.00,Casa di Reclusione di Sant'Angelo dei Lombardi,campania,https://www.antigone.it/osservatorio_detenzione/campania/42-casa-di-reclusione-di-sant-angelo-dei-lombardi,
+43,BB02,eccezione,,Casa Circondariale di Brescia-Canton Monbello,lombardia,https://www.antigone.it/osservatorio_detenzione/lombardia/43-casa-circondariale-di-brescia-canton-monbello,Brescia Canton Monbello
+48,LL02,eccezione,,Casa di Reclusione di Alghero,sardegna,https://www.antigone.it/osservatorio_detenzione/sardegna/48-casa-di-reclusione-di-alghero,Alghero
+49,,eccezione,,Casa Circondariale di Camerino,marche,https://www.antigone.it/osservatorio_detenzione/marche/49-casa-circondariale-di-camerino,Camerino: non presente nella tabella di raccordo (ultime tabelle del Ministero: 2019)
+50,KK14,nome simile,1.00,Casa Circondariale di Caltagirone,sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/50-casa-circondariale-di-caltagirone,
+51,EE23,nome identico,1.00,Casa Circondariale di Latina,lazio,https://www.antigone.it/osservatorio_detenzione/lazio/51-casa-circondariale-di-latina,
+52,EE28,nome identico,1.00,Casa Circondariale di Rebibbia Femminile,lazio,https://www.antigone.it/osservatorio_detenzione/lazio/52-casa-circondariale-di-rebibbia-femminile,
+53,EE47,nome simile,1.00,Casa di Reclusione Ancona Barcaglione,marche,https://www.antigone.it/osservatorio_detenzione/marche/53-casa-di-reclusione-ancona-barcaglione,
+54,EE14,nome identico,1.00,Casa di Reclusione di Fossombrone,marche,https://www.antigone.it/osservatorio_detenzione/marche/54-casa-di-reclusione-di-fossombrone,
+55,FF18,nome simile,1.00,Casa di reclusione di Arienzo,campania,https://www.antigone.it/osservatorio_detenzione/campania/55-casa-circondariale-di-arienzo,
+56,LL01,nome simile,1.00,Casa circondariale di Cagliari - Uta “E. Scalas”,sardegna,https://www.antigone.it/osservatorio_detenzione/sardegna/56-casa-circondariale-di-cagliari-e-scalas,
+57,AA08,nome identico,1.00,Casa di Reclusione di Massa,toscana,https://www.antigone.it/osservatorio_detenzione/toscana/57-casa-di-reclusione-di-massa,
+58,DD18,nome identico,1.00,Casa Circondariale di Terni,umbria,https://www.antigone.it/osservatorio_detenzione/umbria/58-casa-circondariale-di-terni,
+59,BB08,eccezione,,Casa Circondariale di Ferrara,emilia-romagna,https://www.antigone.it/osservatorio_detenzione/emilia-romagna/59-casa-circondariale-di-ferrara,Ferrara
+60,BB09,nome identico,1.00,Casa Circondariale di Forlì,emilia-romagna,https://www.antigone.it/osservatorio_detenzione/emilia-romagna/60-casa-circondariale-di-forli,
+61,EE16,nome identico,1.00,Casa di Reclusione di Fermo,marche,https://www.antigone.it/osservatorio_detenzione/marche/61-casa-di-reclusione-di-fermo,
+62,HH12,nome identico,1.00,Casa Circondariale di Castrovillari,calabria,https://www.antigone.it/osservatorio_detenzione/calabria/62-casa-circondariale-di-castrovillari,
+63,HH04,eccezione,,Casa Circondariale di Cosenza,calabria,https://www.antigone.it/osservatorio_detenzione/calabria/63-casa-circondariale-di-cosenza,Cosenza: unico istituto di Cosenza
+64,HH39,nome identico,1.00,Casa Circondariale di Crotone,calabria,https://www.antigone.it/osservatorio_detenzione/calabria/64-casa-circondariale-di-crotone,
+65,,eccezione,,Casa Circondariale di Lamezia Terme (Chiuso),calabria,https://www.antigone.it/osservatorio_detenzione/calabria/65-casa-circondariale-di-lamezia-terme,chiuso (Antigone)
+66,HH06,nome identico,1.00,Casa Circondariale di Locri,calabria,https://www.antigone.it/osservatorio_detenzione/calabria/66-casa-circondariale-di-locri,
+67,HH19,eccezione,,Casa Circondariale di Palmi,calabria,https://www.antigone.it/osservatorio_detenzione/calabria/67-casa-circondariale-di-palmi,Palmi: unico istituto di Palmi
+68,HH20,nome identico,1.00,Casa Circondariale di Paola,calabria,https://www.antigone.it/osservatorio_detenzione/calabria/68-casa-circondariale-di-paola,
+69,HH03,nome simile,1.00,Casa Circondariale di Reggio Calabria “G. Panzera”,calabria,https://www.antigone.it/osservatorio_detenzione/calabria/69-casa-circondariale-di-reggio-calabria,
+70,HH41,nome identico,1.00,Casa di Reclusione di Rossano Nuovo Complesso,calabria,https://www.antigone.it/osservatorio_detenzione/calabria/70-casa-di-reclusione-di-rossano-nuovo-complesso,
+71,HH07,nome identico,1.00,Nuovo Complesso Penitenziario di Vibo Valentia,calabria,https://www.antigone.it/osservatorio_detenzione/calabria/71-nuovo-complesso-penitenziario-di-vibo-valentia,
+72,FF30,nome identico,1.00,Casa Circondariale di Ariano Irpino,campania,https://www.antigone.it/osservatorio_detenzione/campania/72-casa-circondariale-di-ariano-irpino,
+73,FF32,eccezione,,Casa Circondariale di Avellino,campania,https://www.antigone.it/osservatorio_detenzione/campania/73-casa-circondariale-casa-di-reclusione-di-avellino,Avellino: unico istituto di Avellino
+74,FF08,nome identico,1.00,Casa Circondariale di Benevento,campania,https://www.antigone.it/osservatorio_detenzione/campania/74-casa-circondariale-di-benevento,
+75,FF29,nome identico,1.00,Casa di Reclusione di Carinola,campania,https://www.antigone.it/osservatorio_detenzione/campania/75-casa-di-reclusione-di-carinola,
+76,FF64,nome identico,1.00,Icatt - Casa di Reclusione di Eboli,campania,https://www.antigone.it/osservatorio_detenzione/campania/76-icatt-casa-di-reclusione-di-eboli,
+77,,eccezione,,Istituto Psichiatrico Giudiziario di Napoli,campania,https://www.antigone.it/osservatorio_detenzione/campania/77-istituto-psichiatrico-giudiziario-di-napoli,ex istituto psichiatrico giudiziario
+78,FF65,eccezione,,Casa circondariale - Istituto a Custodia Attenuata per Madri di Lauro,campania,https://www.antigone.it/osservatorio_detenzione/campania/78-casa-circondariale-istituto-custodia-attenuata-per-tossicodipendenti-di-lauro,Lauro: oggi ICAM (Antigone: casa circondariale e ICAM)
+79,FF01,eccezione,,Casa Circondariale di Napoli-Poggioreale,campania,https://www.antigone.it/osservatorio_detenzione/campania/79-casa-circondariale-di-napoli-poggioreale,Napoli Poggioreale
+80,FF58,eccezione,,Centro Penitenziario Napoli Secondigliano,campania,https://www.antigone.it/osservatorio_detenzione/campania/80-centro-penitenziario-napoli-secondigliano,Napoli Secondigliano
+81,FF56,nome identico,1.00,Casa Circondariale Femminile di Pozzuoli,campania,https://www.antigone.it/osservatorio_detenzione/campania/81-casa-circondariale-femminile-di-pozzuoli,
+82,FF11,nome identico,1.00,"Casa Circondariale di Salerno ""Antonio Caputo""",campania,https://www.antigone.it/osservatorio_detenzione/campania/82-casa-circondariale-di-salerno-antonio-caputo,
+83,FF04,nome simile,1.00,"Casa Circondariale di Santa Maria Capua Vetere ""Francesco Uccella""",campania,https://www.antigone.it/osservatorio_detenzione/campania/83-casa-circondariale-di-santa-maria-capua-vetere-francesco-uccella,
+84,BB03,eccezione,,Casa Circondariale di Bologna “Dozza”,emilia-romagna,https://www.antigone.it/osservatorio_detenzione/emilia-romagna/84-casa-circondariale-di-bologna-dozza,"Bologna Dozza (Ministero: Bologna ""R. D'Amato"")"
+85,BB07,nome identico,1.00,Casa di reclusione di Castelfranco Emilia,emilia-romagna,https://www.antigone.it/osservatorio_detenzione/emilia-romagna/85-casa-di-lavoro-e-casa-di-reclusione-a-custodia-attenuata-di-castelfranco-emilia,
+86,,eccezione,,Ospedale Psichiatrico Giudiziario di Reggio Emilia,emilia-romagna,https://www.antigone.it/osservatorio_detenzione/emilia-romagna/86-ospedale-psichiatrico-giudiziario-di-reggio-emilia,ex ospedale psichiatrico giudiziario
+87,BB10,nome identico,1.00,Casa Circondariale di Modena,emilia-romagna,https://www.antigone.it/osservatorio_detenzione/emilia-romagna/87-casa-circondariale-di-modena,
+88,BB30,nome identico,1.00,Casa di Reclusione di Parma,emilia-romagna,https://www.antigone.it/osservatorio_detenzione/emilia-romagna/88-istituto-penale-di-parma,
+89,BB04,eccezione,,"Casa Circondariale di Piacenza ""Le Novate""",emilia-romagna,https://www.antigone.it/osservatorio_detenzione/emilia-romagna/89-casa-circondariale-di-piacenza,"Piacenza Le Novate (Ministero: Piacenza ""San Lazzaro"")"
+90,BB13,nome identico,1.00,Casa Circondariale di Ravenna,emilia-romagna,https://www.antigone.it/osservatorio_detenzione/emilia-romagna/90-casa-circondariale-di-ravenna,
+91,BB15,nome identico,1.00,Casa Circondariale di Rimini,emilia-romagna,https://www.antigone.it/osservatorio_detenzione/emilia-romagna/91-casa-circondariale-di-rimini,
+93,CC31,nome identico,1.00,Casa Circondariale di Rovigo,veneto,https://www.antigone.it/osservatorio_detenzione/veneto/93-casa-circondariale-di-rovigo,
+94,CC09,nome simile,1.00,Casa Circondariale di Vicenza,veneto,https://www.antigone.it/osservatorio_detenzione/veneto/94-casa-circondariale-di-vicenza,
+95,CC17,eccezione,,Casa Circondariale Montorio-Verona,veneto,https://www.antigone.it/osservatorio_detenzione/veneto/95-casa-circondariale-montorio-verona,Verona Montorio
+96,BB22,nome identico,1.00,Casa Circondariale di Monza,lombardia,https://www.antigone.it/osservatorio_detenzione/lombardia/96-casa-circondariale-di-monza,
+97,,eccezione,,Ospedale Psichiatrico Giudiziario di Castiglione delle Stiviere,lombardia,https://www.antigone.it/osservatorio_detenzione/lombardia/97-ospedale-psichiatrico-giudiziario-di-castiglione-delle-stiviere,ex ospedale psichiatrico giudiziario
+98,BB01,nome identico,1.00,Casa Circondariale di Milano San Vittore,lombardia,https://www.antigone.it/osservatorio_detenzione/lombardia/98-casa-circondariale-di-milano-san-vittore,
+99,BB29,nome identico,1.00,Istituti penali di Reggio Emilia,emilia-romagna,https://www.antigone.it/osservatorio_detenzione/emilia-romagna/99-casa-circondariale-di-reggio-emilia,
+101,AA21,nome identico,1.00,Casa di reclusione di Chiavari,liguria,https://www.antigone.it/osservatorio_detenzione/liguria/101-casa-di-reclusione-di-chiavari,
+102,AA16,nome identico,1.00,Casa Circondariale di Sanremo,liguria,https://www.antigone.it/osservatorio_detenzione/liguria/102-casa-circondariale-di-sanremo,
+103,,eccezione,,Casa Circondariale di Savona,liguria,https://www.antigone.it/osservatorio_detenzione/liguria/103-casa-circondariale-di-savona,Savona: non presente nella tabella di raccordo [VERIFICARE se chiuso]
+104,AA05,nome identico,1.00,Casa di Reclusione di Fossano,piemonte,https://www.antigone.it/osservatorio_detenzione/piemonte/104-casa-di-reclusione-di-fossano,
+105,AA27,nome identico,1.00,Casa Circondariale di Ivrea,piemonte,https://www.antigone.it/osservatorio_detenzione/piemonte/105-casa-circondariale-di-ivrea,
+106,EE01,eccezione,,Casa Circondariale Rebibbia Nuovo Complesso,lazio,https://www.antigone.it/osservatorio_detenzione/lazio/106-casa-circondariale-rebibbia-nuovo-complesso,Rebibbia Nuovo Complesso: l'abbinamento automatico sceglieva la casa di reclusione (EE29)
+107,EE29,nome identico,1.00,Casa di Reclusione di Rebibbia,lazio,https://www.antigone.it/osservatorio_detenzione/lazio/107-casa-di-reclusione-di-rebibbia,
+108,EE39,eccezione,,Istituto a custodia attenuata Rebibbia IIIª Casa,lazio,https://www.antigone.it/osservatorio_detenzione/lazio/108-istituto-a-custodia-attenuata-rebibbia-iii-casa,Rebibbia Terza Casa
+109,EE06,nome identico,1.00,Casa Circondariale di Cassino,lazio,https://www.antigone.it/osservatorio_detenzione/lazio/109-casa-circondariale-di-cassino,
+110,EE02,nome identico,1.00,"Casa Circondariale di Roma ""Regina Coeli""",lazio,https://www.antigone.it/osservatorio_detenzione/lazio/110-casa-circondariale-di-regina-coeli,
+111,EE32,nome identico,1.00,Casa Circondariale di Civitavecchia,lazio,https://www.antigone.it/osservatorio_detenzione/lazio/111-casa-circondariale-di-civitavecchia,
+112,EE03,nome identico,1.00,Casa di Reclusione di Civitavecchia Passerini,lazio,https://www.antigone.it/osservatorio_detenzione/lazio/112-istituto-di-reclusione-a-trattamento-penitenziario-differenziato-di-civitavecchia,
+114,EE22,nome identico,1.00,Casa di Reclusione di Paliano,lazio,https://www.antigone.it/osservatorio_detenzione/lazio/114-casa-di-reclusione-di-paliano,
+115,EE48,nome identico,1.00,Casa Circondariale Nuovo Complesso Rieti,lazio,https://www.antigone.it/osservatorio_detenzione/lazio/115-casa-circondariale-nuovo-complesso-rieti,
+116,,eccezione,,Unità ospedaliera di medicina protetta - Casa circondariale Viterbo,lazio,https://www.antigone.it/osservatorio_detenzione/lazio/116-unita-ospedaliera-di-medicina-protetta-casa-circondariale-viterbo,unità ospedaliera dentro la casa circondariale di Viterbo: non è un istituto a sé
+117,EE09,nome identico,1.00,Casa Circondariale di Viterbo,lazio,https://www.antigone.it/osservatorio_detenzione/lazio/117-casa-circondariale-di-viterbo,
+118,EE20,nome identico,1.00,Casa Circondariale maschile Nuovo Complesso di Velletri,lazio,https://www.antigone.it/osservatorio_detenzione/lazio/118-casa-circondariale-maschile-nuovo-complesso-di-velletri,
+119,EE27,nome simile,1.00,Casa Circondariale di Ascoli Piceno,marche,https://www.antigone.it/osservatorio_detenzione/marche/119-casa-circondariale-di-marino-del-tronto-ascoli-piceno,
+120,EE24,eccezione,,Istituto penale di Pesaro Villa Fastiggi,marche,https://www.antigone.it/osservatorio_detenzione/marche/120-istituto-penale-di-pesaro-villa-fastiggi-maschile-e-femminile,Pesaro Villa Fastiggi
+121,,eccezione,,Casa Circondariale di Pesaro - Sezione distaccata di Macerata Feltria (Chiusa),marche,https://www.antigone.it/osservatorio_detenzione/marche/121-casa-circondariale-di-pesaro-sezione-distaccata-di-macerata-feltria,sezione distaccata chiusa (Antigone)
+122,FF12,nome identico,1.00,Casa Circondariale e di Reclusione di Campobasso,molise,https://www.antigone.it/osservatorio_detenzione/molise/122-casa-circondariale-e-di-reclusione-di-campobasso,
+123,FF25,nome simile,1.00,Casa Circondariale di Larino,molise,https://www.antigone.it/osservatorio_detenzione/molise/123-casa-circondariale-di-larino,
+124,HH44,nome simile,1.00,Casa Circondariale di Reggio Calabria “Arghillà”,calabria,https://www.antigone.it/osservatorio_detenzione/calabria/124-casa-circondariale-di-reggio-calabria-arghilla,
+125,HH43,nome simile,1.00,Casa di reclusione di Laureana di Borrello (RC) “Luigi Daga”,calabria,https://www.antigone.it/osservatorio_detenzione/calabria/125-casa-di-reclusione-di-laureana-di-borrello-rc-luigi-daga,
+126,,eccezione,,Casa Circondariale di Iglesias (chiusa),sardegna,https://www.antigone.it/osservatorio_detenzione/sardegna/126-casa-circondariale-di-iglesias-cagliari,chiuso (Antigone)
+127,LL05,nome identico,1.00,Casa di Reclusione di isili,sardegna,https://www.antigone.it/osservatorio_detenzione/sardegna/127-casa-di-reclusione-di-isili,
+128,,eccezione,,Casa Circondariale di Macomer (chiusa),sardegna,https://www.antigone.it/osservatorio_detenzione/sardegna/128-casa-circondariale-di-macomer-nuoro,chiuso (Antigone)
+129,LL09,nome simile,1.00,Casa Circondariale di Oristano “Salvatore Soro”,sardegna,https://www.antigone.it/osservatorio_detenzione/sardegna/129-casa-circondariale-di-oristano-salvatore-soro,
+130,,eccezione,,Casa Circondariale di Sassari San Sebastiano (chiusa),sardegna,https://www.antigone.it/osservatorio_detenzione/sardegna/130-casa-circondariale-di-sassari-san-sebastiano-chiusa,chiuso (Antigone)
+131,,eccezione,,Casa Mandamentale di Senorbì (attualmente Istituto a custodia attenuata per detenute madri),sardegna,https://www.antigone.it/osservatorio_detenzione/sardegna/131-casa-mandamentale-di-senorbi-cagliari,Senorbì: non presente nella tabella di raccordo [VERIFICARE]
+132,LL11,nome identico,1.00,"Casa di reclusione ""Paolo Pittalis"" di Tempio Pausania",sardegna,https://www.antigone.it/osservatorio_detenzione/sardegna/132-casa-di-reclusione-paolo-pittalis-di-tempio-pausania,
+133,LL07,nome simile,1.00,Casa di Reclusione di Onanì-Mamone,sardegna,https://www.antigone.it/osservatorio_detenzione/sardegna/133-casa-di-reclusione-di-lode-mamone,
+134,KK19,nome identico,1.00,"Casa Circondariale ""Petrusa"" di Agrigento",sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/134-casa-circondariale-petrusa-di-agrigento,
+135,KK05,nome identico,1.00,Casa di Reclusione di Augusta,sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/135-casa-di-reclusione-di-augusta,
+136,KK24,nome identico,1.00,"Casa Circondariale di Catania ""Bicocca""",sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/136-casa-circondariale-di-catania-bicocca,
+137,KK02,nome identico,1.00,"Casa Circondariale di Catania ""Piazza Lanza""",sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/137-casa-circondariale-di-catania-piazza-lanza,
+138,KK09,nome identico,1.00,Casa Circondariale di Caltanissetta,sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/138-casa-circondariale-di-clatanissetta,
+139,KK29,nome identico,1.00,Casa Circondariale di Castelvetrano,sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/139-casa-circondariale-di-castelvetrano,
+140,KK10,nome identico,1.00,"Casa Circondariale di Enna ""Luigi Bodenza""",sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/140-casa-circondariale-di-enna-luigi-bodenza,
+141,KK18,nome identico,1.00,Casa Circondariale di Piazza Armerina (EN),sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/141-casa-circondariale-di-piazza-armerina-en,
+142,KK26,nome identico,1.00,Casa Circondariale di Giarre,sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/142-casa-circondariale-di-giarre,
+143,HH01,nome identico,1.00,"Casa Circondariale di Messina ""Gazzi""",sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/143-casa-circondariale-di-messina-gazzi,
+144,,eccezione,,Casa Circondariale di Marsala (Chiuso),sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/144-casa-circondariale-di-marsala,chiuso (Antigone)
+145,,eccezione,,Casa Circondariale di Mistretta (Chiuso),sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/145-casa-circondariale-di-mistretta-me,chiuso (Antigone)
+146,,eccezione,,Casa Circondariale di Modica (Chiuso),sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/146-casa-circondariale-di-modica,chiuso (Antigone)
+147,,eccezione,,Casa Circondariale di Nicosia (Chiuso),sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/147-casa-circondariale-di-nicosia,chiuso (Antigone)
+148,KK06,nome identico,1.00,Casa di Reclusione di Noto,sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/148-casa-di-reclusione-di-noto,
+149,KK01,nome identico,1.00,"Casa di Reclusione di Palermo ""Ucciardone""",sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/149-casa-circondariale-di-palermo-ucciardone,
+150,KK07,nome identico,1.00,Casa Circondariale di Ragusa,sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/150-casa-circondariale-di-ragusa,
+151,KK22,nome identico,1.00,Casa di Reclusione di San Cataldo,sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/151-casa-di-reclusione-di-san-cataldo,
+152,KK13,nome identico,1.00,Casa Circondariale di Sciacca,sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/152-casa-circondariale-di-sciacca,
+153,KK04,nome identico,1.00,Casa Circondariale di Termini Imerese,sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/153-casa-circondariale-di-termini-imerese,
+154,KK03,nome identico,1.00,Casa Circondariale - Casa di Reclusione di Trapani,sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/154-casa-circondariale-casa-di-reclusione-di-trapani,
+155,HH08,nome simile,1.00,Casa circondariale di Barcellona Pozzo di Gotto 'Vittorio Madia',sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/155-ospedale-psichiatrico-giudiziario-di-barcellona-pozzo-di-gotto-vittorio-madia,
+156,DD05,nome identico,1.00,Casa Circondariale di Arezzo,toscana,https://www.antigone.it/osservatorio_detenzione/toscana/156-casa-circondariale-di-arezzo,
+157,,eccezione,,Istituto a custodia attenuata di Empoli (chiuso),toscana,https://www.antigone.it/osservatorio_detenzione/toscana/157-istituto-a-custodia-attenuata-di-empoli,chiuso (Antigone)
+158,DD27,eccezione,,Nuovo Complesso Penitenziario Sollicciano Firenze,toscana,https://www.antigone.it/osservatorio_detenzione/toscana/158-n-c-p-di-firenze-sollicciano,Firenze Sollicciano
+159,DD07,eccezione,,Casa di Reclusione di Gorgona,toscana,https://www.antigone.it/osservatorio_detenzione/toscana/159-casa-di-reclusione-di-gorgona,Livorno Gorgona
+160,DD20,nome identico,1.00,Casa Circondariale di Grosseto,toscana,https://www.antigone.it/osservatorio_detenzione/toscana/160-casa-circondariale-di-grosseto,
+161,DD08,eccezione,,"Casa Circondariale di Livorno ""Le Sughere""",toscana,https://www.antigone.it/osservatorio_detenzione/toscana/161-casa-circondariale-di-livorno-le-sughere,"Livorno Le Sughere; in istituti.csv nome_antigone di DD07 (Gorgona) è ""Livorno Le Sughere"": errore della tabella di raccordo [VERIFICARE]"
+162,DD09,nome identico,1.00,Casa Circondariale di Lucca,toscana,https://www.antigone.it/osservatorio_detenzione/toscana/162-casa-circondariale-di-lucca,
+163,DD22,nome identico,1.00,Casa Circondariale di Massa Marittima,toscana,https://www.antigone.it/osservatorio_detenzione/toscana/163-casa-circondariale-di-massa-marittima,
+164,DD49,eccezione,,Casa Circondariale a custodia attenuata per tossicodipendenti M. Gozzini- Firenze,toscana,https://www.antigone.it/osservatorio_detenzione/toscana/164-casa-circondariale-a-custodia-attenuata-per-tossicodipendenti-mario-gozzini,Firenze Mario Gozzini
+165,DD16,nome identico,1.00,Casa Circondariale di Pistoia,toscana,https://www.antigone.it/osservatorio_detenzione/toscana/165-casa-circondariale-di-pistoia,
+166,DD03,nome identico,1.00,Casa di Reclusione di Porto Azzurro,toscana,https://www.antigone.it/osservatorio_detenzione/toscana/166-casa-di-reclusione-di-porto-azzurro,
+167,DD43,nome identico,1.00,Casa Circondariale di Prato “La Dogaia”,toscana,https://www.antigone.it/osservatorio_detenzione/toscana/167-casa-circondariale-di-prato-la-dogaia,
+168,,eccezione,,Casa Circondariale femminile di Pontremoli (Chiusa. Dal 2010 è un IPM),toscana,https://www.antigone.it/osservatorio_detenzione/toscana/168-casa-circondariale-femminile-di-pontremoli-chiusa,chiuso; dal 2010 istituto penale per minorenni (Antigone)
+169,DD12,nome identico,1.00,Casa di Reclusione di San Gimignano,toscana,https://www.antigone.it/osservatorio_detenzione/toscana/169-casa-di-reclusione-di-san-gimignano,
+170,DD17,nome identico,1.00,Casa Circondariale di Siena,toscana,https://www.antigone.it/osservatorio_detenzione/toscana/170-casa-circondariale-di-siena,
+171,DD13,nome identico,1.00,Casa di Reclusione di Volterra,toscana,https://www.antigone.it/osservatorio_detenzione/toscana/171-casa-di-reclusione-di-volterra,
+172,DD55,nome simile,1.00,"Casa Circondariale di Perugia ""Capanne""",umbria,https://www.antigone.it/osservatorio_detenzione/umbria/172-casa-circondariale-di-perugia-capanne,
+173,,eccezione,,Casa Circondariale di Cagliari Buoncammino (chiusa),sardegna,https://www.antigone.it/osservatorio_detenzione/sardegna/173-casa-circondariale-di-cagliari-buoncammino-chiusa,chiuso (Antigone)
+174,,eccezione,,Primo Rapporto regionale sulla condizione degli istituti di pena marchigiani,marche,https://www.antigone.it/osservatorio_detenzione/marche/174-primo-rapporto-regionale-sulla-condizione-degli-istituti-di-pena-marchigiani,rapporto regionale
+175,AA12,nome identico,1.00,Casa Circondariale di Biella,piemonte,https://www.antigone.it/osservatorio_detenzione/piemonte/175-casa-circondariale-di-biella,
+176,AA26,nome identico,1.00,Casa di reclusione di Alba,piemonte,https://www.antigone.it/osservatorio_detenzione/piemonte/176-casa-di-reclusione-di-alba,
+177,AA48,nome identico,1.00,"Casa Circondariale ""Cantiello e Gaeta"" - Alessandria",piemonte,https://www.antigone.it/osservatorio_detenzione/piemonte/177-casa-circondariale-cantiello-e-gaeta-alessandria,
+178,AA10,nome identico,1.00,Casa di reclusione di Asti,piemonte,https://www.antigone.it/osservatorio_detenzione/piemonte/178-casa-di-reclusione-di-asti,
+179,AA13,nome identico,1.00,Casa Circondariale di Vercelli,piemonte,https://www.antigone.it/osservatorio_detenzione/piemonte/179-casa-circondariale-di-vercelli,
+180,AA07,nome identico,1.00,Casa Circondariale di La Spezia,liguria,https://www.antigone.it/osservatorio_detenzione/liguria/180-casa-circondariale-di-la-spezia,
+181,AA45,nome simile,1.00,Casa Circondariale di Genova-Pontedecimo,liguria,https://www.antigone.it/osservatorio_detenzione/liguria/181-casa-circondariale-di-genova-pontedecimo,
+182,AA20,nome identico,1.00,Casa Circondariale di Cuneo,piemonte,https://www.antigone.it/osservatorio_detenzione/piemonte/182-casa-circondariale-di-cuneo,
+183,AA03,nome identico,1.00,Casa di reclusione di Saluzzo,piemonte,https://www.antigone.it/osservatorio_detenzione/piemonte/183-casa-di-reclusione-di-saluzzo,
+184,AA42,nome identico,1.00,Casa Circondariale di Torino,piemonte,https://www.antigone.it/osservatorio_detenzione/piemonte/184-casa-circondariale-di-torino,
+185,AA14,nome simile,1.00,Casa Circondariale di Verbania,piemonte,https://www.antigone.it/osservatorio_detenzione/piemonte/185-casa-circondariale-di-verbania,
+186,BB24,nome identico,1.00,Casa Circondariale di Sondrio,lombardia,https://www.antigone.it/osservatorio_detenzione/lombardia/186-casa-circondariale-di-sondrio,
+187,BB25,nome identico,1.00,Casa Circondariale di Varese,lombardia,https://www.antigone.it/osservatorio_detenzione/lombardia/187-casa-circondariale-di-varese,
+188,BB17,nome identico,1.00,Casa Circondariale di Como,lombardia,https://www.antigone.it/osservatorio_detenzione/lombardia/188-casa-circondariale-di-como,
+189,BB19,nome identico,1.00,Casa Circondariale di Lecco,lombardia,https://www.antigone.it/osservatorio_detenzione/lombardia/189-casa-circondariale-di-lecco,
+190,BB06,nome identico,1.00,Casa Circondariale di Bergamo,lombardia,https://www.antigone.it/osservatorio_detenzione/lombardia/190-casa-circondariale-di-bergamo,
+191,BB16,nome identico,1.00,Casa Circondariale di Busto Arsizio,lombardia,https://www.antigone.it/osservatorio_detenzione/lombardia/191-casa-circondariale-di-busto-arsizio,
+192,BB39,nome identico,1.00,Casa di reclusione di Milano-Opera,lombardia,https://www.antigone.it/osservatorio_detenzione/lombardia/192-casa-di-reclusione-di-milano-opera,
+193,BB43,nome simile,1.00,Casa di reclusione di Brescia-Verziano,lombardia,https://www.antigone.it/osservatorio_detenzione/lombardia/193-casa-di-reclusione-di-brescia-verziano,
+194,BB20,nome identico,1.00,Casa Circondariale di Lodi,lombardia,https://www.antigone.it/osservatorio_detenzione/lombardia/194-casa-circondariale-di-lodi,
+195,BB23,nome identico,1.00,Casa Circondariale di Pavia,lombardia,https://www.antigone.it/osservatorio_detenzione/lombardia/195-casa-circondariale-di-pavia,
+196,BB37,nome identico,1.00,Casa Circondariale di Voghera,lombardia,https://www.antigone.it/osservatorio_detenzione/lombardia/196-casa-circondariale-di-voghera,
+197,BB21,nome identico,1.00,Casa Circondariale di Mantova,lombardia,https://www.antigone.it/osservatorio_detenzione/lombardia/197-casa-circondariale-di-mantova,
+198,BB18,nome identico,1.00,Casa Circondariale di Cremona,lombardia,https://www.antigone.it/osservatorio_detenzione/lombardia/198-casa-circondariale-di-cremona,
+200,CC30,nome identico,1.00,Casa Circondariale di Trento,trentino-alto-adige,https://www.antigone.it/osservatorio_detenzione/trentino-alto-adige/200-casa-circondariale-di-trento-2,
+201,CC16,nome identico,1.00,Casa Circondariale di Venezia-Santa Maria Maggiore,veneto,https://www.antigone.it/osservatorio_detenzione/veneto/201-casa-circondariale-di-venezia-santa-maria-maggiore,
+202,CC19,nome identico,1.00,Casa di reclusione femminile di Venezia-Giudecca,veneto,https://www.antigone.it/osservatorio_detenzione/veneto/202-casa-di-reclusione-femminile-di-venezia-giudecca,
+203,BB26,nome identico,1.00,Casa di reclusione di Vigevano,lombardia,https://www.antigone.it/osservatorio_detenzione/lombardia/203-casa-di-reclusione-di-vigevano,
+204,AA06,nome identico,1.00,Casa Circondariale di Imperia,liguria,https://www.antigone.it/osservatorio_detenzione/liguria/204-casa-circondariale-di-imperia,
+205,CC05,nome identico,1.00,Casa Circondariale di Belluno,veneto,https://www.antigone.it/osservatorio_detenzione/veneto/205-casa-circondariale-di-belluno,
+206,CC07,nome identico,1.00,Casa Circondariale di Treviso,veneto,https://www.antigone.it/osservatorio_detenzione/veneto/206-casa-circondariale-di-treviso,
+207,CC14,nome identico,1.00,Casa Circondariale di Gorizia,friuli-venezia-giulia,https://www.antigone.it/osservatorio_detenzione/friuli-venezia-giulia/207-casa-circondariale-di-gorizia,
+208,CC02,nome simile,1.00,Casa Circondariale di Trieste,friuli-venezia-giulia,https://www.antigone.it/osservatorio_detenzione/friuli-venezia-giulia/208-casa-circondariale-di-trieste,
+209,CC26,nome identico,1.00,Casa Circondariale di Tolmezzo,friuli-venezia-giulia,https://www.antigone.it/osservatorio_detenzione/friuli-venezia-giulia/209-casa-circondariale-di-tolmezzo,
+210,CC13,nome identico,1.00,Casa Circondariale di Pordenone,friuli-venezia-giulia,https://www.antigone.it/osservatorio_detenzione/friuli-venezia-giulia/210-casa-circondariale-di-pordenone,
+211,CC25,nome identico,1.00,Casa di Reclusione di Padova,veneto,https://www.antigone.it/osservatorio_detenzione/veneto/211-casa-di-reclusione-di-padova-nuovo-complesso,
+241,KK08,nome identico,1.00,Casa Circondariale di Siracusa,sicilia,https://www.antigone.it/osservatorio_detenzione/sicilia/241-casa-circondariale-di-siracusa,
+266,AA19,nome identico,1.00,Casa Circondariale di Novara,piemonte,https://www.antigone.it/osservatorio_detenzione/piemonte/266-casa-circondariale-di-novara,
+268,FF13,nome identico,1.00,Casa Circondariale di Foggia,puglia,https://www.antigone.it/osservatorio_detenzione/puglia/268-casa-circondariale-di-foggia,
+271,FF36,nome identico,1.00,Casa di reclusione femminile - Trani,puglia,https://www.antigone.it/osservatorio_detenzione/puglia/271-casa-di-reclusione-femminile-trani,
+273,EE11,nome simile,1.00,Casa Circondariale de L' Aquila,abruzzo,https://www.antigone.it/osservatorio_detenzione/abruzzo/273-casa-circondariale-de-l-aquila,
+274,FM04,nome simile,1.00,Casa di Reclusione Altamura,puglia,https://www.antigone.it/osservatorio_detenzione/puglia/274-casa-di-reclusione-altamura,
+276,FF14,nome identico,1.00,Casa Circondariale di Lucera,puglia,https://www.antigone.it/osservatorio_detenzione/puglia/276-casa-circondariale-di-lucera,
+277,FF03,nome simile,1.00,Casa di Reclusione di Aversa “Filippo Saporito”,campania,https://www.antigone.it/osservatorio_detenzione/campania/277-casa-di-reclusione-di-aversa-filippo-saporito,
+278,LL04,nome simile,1.00,"Casa di Reclusione di Arbus ""Is Arenas""",sardegna,https://www.antigone.it/osservatorio_detenzione/sardegna/278-casa-di-reclusione-di-arbus-is-arenas,
+279,,eccezione,,La sezione distaccata di Pianosa,toscana,https://www.antigone.it/osservatorio_detenzione/toscana/279-la-sezione-distaccata-di-pianosa,sezione distaccata di Pianosa: non nella tabella di raccordo
+280,FF23,nome identico,1.00,Casa Circondariale di San Severo,puglia,https://www.antigone.it/osservatorio_detenzione/puglia/280-casa-circondariale-di-san-severo,

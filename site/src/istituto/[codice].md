@@ -18,6 +18,7 @@ import {senzaRefusi} from "../components/refusi.js";
 const codice = observable.params.codice;
 const dati = await FileAttachment("../data/istituti.json").json();
 const serieCsv = await FileAttachment("../data/serie.csv").csv({typed: false});
+const antigoneTutte = await FileAttachment("../data/antigone.json").json();
 const ist = dati.istituti.find((i) => i.codice === codice || i.codici_sezioni.includes(codice));
 if (!ist) throw new Error(`Codice DAP ${codice} non trovato in istituti.json`);
 const b = banda(ist);
@@ -48,7 +49,7 @@ if (note.length) display(html`<ul class="avviso">${note}</ul>`);
   <div class="numero">
     <div class="valore">${b.alto == null ? "n.d." : `da ${num(b.basso, 1)} a ${num(b.alto, 1)} m²`}</div>
     <div class="spiega">spazio per persona: da lordo meno arredo [ipotesi] a lordo [calcolato]</div>
-    <div class="badge">${simbolo(b.classe)} ${classe(b.classe).etichetta}</div>
+    <div class="badge">${simbolo(b.classe)} stima dal Ministero: ${classe(b.classe).etichetta}</div>
   </div>
   <div class="numero">
     <div class="valore">${num(c.persone_stanza, 1)}</div>
@@ -63,7 +64,7 @@ if (note.length) display(html`<ul class="avviso">${note}</ul>`);
 ## Ministero e Antigone
 
 ```js
-const va = ist.visite_antigone;
+const va = antigoneTutte[ist.codice];
 const v = val.visita;
 const sn = (x) => (x === "si" ? "sì" : x === "no" ? "no" : x === "nd" ? "non disponibile" : "n.d.");
 display(html`<p class="badge">${simbolo(val.classe)} <span><b>${classe(val.classe).etichetta}</b> secondo ${val.fonte === "antigone"

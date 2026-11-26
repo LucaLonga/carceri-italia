@@ -275,7 +275,8 @@ def leggi_visite_antigone(avvisi: list[str]) -> dict[str, dict]:
             "acqua_calda": v["acqua_calda"] or None, "wc_separato": v["wc_separato"] or None,
             "doccia": v["doccia_in_cella"] or None, "costruzione": v["anno_costruzione"] or None,
             "pp": [to_int(v["pp_prevista"]), to_int(v["pp_presente"])],
-            "celle": [to_int(v["celle_posti_previsti"]), to_int(v["celle_persone"])] if v["celle_persone"] else None,
+            # [posti previsti per cella, persone per cella (massimo indicato)], estratti dal testo [VERIFICARE]
+            "celle": [to_int(v.get("celle_posti_previsti")), to_int(v.get("celle_persone_max"))] if v.get("celle_persone_max") else None,
         })
     for o in out.values():
         o["visite"].sort(key=lambda x: x["data"])

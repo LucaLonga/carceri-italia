@@ -135,6 +135,7 @@ def url_pubhtml(f: dict) -> str:
 # --- lettura dei fogli -------------------------------------------------------
 
 def norm(s: str) -> str:
+    s = s.replace("’", "'").replace("‘", "'")
     s = unicodedata.normalize("NFKD", s.replace("\xa0", " ").replace("\xad", ""))
     s = "".join(c for c in s if not unicodedata.combining(c)).lower()
     return re.sub(r"\s+", " ", s).strip()
@@ -201,6 +202,7 @@ def data_iso(v: str | None) -> str | None:
 
 NUMERI = {"una": 1, "uno": 1, "singol": 1, "due": 2, "doppi": 2, "tre": 3, "quattro": 4, "cinque": 5, "sei": 6,
           "sette": 7, "otto": 8, "nove": 9, "dieci": 10}
+N = r"(\d{1,2}|una|uno|due|tre|quattro|cinque|sei|sette|otto|nove|dieci)"
 
 
 def num_parola(s: str) -> int | None:
@@ -214,23 +216,25 @@ def num_parola(s: str) -> int | None:
 
 
 def celle_dal_testo(t: str | None) -> dict:
-    """Numeri sulle celle estratti dal testo libero, solo da frasi non ambigue.
-    Esempio: "celle da 2 posti occupate da 3 persone" -> posti 2, persone 3. [estratto dal testo]"""
-    out = {"celle_posti_previsti": None, "celle_persone": None, "celle_frase": None}
+    """Numeri sulle celle dal testo libero della visita, solo da frasi non ambigue. [estratto dal testo]
+    - persone per cella: "le celle ... ospitano / sono occupate da N (o M) persone/detenuti"
+    - posti previsti per cella: "concepite / previste / omologate / pensate per (ospitare) N"
+    Nei file pubblici vanno solo i numeri, non la frase (testo di Antigone senza licenza di riuso)."""
+    out = {"celle_posti_previsti": None, "celle_persone_min": None, "celle_persone_max": None}
     if not t:
         return out
-    n = r"(\d+|una|uno|due|tre|quattro|cinque|sei|sette|otto|nove|dieci|singol\w*|doppi\w*)"
-    pattern = [
-        rf"cell[ea]\s+(?:da|per)\s+{n}\s*(?:posti|persone|detenut\w*|letti|brande)?[^.;]{{0,60}}?(?:occupat\w*|ospita\w*|con|abitat\w*|ci sono|vi sono)\s+(?:da\s+)?{n}\s*(?:persone|detenut\w*|ristrett\w*)",
-        rf"cell[ea]\s+{n}\s*(?:posti|post[io] lett[io])\s+[^.;]{{0,40}}?{n}\s*(?:persone|detenut\w*)",
-    ]
-    for p in pattern:
-        m = re.search(p, t, re.I)
-        if m:
-            a, b = num_parola(m.group(1)), num_parola(m.group(2))
-            if a and b:
-                out.update(celle_posti_previsti=a, celle_persone=b, celle_frase=m.group(0)[:160])
-                return out
+    m = re.search(rf"\b(?:celle|camere|stanze|cubicoli)\b[^.;:]{{0,60}}?\b(?:ospitano|ospitavano|sono occupate da|erano occupate da|accolgono)\s+"
+                  rf"(?:generalmente\s+|in media\s+|fino a\s+)?{N}(?:\s*(?:o|e|-)\s*{N})?\s*(?:persone|detenut\w*|ristrett\w*)", t, re.I)
+    if m:
+        a = num_parola(m.group(1))
+        b = num_parola(m.group(2)) if m.group(2) else a
+        if a and b and a <= b <= 20:
+            out.update(celle_persone_min=a, celle_persone_max=b)
+    m = re.search(rf"\b(?:concepit\w*|previst\w*|omologat\w*|pensat\w*|progettat\w*)\s+per\s+(?:ospitare\s+)?{N}\b", t, re.I)
+    if m:
+        a = num_parola(m.group(1))
+        if a and a <= 20:
+            out["celle_posti_previsti"] = a
     return out
 
 
@@ -245,7 +249,7 @@ def leggi_visita(testo_csv: str) -> dict:
         "capienza_visita": intero(f.valore("Capienza regolamentare")),
         "tre_mq_calpestabili": si_no(f.valore("In tutte le celle visitate sono garantiti 3 mq", "In tutte le celle visitate sono garantiti 3mq")),
         "riscaldamento": si_no(f.valore("La celle visitate sono tutte riscaldate", "Le celle visitate sono tutte riscaldate", "Le celle sono riscaldate")),
-        "acqua_calda": si_no(f.valore("È garantita l’acqua calda", "E' garantita l'acqua calda", "È garantita l'acqua calda", "E garantita l acqua calda", "C'è acqua calda")),
+        "acqua_calda": si_no(f.valore("È garantita l'acqua calda", "E' garantita l'acqua calda", "E garantita l'acqua calda", "Nelle celle visitate è garantita l'acqua calda", "C'è acqua calda")),
         "wc_separato": si_no(f.valore("Il wc è in ambiente separato", "Il wc e in ambiente separato")),
         "doccia_in_cella": si_no(f.valore("È presente la doccia nelle celle", "E' presente la doccia", "C'è la doccia in cella")),
         "spazi_non_in_uso": si_no(f.valore("Spazi detentivi attualmente non in uso")),
