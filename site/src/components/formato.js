@@ -5,14 +5,14 @@ function nf(min, max) {
   if (!cache.has(k)) cache.set(k, new Intl.NumberFormat("it-IT", {minimumFractionDigits: min, maximumFractionDigits: max, useGrouping: "always"}));
   return cache.get(k);
 }
-export const num = (v, cifre = 0) => (v == null || !Number.isFinite(+v) ? "–" : nf(cifre, cifre).format(+v));
-export const pct = (v, cifre = 0) => (v == null || !Number.isFinite(+v) ? "–" : `${num(v * 100, cifre)}%`);
-export const m2 = (v, cifre = 1) => (v == null ? "–" : `${num(v, cifre)} m²`);
+export const num = (v, cifre = 0) => (v == null || !Number.isFinite(+v) ? "n.d." : nf(cifre, cifre).format(+v));
+export const pct = (v, cifre = 0) => (v == null || !Number.isFinite(+v) ? "n.d." : `${num(v * 100, cifre)}%`);
+export const m2 = (v, cifre = 1) => (v == null ? "n.d." : `${num(v, cifre)} m²`);
 
 const df = new Intl.DateTimeFormat("it-IT", {day: "numeric", month: "long", year: "numeric", timeZone: "UTC"});
 // "2026-11-24" -> "24 novembre 2026"
 export function data(iso) {
-  if (!iso) return "–";
+  if (!iso) return "n.d.";
   const d = new Date(`${String(iso).slice(0, 10)}T00:00:00Z`);
   return Number.isNaN(+d) ? String(iso) : df.format(d);
 }

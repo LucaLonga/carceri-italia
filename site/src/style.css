@@ -96,3 +96,36 @@ details.pannello pre { max-height: 32rem; overflow: auto; font-size: 12.5px; }
 .legenda-serie { display: flex; flex-wrap: wrap; gap: .3rem 1rem; font-size: .9rem; list-style: none; padding: 0; margin: .25rem 0; }
 .legenda-serie li { display: flex; align-items: center; gap: .35rem; }
 .legenda-serie i { display: inline-block; width: 18px; height: 3px; border-radius: 2px; }
+
+/* Cartogramma di Demers */
+.demers rect, .demers path { transition: opacity .6s ease, fill .6s ease, x .6s ease, y .6s ease, width .6s ease, height .6s ease; }
+.demers a:focus-visible .demers-bersaglio { stroke: var(--theme-foreground-focus); stroke-width: 2.5; }
+.demers a:focus { outline: none; }
+.controlli { display: flex; flex-wrap: wrap; gap: .5rem 1rem; align-items: end; margin: .5rem 0; }
+.controlli form { margin: 0; }
+
+/* Scrollytelling */
+.scrolly { display: grid; grid-template-columns: 58% 1fr; gap: 2rem; margin: 1rem 0 3rem; }
+.scrolly-figura { position: sticky; top: 1rem; height: calc(100vh - 2rem); display: flex; align-items: center; }
+.strati { position: relative; width: 100%; }
+.strato { position: absolute; inset: 0 0 auto 0; opacity: 0; transition: opacity .5s ease; pointer-events: none; }
+.strato.visibile { position: relative; opacity: 1; pointer-events: auto; }
+.strato svg { max-height: calc(100vh - 3rem); }
+.figura-cella { display: flex; justify-content: center; }
+.scrolly-passo { min-height: 85vh; display: flex; align-items: center; opacity: .35; transition: opacity .4s ease; }
+.scrolly-passo.attivo { opacity: 1; }
+.scrolly-passo > div { background: var(--theme-background); border: 1px solid var(--theme-foreground-faintest); border-radius: 6px; padding: .75rem 1rem; }
+.scrolly-passo h2 { font-size: 1.2rem; margin: 0 0 .5rem; }
+.scrolly-passo p, .scrolly-passo li { font-size: 1rem; }
+@media (max-width: 899px) {
+  .scrolly { grid-template-columns: 1fr; gap: 0; }
+  .scrolly-figura { top: 0; height: 52vh; z-index: 2; background: var(--theme-background); align-items: flex-start; padding-top: .25rem; }
+  .strato svg { max-height: 50vh; width: auto !important; max-width: 100%; margin: 0 auto; }
+  .scrolly-passo { min-height: 75vh; align-items: flex-end; padding-bottom: 10vh; }
+}
+
+.riquadri-voci { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: .5rem 1rem; font-size: .95rem; }
+.riquadri-voci b { font-size: 1.3rem; font-variant-numeric: tabular-nums; }
+.riquadri-voci small { display: block; color: var(--theme-foreground-muted); }
+@media (max-width: 560px) { .riquadri-voci { grid-template-columns: 1fr; } }
+@media (max-width: 899px) { .scrolly .riquadri-voci, .scrolly .riquadri .nota { display: none; } }

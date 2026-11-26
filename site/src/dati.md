@@ -10,7 +10,9 @@ const file = [
   {nome: "istituti.csv", f: FileAttachment("data/istituti.csv"), cosa: "Una riga per istituto: schede trasparenza, ultima tabella del Ministero, calcoli. Separatore virgola, UTF-8."},
   {nome: "istituti.json", f: FileAttachment("data/istituti.json"), cosa: "Gli stessi dati in forma annidata, con fonti, avvisi del caricamento ed esiti di Antigone. È il file usato dal sito."},
   {nome: "serie.csv", f: FileAttachment("data/serie.csv"), cosa: "Serie storica lunga: una riga per data, fonte e istituto."},
-  {nome: "regioni.topojson", f: FileAttachment("data/regioni.topojson"), cosa: "Confini regionali semplificati per la mappa (ISTAT 1.1.2026 via openpolis, CC BY 4.0)."}
+  {nome: "storico.json", f: FileAttachment("data/storico.json"), cosa: "Serie nazionale: presenti dal 1991 (semestrale), capienza dal 2019 (mensile), copertura anno per anno, eventi con fonte ed etichetta."},
+  {nome: "cartogramma.json", f: FileAttachment("data/cartogramma.json"), cosa: "Posizioni dei quadrati del cartogramma (desktop e mobile), costante k e sagoma dell'Italia."},
+  {nome: "regioni.topojson", f: FileAttachment("data/regioni.topojson"), cosa: "Confini regionali semplificati (ISTAT 1.1.2026 via openpolis, CC BY 4.0): sorgente della sagoma."}
 ];
 ```
 
@@ -34,7 +36,7 @@ if (ambiente.repository) display(html`<p>I dati grezzi (copie delle schede, tabe
 ## Licenze
 
 - **Dati del Ministero della Giustizia (DAP)**: schede trasparenza e tabelle mensili. Condizioni d'uso di giustizia.it [VERIFICARE].
-- **Esiti delle visite di Antigone**: aggregati copiati a mano dal report dell'Osservatorio [VERIFICARE le condizioni di riuso con Antigone].
+- **Visite di Antigone**: campi fattuali estratti dai fogli delle visite dell'Osservatorio (in `istituti.json`, campo `visite_antigone`) e aggregati copiati a mano dal report. Antigone non dichiara una licenza di riuso: ogni visita ha il link alla fonte; permesso da chiedere [DA FARE]. Gli eventi critici non sono pubblicati qui.
 - **Confini regionali**: ISTAT, CC BY 4.0, nella versione di openpolis/geojson-italy.
 - **Tabella di raccordo, calcoli e serie**: elaborazioni di questo progetto, CC BY 4.0 [DA DECIDERE].
 - **Codice**: MIT.
