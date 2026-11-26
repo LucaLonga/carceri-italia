@@ -23,6 +23,7 @@ export default {
   base: process.env.SITO_BASE || "/carceri-italia/",
   pages: [
     {name: "Mappa e istituti", path: "/"},
+    {name: "Il racconto", path: "/racconto"},
     {name: "Metodo", path: "/metodo"},
     {name: "Dati", path: "/dati"}
   ],
