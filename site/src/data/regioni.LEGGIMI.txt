@@ -1,0 +1,9 @@
+# regioni.topojson
+
+Confini delle 20 regioni italiane, semplificati per la mappa.
+
+- Fonte: ISTAT, confini delle unità amministrative al 1° gennaio 2026, nella versione GeoJSON
+  di [openpolis/geojson-italy](https://github.com/openpolis/geojson-italy) (`geojson/limits_IT_regions.geojson`).
+- Licenza: CC BY 4.0 (ISTAT, redistribuito da openpolis).
+- Elaborazione: `site/scripts/confini.js` (topojson-server, quantizzazione 2·10⁴, semplificazione
+  al 4° percentile del peso dei punti). Il disegno è indicativo: non usare per misure.
