@@ -84,7 +84,7 @@ const passi = [
      html`<p class="nota">Schema provvisorio. [DA DECIDERE: Luca] la forma definitiva: sulla mappa o in uno schema a parte.</p>`)},
   {figura: "riquadri", stato: null,
    contenuto: P("8. Tre numeri, nella scala della mappa",
-     html`<p><b>${num(nR.mancanti)}</b> posti mancanti: le persone oltre i posti regolamentari, sommate istituto per istituto [calcolato].</p>`,
+     html`<p><b>${num(nR.mancanti)}</b> posti mancanti: le persone oltre i posti regolamentari, sommate istituto per istituto [calcolato]. Sul totale nazionale la differenza è ${num(nR.presenti - d3.sum(istituti, (i) => i.scheda?.posti_reg))} (il poster del 2024 usava questa), ma i posti liberi di un carcere non fanno spazio in un altro.</p>`,
      html`<p><b>${num(nR.nonDisponibili)}</b> posti che esistono ma non si usano. Le schede non dicono perché.</p>`,
      html`<p><b>${num(nR.sotto)}</b> persone in istituti sotto 3 m² (${pct(nR.sotto / nR.presenti, 1)}) [calcolato].</p>`)},
   {figura: "mappa", stato: {colore: true, tratteggi: true, evidenzia: (i, v) => v.classe === "mancante" || i.coord_da_verificare},
