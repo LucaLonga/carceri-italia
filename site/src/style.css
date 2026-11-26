@@ -17,6 +17,10 @@
   --soglia: #0b0b0b;
   --superficie: var(--theme-background);
   --tratteggio: #52514e;
+  /* Serie categoriali (ordine fisso: blu, arancio, acqua; validate a coppie). */
+  --serie-1: #2a78d6;
+  --serie-2: #eb6834;
+  --serie-3: #1baf7a;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -26,6 +30,9 @@
     --classe-mancante: #8a8984;
     --soglia: #f0efec;
     --tratteggio: #c3c2b7;
+    --serie-1: #3987e5;
+    --serie-2: #d95926;
+    --serie-3: #199e70;
   }
 }
 
@@ -79,3 +86,13 @@ details.pannello pre { max-height: 32rem; overflow: auto; font-size: 12.5px; }
 
 /* Apertura della home: mappa più larga dei numeri su schermi ampi */
 @media (min-width: 900px) { .grid.apertura { grid-template-columns: 3fr 2fr; } }
+
+/* Scheda istituto */
+.cella-scorrevole { overflow-x: auto; max-width: 100%; }
+.dl-numeri { display: grid; grid-template-columns: auto auto; gap: .15rem 1.25rem; font-variant-numeric: tabular-nums; max-width: 34rem; }
+.dl-numeri dt { color: var(--theme-foreground-muted); }
+.dl-numeri dd { margin: 0; text-align: right; }
+.badge { display: inline-flex; align-items: center; gap: .35rem; font-size: .95rem; }
+.legenda-serie { display: flex; flex-wrap: wrap; gap: .3rem 1rem; font-size: .9rem; list-style: none; padding: 0; margin: .25rem 0; }
+.legenda-serie li { display: flex; align-items: center; gap: .35rem; }
+.legenda-serie i { display: inline-block; width: 18px; height: 3px; border-radius: 2px; }

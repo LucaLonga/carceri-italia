@@ -1,7 +1,8 @@
 """Data loader: serie storica lunga per istituto, formato lungo (una riga per data, fonte e istituto).
 
 fonte = ministero  -> tabelle mensili (posti regolamentari, presenti; niente posti non disponibili)
-fonte = schede     -> istantanee datate delle schede trasparenza (AAAA-MM-GG_schede.csv)
+fonte = schede     -> istantanee datate delle schede trasparenza (AAAA-MM-GG_schede.csv),
+                      con stanze disponibili e superficie lorda stimata [ipotesi]
 La serie cresce da sola: ogni nuovo file datato aggiunge una data."""
 import csv
 import sys
@@ -13,10 +14,10 @@ avvisi = []
 ref = leggi_riferimento(avvisi)
 mesi, _ = leggi_ministero(ref, avvisi)
 w = csv.writer(sys.stdout, lineterminator="\n")
-w.writerow(["data", "fonte", "codice_dap", "posti_reg", "posti_non_disp", "posti_disp", "presenti"])
+w.writerow(["data", "fonte", "codice_dap", "posti_reg", "posti_non_disp", "posti_disp", "presenti", "stanze_disp", "superficie_lorda"])
 for data in sorted(mesi):
     for cod, m in sorted(mesi[data].items()):
-        w.writerow([data, "ministero", cod, m["capienza_regolamentare"], "", "", m["presenti"]])
+        w.writerow([data, "ministero", cod, m["capienza_regolamentare"], "", "", m["presenti"], "", ""])
 istantanee = file_datati(SCHEDE_DIR, "_schede.csv")
 if not istantanee:
     avvisi.append("nessuna istantanea datata delle schede: la serie usa solo il Ministero")
@@ -29,5 +30,6 @@ for data, p in istantanee:
             continue
         s = somma_schede(righe)
         c = metrica(s)
-        w.writerow([data, "schede", r["codice_dap"], s["posti_reg"], s["posti_non_disp"], c["posti_disp"], s["presenti"]])
+        w.writerow([data, "schede", r["codice_dap"], s["posti_reg"], s["posti_non_disp"], c["posti_disp"], s["presenti"],
+                    c["stanze_disp"], c["superficie_lorda"]])
 stampa_avvisi(avvisi, "serie.csv")
