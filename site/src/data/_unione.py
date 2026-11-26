@@ -230,6 +230,14 @@ def leggi_ministero(ref: list[dict], avvisi: list[str]) -> tuple[dict, dict]:
     return mesi, indice
 
 
+def primo_mese(mesi: dict, codice: str) -> dict | None:
+    for data in sorted(mesi):
+        m = mesi[data].get(codice)
+        if m and m.get("presenti") is not None:
+            return {"data": data, "presenti": m["presenti"], "capienza_regolamentare": m.get("capienza_regolamentare")}
+    return None
+
+
 def leggi_antigone(avvisi: list[str]) -> dict | None:
     """Esiti aggregati delle visite: legge la prima tabella e l'intestazione del file più recente."""
     files = sorted(ANTIGONE.glob("osservatorio_*.md"))
@@ -343,6 +351,9 @@ def unisci() -> dict:
             "note_qualita": r["note_qualita"] or None,
             "scheda": s,
             "ministero": ({"data": ultimo_mese, **m} if m else None),
+            # Primo mese della serie mensile per istituto (gennaio 2019 per quasi tutti): il confronto del
+            # passo 7 del racconto. Solo presenti e capienza, per tenere leggero istituti.json.
+            "ministero_primo": primo_mese(mesi, r["codice_dap"]),
             "calc": calc,
             "visite_antigone": antigone_ist.get(r["codice_dap"]),
         })

@@ -5,9 +5,8 @@
 //   posti non disponibili = somma dei posti non disponibili delle schede [verificata]
 //   persone sotto 3 m² = presenti negli istituti in classe "sotto 3 m²" (visita di Antigone o banda) [calcolato]
 import * as d3 from "npm:d3";
-import * as Plot from "npm:@observablehq/plot";
 import {valutazione} from "./metrica.js";
-import {data as dataIt, num, pct} from "./formato.js";
+import {num, pct} from "./formato.js";
 
 export function numeriRiquadri(istituti, opzioni) {
   const v = istituti.map((i) => ({i, v: valutazione(i, opzioni)}));
@@ -55,33 +54,4 @@ export function riquadri(carto, n, {larghezza = 640} = {}) {
   }
   if (s < 1) box.append("p").attr("class", "nota").text(`Quadrati ridotti al ${num(s * 100)}% della scala della mappa per farli stare nel riquadro.`);
   return box.node();
-}
-
-// Passo 7, versione provvisoria (variante B ridotta): serie nazionale e eventi di eventi.yml.
-// [DA DECIDERE: Luca] variante A (sulla mappa) o B (schema a parte): vedi docs/schizzi/.
-export function storia(st, {larghezza = 640, altezza = 420} = {}) {
-  const sem = st.semestrali.filter((d) => d.data >= "2000").map((d) => ({...d, t: new Date(d.data)}));
-  const men = st.mensili.map((d) => ({...d, t: new Date(d.data)}));
-  const ev = st.eventi.filter((e) => /^\d{4}-\d{2}/.test(e.data)).map((e) => ({...e, t: new Date(e.data.length === 7 ? `${e.data}-01` : e.data)}));
-  const fine = new Date(Math.max(+sem.at(-1)?.t || 0, +men.at(-1)?.t || 0));
-  return Plot.plot({
-    width: larghezza, height: altezza, marginLeft: 48, marginTop: 24,
-    x: {domain: [new Date("2000-01-01"), fine], label: null},
-    y: {domain: [0, 70000], grid: true, label: "persone / posti", tickFormat: (d) => num(d)},
-    ariaLabel: "Presenti e capienza in Italia dal 2000",
-    ariaDescription: `Presenti dal ${dataIt(sem[0]?.data)} al ${dataIt(sem.at(-1)?.data)}: da ${num(sem[0]?.presenti)} a ${num(sem.at(-1)?.presenti)}. ` +
-      `Capienza regolamentare pubblicata solo dal ${dataIt(men[0]?.data)}. ${ev.length} eventi segnati.`,
-    marks: [
-      Plot.rectY([{a: new Date("2000-01-01"), b: men[0]?.t ?? fine}], {x1: "a", x2: "b", y1: 0, y2: 70000, fill: "var(--theme-foreground-faintest)"}),
-      Plot.text([{t: new Date("2001-01-01")}], {x: "t", y: 66000, text: () => "capienza prima del 2019: non nell'archivio online", textAnchor: "start", fill: "var(--theme-foreground-muted)", fontSize: 11}),
-      Plot.ruleX(ev, {x: "t", stroke: "var(--theme-foreground-muted)", strokeDasharray: "2 3"}),
-      Plot.dot(ev, {x: "t", y: 70000, r: 3, fill: "currentColor"}),
-      Plot.ruleY([0]),
-      Plot.line(sem, {x: "t", y: "presenti", stroke: "var(--serie-1)", strokeWidth: 2}),
-      Plot.line(men, {x: "t", y: "capienza", stroke: "var(--serie-2)", strokeWidth: 2}),
-      Plot.text(sem.slice(-1), {x: "t", y: "presenti", text: () => "presenti", dy: -10, textAnchor: "end", fill: "currentColor", fontSize: 12}),
-      Plot.text(men.slice(-1), {x: "t", y: "capienza", text: () => "capienza", dy: 14, textAnchor: "end", fill: "currentColor", fontSize: 12}),
-      Plot.tip(ev, Plot.pointerX({x: "t", y: 70000, title: (e) => `${e.titolo}\n${e.data} · ${e.etichetta}`}))
-    ]
-  });
 }

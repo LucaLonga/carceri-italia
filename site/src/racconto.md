@@ -7,11 +7,12 @@ toc: false
 import {cartogramma, STATO_PIENO} from "./components/demers.js";
 import {scrolly, strati} from "./components/scrolly.js";
 import {cella, datiCella} from "./components/cella.js";
-import {riquadri, numeriRiquadri, storia} from "./components/riquadri.js";
+import {riquadri, numeriRiquadri} from "./components/riquadri.js";
 import {valutazione, classe} from "./components/metrica.js";
 import {ARREDO_M2_PERSONA, VISITA_DATATA_MESI} from "./components/parametri.js";
 import {legenda} from "./components/legenda.js";
 import {data as dataIt, num, pct, m2} from "./components/formato.js";
+const dataMese = (d) => new Date(d).toLocaleDateString("it-IT", {month: "long", year: "numeric"});
 import {pannelloDati, pannelloCodice} from "./components/pannelli.js";
 ```
 
@@ -34,6 +35,13 @@ const dc = datiCella(esempio);
 const nR = numeriRiquadri(istituti);
 const dataDati = dataIt(dati.fonti.schede.data_max);
 const sem = st.semestrali.filter((d) => d.data >= "2000");
+// Passo 7: confronto con il primo mese della serie per istituto (gennaio 2019).
+const conPrimo = istituti.filter((i) => i.ministero_primo && i.scheda?.presenti);
+const data2019 = d3.min(conPrimo, (i) => i.ministero_primo.data);
+const pres2019 = d3.sum(conPrimo, (i) => i.ministero_primo.presenti);
+const crescono = conPrimo.filter((i) => i.scheda.presenti > i.ministero_primo.presenti);
+const calano = conPrimo.filter((i) => i.scheda.presenti < i.ministero_primo.presenti);
+const piuCresciuto = d3.greatest(conPrimo, (i) => i.scheda.presenti - i.ministero_primo.presenti);
 ```
 
 # Quanto spazio ha una persona detenuta in Italia
@@ -46,7 +54,6 @@ const mappa = cartogramma(carto, istituti, {larghezza: larghezzaFigura, id: "rac
 const figura = strati({
   mappa,
   cella: (() => { const d = document.createElement("div"); d.className = "figura-cella"; d.append(cella(esempio, {larghezza: Math.min(larghezzaFigura, 420)})); return d; })(),
-  storia: storia(st, {larghezza: Math.max(320, larghezzaFigura), altezza: width < 640 ? 300 : 440}),
   riquadri: riquadri(carto, nR, {larghezza: larghezzaFigura})
 });
 
@@ -77,11 +84,11 @@ const passi = [
    contenuto: P("6. Ministero e Antigone",
      html`<p>Il Ministero conta i posti. L'Osservatorio di Antigone entra negli istituti e guarda le celle. Quando una visita è recente (meno di ${num(VISITA_DATATA_MESI)} mesi), vale la visita: la tacca nell'angolo lo segnala.</p>`,
      html`<p>${num(conAntigone.length)} istituti hanno almeno una visita; per ${num(daVisita.length)} la visita è abbastanza recente da valere. In ${num(divergenti.length)} le due fonti non dicono la stessa cosa.</p>`)},
-  {figura: "storia", stato: null,
-   contenuto: P("7. Che cosa è cambiato dal 2000",
-     html`<p>Le persone detenute erano ${num(sem[0]?.presenti)} a metà 2000 e ${num(sem.at(-1)?.presenti)} il ${dataIt(sem.at(-1)?.data)}.</p>`,
-     html`<p>La capienza nazionale è nell'archivio online del Ministero solo dal 2019: prima c'è un buco, segnato in grigio.</p>`,
-     html`<p class="nota">Schema provvisorio. [DA DECIDERE: Luca] la forma definitiva: sulla mappa o in uno schema a parte.</p>`)},
+  {figura: "mappa", stato: {colore: true, tratteggi: true, confronto: true, evidenzia: null},
+   contenuto: P("7. Che cosa è cambiato dal 2019",
+     html`<p>Il contorno sottile è il numero di persone presenti a ${dataMese(data2019)} in ogni istituto, nella stessa scala. Il quadrato pieno sono le persone di oggi.</p>`,
+     html`<p><span class="campione" style="background:var(--confronto-piu)"></span> <b>${num(crescono.length)}</b> istituti hanno più persone di allora; <span class="campione" style="background:var(--confronto-meno)"></span> ${num(calano.length)} ne hanno meno. In tutto si è passati da ${num(pres2019)} a ${num(d3.sum(conPrimo, (i) => i.scheda.presenti))} persone. L'aumento più grande è a ${piuCresciuto.nome}: da ${num(piuCresciuto.ministero_primo.presenti)} a ${num(piuCresciuto.scheda.presenti)}.</p>`,
+     html`<p class="nota">Il 2019 è il primo anno con i presenti istituto per istituto nell'archivio online del Ministero. A livello nazionale la serie è più lunga: ${num(sem[0]?.presenti)} persone a metà 2000. Oggi viene dalle schede del DAP, il 2019 dalle tabelle mensili del Ministero: sul totale nazionale le due fonti differiscono di ${num(Math.abs(d3.sum(conPrimo, (i) => i.scheda.presenti) - d3.sum(conPrimo, (i) => i.ministero?.presenti ?? 0)))} persone (tabelle del Ministero al ${dataIt(istituti.find((i) => i.ministero)?.ministero.data)}).</p>`)},
   {figura: "riquadri", stato: null,
    contenuto: P("8. Tre numeri, nella scala della mappa",
      html`<p><b>${num(nR.mancanti)}</b> posti mancanti: le persone oltre i posti regolamentari, sommate istituto per istituto [calcolato]. Sul totale nazionale la differenza è ${num(nR.presenti - d3.sum(istituti, (i) => i.scheda?.posti_reg))} (il poster del 2024 usava questa), ma i posti liberi di un carcere non fanno spazio in un altro.</p>`,
@@ -105,7 +112,7 @@ const racconto = scrolly(passi, {
   attiva: (k) => {
     const p = passi[k];
     figura.mostra(p.figura);
-    if (p.figura === "mappa" && p.stato) mappa.aggiorna(p.stato);
+    if (p.figura === "mappa" && p.stato) mappa.aggiorna({confronto: false, ...p.stato});
   }
 });
 invalidation.then(() => racconto.ferma());

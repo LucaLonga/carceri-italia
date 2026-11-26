@@ -3,6 +3,8 @@
 //   quadrato tratteggiato     = capienza (posti regolamentari o disponibili, a scelta)
 //   colore                    = spazio per persona rispetto a 3 m² (classe della banda, o visita di Antigone se vale)
 //   tacca nell'angolo         = la classe viene da una visita di Antigone non datata
+// Con stato.confronto (passo 7 del racconto) il contorno diventa i presenti di gennaio 2019 e il colore
+// dice se oggi sono di più (arancio) o di meno (grigio).
 // Sotto i quadrati, la sagoma dell'Italia (regioni ISTAT unite). Grana leggera con un filtro SVG.
 // Il nodo restituito ha un metodo aggiorna(stato) per lo scrollytelling: nessun ridisegno, solo attributi.
 import * as d3 from "npm:d3";
@@ -10,7 +12,7 @@ import {classe, motivi, valutazione} from "./metrica.js";
 import {data as dataIt, m2, num} from "./formato.js";
 import {corretto} from "./refusi.js";
 
-export const STATO_PIENO = {sagoma: true, quadrati: true, tratteggi: true, colore: true, capienza: "reg", evidenzia: null, filtro: null};
+export const STATO_PIENO = {sagoma: true, quadrati: true, tratteggi: true, colore: true, capienza: "reg", evidenzia: null, filtro: null, confronto: false};
 
 export function cartogramma(carto, istituti, {larghezza = 640, base = ".", stato = STATO_PIENO, arredo, mesi, id = "c"} = {}) {
   const nome = larghezza < 560 ? "mobile" : "desktop";
@@ -21,7 +23,7 @@ export function cartogramma(carto, istituti, {larghezza = 640, base = ".", stato
     .filter((q) => perCodice.has(q.codice))
     .map((q) => {
       const i = perCodice.get(q.codice);
-      return {q, i, v: valutazione(i, {arredo, mesi}), pres: i.scheda?.presenti ?? 0, reg: i.scheda?.posti_reg ?? 0, disp: i.calc?.posti_disp ?? 0};
+      return {q, i, v: valutazione(i, {arredo, mesi}), pres: i.scheda?.presenti ?? 0, reg: i.scheda?.posti_reg ?? 0, disp: i.calc?.posti_disp ?? 0, p0: i.ministero_primo?.presenti ?? null};
     })
     .sort((a, b) => d3.descending(Math.max(a.pres, a.reg), Math.max(b.pres, b.reg)));
   const lato = (n) => k * Math.sqrt(Math.max(0, n));
@@ -73,6 +75,7 @@ export function cartogramma(carto, istituti, {larghezza = 640, base = ".", stato
     if (v.visita) r.push(`Visita Antigone del ${dataIt(v.visita.data)}: 3 m² in tutte le celle visitate: <b>${v.visita.tre_mq ?? "n.d."}</b>${v.datata ? " (visita datata)" : ""}`);
     r.push(`Vale: <b>${v.fonte === "antigone" ? "visita di Antigone" : "stima dal Ministero"}</b> · ${classe(v.classe).etichetta}`);
     if (v.divergenze.length) r.push(`Divergenza: ${v.divergenze[0].testo}`);
+    if (p.p0 != null) r.push(`${dataIt(i.ministero_primo.data)}: ${num(p.p0)} presenti (tabelle mensili del Ministero)`);
     r.push(`Scheda DAP del ${dataIt(i.scheda?.agg_capienza)}`);
     return r.join("<br>");
   };
@@ -94,15 +97,23 @@ export function cartogramma(carto, istituti, {larghezza = 640, base = ".", stato
     sagoma.attr("opacity", s.sagoma ? 1 : 0);
     const visibile = (p) => !s.filtro || s.filtro(p.i, p.v);
     const evid = (p) => !s.evidenzia || s.evidenzia(p.i, p.v);
+    const conf = s.confronto;
+    const riempi = (p) => {
+      if (conf) return !p.pres || p.p0 == null ? "none" : p.pres > p.p0 ? "var(--confronto-piu)" : "var(--confronto-meno)";
+      return s.colore ? (p.v.classe === "mancante" ? "none" : `var(--classe-${p.v.classe})`) : "var(--theme-foreground-muted)";
+    };
     pieni
       .attr("x", (p) => p.q.x - lato(p.pres) / 2).attr("y", (p) => p.q.y - lato(p.pres) / 2)
       .attr("width", (p) => lato(p.pres)).attr("height", (p) => lato(p.pres))
-      .attr("fill", (p) => (s.colore ? (p.v.classe === "mancante" ? "none" : `var(--classe-${p.v.classe})`) : "var(--theme-foreground-muted)"))
+      .attr("fill", riempi)
       .attr("opacity", (p) => (!s.quadrati || !visibile(p) ? 0 : evid(p) ? 1 : 0.18));
     const capN = (p) => (s.capienza === "disp" ? p.disp : p.reg);
+    // Nel confronto il contorno è continuo (presenti 2019), altrimenti tratteggiato (capienza).
+    const contorno = (p) => (conf ? p.p0 ?? 0 : capN(p));
     tratti
-      .attr("x", (p) => p.q.x - lato(capN(p)) / 2).attr("y", (p) => p.q.y - lato(capN(p)) / 2)
-      .attr("width", (p) => lato(capN(p))).attr("height", (p) => lato(capN(p)))
+      .attr("stroke-dasharray", conf ? null : "2.5 2")
+      .attr("x", (p) => p.q.x - lato(contorno(p)) / 2).attr("y", (p) => p.q.y - lato(contorno(p)) / 2)
+      .attr("width", (p) => lato(contorno(p))).attr("height", (p) => lato(contorno(p)))
       .attr("opacity", (p) => (!s.tratteggi || !visibile(p) ? 0 : evid(p) ? 0.9 : 0.15));
     const t = (p) => Math.max(3, Math.min(7, lato(p.pres) / 3));
     tacche
@@ -110,7 +121,7 @@ export function cartogramma(carto, istituti, {larghezza = 640, base = ".", stato
         const L = lato(p.pres), x = p.q.x + L / 2, y = p.q.y - L / 2;
         return `M${x - t(p)},${y}H${x}V${y + t(p)}Z`;
       })
-      .attr("opacity", (p) => (s.colore && s.quadrati && visibile(p) && p.v.fonte === "antigone" ? (evid(p) ? 1 : 0.2) : 0));
+      .attr("opacity", (p) => (s.colore && !conf && s.quadrati && visibile(p) && p.v.fonte === "antigone" ? (evid(p) ? 1 : 0.2) : 0));
     bersagli
       .attr("x", (p) => p.q.x - Math.max(8, lato(Math.max(p.pres, capN(p)))) / 2)
       .attr("y", (p) => p.q.y - Math.max(8, lato(Math.max(p.pres, capN(p)))) / 2)
@@ -121,7 +132,8 @@ export function cartogramma(carto, istituti, {larghezza = 640, base = ".", stato
       .attr("aria-hidden", (p) => (s.quadrati && visibile(p) ? null : "true"))
       .attr("aria-label", (p) =>
         `${p.i.nome}, ${corretto(p.i.tipo_esteso)}. Presenti ${num(p.pres)}, posti ${num(capN(p))}. ${classe(p.v.classe).etichetta}` +
-        ` secondo ${p.v.fonte === "antigone" ? "la visita di Antigone" : "la stima dal Ministero"}.`);
+        ` secondo ${p.v.fonte === "antigone" ? "la visita di Antigone" : "la stima dal Ministero"}.` +
+        (conf && p.p0 != null ? ` Gennaio 2019: ${num(p.p0)} presenti.` : ""));
   }
   aggiorna(statoCorrente);
   const nodo = radice.node();
