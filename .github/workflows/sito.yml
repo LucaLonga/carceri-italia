@@ -1,0 +1,70 @@
+name: sito
+
+# Build del sito (Observable Framework + data loader in Python) e pubblicazione su GitHub Pages.
+# - a ogni push su main che tocca data/ o site/;
+# - dopo ogni raccolta automatica: i commit di raccolta.yml sono fatti con GITHUB_TOKEN e
+#   quindi NON avviano il trigger "push"; per questo serve workflow_run;
+# - a mano (workflow_dispatch).
+# Prima volta: Settings → Pages → Source: "GitHub Actions".
+on:
+  push:
+    branches: [main]
+    paths: ["data/**", "site/**", ".github/workflows/sito.yml"]
+  workflow_run:
+    workflows: [raccolta]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: site
+    env:
+      OBSERVABLE_TELEMETRY_DISABLE: "true"
+      # Il nome utente non è scritto nel codice: lo dà GitHub.
+      SITO_UTENTE: ${{ github.repository_owner }}
+      SITO_BASE: /${{ github.event.repository.name }}/
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main            # dopo una raccolta: l'ultimo commit di main, con i dati nuovi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"   # i data loader usano solo la libreria standard
+
+      - run: npm ci
+      - run: npm run build
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
