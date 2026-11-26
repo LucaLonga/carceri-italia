@@ -12,3 +12,9 @@ export const ARREDO_M2_PERSONA = 1.5;
 // della stanza, 5 m² per ogni posto in più.
 export const M2_PRIMO_POSTO = 9;
 export const M2_ALTRI_POSTI = 5;
+
+// Regola di affidabilità: il dato di una visita di Antigone prevale sulla stima dal Ministero,
+// salvo che la visita sia "datata", cioè più vecchia di questo numero di mesi rispetto alla data
+// delle schede trasparenza usate.
+// [DA DECIDERE: Luca] valore provvisorio
+export const VISITA_DATATA_MESI = 24;

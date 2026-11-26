@@ -171,3 +171,43 @@ fonti:
     archivia: true
     licenza: "CC BY 4.0 [DA DECIDERE]"
     note: Pagina del progetto 2024.
+
+  # --- Versione 2 -------------------------------------------------------------
+  - id: antigone-osservatorio-schede
+    ente: Associazione Antigone, Osservatorio sulle condizioni di detenzione
+    url: https://www.antigone.it/osservatorio_detenzione/regioni
+    tipo: html + fogli Google pubblicati (pubhtml, uno per visita)
+    metodo: scrape (scripts/fetch_antigone.py, ogni tre mesi)
+    frequenza: continua (visite 2017-2025)
+    archivia: false
+    licenza: >
+      Nessuna licenza né condizione di riuso dichiarata sul sito (controllato il 2026-11-26: solo la
+      privacy policy). robots.txt non vieta /osservatorio_detenzione/. Scelta del progetto: il grezzo
+      resta in locale (data/raw-locale/, fuori da git); nel repository e nel sito solo campi fattuali
+      estratti, con attribuzione e link a ogni scheda. Permesso da chiedere ad Antigone [DA FARE].
+    note: >
+      Una scheda per istituto; in fondo, i fogli delle visite di ogni anno con dati strutturati
+      (presenze, capienza, 3 m² calpestabili, docce, wc, riscaldamento, acqua calda, costruzione,
+      personale, eventi critici). Gli eventi critici si raccolgono ma il sito non li mostra.
+
+  - id: min-presenti-1991-oggi
+    ente: Ministero della Giustizia, DAP, Sezione statistica
+    url: https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST165666
+    tipo: html
+    metodo: scrape (scripts/fetch_storico.py, a mano)
+    frequenza: semestrale (30/6 e 31/12)
+    archivia: true
+    licenza: "[VERIFICARE] note legali giustizia.it"
+    note: Presenti, imputati, condannati, internati, donne, stranieri dal 1991. Nessuna capienza.
+
+  - id: min-presenti-regione-mensile
+    ente: Ministero della Giustizia, DAP, Sezione statistica
+    url: https://www.giustizia.it/giustizia/page/it/statistiche?selectedNode=0_2
+    tipo: html
+    metodo: scrape (scripts/fetch_storico.py, a mano)
+    frequenza: mensile; nell'archivio online dal gennaio 2019
+    archivia: true
+    licenza: "[VERIFICARE]"
+    note: >
+      "Detenuti presenti - aggiornamento al ...": per regione, istituti, capienza regolamentare,
+      presenti, donne, stranieri. Prima del 2019 l'archivio online non ha queste tabelle [DA CERCARE].

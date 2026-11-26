@@ -1,0 +1,114 @@
+# Eventi rilevanti per la storia dell'affollamento, compilati a mano.
+#
+# Ogni voce:
+#   data        AAAA-MM-GG (o AAAA-MM se il giorno non è certo)
+#   titolo      breve, in italiano
+#   tipo        sentenza | legge | decreto | piano | annuncio | altro
+#   fonte       link alla fonte primaria (Normattiva, HUDOC, Gazzetta Ufficiale, Ministero)
+#   etichetta   [verificata] solo se data, numero E contenuto sono stati letti sulla fonte;
+#               altrimenti [VERIFICARE] con una nota su che cosa è stato controllato.
+#   nota        che cosa è stato verificato e che cosa no
+#
+# Non si aggiunge nulla senza una fonte. Dove manca, resta il segnaposto.
+# Il contenuto delle leggi (oggetto) è scritto a memoria e va riletto sulla fonte: per questo le voci
+# hanno [VERIFICARE] anche quando numero e data sono confermati.
+
+eventi:
+
+  - data: 2006-07-31
+    titolo: Indulto (legge n. 241/2006)
+    tipo: legge
+    fonte: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2006-07-31;241
+    etichetta: "[VERIFICARE]"
+    nota: numero e data verificati su Normattiva il 2026-11-26; oggetto da rileggere sulla fonte.
+
+  - data: 2009-07-16
+    titolo: Corte EDU, Sulejmanovic c. Italia
+    tipo: sentenza
+    fonte: https://hudoc.echr.coe.int/  # [DA CERCARE: link diretto alla sentenza]
+    etichetta: "[VERIFICARE]"
+    nota: data e link non verificati.
+
+  - data: 2010-01
+    titolo: Stato di emergenza per il sovraffollamento e piano carceri
+    tipo: piano
+    fonte: "[DA CERCARE]"
+    etichetta: "[VERIFICARE]"
+    nota: data, atto e fonte da trovare (delibera del Consiglio dei ministri).
+
+  - data: 2010-11-26
+    titolo: Esecuzione presso il domicilio delle pene detentive brevi (legge n. 199/2010)
+    tipo: legge
+    fonte: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2010-11-26;199
+    etichetta: "[VERIFICARE]"
+    nota: numero e data verificati su Normattiva il 2026-11-26; oggetto da rileggere sulla fonte.
+
+  - data: 2011-12-22
+    titolo: Decreto-legge n. 211/2011 sulla tensione detentiva
+    tipo: decreto
+    fonte: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2011-12-22;211
+    etichetta: "[VERIFICARE]"
+    nota: numero e data verificati su Normattiva il 2026-11-26; oggetto da rileggere sulla fonte.
+
+  - data: 2013-01-08
+    titolo: Corte EDU, Torreggiani e altri c. Italia (sentenza pilota, soglia di 3 m²)
+    tipo: sentenza
+    fonte: https://hudoc.echr.coe.int/  # [DA CERCARE: link diretto alla sentenza]
+    etichetta: "[VERIFICARE]"
+    nota: data della sentenza e data in cui è diventata definitiva da verificare su HUDOC.
+
+  - data: 2013-07-01
+    titolo: Decreto-legge n. 78/2013 sull'esecuzione della pena
+    tipo: decreto
+    fonte: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2013-07-01;78
+    etichetta: "[VERIFICARE]"
+    nota: numero e data verificati su Normattiva il 2026-11-26; oggetto da rileggere sulla fonte.
+
+  - data: 2013-12-23
+    titolo: Decreto-legge n. 146/2013 sulla popolazione carceraria
+    tipo: decreto
+    fonte: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2013-12-23;146
+    etichetta: "[VERIFICARE]"
+    nota: numero e data verificati su Normattiva il 2026-11-26; oggetto da rileggere sulla fonte.
+
+  - data: 2014-06-26
+    titolo: Decreto-legge n. 92/2014, rimedi risarcitori per chi ha scontato la pena in condizioni contrarie alla CEDU
+    tipo: decreto
+    fonte: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2014-06-26;92
+    etichetta: "[VERIFICARE]"
+    nota: numero e data verificati su Normattiva il 2026-11-26; oggetto da rileggere sulla fonte.
+
+  - data: 2020-03
+    titolo: Misure per l'emergenza Covid-19 negli istituti penitenziari
+    tipo: decreto
+    fonte: "[DA CERCARE]"
+    etichetta: "[VERIFICARE]"
+    nota: atto, data e fonte da trovare.
+
+  - data: 2024-07-04
+    titolo: Decreto-legge n. 92/2024 in materia penitenziaria
+    tipo: decreto
+    fonte: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2024-07-04;92
+    etichetta: "[VERIFICARE]"
+    nota: numero e data verificati su Normattiva il 2026-11-26; oggetto da rileggere sulla fonte.
+
+  - data: 2025-07
+    titolo: Piano di edilizia penitenziaria e Commissario straordinario
+    tipo: piano
+    fonte: "[DA CERCARE]"
+    etichetta: "[VERIFICARE]"
+    nota: citato in docs/fonti.md come da cercare; atto e data da trovare.
+
+  - data: "[DA CERCARE]"
+    titolo: Ultimi provvedimenti del governo sul sovraffollamento
+    tipo: altro
+    fonte: "[DA CERCARE]"
+    etichetta: "[VERIFICARE]"
+    nota: segnaposto.
+
+  - data: "[DA CERCARE]"
+    titolo: Trasferimenti annunciati tra istituti
+    tipo: annuncio
+    fonte: "[DA CERCARE]"
+    etichetta: "[VERIFICARE]"
+    nota: segnaposto.

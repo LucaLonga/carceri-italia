@@ -2,8 +2,8 @@ name: sito
 
 # Build del sito (Observable Framework + data loader in Python) e pubblicazione su GitHub Pages.
 # - a ogni push su main che tocca data/ o site/;
-# - dopo ogni raccolta automatica: i commit di raccolta.yml sono fatti con GITHUB_TOKEN e
-#   quindi NON avviano il trigger "push"; per questo serve workflow_run;
+# - dopo ogni raccolta automatica (raccolta, antigone, storico): i loro commit sono fatti con
+#   GITHUB_TOKEN e quindi NON avviano il trigger "push"; per questo serve workflow_run;
 # - a mano (workflow_dispatch).
 # Prima volta: Settings → Pages → Source: "GitHub Actions".
 on:
@@ -11,7 +11,7 @@ on:
     branches: [main]
     paths: ["data/**", "site/**", ".github/workflows/sito.yml"]
   workflow_run:
-    workflows: [raccolta]
+    workflows: [raccolta, antigone, storico]
     types: [completed]
   workflow_dispatch:
 

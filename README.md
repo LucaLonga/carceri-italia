@@ -15,7 +15,10 @@ data/
   raw/ministero/            tabelle mensili "capienze per istituto" (CSV + HTML grezzo) e indice.json
   raw/schede-trasparenza/   schede DAP: latest.csv (serie nei commit) + copie datate + JSON completo
   raw/dv-24-01/             dati del progetto 2024
-  manual/                   dati ottenuti a mano (Antigone, report non scaricabili)
+  manual/                   dati ottenuti a mano (Antigone, report non scaricabili, eventi.yml)
+  antigone/                 visite dell'Osservatorio per istituto (campi estratti) e abbinamento
+  storico/                  serie storica dal Ministero (1991-oggi) e copertura anno per anno
+  raw-locale/               grezzo senza licenza di riuso dichiarata: solo in locale, fuori da git
   checks/ultimo.md          esito dei controlli dell'ultima raccolta
 archive/
   manifest.csv              ogni copia conservata: data, sha256, file locale, snapshot Wayback
@@ -47,6 +50,8 @@ GitHub Actions (`.github/workflows/raccolta.yml`):
 - ogni lunedì: schede trasparenza dei 190 istituti;
 - il 12 di ogni mese: tabelle mensili del Ministero (con recupero dei mesi passati) e archivio delle fonti;
 - dopo ogni raccolta: controlli; commit solo se i dati sono cambiati. Se uno script fallisce, GitHub manda una notifica.
+- ogni tre mesi e a mano (`antigone.yml`): schede dell'Osservatorio di Antigone e abbinamento;
+- solo a mano (`storico.yml`): serie storica dal Ministero.
 
 In locale:
 
@@ -80,6 +85,15 @@ per quelle fa fede la copia JSON nel repository.
 | nomi Antigone, geocodifica 2024 | lavoro DV-24.01 | 2024 | manuale + geocodifica | CC BY 4.0 [DA DECIDERE] | [calcolato] |
 | visite dell'Osservatorio | Antigone | manuale | copia dal report | [VERIFICARE] | [verificata] |
 | superficie e spazio per persona | elaborazione | a ogni raccolta | vedi docs/metodo-bozza.md | | [calcolato] / [ipotesi] |
+| visite dell'Osservatorio per istituto: data, presenze e capienza alla visita, 3 m² calpestabili, docce, wc, riscaldamento, acqua calda, costruzione, personale | Antigone, schede e fogli Google | ogni tre mesi | scraping dei fogli in CSV, lettura per etichetta | nessuna dichiarata: solo campi fattuali, grezzo fuori da git | [verificata] |
+| celle visitate: posti e persone per cella | Antigone, testo libero delle visite | ogni tre mesi | estrazione da frasi non ambigue | come sopra | [calcolato] dal testo [VERIFICARE] |
+| eventi critici (autolesionismo, suicidi, isolamento) | Antigone | ogni tre mesi | come sopra | come sopra | [verificata], non mostrati nel sito |
+| abbinamento Antigone ↔ codice DAP | elaborazione + eccezioni a mano | a ogni raccolta | nome identico o simile, stessa regione e tipo | CC BY 4.0 [DA DECIDERE] | [calcolato] |
+| presenti nazionali dal 1991 | Ministero, DAP | semestrale | scraping HTML | [VERIFICARE] | [verificata] |
+| capienza e presenti nazionali e regionali mensili | Ministero, DAP | dal 2019, mensile | scraping HTML | [VERIFICARE] | [verificata] |
+| capienze per istituto dal 2019 | Ministero, DAP | mensile | rilettura delle pagine grezze (7 o 8 colonne) | [VERIFICARE] | [verificata] |
+| eventi (leggi, sentenze, piani) | fonti primarie, a mano | quando serve | data/manual/eventi.yml | | [verificata] / [VERIFICARE] per voce |
+| cartogramma (posizioni dei quadrati) | elaborazione | a ogni pubblicazione | simulazione di forze con collisione tra quadrati | MIT (codice) | [calcolato] |
 
 ## Licenze
 
