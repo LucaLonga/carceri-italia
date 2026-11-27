@@ -61,11 +61,16 @@ def leggi_tabella(html: str) -> tuple[list[dict], dict, str]:
             nums = [x for x in nums if x is not None]
             totale = dict(zip(COLONNE[3:], nums[-4:]))
             continue
+        # fino a settembre 2025 c'è una colonna in più, "Sigla Provincia", in seconda posizione
+        sigla = ""
+        if len(celle) == 8 and re.fullmatch(r"[A-Z]{2}", celle[1]):
+            sigla = celle.pop(1)
         if len(celle) < 7 or to_int(celle[3]) is None and celle[3] != "":
             continue  # intestazioni
         if celle[0].lower().startswith("regione"):
             continue
         r = dict(zip(COLONNE, celle[:7]))
+        r["sigla_provincia"] = sigla
         r["istituto"] = re.sub(r"\s*-\s*$", "", r["istituto"])
         for k in COLONNE[3:]:
             r[k] = to_int(r[k])
@@ -96,10 +101,12 @@ def salva(data_iso: str, url: str) -> dict:
         f.write(html)
     righe, totale, nota = leggi_tabella(html)
     with open(OUT / f"{data_iso}_capienze-per-istituto.csv", "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=COLONNE)
+        w = csv.DictWriter(f, fieldnames=[*COLONNE, "sigla_provincia"])
         w.writeheader()
         w.writerows(righe)
     errori = controlla(righe, totale)
+    if not righe:
+        errori.append("nessuna riga letta: struttura della tabella cambiata?")
     return {"data": data_iso, "url": url, "scaricato": today(), "righe": len(righe),
             "totale_dichiarato": totale, "errori": errori, "nota_capienza": nota}
 
