@@ -12,7 +12,12 @@ La terza copia, in locale con ArchiveBox, si fa con scripts/archivebox_local.sh
 Wayback: senza chiavi usa l'endpoint pubblico (limitato). Con le chiavi S3 di archive.org nelle
 variabili IA_ACCESS_KEY e IA_SECRET_KEY usa l'API SPN2, più affidabile.
 
+Con --schede chiede invece uno snapshot Wayback di ognuna delle 190 schede trasparenza (indirizzo diretto
+?s=<MII> da data/reference/istituti_dap.csv), con una pausa tra le richieste; la copia locale delle schede è
+già il json di fetch_schede.py. Esito in archive/wayback_schede.csv. Non fallisce mai.
+
 Uso:  python scripts/archive_sources.py [--no-wayback] [--solo ID]
+      python scripts/archive_sources.py --schede [--pausa 20] [--limite N]
 """
 from __future__ import annotations
 
@@ -31,6 +36,7 @@ from bs4 import BeautifulSoup
 from common import ARCHIVE, ROOT, session, sha256, today
 
 MANIFEST = ARCHIVE / "manifest.csv"
+WAYBACK_SCHEDE = ARCHIVE / "wayback_schede.csv"
 CAMPI = ["data", "id", "url", "sha256", "file", "wayback", "esito"]
 NON_SCARICABILI = {"looker"}  # pagine che si leggono solo in un browser: solo Wayback e ArchiveBox
 
@@ -118,11 +124,40 @@ def wayback(url: str) -> str:
         return f"errore: {e}"
 
 
+def wayback_schede(pausa: float, limite: int) -> int:
+    """Uno snapshot Wayback per scheda. Annota l'esito; non fallisce mai (la Wayback a volte rifiuta)."""
+    ref = ROOT / "data" / "reference" / "istituti_dap.csv"
+    schede = [r for r in csv.DictReader(ref.open(encoding="utf-8")) if r.get("url_scheda")]
+    if limite:
+        schede = schede[:limite]
+    nuovo = not WAYBACK_SCHEDE.exists()
+    ok = 0
+    with WAYBACK_SCHEDE.open("a", newline="", encoding="utf-8") as fw:
+        w = csv.DictWriter(fw, fieldnames=["data", "code", "url", "wayback"])
+        if nuovo:
+            w.writeheader()
+        for i, r in enumerate(schede):
+            if i:
+                time.sleep(pausa)
+            snap = wayback(r["url_scheda"])
+            ok += snap.startswith("https://web.archive.org/web/")
+            w.writerow({"data": today(), "code": r["code"], "url": r["url_scheda"], "wayback": snap})
+            fw.flush()
+            print(r["code"], snap, flush=True)
+    print(f"snapshot riusciti: {ok}/{len(schede)}")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-wayback", action="store_true")
     ap.add_argument("--solo")
+    ap.add_argument("--schede", action="store_true", help="snapshot Wayback delle 190 schede trasparenza")
+    ap.add_argument("--pausa", type=float, default=20, help="secondi tra una scheda e l'altra (con --schede)")
+    ap.add_argument("--limite", type=int, default=0, help="solo le prime N schede (prove)")
     a = ap.parse_args()
+    if a.schede:
+        return wayback_schede(a.pausa, a.limite)
     fonti = carica_fonti()
     if a.solo:
         fonti = [f for f in fonti if f["id"] == a.solo]

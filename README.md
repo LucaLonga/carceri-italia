@@ -50,6 +50,7 @@ npm run pulisci    # svuota la cache dei data loader (si rieseguono solo se camb
 GitHub Actions (`.github/workflows/raccolta.yml`):
 - ogni lunedì: schede trasparenza dei 190 istituti;
 - il 12 di ogni mese: tabelle mensili del Ministero (con recupero dei mesi passati) e archivio delle fonti;
+  poi, in un job a parte, uno snapshot Wayback di ognuna delle 190 schede (`archive/wayback_schede.csv`);
 - dopo ogni raccolta: controlli; commit solo se i dati sono cambiati. Se uno script fallisce, GitHub manda una notifica.
 - ogni tre mesi e a mano (`antigone.yml`): schede dell'Osservatorio di Antigone e abbinamento;
 - solo a mano (`storico.yml`): serie storica dal Ministero.
@@ -63,7 +64,8 @@ python fetch_schede.py --limite 3     # prova veloce
 python fetch_ministero.py --solo-ultimo
 python archive_sources.py --no-wayback
 python checks.py
-ARCHIVEBOX_DATA=~/ArchiveBoxData ./archivebox_local.sh   # terza copia, solo in locale
+python archive_sources.py --schede --limite 2   # Wayback delle schede (prova; tutte: circa 5 ore senza chiavi)
+ARCHIVEBOX_DATA=~/ArchiveBoxData ./archivebox_local.sh   # terza copia, solo in locale (settimanale: scripts/launchd/)
 ```
 
 Per la Wayback Machine con l'API autenticata: chiavi S3 di archive.org nei secrets del repository

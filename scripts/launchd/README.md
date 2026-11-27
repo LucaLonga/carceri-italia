@@ -40,3 +40,38 @@ rm ~/Library/LaunchAgents/it.lucalonga.carceri.raccolta.plist
 
 Se si usa la raccolta sul Mac, conviene togliere il calendario da `raccolta.yml` per non avere due
 raccolte (lasciando `workflow_dispatch`). Il push usa le credenziali git del Mac (portachiavi o `gh auth`).
+
+## ArchiveBox (`it.lucalonga.carceri.archivebox.plist`)
+
+Terza copia delle fonti, ogni lunedì alle 09:00: aggiorna il repository (`git pull`) e lancia
+`scripts/archivebox_local.sh`, che aggiunge ad ArchiveBox (`~/ArchiveBoxData`) le fonti di
+`sources.yml`, le 190 schede trasparenza, `archive/extra_urls.txt`, i documenti della rassegna e, se il
+repository privato è nella cartella accanto, la sua rassegna stampa. Le pagine che cambiano ricevono una
+copia datata a ogni lancio; documenti e articoli una copia sola.
+
+Prima, una volta: ArchiveBox installato (`archivebox` è in `~/.local/bin`), archivio inizializzato in
+`~/ArchiveBoxData`, virtualenv del repository creato (serve `pyyaml`). Prova a mano:
+
+```bash
+cd /Volumes/other-eyes/Carceri-2.0/carceri-italia
+PATH="$PWD/.venv/bin:$PATH" ./scripts/archivebox_local.sh --prova     # solo l'elenco degli URL
+PATH="$PWD/.venv/bin:$PATH" ARCHIVEBOX_DATA=~/ArchiveBoxData ./scripts/archivebox_local.sh
+```
+
+La prima volta sono circa 200 URL e possono servire ore; le volte successive circa 200 copie datate a settimana.
+
+Installazione:
+
+```bash
+cp scripts/launchd/it.lucalonga.carceri.archivebox.plist ~/Library/LaunchAgents/
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/it.lucalonga.carceri.archivebox.plist
+launchctl kickstart gui/$(id -u)/it.lucalonga.carceri.archivebox   # prova subito
+tail -f ~/Library/Logs/carceri-archivebox.log
+```
+
+Disinstallazione:
+
+```bash
+launchctl bootout gui/$(id -u)/it.lucalonga.carceri.archivebox
+rm ~/Library/LaunchAgents/it.lucalonga.carceri.archivebox.plist
+```

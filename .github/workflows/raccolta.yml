@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
     inputs:
       cosa:
-        description: "tutto | schede | ministero | archivio"
+        description: "tutto | schede | ministero | archivio | wayback-schede"
         default: "tutto"
 
 permissions:
@@ -88,5 +88,45 @@ jobs:
             echo "Nessun cambiamento."
           else
             git commit -m "dati: raccolta del $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+  # Wayback per le 190 schede trasparenza (indirizzo diretto ?s=<MII>): una volta al mese, dopo la raccolta.
+  # Senza chiavi di archive.org ogni snapshot richiede circa un minuto e mezzo: per questo è un job a parte,
+  # lungo, che non blocca i dati e non fallisce mai.
+  wayback-schede:
+    needs: raccolta
+    if: always() && (github.event.schedule == '37 5 12 * *' || inputs.cosa == 'tutto' || inputs.cosa == 'wayback-schede')
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Snapshot Wayback delle schede
+        working-directory: scripts
+        env:
+          IA_ACCESS_KEY: ${{ secrets.IA_ACCESS_KEY }}
+          IA_SECRET_KEY: ${{ secrets.IA_SECRET_KEY }}
+        run: python archive_sources.py --schede --pausa 15
+        continue-on-error: true
+
+      - name: Commit dell'esito
+        if: always()
+        run: |
+          git config user.name  "raccolta-automatica"
+          git config user.email "actions@users.noreply.github.com"
+          git add archive/wayback_schede.csv
+          if git diff --cached --quiet; then
+            echo "Nessun cambiamento."
+          else
+            git commit -m "archivio: Wayback delle schede del $(date -u +%Y-%m-%d)"
+            git pull --rebase
             git push
           fi

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Terza copia delle fonti con ArchiveBox, ogni lunedì alle 09:00 (dopo la raccolta delle schede).
+     Installazione e percorsi: scripts/launchd/README.md. Non installato in automatico. -->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>it.lucalonga.carceri.archivebox</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>-c</string>
+    <string>cd /Volumes/other-eyes/Carceri-2.0/carceri-italia &amp;&amp; git pull --ff-only --quiet; ./scripts/archivebox_local.sh</string>
+  </array>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>ARCHIVEBOX_DATA</key>
+    <string>/Users/luca/ArchiveBoxData</string>
+    <key>PATH</key>
+    <string>/Volumes/other-eyes/Carceri-2.0/carceri-italia/.venv/bin:/Users/luca/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+  </dict>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Weekday</key><integer>1</integer>
+    <key>Hour</key><integer>9</integer>
+    <key>Minute</key><integer>0</integer>
+  </dict>
+  <key>StandardOutPath</key>
+  <string>/Users/luca/Library/Logs/carceri-archivebox.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/luca/Library/Logs/carceri-archivebox.log</string>
+</dict>
+</plist>
