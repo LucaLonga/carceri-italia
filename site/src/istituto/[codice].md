@@ -3,22 +3,26 @@ title: Scheda istituto
 ---
 
 ```js
-import {banda, classe, motivi} from "../components/metrica.js";
+import {banda, classe, motivi, valutazione} from "../components/metrica.js";
+import {VISITA_DATATA_MESI} from "../components/parametri.js";
 import {ARREDO_M2_PERSONA, SOGLIA_M2} from "../components/parametri.js";
 import {data as dataIt, m2, num, pct, regione} from "../components/formato.js";
 import {simbolo} from "../components/legenda.js";
 import {cella, datiCella, PX_M} from "../components/cella.js";
 import {grafico, righeSerie, salti, SERIE, etichettaMisura} from "../components/serie.js";
 import {pannelloDati, pannelloCodice} from "../components/pannelli.js";
+import {senzaRefusi} from "../components/refusi.js";
 ```
 
 ```js
 const codice = observable.params.codice;
 const dati = await FileAttachment("../data/istituti.json").json();
 const serieCsv = await FileAttachment("../data/serie.csv").csv({typed: false});
+const antigoneTutte = await FileAttachment("../data/antigone.json").json();
 const ist = dati.istituti.find((i) => i.codice === codice || i.codici_sezioni.includes(codice));
 if (!ist) throw new Error(`Codice DAP ${codice} non trovato in istituti.json`);
 const b = banda(ist);
+const val = valutazione(ist);
 const s = ist.scheda ?? {};
 const c = ist.calc;
 const dc = datiCella(ist);
@@ -29,22 +33,23 @@ document.title = `${ist.nome} · Quanto spazio`;
 
 # ${ist.nome}
 
-<p class="domanda">${ist.tipo_esteso} · ${regione(ist.regione)} (${ist.provincia}) · codice DAP ${ist.codice}</p>
+<p class="domanda">${senzaRefusi(ist.tipo_esteso).testo} · ${regione(ist.regione)} (${ist.provincia}) · codice DAP ${ist.codice}</p>
 
 ```js
 const note = [];
 if (ist.coord_da_verificare) note.push(html`<li><b>Posizione da verificare.</b> Le coordinate pubblicate dal DAP e quelle geocodificate nel 2024 distano ${num(ist.distanza_coord_km, 1)} km. Sulla mappa si usano quelle del DAP.</li>`);
 if (ist.note_qualita) note.push(html`<li><b>Nota sui dati.</b> ${ist.note_qualita}</li>`);
 if (ist.codici_sezioni.length > 1) note.push(html`<li><b>Più schede.</b> I numeri sono la somma delle schede ${ist.codici_sezioni.join(" e ")}.</li>`);
+for (const r of senzaRefusi(ist.tipo_esteso).note) note.push(html`<li><b>Refuso della fonte.</b> Nel testo è corretto ${r}; nei dati resta com'è.</li>`);
 for (const m of motivi(ist)) note.push(html`<li><b>Caso limite.</b> ${m}.</li>`);
 if (note.length) display(html`<ul class="avviso">${note}</ul>`);
 ```
 
 <div class="numeri">
   <div class="numero">
-    <div class="valore">${b.alto == null ? "–" : `${num(b.basso, 1)}–${num(b.alto, 1)} m²`}</div>
+    <div class="valore">${b.alto == null ? "n.d." : `da ${num(b.basso, 1)} a ${num(b.alto, 1)} m²`}</div>
     <div class="spiega">spazio per persona: da lordo meno arredo [ipotesi] a lordo [calcolato]</div>
-    <div class="badge">${simbolo(b.classe)} ${classe(b.classe).etichetta}</div>
+    <div class="badge">${simbolo(b.classe)} stima dal Ministero: ${classe(b.classe).etichetta}</div>
   </div>
   <div class="numero">
     <div class="valore">${num(c.persone_stanza, 1)}</div>
@@ -55,6 +60,27 @@ if (note.length) display(html`<ul class="avviso">${note}</ul>`);
     <div class="spiega">presenti su posti disponibili [calcolato]</div>
   </div>
 </div>
+
+## Ministero e Antigone
+
+```js
+const va = antigoneTutte[ist.codice];
+const v = val.visita;
+const sn = (x) => (x === "si" ? "sì" : x === "no" ? "no" : x === "nd" ? "non disponibile" : "n.d.");
+display(html`<p class="badge">${simbolo(val.classe)} <span><b>${classe(val.classe).etichetta}</b> secondo ${val.fonte === "antigone"
+  ? html`la <b>visita di Antigone</b> del ${dataIt(v.data)}`
+  : html`la <b>stima dalle schede del Ministero</b> [calcolato][ipotesi]`}</span></p>`);
+if (!va) display(html`<p class="nota">Nessuna visita dell'Osservatorio di Antigone abbinata a questo istituto.</p>`);
+else {
+  display(html`<p>Ultima visita dell'Osservatorio: <b>${dataIt(v?.data)}</b>${val.eta_mesi != null ? `, ${num(val.eta_mesi)} mesi prima della scheda del DAP` : ""}.
+    ${val.datata ? html`<b>Visita datata</b> (oltre ${num(VISITA_DATATA_MESI)} mesi): vale la stima dal Ministero.` : val.fonte === "antigone" ? "Vale la visita." : "La visita non risponde sui 3 m²: vale la stima."}
+    <a href="${va.url_scheda}">Scheda di Antigone</a>.</p>`);
+  if (val.divergenze.length) display(html`<p><b>Dove le fonti divergono</b></p><ul>${val.divergenze.map((d) => html`<li>${d.testo}</li>`)}</ul>`);
+  display(html`<div class="tabella-scorrevole"><table><thead><tr><th scope="col">Visita</th><th scope="col">3 m² calpestabili in tutte le celle</th><th scope="col">Presenti / capienza</th><th scope="col">Riscaldamento</th><th scope="col">Acqua calda</th><th scope="col">Doccia in cella</th><th scope="col">Foglio</th></tr></thead>
+    <tbody>${[...va.visite].reverse().map((x) => html`<tr><td>${dataIt(x.data)}</td><td>${sn(x.tre_mq)}</td><td>${num(x.presenti)} / ${num(x.capienza)}</td><td>${sn(x.riscaldamento)}</td><td>${sn(x.acqua_calda)}</td><td>${sn(x.doccia)}</td><td><a href="${x.url}">apri</a></td></tr>`)}</tbody></table></div>
+    <p class="nota">Fonte: Associazione Antigone, Osservatorio sulle condizioni di detenzione. Dati estratti dai fogli delle visite [verificata]. Costruzione: ${va.visite.at(-1).costruzione ?? "n.d."}.</p>`);
+}
+```
 
 ## La cella in scala
 

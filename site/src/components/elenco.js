@@ -1,13 +1,14 @@
 // Elenco ordinabile e filtrabile degli istituti: alternativa accessibile alla mappa.
 import * as Inputs from "npm:@observablehq/inputs";
 import {html} from "npm:htl";
-import {banda, classe} from "./metrica.js";
+import {classe, valutazione} from "./metrica.js";
 import {m2, num, pct, regione} from "./formato.js";
 
 // Righe piatte per la tabella (e per il pannello "Dati").
 export function righeElenco(istituti, arredo) {
   return istituti.map((i) => {
-    const b = banda(i, arredo);
+    const v = valutazione(i, {arredo});
+    const b = v.banda;
     return {
       codice: i.codice,
       nome: i.nome,
@@ -19,7 +20,8 @@ export function righeElenco(istituti, arredo) {
       m2_basso: b.basso,
       persone_stanza: i.calc.persone_stanza,
       affollamento_reale: i.calc.affollamento_reale,
-      classe: b.classe,
+      classe: v.classe,
+      fonte: v.fonte === "antigone" ? `visita ${v.visita.data.slice(0, 4)}` : "stima",
       coord_da_verificare: i.coord_da_verificare ? "sì" : ""
     };
   });
@@ -27,7 +29,7 @@ export function righeElenco(istituti, arredo) {
 
 export function tabellaElenco(righe, {base = "."} = {}) {
   return Inputs.table(righe, {
-    columns: ["nome", "regione", "tipo", "presenti", "m2_alto", "m2_basso", "persone_stanza", "affollamento_reale", "classe"],
+    columns: ["nome", "regione", "tipo", "presenti", "m2_alto", "m2_basso", "persone_stanza", "affollamento_reale", "classe", "fonte"],
     header: {
       nome: "Istituto",
       regione: "Regione",
@@ -37,7 +39,8 @@ export function tabellaElenco(righe, {base = "."} = {}) {
       m2_basso: "meno arredo",
       persone_stanza: "pers./stanza",
       affollamento_reale: "affoll.",
-      classe: "Banda"
+      classe: "Classe",
+      fonte: "Fonte"
     },
     format: {
       nome: (d, i, data) => html`<a href="${base}/istituto/${data[i].codice}">${d}</a>`,

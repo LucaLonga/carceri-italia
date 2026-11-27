@@ -1,0 +1,48 @@
+scheda_id,codice_dap,nota
+24,HH15,Melfi: unico candidato (nome identico al Ministero)
+4,HH02,Potenza: unico istituto di Potenza nella tabella di raccordo
+5,HH11,Catanzaro: unico istituto di Catanzaro
+63,HH04,Cosenza: unico istituto di Cosenza
+67,HH19,Palmi: unico istituto di Palmi
+73,FF32,Avellino: unico istituto di Avellino
+78,FF65,Lauro: oggi ICAM (Antigone: casa circondariale e ICAM)
+79,FF01,Napoli Poggioreale
+80,FF58,Napoli Secondigliano
+59,BB08,Ferrara
+84,BB03,Bologna Dozza (Ministero: Bologna "R. D'Amato")
+89,BB04,Piacenza Le Novate (Ministero: Piacenza "San Lazzaro")
+106,EE01,Rebibbia Nuovo Complesso: l'abbinamento automatico sceglieva la casa di reclusione (EE29)
+108,EE39,Rebibbia Terza Casa
+43,BB02,Brescia Canton Monbello
+120,EE24,Pesaro Villa Fastiggi
+48,LL02,Alghero
+158,DD27,Firenze Sollicciano
+159,DD07,Livorno Gorgona
+164,DD49,Firenze Mario Gozzini
+95,CC17,Verona Montorio
+116,nessuno,unità ospedaliera dentro la casa circondariale di Viterbo: non è un istituto a sé
+103,nessuno,Savona: non presente nella tabella di raccordo [VERIFICARE se chiuso]
+131,nessuno,Senorbì: non presente nella tabella di raccordo [VERIFICARE]
+49,nessuno,Camerino: non presente nella tabella di raccordo (ultime tabelle del Ministero: 2019)
+65,nessuno,chiuso (Antigone)
+28,nessuno,chiuso (Antigone)
+6,nessuno,ex ospedale psichiatrico giudiziario chiuso nel 2016 (Antigone)
+77,nessuno,ex istituto psichiatrico giudiziario
+86,nessuno,ex ospedale psichiatrico giudiziario
+97,nessuno,ex ospedale psichiatrico giudiziario
+23,nessuno,ex OPG chiuso nel 2016 (Antigone)
+121,nessuno,sezione distaccata chiusa (Antigone)
+174,nessuno,rapporto regionale, non un istituto
+33,nessuno,chiuso (Antigone)
+126,nessuno,chiuso (Antigone)
+128,nessuno,chiuso (Antigone)
+130,nessuno,chiuso (Antigone)
+173,nessuno,chiuso (Antigone)
+144,nessuno,chiuso (Antigone)
+145,nessuno,chiuso (Antigone)
+146,nessuno,chiuso (Antigone)
+147,nessuno,chiuso (Antigone)
+157,nessuno,chiuso (Antigone)
+168,nessuno,chiuso; dal 2010 istituto penale per minorenni (Antigone)
+279,nessuno,sezione distaccata di Pianosa: non nella tabella di raccordo
+161,DD08,"Livorno Le Sughere; in istituti.csv nome_antigone di DD07 (Gorgona) è ""Livorno Le Sughere"": errore della tabella di raccordo [VERIFICARE]"

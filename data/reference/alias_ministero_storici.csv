@@ -1,0 +1,9 @@
+nome_ministero,tipo,codice_dap,nota
+ARIENZO,CC,FF18,"unico istituto di Arienzo; nelle tabelle fino al 2023 è CC, oggi CR [calcolato]"
+"ARIENZO ""G. DE ANGELIS""",CC,FF18,"come sopra [calcolato]"
+"ARIENZO ""GENNARO DE ANGELIS""",CC,FF18,"come sopra [calcolato]"
+"REGGIO CALABRIA ""GIUSEPPE PANZERA""",CC,HH03,"nome esteso di REGGIO CALABRIA ""G. PANZERA"" [calcolato]"
+"SAN REMO ""N.C.""",CR,AA16,"unico istituto di Sanremo; fino al 2022 indicato come CR, oggi CC [calcolato] [VERIFICARE]"
+CAMERINO,CC,nessuno,"non presente nella tabella di raccordo (2019): istituto non più nelle tabelle [VERIFICARE]"
+"ROMA ""GJADER ALBANIA""",CC,nessuno,"struttura in Albania, non nella tabella di raccordo [VERIFICARE]"
+"ROMA ""GJADER- ALBANIA""",CC,nessuno,"come sopra [VERIFICARE]"

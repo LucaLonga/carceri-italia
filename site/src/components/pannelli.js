@@ -42,7 +42,7 @@ export function pannelloDati(righe, colonne, nome, {nota} = {}) {
   const tb = t.createTBody();
   for (const r of righe) {
     const tr = tb.insertRow();
-    for (const c of colonne) tr.insertCell().textContent = c.formato ? c.formato(r[c.chiave]) : r[c.chiave] ?? "–";
+    for (const c of colonne) tr.insertCell().textContent = c.formato ? c.formato(r[c.chiave]) : r[c.chiave] ?? "n.d.";
   }
   wrap.append(t);
   details.append(wrap);

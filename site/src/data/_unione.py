@@ -44,6 +44,7 @@ MIN_DIR = DATA / "raw" / "ministero"
 REF = DATA / "reference" / "istituti.csv"
 ANTIGONE = DATA / "manual" / "antigone"
 CHECKS = DATA / "checks" / "ultimo.md"
+ANT_DIR = DATA / "antigone"
 
 NUM_SCHEDE = ["posti_reg", "posti_non_disp", "presenti", "stanze", "stanze_non_disp",
               "st_doccia", "st_bidet", "st_handicap", "st_wc_porta", "st_luce", "st_prese",
@@ -164,25 +165,77 @@ def leggi_ministero(ref: list[dict], avvisi: list[str]) -> tuple[dict, dict]:
             if k in mappa and mappa[k] != r["codice_dap"]:
                 avvisi.append(f"chiave Ministero ambigua {k}: {mappa[k]} e {r['codice_dap']}")
             mappa[k] = r["codice_dap"]
+    # Secondo tentativo per i nomi storici: stesso nome senza la dedica tra virgolette, stesso tipo,
+    # solo se l'abbinamento è unico (es. 'POTENZA "ANTONIO SANTORO"' -> 'POTENZA').
+    def senza_dedica(n: str) -> str:
+        return re.sub(r"\s+", " ", re.sub(r'"[^"]*"|“[^”]*”', " ", n)).strip()
+    base: dict[tuple[str, str], set[str]] = {}
+    for r in ref:
+        for n, t in chiavi_ministero(r):
+            base.setdefault((senza_dedica(n), t), set()).add(r["codice_dap"])
+    non_collegati: dict[tuple[str, str], list[str]] = {}
+    # Alias storici scritti a mano (data/reference/alias_ministero_storici.csv): nomi o tipi cambiati
+    # nel tempo; "nessuno" = istituto non presente nella tabella di raccordo (righe ignorate di proposito).
+    ignorati = set()
+    pa = DATA / "reference" / "alias_ministero_storici.csv"
+    if pa.exists():
+        for r in csv.DictReader(pa.open(encoding="utf-8")):
+            k = (norm_name(r["nome_ministero"]), r["tipo"].strip().upper())
+            if r["codice_dap"].strip() == "nessuno":
+                ignorati.add(k)
+            else:
+                mappa[k] = r["codice_dap"].strip()
     mesi = {}
-    files = file_datati(MIN_DIR, "_capienze-per-istituto.csv")
-    if not files:
-        avvisi.append(f"nessuna tabella mensile in {rel(MIN_DIR)}")
-    for data, p in files:
-        righe = {}
-        with p.open(encoding="utf-8") as f:
+    # Tabelle mensili: quelle della raccolta (data/raw/ministero) e quelle rilette dallo storico
+    # (data/storico/per_istituto_mensile.csv, dal 2019). A parità di data vale la raccolta.
+    sorgenti: dict[str, list[dict]] = {}
+    storico = DATA / "storico" / "per_istituto_mensile.csv"
+    if storico.exists():
+        with storico.open(encoding="utf-8") as f:
             for row in csv.DictReader(f):
+                sorgenti.setdefault(row["data"], []).append(row)
+    vuote = []
+    for data, p in file_datati(MIN_DIR, "_capienze-per-istituto.csv"):
+        with p.open(encoding="utf-8") as f:
+            righe_file = list(csv.DictReader(f))
+        if righe_file:
+            sorgenti[data] = righe_file
+        else:
+            vuote.append(data)
+    if vuote:
+        avvisi.append(f"Ministero: {len(vuote)} tabelle mensili vuote in {rel(MIN_DIR)} (ignorate; vedi fetch_storico.py)")
+    if not sorgenti:
+        avvisi.append(f"nessuna tabella mensile in {rel(MIN_DIR)}")
+    for data in sorted(sorgenti):
+        righe = {}
+        if True:
+            for row in sorgenti[data]:
                 k = (norm_name(row["istituto"]), row["tipo"].strip().upper())
                 cod = mappa.get(k)
                 if cod is None:
-                    avvisi.append(f"Ministero {data}: '{row['istituto']}' ({row['tipo']}) non collegato a istituti.csv")
+                    cand = base.get((senza_dedica(k[0]), k[1]), set())
+                    cod = next(iter(cand)) if len(cand) == 1 else None
+                if cod is None and k in ignorati:
+                    continue
+                if cod is None:
+                    non_collegati.setdefault((row["istituto"], row["tipo"]), []).append(data)
                     continue
                 righe[cod] = {k2: to_int(row.get(k2)) for k2 in NUM_MIN}
         mancanti = [r["codice_dap"] for r in ref if r["codice_dap"] not in righe]
-        if mancanti:
+        if mancanti and data == max(sorgenti):
             avvisi.append(f"Ministero {data}: {len(mancanti)} istituti senza riga ({', '.join(mancanti[:10])})")
         mesi[data] = righe
+    for (nome, tipo), date in sorted(non_collegati.items()):
+        avvisi.append(f"Ministero: '{nome}' ({tipo}) non collegato a istituti.csv in {len(date)} tabelle (dal {date[0]} al {date[-1]})")
     return mesi, indice
+
+
+def primo_mese(mesi: dict, codice: str) -> dict | None:
+    for data in sorted(mesi):
+        m = mesi[data].get(codice)
+        if m and m.get("presenti") is not None:
+            return {"data": data, "presenti": m["presenti"], "capienza_regolamentare": m.get("capienza_regolamentare")}
+    return None
 
 
 def leggi_antigone(avvisi: list[str]) -> dict | None:
@@ -209,6 +262,40 @@ def leggi_antigone(avvisi: list[str]) -> dict | None:
     return {"file": rel(p), "visite": int(visite.group(1)) if visite else None, "meta": meta, "domande": domande}
 
 
+def leggi_visite_antigone(avvisi: list[str]) -> dict[str, dict]:
+    """Visite dell'Osservatorio per codice DAP (abbinamento in data/antigone/abbinamento.csv).
+    Solo campi fattuali; gli eventi critici non entrano nel sito."""
+    va, ab = ANT_DIR / "visite.csv", ANT_DIR / "abbinamento.csv"
+    if not va.exists() or not ab.exists():
+        avvisi.append(f"mancano {rel(va)} o {rel(ab)}: nessun dato Antigone per istituto")
+        return {}
+    cod = {r["scheda_id"]: r["codice_dap"] for r in csv.DictReader(ab.open(encoding="utf-8")) if r["codice_dap"]}
+    out: dict[str, dict] = {}
+    for v in csv.DictReader(va.open(encoding="utf-8")):
+        c = cod.get(v["scheda_id"])
+        if not c or not v["data_visita"]:
+            continue
+        o = out.setdefault(c, {"scheda_id": v["scheda_id"], "url_scheda": v["url_scheda"], "visite": []})
+        o["visite"].append({
+            "data": v["data_visita"], "url": v["url_foglio"],
+            "presenti": to_int(v["presenti_visita"]), "capienza": to_int(v["capienza_visita"]),
+            "tre_mq": v["tre_mq_calpestabili"] or None, "riscaldamento": v["riscaldamento"] or None,
+            "acqua_calda": v["acqua_calda"] or None, "wc_separato": v["wc_separato"] or None,
+            "doccia": v["doccia_in_cella"] or None, "costruzione": v["anno_costruzione"] or None,
+            "pp": [to_int(v["pp_prevista"]), to_int(v["pp_presente"])],
+            # [posti previsti per cella, persone per cella (massimo indicato)], estratti dal testo [VERIFICARE]
+            "celle": [to_int(v.get("celle_posti_previsti")), to_int(v.get("celle_persone_max"))] if v.get("celle_persone_max") else None,
+        })
+    for o in out.values():
+        o["visite"].sort(key=lambda x: x["data"])
+    non = ANT_DIR / "non_abbinati.csv"
+    if non.exists():
+        n = sum(1 for _ in csv.DictReader(non.open(encoding="utf-8")))
+        if n:
+            avvisi.append(f"Antigone: {n} schede non abbinate (data/antigone/non_abbinati.csv)")
+    return out
+
+
 def ultima_raccolta() -> str | None:
     if not CHECKS.exists():
         return None
@@ -223,6 +310,7 @@ def unisci() -> dict:
     schede = leggi_schede(latest_path, avvisi)
     mesi, indice = leggi_ministero(ref, avvisi)
     ultimo_mese = max(mesi) if mesi else None
+    antigone_ist = leggi_visite_antigone(avvisi)
 
     usati = set()
     istituti = []
@@ -263,7 +351,11 @@ def unisci() -> dict:
             "note_qualita": r["note_qualita"] or None,
             "scheda": s,
             "ministero": ({"data": ultimo_mese, **m} if m else None),
+            # Primo mese della serie mensile per istituto (gennaio 2019 per quasi tutti): il confronto del
+            # passo 7 del racconto. Solo presenti e capienza, per tenere leggero istituti.json.
+            "ministero_primo": primo_mese(mesi, r["codice_dap"]),
             "calc": calc,
+            "visite_antigone": antigone_ist.get(r["codice_dap"]),
         })
     for c in sorted(set(schede) - usati):
         avvisi.append(f"scheda {c} ({schede[c].get('titolo')}) in latest.csv ma non in istituti.csv")

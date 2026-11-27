@@ -3,8 +3,8 @@ title: Metodo
 ---
 
 ```js
-import {banda, CLASSI, classe} from "./components/metrica.js";
-import {ARREDO_M2_PERSONA, SOGLIA_M2} from "./components/parametri.js";
+import {banda, CLASSI, classe, valutazione} from "./components/metrica.js";
+import {ARREDO_M2_PERSONA, SOGLIA_M2, VISITA_DATATA_MESI} from "./components/parametri.js";
 import {data as dataIt, m2, num, pct} from "./components/formato.js";
 import {legenda} from "./components/legenda.js";
 import {righeBande, graficoBande} from "./components/bande.js";
@@ -15,6 +15,7 @@ import {pannelloDati, pannelloCodice} from "./components/pannelli.js";
 const dati = await FileAttachment("data/istituti.json").json();
 const ambiente = await FileAttachment("data/ambiente.json").json();
 const controlli = await FileAttachment("data/controlli.txt").text();
+const st = await FileAttachment("data/storico.json").json();
 const istituti = dati.istituti;
 const f = dati.fonti;
 ```
@@ -109,8 +110,46 @@ if (ant && domanda) {
 } else display(html`<p class="avviso">Dati delle visite di Antigone non disponibili.</p>`);
 ```
 
+## Quale fonte vale: la regola di affidabilità
+
+Il Ministero conta i posti e le persone, ma non vede le celle una per una e può contare spazi non agibili. L'Osservatorio di Antigone fa sopralluoghi. Per questo, per la classe di ogni istituto:
+
+- se c'è una visita di Antigone **non datata** con una risposta sì o no alla domanda sui 3 m² calpestabili, vale la visita: "no" porta l'istituto in "sotto 3 m²", "sì" in "sopra 3 m²";
+- altrimenti vale la banda stimata dalle schede del Ministero.
+
+Una visita è **datata** se è più vecchia di **${num(VISITA_DATATA_MESI)} mesi** rispetto alla data della scheda del DAP. Il valore è provvisorio: [DA DECIDERE: Luca]. Sulla mappa una tacca nell'angolo del quadrato indica gli istituti in cui vale la visita; nella scheda di ogni istituto ci sono la fonte, la data e le divergenze tra le due fonti.
+
+```js
+const vals = istituti.map((i) => ({i, v: valutazione(i)}));
+const conVisita = vals.filter((x) => x.i.visite_antigone);
+const datate = conVisita.filter((x) => x.v.datata);
+const valgono = vals.filter((x) => x.v.fonte === "antigone");
+const div = vals.filter((x) => x.v.divergenze.length);
+display(html`<ul>
+  <li>Istituti con almeno una visita abbinata: <b>${num(conVisita.length)}</b> su ${num(istituti.length)} (${pct(conVisita.length / istituti.length, 1)}) [calcolato]</li>
+  <li>Istituti con l'ultima visita datata: <b>${num(datate.length)}</b></li>
+  <li>Istituti in cui vale la visita: <b>${num(valgono.length)}</b></li>
+  <li>Istituti con divergenze tra le fonti: <b>${num(div.length)}</b></li>
+</ul>`);
+display(pannelloDati(conVisita.map(({i, v}) => ({codice: i.codice, nome: i.nome, visita: v.visita?.data, eta_mesi: v.eta_mesi, datata: v.datata ? "sì" : "", tre_mq: v.visita?.tre_mq, classe_stima: v.banda.classe, classe_finale: v.classe, fonte: v.fonte, divergenze: v.divergenze.map((d) => d.testo).join("; ")})),
+  ["codice", "nome", "visita", "eta_mesi", "datata", "tre_mq", "classe_stima", "classe_finale", "fonte", "divergenze"].map((chiave) => ({chiave})),
+  "fonte-per-istituto.csv", {nota: `Soglia della visita datata: ${VISITA_DATATA_MESI} mesi [DA DECIDERE: Luca].`}));
+```
+
+Le visite si leggono dai fogli pubblicati in fondo alle schede dell'Osservatorio (2017-2025). Antigone non dichiara una licenza di riuso: il sito usa solo dati fattuali, con il link alla scheda e al foglio di ogni visita. Gli eventi critici registrati nelle visite non sono mostrati: serviranno a una parte che verrà progettata a parte.
+
+## La serie storica: che cosa esiste
+
+```js
+display(html`<div class="tabella-scorrevole"><table><thead><tr><th scope="col">Anno</th><th scope="col">Presenti (nazionali)</th><th scope="col">Capienza (nazionale)</th><th scope="col">Per istituto</th><th scope="col">Visite Antigone</th><th scope="col">Buchi</th></tr></thead>
+<tbody>${st.copertura.map((c) => html`<tr><td>${c.anno}</td><td>${c.presenti_nazionali}</td><td>${c.capienza_nazionale}</td><td>${[c.per_istituto_ministero, c.per_istituto_schede].filter(Boolean).join("; ")}</td><td>${c.visite_antigone}</td><td>${c.buchi}</td></tr>`)}</tbody></table></div>`);
+```
+
+<p class="nota">Fonti: Ministero della Giustizia, DAP, Sezione statistica (serie dei presenti dal 1991; tabelle mensili per regione e per istituto, nell'archivio online dal 2019). Eventi in data/manual/eventi.yml, ognuno con la sua fonte e la sua etichetta.</p>
+
 ## Perché questa forma
 
+<p>Cartogramma di Demers: ogni istituto è un quadrato con l'area proporzionale ai presenti, spostato quanto basta per non sovrapporsi (disposizione calcolata una volta in fase di build). Il quadrato tratteggiato è la capienza; il colore è lo spazio per persona rispetto a 3 m². La tipologia dell'istituto è nel filtro, nel tooltip e nella scheda, non nel colore: sette tipi non si distinguono bene a colori, e il colore serve alla domanda del progetto.</p>
 <p class="avviso">[DA SCRIVERE: Luca] Il quadro what / why / how di Munzner, in tre righe.<br>What: …<br>Why: …<br>How: …</p>
 
 ## Raccolta automatica e controlli

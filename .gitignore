@@ -5,3 +5,6 @@ __pycache__/
 node_modules/
 site/dist/
 **/.observablehq/cache/
+
+# Grezzo senza licenza di riuso dichiarata (Antigone): resta solo in locale
+data/raw-locale/
