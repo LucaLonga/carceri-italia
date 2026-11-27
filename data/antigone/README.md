@@ -7,7 +7,8 @@ collegati in fondo a ogni scheda, uno per visita. Raccolta: `scripts/fetch_antig
 
 **Licenza**: antigone.it non dichiara una licenza di riuso (controllato il 2026-11-26). Qui ci sono
 solo campi fattuali estratti, con il link alla scheda e al foglio di ogni visita. Il grezzo (pagine e
-fogli) resta in `data/raw-locale/antigone/`, fuori da git. Permesso da chiedere ad Antigone [DA FARE].
+fogli) resta in `data/raw-locale/antigone/`, fuori da git, come cache locale; la copia conservata, con le
+impronte sha256, sta nel repository privato del progetto. Permesso da chiedere ad Antigone [DA FARE].
 
 ## visite.csv (una riga per visita)
 

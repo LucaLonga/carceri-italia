@@ -18,7 +18,7 @@ data/
   manual/                   dati ottenuti a mano (Antigone, report non scaricabili, eventi.yml)
   antigone/                 visite dell'Osservatorio per istituto (campi estratti) e abbinamento
   storico/                  serie storica dal Ministero (1991-oggi) e copertura anno per anno
-  raw-locale/               grezzo senza licenza di riuso dichiarata: solo in locale, fuori da git
+  raw-locale/               grezzo senza licenza di riuso dichiarata: cache locale fuori da git (copia conservata nel repository privato)
   checks/ultimo.md          esito dei controlli dell'ultima raccolta
 archive/
   manifest.csv              ogni copia conservata: data, sha256, file locale, snapshot Wayback

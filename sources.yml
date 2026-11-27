@@ -183,7 +183,7 @@ fonti:
     licenza: >
       Nessuna licenza né condizione di riuso dichiarata sul sito (controllato il 2026-11-26: solo la
       privacy policy). robots.txt non vieta /osservatorio_detenzione/. Scelta del progetto: il grezzo
-      resta in locale (data/raw-locale/, fuori da git); nel repository e nel sito solo campi fattuali
+      resta fuori da git (cache in data/raw-locale/, copia conservata nel repository privato); nel repository e nel sito solo campi fattuali
       estratti, con attribuzione e link a ogni scheda. Permesso da chiedere ad Antigone [DA FARE].
     note: >
       Una scheda per istituto; in fondo, i fogli delle visite di ogni anno con dati strutturati

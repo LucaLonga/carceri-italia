@@ -10,3 +10,4 @@
   Bollate, Milano San Vittore, Opera, Torino, Lecce, Palermo Pagliarelli.
   Lo stesso problema riguarda altri fogli del file (Sheet9, Sheet11, serie per età): da non riusare senza controllo.
 - Il foglio "suicidi 2023-2024" contiene nomi di persone: **non è pubblicato** in questo repository.
+  Il file Excel originale è conservato solo nel repository privato del progetto.
