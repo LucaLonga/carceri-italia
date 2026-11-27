@@ -25,16 +25,17 @@ archive/
   files/ text/              copie delle pagine e dei PDF, estratti in Markdown
   extra_urls.txt            articoli e documenti da conservare oltre alle fonti
 scripts/                    raccolta, archivio, controlli
-site/                       sito pubblico (Observable Framework)
+site/                       prototipo del sito (Observable Framework), banco di lavoro, non pubblicato
 docs/                       ricognizione delle fonti, nomenclatura, metodo
 ```
 
 ## Sito
 
-Il sito pubblico è in `site/` ([Observable Framework](https://observablehq.com/framework/), D3, Plot).
+Il prototipo del sito è in `site/` ([Observable Framework](https://observablehq.com/framework/), D3, Plot).
 I data loader Python in `site/src/data/` leggono i file di `data/` e producono i file del sito;
 la metrica è descritta in `docs/metodo-bozza.md` e il parametro d'arredo sta in `site/src/components/parametri.js`.
-Pubblicazione su GitHub Pages con `.github/workflows/sito.yml` (a ogni push su `data/` o `site/` e dopo ogni raccolta).
+Il sito è un banco di lavoro per i dati e **non si pubblica**: `.github/workflows/sito.yml` parte solo a mano,
+fa il build e pubblica su GitHub Pages soltanto con `pubblica: si` (Pages oggi è spento).
 
 ```bash
 cd site

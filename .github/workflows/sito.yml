@@ -1,19 +1,16 @@
 name: sito
 
-# Build del sito (Observable Framework + data loader in Python) e pubblicazione su GitHub Pages.
-# - a ogni push su main che tocca data/ o site/;
-# - dopo ogni raccolta automatica (raccolta, antigone, storico): i loro commit sono fatti con
-#   GITHUB_TOKEN e quindi NON avviano il trigger "push"; per questo serve workflow_run;
-# - a mano (workflow_dispatch).
-# Prima volta: Settings → Pages → Source: "GitHub Actions".
+# Build del sito (Observable Framework + data loader in Python): solo a mano.
+# Il sito su questo ramo è un banco di lavoro per i dati e non si pubblica (piano 51, 28.11.2026):
+# niente avvio automatico a ogni push o dopo le raccolte. Il build serve a controllare che i data
+# loader girino; la pubblicazione su GitHub Pages parte solo con "pubblica: si" e con Pages attivato
+# (Settings → Pages → Source: "GitHub Actions"), oggi spento.
 on:
-  push:
-    branches: [main]
-    paths: ["data/**", "site/**", ".github/workflows/sito.yml"]
-  workflow_run:
-    workflows: [raccolta, antigone, storico]
-    types: [completed]
   workflow_dispatch:
+    inputs:
+      pubblica:
+        description: "pubblica su GitHub Pages dopo il build (si/no)"
+        default: "no"
 
 permissions:
   contents: read
@@ -55,12 +52,15 @@ jobs:
       - run: npm run build
 
       - uses: actions/configure-pages@v5
+        if: inputs.pubblica == 'si'
       - uses: actions/upload-pages-artifact@v3
+        if: inputs.pubblica == 'si'
         with:
           path: site/dist
 
   deploy:
     needs: build
+    if: inputs.pubblica == 'si'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
