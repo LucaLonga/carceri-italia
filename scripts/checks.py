@@ -4,6 +4,8 @@
 - nomenclatura: ogni istituto del Ministero ha un id in data/reference/istituti.csv (anche tramite alias)
 - schede trasparenza: ogni codice DAP è nella tabella di raccordo; nessun codice nuovo o sparito
 - coerenza interna delle schede: posti non disponibili <= posti regolamentari, stanze non disp. <= stanze
+- struttura delle schede: sezioni o campi nuovi o spariti tra le ultime due copie di struttura/ (avviso, non errore:
+  è un segnale da guardare, non un guasto)
 """
 from __future__ import annotations
 
@@ -14,6 +16,33 @@ import sys
 from common import DATA, norm_name, today
 
 REF = DATA / "reference" / "istituti.csv"
+
+
+def _voci(schede: dict) -> dict[str, set]:
+    """voce "gruppo › sezione › campo" -> codici delle schede che la hanno."""
+    voci: dict[str, set] = {}
+    for code, sezioni in schede.items():
+        for s in sezioni:
+            for campo in s["campi"] or [""]:
+                voci.setdefault(f"{s['gruppo']} › {s['sezione']} › {campo}".rstrip(" ›"), set()).add(code)
+    return voci
+
+
+def confronta_strutture() -> list[str]:
+    files = sorted((DATA / "raw" / "schede-trasparenza" / "struttura").glob("*.json"))
+    if len(files) < 2:
+        return ["\n## Struttura delle schede\n", f"- copie salvate: {len(files)}; niente da confrontare"]
+    prima, dopo = (json.loads(f.read_text(encoding="utf-8"))["schede"] for f in files[-2:])
+    vp, vd = _voci(prima), _voci(dopo)
+    righe = ["\n## Struttura delle schede\n", f"- confronto {files[-2].stem} → {files[-1].stem}"]
+    nuove, sparite = sorted(set(vd) - set(vp)), sorted(set(vp) - set(vd))
+    righe.append(f"- voci nuove in tutte le schede: {len(nuove)}; voci sparite: {len(sparite)}")
+    righe += [f"  - AVVISO nuova: {v} ({len(vd[v])} schede)" for v in nuove]
+    righe += [f"  - AVVISO sparita: {v} (era in {len(vp[v])} schede)" for v in sparite]
+    cambiate = sorted(v for v in set(vp) & set(vd) if vp[v] != vd[v])
+    righe.append(f"- voci presenti in un numero diverso di schede: {len(cambiate)}")
+    righe += [f"  - {v}: {len(vp[v])} → {len(vd[v])}" for v in cambiate[:30]]
+    return righe
 
 
 def main() -> int:
@@ -59,6 +88,8 @@ def main() -> int:
         report.append(f"- righe incoerenti (non disponibili > totale): {incoerenti or 'nessuna'}")
         tot = {k: sum(int(r[k] or 0) for r in sch) for k in ["posti_reg", "posti_non_disp", "presenti", "stanze"]}
         report.append(f"- totali: {tot}")
+
+    report += confronta_strutture()
 
     out = DATA / "checks"
     out.mkdir(parents=True, exist_ok=True)

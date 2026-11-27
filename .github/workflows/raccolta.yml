@@ -51,7 +51,7 @@ jobs:
       - name: Schede trasparenza
         if: github.event.schedule == '17 5 * * 1' || inputs.cosa == 'tutto' || inputs.cosa == 'schede'
         working-directory: scripts
-        run: python fetch_schede.py
+        run: python fetch_schede.py && python estrai_attivita.py
 
       - name: Tabelle mensili del Ministero
         if: github.event.schedule == '37 5 12 * *' || inputs.cosa == 'tutto' || inputs.cosa == 'ministero'

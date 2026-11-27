@@ -48,11 +48,14 @@ fonti:
     archivia: true
     licenza: "[VERIFICARE]"
     note: >
-      Mappa con 190 schede istituto (codice DAP, coordinate, indirizzo). Ogni scheda (richiesta POST
-      a dettaglio_scheda_istituto_penitenziario) dà posti regolamentari, POSTI NON DISPONIBILI,
-      presenti, numero di stanze e stanze non disponibili, dotazioni delle stanze, personale.
-      È la fonte da cui Antigone ricava i "posti disponibili". Le singole schede non sono archiviabili
-      su Wayback (sono POST): lo script ne salva una copia propria.
+      Mappa con 190 schede istituto (codice DAP, codice MII, coordinate, indirizzo). Ogni scheda ha un
+      indirizzo stabile in GET, dettaglio_scheda_istituto_penitenziario?s=<MII> (Opera: ?s=MII179237),
+      e dà posti regolamentari, POSTI NON DISPONIBILI, presenti, numero di stanze e stanze non
+      disponibili, dotazioni delle stanze, personale, spazi comuni, corsi, lavoro, attività.
+      È la fonte da cui Antigone ricava i "posti disponibili". Esistono dal 2014; il Ministero le
+      aggiorna ogni giorno sovrascrivendo il dato precedente: lo storico esiste solo nelle copie
+      (repository, Wayback per ogni scheda, ArchiveBox). robots.txt di giustizia.it non vieta nulla
+      (controllato il 2026-11-28).
 
   - id: min-regione-residenza
     ente: Ministero della Giustizia, DAP

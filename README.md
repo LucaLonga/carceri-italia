@@ -73,15 +73,17 @@ Per la Wayback Machine con l'API autenticata: chiavi S3 di archive.org nei secre
 
 Ogni fonte importante si conserva in tre modi: copia dei dati e della pagina nel repository
 (CSV, Markdown, JSON, PDF), snapshot sulla Wayback Machine, copia locale con ArchiveBox.
-Le schede trasparenza si aprono con una richiesta POST e la Wayback Machine non le può salvare:
-per quelle fa fede la copia JSON nel repository.
+Le schede trasparenza hanno un indirizzo stabile (`dettaglio_scheda_istituto_penitenziario?s=<MII>`,
+in `data/reference/istituti_dap.csv`) e si archiviano anche sulla Wayback Machine. (Una versione
+precedente di questo README diceva che si aprivano solo con POST e non erano archiviabili: era sbagliato.)
+Il Ministero sovrascrive i dati ogni giorno: lo storico esiste solo nelle copie.
 
 ## Scheda di provenienza
 
 | Colonna / dato | Fonte | Estrazione | Metodo | Licenza | Etichetta |
 |---|---|---|---|---|---|
 | capienza regolamentare, presenti, donne, stranieri (mensili) | Ministero della Giustizia, DAP | mensile | scraping HTML | [VERIFICARE] | [verificata] |
-| posti non disponibili, stanze, dotazioni, personale | DAP, schede trasparenza | settimanale | scraping HTML (POST) | [VERIFICARE] | [verificata] |
+| posti non disponibili, stanze, dotazioni, personale | DAP, schede trasparenza | settimanale | scraping HTML (GET, indirizzo `?s=<MII>`) | [VERIFICARE] | [verificata] |
 | codice DAP, coordinate ufficiali | DAP, mappa delle schede | settimanale | scraping script della pagina | [VERIFICARE] | [verificata] |
 | nomi Antigone, geocodifica 2024 | lavoro DV-24.01 | 2024 | manuale + geocodifica | CC BY 4.0 [DA DECIDERE] | [calcolato] |
 | visite dell'Osservatorio | Antigone | manuale | copia dal report | [VERIFICARE] | [verificata] |

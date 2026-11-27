@@ -27,7 +27,7 @@ git pull --ff-only
 
 cd scripts
 errori=0
-fa schede    && { "$PY" fetch_schede.py   || errori=1; }
+fa schede    && { "$PY" fetch_schede.py && "$PY" estrai_attivita.py || errori=1; }
 fa ministero && { "$PY" fetch_ministero.py || errori=1; }
 fa archivio  && { "$PY" archive_sources.py || true; }   # la Wayback non deve bloccare i dati
 "$PY" checks.py || errori=1
