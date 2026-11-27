@@ -1,4 +1,4 @@
-# Controlli del 2026-11-25
+# Controlli del 2026-11-27
 
 ## Ministero, tabella al 2026-10-31
 
@@ -9,4 +9,8 @@
 
 - istituti: 190; codici nuovi: nessuno; codici spariti: nessuno
 - righe incoerenti (non disponibili > totale): nessuna
-- totali: {'posti_reg': 51289, 'posti_non_disp': 4809, 'presenti': 66171, 'stanze': 31898}
+- totali: {'posti_reg': 51289, 'posti_non_disp': 4804, 'presenti': 66096, 'stanze': 31898}
+
+## Struttura delle schede
+
+- copie salvate: 1; niente da confrontare

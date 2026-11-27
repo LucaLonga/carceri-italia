@@ -1,0 +1,1010 @@
+data;code;tipo_corso;titolo;data_inizio;data_fine;iscritti;finanziato_da;livello
+2026-11-27;AA02;Alfabetizzazione corso 2;;05/10/2026;30/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;AA02;Alfabetizzazione corso 3;;05/10/2026;30/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;AA02;Alfabetizzazione livello misto/lavoranti;;12/10/2026;30/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;AA02;Alfabetizzazione corso 1;;29/09/2026;30/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;AA02;Scuola media classe b;;05/10/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;AA02;Scuola media classe a;;05/10/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;AA02;Odontotecnico/ottico;;05/10/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA02;Odontotecnico/ottico;;05/10/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA02;Odontotecnico/ottico;;05/10/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA02;Odontotecnico/ottico;;05/10/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA02;Odontotecnico/ottico;;05/10/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA02;Politiche e governance dello sport;;01/09/2025;31/12/2029;0;;Universitario
+2026-11-27;AA02;Economia aziende marittime e dei trasporti;;01/03/2025;30/09/2028;0;;Universitario
+2026-11-27;AA02;Storia;;01/01/2025;31/12/2030;0;;Universitario
+2026-11-27;AA02;Diritto ed economia delle imprese;;01/01/2025;31/12/2041;0;;Universitario
+2026-11-27;AA02;Scienze internazionali e diplomatiche;;01/09/2024;30/09/2027;0;;Universitario
+2026-11-27;AA02;Scienze della comunicazione;;01/09/2024;30/09/2027;0;;Universitario
+2026-11-27;AA02;Economia aziendale;;10/07/2024;30/09/2027;0;;Universitario
+2026-11-27;AA02;Servizio sociale;;01/01/2024;30/09/2027;0;;Universitario
+2026-11-27;AA02;Storia;;01/01/2022;30/12/2041;0;;Universitario
+2026-11-27;AA02;Servizi legali all'impresa e alla p.a.;;01/01/2022;31/12/2042;0;;Universitario
+2026-11-27;AA02;Storia;;02/09/2016;30/12/2028;0;;Universitario
+2026-11-27;AA03;Istruzione di secondo livello;;17/09/2021;12/09/2022;53;;Percorso di istruzione di secondo livello
+2026-11-27;AA04;Lettere;;01/10/2018;01/10/2019;3;;Universitario
+2026-11-27;AA05;Alfabetizzazione;;13/10/2026;13/04/2027;4;;Percorso di apprendimento della lingua italiana
+2026-11-27;AA05;Scuola media;;13/10/2026;13/04/2027;5;;Percorso di istruzione di primo livello
+2026-11-27;AA06;Alfabetizzazione di base - livello 0;;01/01/2024;30/06/2025;9;;Percorso di apprendimento della lingua italiana
+2026-11-27;AA06;Alfabetizzazione culturale;;16/09/2024;30/06/2025;7;;Percorso di apprendimento della lingua italiana
+2026-11-27;AA06;Scuola media;;16/09/2024;30/06/2025;9;;Percorso di istruzione di primo livello
+2026-11-27;AA06;Biennio superiore;;16/09/2024;30/06/2025;14;;Percorso di istruzione di primo livello
+2026-11-27;AA07;Alfabettizzazione;;02/10/2025;09/06/2026;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;AA07;Alfabettizzazione;;01/10/2025;09/06/2026;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;AA07;I livello;;01/02/2026;09/06/2026;0;;Percorso di istruzione di primo livello
+2026-11-27;AA08;;Attestato livello a1;15/09/2025;15/06/2026;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;AA08;;;15/09/2025;15/06/2026;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;AA10;;;01/10/2024;15/06/2025;0;;Percorso di istruzione di primo livello
+2026-11-27;AA12;Alfabetizzazione a2;;06/10/2025;29/05/2026;10;;Percorso di apprendimento della lingua italiana
+2026-11-27;AA12;Diploma di primo livello - scuola media;;06/10/2025;29/05/2026;9;;Percorso di istruzione di primo livello
+2026-11-27;AA12;Diploma di primo livello - scuola media;;06/10/2025;29/05/2026;8;;Percorso di istruzione di primo livello
+2026-11-27;AA12;Liceo artistico i biennio;;08/10/2025;29/05/2026;14;;Percorso di istruzione di secondo livello
+2026-11-27;AA12;Liceo artistico ii biennio;;08/10/2025;29/05/2026;6;;Percorso di istruzione di secondo livello
+2026-11-27;AA13;Attività di sostegno scolastico;;02/05/2022;30/06/2022;12;;Percorso di istruzione di primo livello
+2026-11-27;AA16;;;01/10/2024;30/09/2025;0;;Universitario
+2026-11-27;AA19;;Licenza media;15/09/2026;06/06/2027;14;;Percorso di istruzione di primo livello
+2026-11-27;AA20;Scuola elementare;;15/10/2026;10/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;AA20;Scuola media;;15/10/2026;10/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;AA20;Classe 1;Ammissione classe successiva;14/09/2026;10/06/2027;24;;Percorso di istruzione di secondo livello
+2026-11-27;AA20;Classe 3;Qualifica;14/09/2026;10/06/2027;9;;Percorso di istruzione di secondo livello
+2026-11-27;AA20;Classe 2;Ammissione classe successiva;14/09/2026;10/06/2027;23;;Percorso di istruzione di secondo livello
+2026-11-27;AA21;Scuola media;Licenza media;16/09/2025;15/09/2026;6;;Percorso di istruzione di primo livello
+2026-11-27;AA26;;;04/10/2018;20/06/2019;7;;Percorso di apprendimento della lingua italiana
+2026-11-27;AA27;Informatica di base;;28/11/2019;30/06/2020;8;;Moduli aggiuntivi alle frequenze
+2026-11-27;AA27;Inglese di base;;27/11/2019;30/06/2020;9;;Moduli aggiuntivi alle frequenze
+2026-11-27;AA27;Alfabetizzazione;A1+a2;01/10/2019;30/06/2020;9;;Percorso di apprendimento della lingua italiana
+2026-11-27;AA27;Medie;Terza media;01/10/2019;30/06/2020;10;;Percorso di istruzione di primo livello
+2026-11-27;AA42;Alfabetizzazione;;05/10/2026;10/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;AA42;Scuola media;;05/10/2026;10/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;AA42;Plana - terzo anno;;10/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA42;Plana - primo anno;;10/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA42;Plana - quinto anno;;10/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA42;Classe prima;;21/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA42;Classe terza;;21/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA45;Elementari donne;;14/09/2026;11/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;AA45;Elementari uomini;;14/09/2026;11/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;AA45;Medie donne;;14/09/2026;11/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;AA45;Medie uomini;;14/09/2026;11/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;AA45;Medie donne;;14/09/2026;11/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;AA45;Medie uomini;;14/09/2026;11/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;AA45;1 maschile;;14/09/2026;11/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA45;1 femminile;;14/09/2026;11/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA45;2 maschile;;14/09/2026;11/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA45;2 femminile;;14/09/2026;11/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA45;3 maschile;;14/09/2026;11/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA45;3 femminile;;14/09/2026;11/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA45;3 uomini;;14/09/2026;11/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA45;4 maschile;;14/09/2026;11/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA45;5 maschile;;14/09/2026;11/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA45;5 femminile;;14/09/2026;11/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA45;1 femminile;;14/09/2026;11/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA45;1 maschile;;14/09/2026;11/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA45;2 femminile;;14/09/2026;11/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA45;2 maschile;;14/09/2026;11/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA45;3 femminile;;14/09/2026;11/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA45;3 maschile;;14/09/2026;11/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA45;4 femminile;;14/09/2026;11/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA45;4 maschile;;14/09/2026;11/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA45;5 maschile;;14/09/2026;11/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;AA45;Media, comunicazione e societa';;17/07/2026;17/07/2027;0;;Universitario
+2026-11-27;AA45;Universita di torino scienze politiche;;17/07/2026;17/07/2027;0;;Universitario
+2026-11-27;AA45;Ingegneria elettrica;;17/07/2026;17/07/2027;0;;Universitario
+2026-11-27;AA45;Economia delle aziende marittime;;17/07/2026;17/07/2027;0;;Universitario
+2026-11-27;AA45;Ingegneria civile;;17/07/2026;17/07/2027;0;;Universitario
+2026-11-27;AA45;Scienze del turismo;;17/07/2026;17/07/2027;0;;Universitario
+2026-11-27;AA45;Scienze marittime;;17/07/2026;17/07/2027;0;;Universitario
+2026-11-27;AA45;Ingegneria;;17/07/2026;17/07/2027;0;;Universitario
+2026-11-27;AA45;Lingue;;17/07/2026;17/07/2027;0;;Universitario
+2026-11-27;AA48;A1/a2;Attestato frequenza;29/09/2025;10/06/2026;13;;Percorso di apprendimento della lingua italiana
+2026-11-27;AA48;A1/a2 biennale;Attestato frequenza;29/09/2025;10/06/2026;5;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB01;3-c+6-c/d+g.a/c-d (alfa a1-2);A1-a2;19/10/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB01;6.4/c-d (alfa a1+a2 protetti);A1-a2;19/10/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB01;3-d (alfa a2);A2;19/10/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB01;3-a/b+6-a/b+ga.a/b (alfa comuni);Attestato di frequenza;19/10/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB01;6.4/a+b (alfa protetti);Attestato di frequenza;19/10/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB01;3/l+6/l+7/l+g.a/l (medie comuni);Attestato primo ciclo di istruzione;19/10/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;BB01;6.4/l (medie protetti);Attestato primo ciclo didattico;19/10/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;BB01;Lab. 3°rep. +7°rep.+ g.a;Attestato di frequenza;19/10/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;BB01;Lab. 6°rep. 4° piano (protetti);;19/10/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;BB02;;;12/09/2025;08/06/2026;10;;Percorso di istruzione di secondo livello
+2026-11-27;BB03;Studi umanistici;;30/09/2021;31/12/2022;15;;Universitario
+2026-11-27;BB03;Giurisprudenza;;30/09/2021;31/12/2022;12;;Universitario
+2026-11-27;BB03;Scienze agrarie;;30/09/2021;31/12/2022;8;;Universitario
+2026-11-27;BB03;Sociologia;;30/09/2021;31/12/2022;4;;Universitario
+2026-11-27;BB03;Scienze economiche e aziendali;;30/09/2021;31/12/2022;1;;Universitario
+2026-11-27;BB03;Scienze naturali;;30/09/2021;31/12/2022;1;;Universitario
+2026-11-27;BB04;Alfabetizzazione;;04/10/2021;06/09/2022;0;;Percorso di istruzione di primo livello
+2026-11-27;BB06;;;05/10/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB06;;;05/10/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB06;;;05/10/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;BB06;;;05/10/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;BB06;;;28/09/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB06;;;28/09/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB06;;;28/09/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB06;;;28/09/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB06;;;28/09/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB06;;;28/09/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB07;Enogastronomia e ospitalità alberghiera;;19/10/2026;05/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB07;Enogastronomia ed ospitalità alberghiera;;19/10/2026;05/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB08;Corso alberghiero;;14/10/2024;14/10/2025;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB09;;;06/10/2023;30/06/2024;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB09;;;06/10/2023;30/06/2024;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB09;;;06/10/2023;30/06/2024;0;;Percorso di istruzione di primo livello
+2026-11-27;BB09;;;06/10/2023;30/06/2024;0;;Percorso di istruzione di primo livello
+2026-11-27;BB09;;;06/10/2023;30/06/2024;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB09;;;06/10/2023;30/06/2024;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB09;;;06/10/2023;30/06/2024;0;;Percorso di istruzione di primo livello
+2026-11-27;BB09;;;06/10/2023;30/06/2024;0;;Percorso di istruzione di primo livello
+2026-11-27;BB10;Alfabetizzazione comuni l2 - livello basso;;15/10/2020;30/06/2021;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB10;Alfabetizzazione prot. italiano l2-livello basso;;15/10/2020;30/06/2021;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB10;Alfabetizzazione prot. italiano l2-livello alto;;15/10/2020;30/06/2021;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB10;Alfabetizzazione comuni l2- livello alto;;15/10/2020;30/06/2021;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB10;Scuola media;;15/10/2020;30/06/2021;0;;Percorso di istruzione di primo livello
+2026-11-27;BB10;Ipsia-comuni primo periodo didattico;;15/10/2020;30/06/2021;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB10;Ipsia- prot. primo periodo didattico;;15/10/2020;30/06/2021;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB10;Ipsia- comuni secondo periodo didattico;;15/10/2020;30/06/2021;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB13;Percorso di istruzione di primo livello;;07/10/2025;30/06/2026;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB13;Scuola media inferiore;;06/10/2025;30/06/2026;0;;Percorso di istruzione di primo livello
+2026-11-27;BB15;;;21/09/2026;05/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB15;;;15/06/2026;05/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;BB15;;;15/09/2026;05/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;BB16;Scuola medie mattino;Licenza di scuola nedia;12/10/2026;08/06/2027;14;;Percorso di istruzione di primo livello
+2026-11-27;BB16;Corao alfa -a -mattino;;12/10/2026;08/06/2027;14;;Percorso di istruzione di primo livello
+2026-11-27;BB16;Scuola media pomeriggio;Licenza media;12/10/2026;08/06/2027;11;;Percorso di istruzione di primo livello
+2026-11-27;BB16;Corso alfabetizzazione pomeriggio;;12/10/2026;08/06/2027;8;;Percorso di istruzione di primo livello
+2026-11-27;BB16;Corso alfa- b -mattino;;12/10/2026;08/06/2027;2;;Percorso di istruzione di primo livello
+2026-11-27;BB16;Corso di inglese;;12/10/2026;08/06/2027;14;;Percorso di istruzione di primo livello
+2026-11-27;BB16;Operatore agricolo iefp;Al 3 ° anno qualifica di formazione professionale;14/09/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;BB18;Licenza media comuni/protetti padiglioni mito/arte;Licenza media;13/10/2025;30/06/2026;24;;Percorso di istruzione di primo livello
+2026-11-27;BB19;;;14/09/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB19;;;14/09/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB19;;;14/09/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;BB19;;;14/09/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;BB20;;;19/10/2026;30/05/2027;6;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB20;Licenza media;;19/10/2026;19/05/2027;4;;Percorso di istruzione di primo livello
+2026-11-27;BB21;;;20/10/2025;10/06/2026;10;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB21;;;20/10/2025;10/06/2026;2;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB22;Alberghiero olivetti;;19/10/2026;31/07/2027;8;;Percorso di istruzione di primo livello
+2026-11-27;BB22;Inglese a.s. 2026/2027;;14/10/2026;08/06/2027;14;;Percorso di istruzione di primo livello
+2026-11-27;BB22;A2 - a.s. 2026/2027;;12/10/2026;29/01/2027;15;;Percorso di istruzione di primo livello
+2026-11-27;BB22;A 0 - a.s. 2026/2027;;12/10/2026;08/06/2027;10;;Percorso di istruzione di primo livello
+2026-11-27;BB22;A1 - a.s. 2026/2027;;12/10/2026;08/06/2027;15;;Percorso di istruzione di primo livello
+2026-11-27;BB22;Medie 1 a.s. 2026/2027;;12/10/2026;29/01/2027;12;;Percorso di istruzione di primo livello
+2026-11-27;BB22;Educazione civica;;12/10/2026;08/06/2027;27;;Percorso di istruzione di primo livello
+2026-11-27;BB22;Cpia sez. c;;12/10/2026;30/06/2027;5;;Percorso di istruzione di primo livello
+2026-11-27;BB22;Medie 2 a.s. 2026/2027;;09/10/2026;29/01/2027;12;;Percorso di istruzione di primo livello
+2026-11-27;BB23;A1 comuni;;21/10/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB23;A1 protetti;;21/10/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB23;A2 comuni;;21/10/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB23;A2 protetti;;21/10/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB23;Pre a 1 comuni;;21/10/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB23;Pre a1 protetti;;21/10/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB23;Scuola media pad a b;Diploma;13/10/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;BB23;Scuola media pad c a.a. 2026-2027;;22/09/2026;31/07/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;BB23;Scuola alberghiera;;17/09/2026;17/07/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB24;Informatica;;14/10/2026;30/06/2027;0;;Moduli aggiuntivi alle frequenze
+2026-11-27;BB24;Italiano;;14/10/2026;30/06/2027;0;;Moduli aggiuntivi alle frequenze
+2026-11-27;BB25;Italiano l2;;05/10/2026;31/12/2027;6;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB25;Informatica;Competenze;05/10/2026;31/12/2027;4;;Percorso di istruzione di primo livello
+2026-11-27;BB25;Scienze;Competenze;05/10/2026;31/12/2027;4;;Percorso di istruzione di primo livello
+2026-11-27;BB25;Matematica;Competenze;05/10/2026;31/12/2027;1;;Percorso di istruzione di primo livello
+2026-11-27;BB25;Inglese;Competenze;05/10/2026;31/12/2027;7;;Percorso di istruzione di primo livello
+2026-11-27;BB25;Arte;Competenze;05/10/2026;31/12/2027;3;;Percorso di istruzione di primo livello
+2026-11-27;BB26;;Idoneita';07/10/2024;08/06/2025;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB26;;Idoneita';07/10/2024;08/06/2025;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB26;;Idoneita';07/10/2024;08/06/2025;8;;Percorso di istruzione di secondo livello
+2026-11-27;BB26;;Idoneita';07/10/2024;08/06/2025;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB26;;Idoneita';07/10/2024;08/06/2025;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB29;Scuola elementare;;16/01/2026;31/07/2026;3;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB29;Scuola media infeirore maschile;;06/10/2025;31/07/2026;20;;Percorso di istruzione di primo livello
+2026-11-27;BB30;Corso alfabetizzazione;;04/10/2024;04/06/2025;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB30;Corso alfabetizzazione;;04/10/2024;04/06/2025;10;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB30;Potenziamento lingua italiana;;04/10/2024;04/06/2025;13;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB30;Media;;04/10/2024;04/06/2025;10;;Percorso di istruzione di primo livello
+2026-11-27;BB30;Scuola media;;04/10/2024;04/06/2025;12;;Percorso di istruzione di primo livello
+2026-11-27;BB30;Media biennio;;04/10/2024;04/06/2025;12;;Percorso di istruzione di primo livello
+2026-11-27;BB30;Istituto alberghiero;;04/10/2024;04/06/2025;17;;Percorso di istruzione di secondo livello
+2026-11-27;BB30;Alberghiero;Diploma;04/10/2024;04/06/2025;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB32;F/c (alfa a1);A1;19/10/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB32;F/d (alfa a2);A2;19/10/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB32;F/a-b (alfa pre a1);Alfa base a1.1;19/10/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB32;Icam-a (alfa);Attestati di livello;19/10/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB32;F/l (medie);Attestao primo ciclo d'istruzione;19/10/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;BB32;F/q+g (lab.);Certificato di competenze/attestato di frequenza;19/10/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;BB32;Icam-g/q (lab. icam);Certificato di competenze/attestato di frequenza;19/10/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;BB37;Corso di alfabetizzazione;;22/10/2026;02/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB37;Corso di alfabetizzazione;;22/10/2026;02/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB37;Scuola media;;02/11/2026;13/11/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;BB37;1^ragioneria;;07/10/2026;13/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB37;2^geometra;;07/10/2026;13/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB37;4^ragioneria;;07/10/2026;13/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB37;5^geometra;;07/10/2026;13/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB37;3^ragioneria;;07/10/2026;13/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB37;3^geometra;;07/10/2026;13/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;BB39;Alfabetizzazione;;14/09/2026;30/06/2027;13;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB39;Alfabetizzazione;;14/09/2026;30/06/2027;10;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB39;;;14/09/2026;30/06/2027;21;;Percorso di apprendimento della lingua italiana
+2026-11-27;BB39;;;14/09/2026;30/06/2027;30;;Percorso di istruzione di primo livello
+2026-11-27;BB39;;;14/09/2026;30/06/2027;6;;Percorso di istruzione di primo livello
+2026-11-27;BB39;;;14/06/2026;30/06/2027;26;;Percorso di istruzione di primo livello
+2026-11-27;BB39;;;14/09/2026;30/06/2027;13;;Percorso di istruzione di secondo livello
+2026-11-27;BB39;;;14/09/2026;30/06/2027;10;;Percorso di istruzione di secondo livello
+2026-11-27;BB39;;;14/09/2026;30/06/2027;3;;Percorso di istruzione di secondo livello
+2026-11-27;BB39;;;14/09/2026;30/09/2027;13;;Percorso di istruzione di secondo livello
+2026-11-27;BB39;;;14/09/2026;30/06/2027;6;;Percorso di istruzione di secondo livello
+2026-11-27;BB39;;;14/09/2026;30/06/2027;3;;Percorso di istruzione di secondo livello
+2026-11-27;BB39;;;14/09/2026;30/06/2027;10;;Percorso di istruzione di secondo livello
+2026-11-27;BB39;;;14/09/2026;30/06/2027;9;;Percorso di istruzione di secondo livello
+2026-11-27;BB39;;;14/09/2026;30/06/2027;14;;Percorso di istruzione di secondo livello
+2026-11-27;BB39;;;14/09/2026;30/06/2027;5;;Percorso di istruzione di secondo livello
+2026-11-27;BB39;;;14/09/2026;30/06/2027;12;;Percorso di istruzione di secondo livello
+2026-11-27;BB39;;;14/09/2026;30/06/2027;9;;Percorso di istruzione di secondo livello
+2026-11-27;BB43;Moda;;14/09/2026;08/06/2027;3;;Percorso di istruzione di secondo livello
+2026-11-27;BB43;Moda;;14/09/2026;08/06/2027;5;;Percorso di istruzione di secondo livello
+2026-11-27;BB43;Geometri;;14/09/2026;08/06/2027;4;;Percorso di istruzione di secondo livello
+2026-11-27;BB43;Geometri;;14/09/2026;08/06/2027;2;;Percorso di istruzione di secondo livello
+2026-11-27;BB43;Geometri;;14/09/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;CC02;Cpia;;05/10/2026;30/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC02;Cpia;;05/10/2026;30/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC02;Cpia;;05/10/2026;30/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC02;Cpia;;05/10/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;CC02;;;05/10/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;CC02;;;05/10/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;CC03;;;21/09/2026;16/06/2027;6;;Percorso di istruzione di primo livello
+2026-11-27;CC05;;;09/10/2023;06/06/2024;0;;Percorso di istruzione di primo livello
+2026-11-27;CC05;;;05/10/2023;06/06/2024;0;;Percorso di istruzione di secondo livello
+2026-11-27;CC05;;;09/10/2023;06/06/2024;0;;Percorso di istruzione di primo livello
+2026-11-27;CC05;;;05/10/2023;06/06/2024;0;;Percorso di istruzione di secondo livello
+2026-11-27;CC07;;;15/09/2024;30/06/2025;0;;Percorso di istruzione di primo livello
+2026-11-27;CC07;;;01/04/2025;30/06/2025;0;;Percorso di istruzione di primo livello
+2026-11-27;CC09;Italiano avanzato a2;;12/10/2026;06/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC09;Italiano avanzato a2 sezioni 3 e 4;;12/10/2026;06/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC09;Corso alfabetizzazione;;12/10/2026;06/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC09;Plpp;;12/10/2026;06/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;CC09;2 act turistico;;08/09/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;CC09;4actur turistico;;06/09/2026;06/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;CC10;Italiano a1;;05/10/2026;30/01/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;CC10;Italiano a2;;05/10/2026;30/01/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;CC10;Italiano b1;;05/10/2026;30/01/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;CC10;Disegno;;05/10/2026;31/01/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;CC10;Italiano prealfa;;05/10/2026;30/01/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;CC10;Medie;;05/10/2026;30/01/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;CC10;Scienze;;05/10/2026;30/01/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;CC10;Storia dell'arte;;05/10/2026;30/01/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;CC10;Superiori;;05/10/2026;30/01/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;CC13;;;19/10/2026;09/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC13;;;19/10/2026;09/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC14;Alfabetizzazione livello a1;Attestato;12/10/2026;10/06/2027;10;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC14;Alfabetizzazione livello a2;Attestato;12/10/2026;10/06/2027;8;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC16;;;31/10/2025;30/06/2026;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC16;;;31/10/2025;30/06/2026;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC16;;;31/10/2025;30/06/2026;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC16;;;31/10/2025;30/06/2026;0;;Percorso di istruzione di primo livello
+2026-11-27;CC17;Alfabetizzazione a1 a;;05/10/2026;05/02/2027;17;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC17;Alfabetizzazione a1 b;;05/10/2026;05/02/2027;14;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC17;Alfabetizzazione prea1 a;;05/10/2026;05/02/2027;14;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC17;Alfabetizzazione prea1 b;;05/10/2026;05/02/2027;14;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC17;Alfabetizzazione liv. analfabeti;;05/10/2026;05/02/2027;10;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC17;Alfabetizzazione a2;Certificazione;05/10/2026;05/02/2027;22;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC17;Alfabetizzazione a2 femminile;;05/10/2026;08/06/2027;6;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC17;Scuola media e;Licenza media;05/10/2026;08/06/2027;16;;Percorso di istruzione di primo livello
+2026-11-27;CC17;Scuola media f;Licenza media;05/10/2026;08/06/2027;11;;Percorso di istruzione di primo livello
+2026-11-27;CC17;Enogastronomia e ospitalita' alberghiera;;07/10/2026;08/06/2027;9;;Percorso di istruzione di secondo livello
+2026-11-27;CC17;Enogastronomia e ospitalita' alberghiera;;07/10/2026;08/06/2027;10;;Percorso di istruzione di secondo livello
+2026-11-27;CC17;Enogastronomia e ospitalita' alberghiera;Diploma;07/10/2026;08/06/2027;7;;Percorso di istruzione di secondo livello
+2026-11-27;CC17;Odontotecnica;;19/10/2026;08/06/2027;13;;Percorso di istruzione di secondo livello
+2026-11-27;CC17;Odontotecnica;;19/10/2026;08/06/2027;7;;Percorso di istruzione di secondo livello
+2026-11-27;CC17;Odontotecnica;Diploma;19/10/2026;08/06/2027;3;;Percorso di istruzione di secondo livello
+2026-11-27;CC17;Sistemi informativi aziendali;;19/10/2026;08/06/2027;5;;Percorso di istruzione di secondo livello
+2026-11-27;CC18;Corso a 2;;07/10/2026;30/06/2027;11;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC18;;;13/11/2026;13/06/2027;12;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC18;Scuola media;;07/10/2026;30/06/2027;10;;Percorso di istruzione di primo livello
+2026-11-27;CC18;Corso a2;;07/10/2026;30/06/2027;8;;Percorso di istruzione di primo livello
+2026-11-27;CC19;;;11/09/2024;06/06/2025;0;;Percorso di istruzione di primo livello
+2026-11-27;CC19;;;11/09/2024;06/06/2025;0;;Percorso di istruzione di primo livello
+2026-11-27;CC19;Opzione produzione tessili e sartoriali;;11/09/2024;06/06/2025;0;;Percorso di istruzione di secondo livello
+2026-11-27;CC25;Corso di lingua a1;;12/10/2026;30/06/2027;18;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC25;Corso di lingua italiana a2;;12/10/2026;30/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC25;Corso di inglese;;16/11/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;CC25;Ex medie;;12/10/2026;30/06/2027;29;;Percorso di istruzione di primo livello
+2026-11-27;CC25;Ex medie;;12/10/2026;30/06/2027;29;;Percorso di istruzione di primo livello
+2026-11-27;CC25;Corso alberghiero ii°anno;;15/09/2026;30/06/2027;19;;Percorso di istruzione di secondo livello
+2026-11-27;CC25;Corso alberghiero i°anno;;15/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;CC25;Corso alberghiero - iii°anno;;15/09/2026;30/06/2027;11;;Percorso di istruzione di secondo livello
+2026-11-27;CC25;Ragioneri i° anno scolastico;;15/09/2026;30/06/2027;22;;Percorso di istruzione di secondo livello
+2026-11-27;CC25;Ragionieri ii° anno scolastico;;15/09/2026;30/06/2027;8;;Percorso di istruzione di secondo livello
+2026-11-27;CC25;Ragionieri iii° anno scolastico;;15/09/2026;30/06/2027;11;;Percorso di istruzione di secondo livello
+2026-11-27;CC25;Ragionieri iv° anno scolastico;;15/09/2026;30/06/2027;5;;Percorso di istruzione di secondo livello
+2026-11-27;CC25;Ragioneiria v° anno scolastico;;15/09/2026;30/06/2027;3;;Percorso di istruzione di secondo livello
+2026-11-27;CC25;"Corso di ""sociologia del carcere"" anno 2026/2027";;16/10/2026;15/01/2027;0;;Universitario
+2026-11-27;CC26;Enogastronomia e ospitalita' alberghiera;;01/09/2026;30/06/2027;9;;Percorso di istruzione di secondo livello
+2026-11-27;CC30;;;05/10/2026;10/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;CC31;Corso alfabetizzazione;;01/11/2025;10/06/2026;7;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC31;Corso spagnolo;;01/11/2025;10/06/2026;10;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC31;Corso inglese;;01/11/2025;10/06/2026;10;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC31;Corso inglese as3;;01/11/2025;10/06/2026;5;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC31;Corso spagnolo as3;;01/11/2025;10/06/2026;10;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC31;Scienze;;01/11/2025;10/06/2026;11;;Percorso di apprendimento della lingua italiana
+2026-11-27;CC31;"Secondaria primo grado "" ex scuola media""";Diploma;01/11/2025;10/06/2026;9;;Percorso di istruzione di primo livello
+2026-11-27;CC31;;;01/11/2025;10/06/2026;20;;Percorso di istruzione di secondo livello
+2026-11-27;DD02;Corso alfabetizzazione a1;;03/10/2026;10/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;DD02;Corso alfabetizzazione a2;;03/10/2026;10/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;DD02;Iii media;;03/10/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;DD02;I anno scuola alberghiera;;15/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD02;Ii anno scuola alberghiera;;15/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD02;Iii anno scuola alberghierra;;15/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD02;Iv anno scuola alberghiera;;15/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD02;V anno scuola alberghiera;;15/09/2026;15/07/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD02;Percorso universitario;;01/09/2026;30/08/2027;9;;Universitario
+2026-11-27;DD03;;;01/09/2019;30/07/2020;8;;Universitario
+2026-11-27;DD05;;;01/10/2024;15/06/2025;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;DD05;Inglese;;02/10/2024;15/06/2025;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;DD05;;;01/10/2024;15/06/2025;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;DD08;Universita' di pisa scienze della comunicazione;;16/09/2024;31/07/2025;0;;Universitario
+2026-11-27;DD08;Universita' di pisa. scienze erboristiche;;16/09/2024;31/07/2025;0;;Universitario
+2026-11-27;DD08;Universita roma3. giurisprudenza;;16/09/2024;31/07/2025;0;;Universitario
+2026-11-27;DD08;Universita di parma. scienze dell'educazione;;16/09/2024;31/07/2025;0;;Universitario
+2026-11-27;DD08;Universita di pisa. filosofia;;16/09/2024;31/07/2025;0;;Universitario
+2026-11-27;DD08;Universita di siena. economia;;16/09/2024;31/07/2025;0;;Universitario
+2026-11-27;DD08;Universita di calabria. scienze politiche;;15/09/2024;31/07/2025;0;;Universitario
+2026-11-27;DD09;;;01/10/2025;30/06/2026;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;DD12;Alfabetizzazione/potenziamento classe;;22/09/2026;30/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;DD12;Licenza media;;22/09/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;DD12;Agrario classe 1^;;22/09/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;DD12;Classe ii^ agrario;;24/09/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;DD12;Biennio 1 scuola superiore;;22/09/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;DD12;Biennio 2 scuola superiore;;22/09/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;DD12;Enogastronomico;;22/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD12;Enogastronomico;;22/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD12;Enogastronomico;;22/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD12;Enogastronomico;;22/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD12;Enogastronomico;;22/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD12;Tecnico economico turistico;;22/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD12;Tecnico economico turistico;;22/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD12;Tecnico economico turistico;;22/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD12;Tecnico economico turistico;;22/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD12;Tecnico economico turistico;;22/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD12;Universita' degli studi di firenze;;01/11/2023;01/06/2028;3;;Universitario
+2026-11-27;DD12;Università degli studi di siena;;01/11/2023;01/07/2028;69;;Universitario
+2026-11-27;DD12;;;01/11/2023;01/06/2029;10;;Universitario
+2026-11-27;DD13;Scuole medie;;10/09/2025;15/06/2026;0;;Percorso di istruzione di primo livello
+2026-11-27;DD13;Biennio superiore;;10/09/2025;15/06/2026;0;;Percorso di istruzione di primo livello
+2026-11-27;DD13;Scuola superiore alberghiera;;10/09/2025;15/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD13;Scuola superiore alberghiera;;10/09/2025;15/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD13;Scola superiore alberghiera;;10/09/2025;15/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD13;Scuola superiore agraria;;10/09/2025;15/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD13;Scuola superiore agraria;;10/09/2025;15/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD13;Scuola superiore agraria;;10/09/2025;15/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD13;Liceo artistico;;10/09/2025;15/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD13;Liceo artistico;;10/09/2025;15/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD13;Liceo artistico;;10/09/2025;15/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD14;Sostegno studio universitario;;01/09/2024;30/08/2025;3;;Universitario
+2026-11-27;DD16;;;20/10/2025;10/06/2026;6;;Percorso di apprendimento della lingua italiana
+2026-11-27;DD16;;;20/10/2025;10/06/2026;6;;Percorso di istruzione di primo livello
+2026-11-27;DD17;Alfabetizzazione;;15/09/2024;10/06/2025;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;DD17;Alfabetizzazione;;15/09/2024;10/06/2025;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;DD17;Scuola media;;15/09/2024;10/06/2025;0;;Percorso di istruzione di primo livello
+2026-11-27;DD18;;;06/10/2025;09/06/2026;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;DD18;;;06/10/2025;09/06/2026;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;DD18;;;06/10/2025;09/06/2026;0;;Percorso di istruzione di primo livello
+2026-11-27;DD18;Primo anno;;06/10/2025;09/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD18;Primo anno;;06/10/2025;09/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD18;Primo anno;;06/10/2025;09/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD18;Secondo anno;;06/10/2025;09/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD18;Secondo anno;;06/10/2025;09/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD18;Secondo anno;;06/10/2025;09/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD18;Terzo anno;;06/10/2025;09/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD18;Terzo anno;;06/10/2025;09/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD18;Terzo anno;;06/10/2025;09/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD18;Terzo anno;;06/10/2025;09/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD18;Terzo anno;;06/10/2025;09/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD18;Quarto anno;;06/10/2025;09/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD18;Quarto anno;;06/10/2025;09/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD18;Quarto anno;;06/10/2025;09/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD18;Quinto anno;;06/10/2025;09/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD18;Quinto anno;;06/10/2025;09/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD18;Quinto anno;;06/10/2025;09/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD18;Quinto anno;;06/10/2025;09/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;DD20;Lingua inglese;Crediti formativi;25/11/2018;31/05/2019;5;;Moduli aggiuntivi alle frequenze
+2026-11-27;DD20;Lingua italiana per stranieri;Crediti formativi;25/11/2018;31/05/2019;5;;Percorso di apprendimento della lingua italiana
+2026-11-27;DD20;Scienze matematiche;Crediti formativi;25/11/2018;31/05/2019;5;;Percorso di istruzione di primo livello
+2026-11-27;DD20;Scienze e tecnologia - informatica;Crediti formativi;25/11/2018;31/05/2019;4;;Percorso di istruzione di primo livello
+2026-11-27;DD20;Integrazione alla lingua italiana;Crediti formativi;25/11/2018;31/05/2019;6;;Percorso di istruzione di primo livello
+2026-11-27;DD22;;Attestato;01/10/2024;15/06/2025;5;;Percorso di apprendimento della lingua italiana
+2026-11-27;DD22;;;01/10/2024;15/06/2025;3;;Percorso di istruzione di primo livello
+2026-11-27;DD22;;;01/10/2024;15/06/2025;6;;Percorso di istruzione di primo livello
+2026-11-27;DD23;;Diploma triennale;01/10/2024;01/10/2025;0;;Universitario
+2026-11-27;DD23;Cdl triennale in scienze agrarie ed ambientali;;01/10/2024;01/10/2025;0;;Universitario
+2026-11-27;DD23;Cdl triennale in lettere;;01/10/2024;01/10/2025;0;;Universitario
+2026-11-27;DD23;Cdl triennale in scienze dell'educazione;;01/10/2024;01/10/2025;0;;Universitario
+2026-11-27;DD23;Cdl magistrale in sociologia della cooperazione;;01/10/2024;01/10/2025;0;;Universitario
+2026-11-27;DD23;Cdl in scienze e tecnologia informatica;;01/10/2024;01/10/2025;0;;Universitario
+2026-11-27;DD23;Cdl laurea triennale scienze della comunicazione;;01/10/2024;01/10/2025;0;;Universitario
+2026-11-27;DD23;Cdl laurea triennale scienze giuridiche;;01/10/2024;01/10/2025;0;;Universitario
+2026-11-27;DD23;Cdl laurea triennale economia aziendale;;01/10/2024;01/10/2025;0;;Universitario
+2026-11-27;DD23;Laurea triennale ingegneria civile ed ambientale;;01/10/2024;01/10/2025;0;;Universitario
+2026-11-27;DD27;;;30/09/2024;10/06/2025;50;;Percorso di apprendimento della lingua italiana
+2026-11-27;DD27;;Attestato livello a2 lingua italiana;30/09/2024;10/06/2025;20;;Percorso di apprendimento della lingua italiana
+2026-11-27;DD27;;Dilpoma licenza media;30/09/2024;10/06/2025;26;;Percorso di istruzione di primo livello
+2026-11-27;DD43;Universita' media sicurezza;;01/09/2024;31/08/2025;18;;Universitario
+2026-11-27;DD43;Universita' alta sicurezza;;01/09/2024;31/08/2025;13;;Universitario
+2026-11-27;DD55;Corso a2 maschile bei-giovagnoni;;27/10/2025;31/10/2026;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;EE03;;;01/12/2024;31/12/2029;7;;Universitario
+2026-11-27;EE04;;;01/10/2025;05/06/2026;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;EE04;;;01/10/2025;05/06/2026;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;EE04;;;13/10/2025;05/06/2026;0;;Percorso di istruzione di primo livello
+2026-11-27;EE04;;;10/10/2025;05/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;EE04;;;10/10/2025;05/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;EE04;Liceo artistico;;11/10/2025;05/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;EE05;;;12/10/2026;09/06/2027;9;;Percorso di istruzione di primo livello
+2026-11-27;EE05;Percorso di apprendimento italiano l2;;12/10/2026;09/06/2027;19;;Percorso di istruzione di primo livello
+2026-11-27;EE05;;;21/09/2026;09/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;EE06;Tecnico della ristorazione;Diploma di maturità;12/09/2019;01/07/2020;6;;Percorso di istruzione di secondo livello
+2026-11-27;EE07;;;22/09/2025;30/06/2026;47;;Percorso di istruzione di secondo livello
+2026-11-27;EE09;Va1t;Attestato;05/10/2020;08/06/2021;21;;Percorso di apprendimento della lingua italiana
+2026-11-27;EE09;Va2t;Attestato;05/10/2020;08/06/2021;18;;Percorso di apprendimento della lingua italiana
+2026-11-27;EE09;Ua2t;Attestato;05/10/2020;08/06/2021;9;;Percorso di apprendimento della lingua italiana
+2026-11-27;EE09;Classe 3 c;Diploma;05/10/2020;08/06/2021;21;;Percorso di istruzione di primo livello
+2026-11-27;EE09;Classe 2 c;Diploma;05/10/2020;08/06/2021;13;;Percorso di istruzione di primo livello
+2026-11-27;EE09;Classe 2d;Diploma;05/10/2020;08/06/2021;11;;Percorso di istruzione di primo livello
+2026-11-27;EE09;;;14/09/2020;08/06/2021;10;;Percorso di istruzione di secondo livello
+2026-11-27;EE09;;;14/09/2020;08/06/2021;6;;Percorso di istruzione di secondo livello
+2026-11-27;EE09;;;14/09/2020;08/06/2021;8;;Percorso di istruzione di secondo livello
+2026-11-27;EE10;;;25/09/2018;08/06/2019;8;;Percorso di apprendimento della lingua italiana
+2026-11-27;EE11;;;16/09/2026;09/09/2027;12;;Percorso di apprendimento della lingua italiana
+2026-11-27;EE12;;;14/09/2026;09/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;EE12;;Istituto professionale per agricoltura ambiente;14/09/2026;09/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;EE12;Tutela e benssere animale;;01/10/2025;31/12/10000;0;;Universitario
+2026-11-27;EE12;Giurisprudenza;;01/01/2025;31/12/10000;0;;Universitario
+2026-11-27;EE12;Comunicazione marketing e innovazione digitale;;01/01/2025;31/12/10000;0;;Universitario
+2026-11-27;EE12;Scienze e tecnologie della comunicazione;;01/01/2025;31/12/10000;0;;Universitario
+2026-11-27;EE12;Scienze e tecnologie alimentari;;01/10/2023;31/12/10000;2;;Universitario
+2026-11-27;EE12;Facolta' di economia;;01/10/2023;31/12/10000;3;;Universitario
+2026-11-27;EE12;Scienze della comunicazione;;01/10/2023;31/12/10000;6;;Universitario
+2026-11-27;EE12;Scienze e culture gastronomiche per la sostenibili;;01/10/2023;31/12/10000;11;;Universitario
+2026-11-27;EE12;Servizi giuridici;;01/10/2023;31/12/10000;2;;Universitario
+2026-11-27;EE12;Viticoltura ed enologia;;01/10/2023;31/12/10000;2;;Universitario
+2026-11-27;EE12;Turismo sostenibile;;01/10/2023;31/12/10000;3;;Universitario
+2026-11-27;EE12;Scienze politiche;;01/10/2023;31/12/10000;2;;Universitario
+2026-11-27;EE13;Corso per il conseguimento del diploma conclusivo;;01/09/2025;30/06/2026;0;;Percorso di istruzione di primo livello
+2026-11-27;EE13;Biennio e triennio pluriclasse;;01/09/2025;30/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;EE14;;;28/09/2026;30/06/2027;21;;Percorso di istruzione di secondo livello
+2026-11-27;EE14;;;28/09/2026;30/06/2027;9;;Percorso di istruzione di secondo livello
+2026-11-27;EE14;;;28/09/2026;30/06/2027;16;;Percorso di istruzione di secondo livello
+2026-11-27;EE14;;;28/09/2026;30/06/2027;9;;Percorso di istruzione di secondo livello
+2026-11-27;EE14;;;28/09/2026;30/06/2027;10;;Percorso di istruzione di secondo livello
+2026-11-27;EE16;;;22/10/2018;28/06/2019;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;EE16;;;22/10/2018;28/06/2019;0;;Percorso di istruzione di primo livello
+2026-11-27;EE17;Corso di lingua inglese;;03/02/2020;10/06/2020;15;;Percorso di istruzione di primo livello
+2026-11-27;EE17;Corso di informatica di base;;07/11/2019;10/06/2020;16;;Percorso di istruzione di primo livello
+2026-11-27;EE17;Corso di lingua italiana per stranieri sezione fem;;30/10/2019;10/06/2020;8;;Percorso di istruzione di primo livello
+2026-11-27;EE17;Corso di lingua italiana per stranieri;;14/10/2019;10/06/2020;4;;Percorso di istruzione di primo livello
+2026-11-27;EE17;Corso di informatica excel;;14/02/2020;10/06/2020;8;;Percorso di istruzione di primo livello
+2026-11-27;EE18;Medie e biennio scuola superiore;;05/10/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;EE20;Ist. prof.statale per i servizi alberghieri;;10/10/2025;08/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;EE22;I livello i periodo didattico;;28/09/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;EE22;I livello ii periodo didattico;;28/09/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;EE22;Iv ragioneria;;21/09/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;EE22;V ragioneria;;21/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;EE23;Alfabetizzazione;;08/09/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;EE23;Alfabetizzazione;;08/09/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;EE23;Alfabetizzazione;;08/09/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;EE23;Scuola media;;08/09/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;EE23;Scuola media;;08/09/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;EE23;Scuola media;;08/09/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;EE23;Biennio;;08/09/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;EE23;Biennio;;08/09/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;EE23;Biennio;;08/09/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;EE23;Laporatorio di arti pittoriche propedeutico;;11/11/2026;08/06/2027;17;;Percorso di istruzione di secondo livello
+2026-11-27;EE23;Catalogo sapienza comuni;;20/05/2025;31/12/2027;3;;Universitario
+2026-11-27;EE23;Catalogo prestabilito da sapienza as3;;20/05/2025;31/12/2027;2;;Universitario
+2026-11-27;EE23;Catalogo sapienza;;20/05/2025;31/12/2027;1;;Universitario
+2026-11-27;EE24;;;27/10/2025;16/10/2026;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;EE27;Alfabetizzazione lingua italiana;;15/10/2018;15/06/2019;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;EE27;;;15/10/2018;15/06/2019;0;;Percorso di istruzione di primo livello
+2026-11-27;EE27;;;15/10/2018;15/06/2019;0;;Percorso di istruzione di primo livello
+2026-11-27;EE28;Scienzedell'educazione;;01/09/2025;01/09/2026;5;;Universitario
+2026-11-27;EE28;Scienze e tecnologie per la conservazione di beni;;01/09/2025;01/09/2026;1;;Universitario
+2026-11-27;EE28;Scienze della comunicazione;;01/09/2025;01/09/2026;3;;Universitario
+2026-11-27;EE28;Dams;;01/09/2025;01/09/2026;2;;Universitario
+2026-11-27;EE28;Sociologia;;01/09/2025;01/09/2026;1;;Universitario
+2026-11-27;EE28;Diritto ed economia della proprieta' immobiliare;;01/09/2025;01/09/2026;1;;Universitario
+2026-11-27;EE29;L2 - lingua italiana;;14/09/2026;30/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;EE29;Scuola media comuni;;14/09/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;EE29;Scuola media inferiore coll. giustizia;;14/09/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;EE29;Istituto professionale servizi commerciali;;14/09/2026;30/07/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;EE29;Istituto alberghiero;;14/09/2026;30/07/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;EE29;Istituto alberghiero;;14/09/2026;30/07/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;EE29;Istituto alberghiero;;14/09/2026;30/07/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;EE29;Istituto tecnico agraio;;14/09/2026;30/07/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;EE29;Istituto tecnico agrario;;14/09/2026;30/07/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;EE29;Istituto tecnico agrario;;14/09/2026;30/07/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;EE29;Istituto tecnico economico;;14/09/2026;30/07/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;EE29;Istituto tecnico economico;;14/09/2026;30/07/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;EE29;Istituto tecnico economico coll. giustizia;;14/09/2026;30/07/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;EE29;Istituto tecnico economico;;14/09/2026;30/07/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;EE29;Istituto tecnico economico coll. giustizia;;14/09/2026;30/07/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;EE32;Alfabetizzazione a1;;28/09/2026;10/06/2027;11;;Percorso di apprendimento della lingua italiana
+2026-11-27;EE32;Alfabetizzazione a2;;28/09/2026;10/06/2027;6;;Percorso di apprendimento della lingua italiana
+2026-11-27;EE32;Scuole medie;;28/09/2026;30/06/2027;16;;Percorso di istruzione di primo livello
+2026-11-27;EE32;Biennale;;28/09/2026;30/06/2027;14;;Percorso di istruzione di primo livello
+2026-11-27;EE32;Istituto superiore calamatta/stendhal;;05/10/2026;10/06/2027;6;;Percorso di istruzione di secondo livello
+2026-11-27;EE32;Istituto auperiore calamatta/stendhal;;05/10/2026;10/06/2027;8;;Percorso di istruzione di secondo livello
+2026-11-27;EE32;Istituto calmatta/stendhal;;05/10/2026;10/06/2027;8;;Percorso di istruzione di secondo livello
+2026-11-27;EE32;Istituto calmatta/ stendhal;;05/10/2026;10/06/2027;6;;Percorso di istruzione di secondo livello
+2026-11-27;EE32;Istituto calamatta/stendhal;;05/10/2026;10/07/2027;10;;Percorso di istruzione di secondo livello
+2026-11-27;EE32;1biennio alberghiero-ristorazione;;05/10/2026;10/06/2027;12;;Percorso di istruzione di secondo livello
+2026-11-27;EE32;Triennio istituto alberghiero ristorazione;;05/10/2026;10/06/2027;12;;Percorso di istruzione di secondo livello
+2026-11-27;EE32;5 anno alberghiero;;05/10/2026;10/07/2027;9;;Percorso di istruzione di secondo livello
+2026-11-27;EE39;Istittuto tecnico economico von neumann;;14/09/2026;14/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;EE48;Corso di lingua italiana;;15/09/2018;08/06/2019;10;;Percorso di apprendimento della lingua italiana
+2026-11-27;EE48;Corso di lingua italiana per stranieri;;15/09/2018;08/06/2019;21;;Percorso di apprendimento della lingua italiana
+2026-11-27;EE48;Corso di lingua italiana per stranieri;;15/09/2018;08/06/2019;9;;Percorso di apprendimento della lingua italiana
+2026-11-27;EE48;Corso ex scuola media;;15/09/2018;08/06/2019;25;;Percorso di istruzione di primo livello
+2026-11-27;EE48;Corso ex scuola media;;15/09/2018;08/06/2019;10;;Percorso di istruzione di primo livello
+2026-11-27;EE48;Corso intermedio;;15/09/2018;08/06/2019;15;;Percorso di istruzione di primo livello
+2026-11-27;EE48;Intermedio;;15/09/2018;08/06/2019;6;;Percorso di istruzione di primo livello
+2026-11-27;EE48;;;15/09/2018;08/06/2019;13;;Percorso di istruzione di secondo livello
+2026-11-27;EE48;Scuola superiore;;18/09/2018;08/06/2019;14;;Percorso di istruzione di secondo livello
+2026-11-27;FF01;Primo biennio fermi-gadda;;13/10/2025;12/06/2026;13;;Percorso di istruzione di secondo livello
+2026-11-27;FF01;V anno fermi-gadda;;13/10/2025;12/06/2026;14;;Percorso di istruzione di secondo livello
+2026-11-27;FF03;Alfabetizzazione;;01/10/2026;30/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;FF03;400 ore;;01/10/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;FF03;825 ore;;01/10/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;FF03;1° cat;;05/10/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF03;3° cat;;05/10/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF04;Scuola media 2 cl. nilo 2 d;Diploma;20/09/2021;30/09/2022;9;;Percorso di istruzione di primo livello
+2026-11-27;FF05;Alfabetizzazione cpia 2^ sezione;;28/09/2026;10/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;FF05;Scuola media 1° periodo 1 sezione;;28/09/2026;10/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;FF05;Alfabetizzazione 1^ sezione;;28/09/2026;10/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;FF05;Scuola media + 1 livello biennio cpia 2^ sezione;;28/09/2026;10/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;FF05;Biennio 2° periodo 1 sezione cpia;;28/09/2026;10/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;FF05;1°anno ragioneria 1^sezione;;05/10/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF05;2°periodo 3 e 4 anno 2^sezione;;05/10/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF05;2°periodo 3 e 4 anno alta sicurezza;;05/10/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF05;3° periodo 5 anno superiore alta sicurezza;;05/10/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF05;Polo universitario dams 2026/2027;;09/10/2026;10/06/2027;0;;Universitario
+2026-11-27;FF05;Polo universitario agraria 2026/2027;;09/10/2026;10/06/2027;0;;Universitario
+2026-11-27;FF05;Polo universitario lingue 2026/2027;;09/10/2026;10/06/2027;0;;Universitario
+2026-11-27;FF05;Polo universitario stal 2026/2027;;09/10/2026;10/06/2027;0;;Universitario
+2026-11-27;FF05;Polo universitario scienze ambientali 2026/2027;;09/10/2026;10/06/2027;0;;Universitario
+2026-11-27;FF05;Polo universitario filosofia 2026/2027;;09/10/2026;10/06/2027;0;;Universitario
+2026-11-27;FF05;Polo universitario giurisprudenza 2026/2027;;09/10/2026;10/06/2027;0;;Universitario
+2026-11-27;FF05;Polo universitario dams alta sicurezza 2026/2027;;09/10/2026;10/06/2027;0;;Universitario
+2026-11-27;FF05;Polo universitario informatica a.s 2026/2027;;09/10/2026;10/06/2027;0;;Universitario
+2026-11-27;FF05;Polo universitario agraria altasicurezza 2026/2027;;09/10/2026;10/06/2027;0;;Universitario
+2026-11-27;FF05;Polo universitario economia magistrale;;05/10/2026;10/06/2027;0;;Universitario
+2026-11-27;FF06;Alfabetizzazione e apprendimento della lingua ital;;05/10/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;FF06;Alfabetizzazione e apprendimento della lingua ital;;05/10/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;FF06;Primo livello primo periodo;;05/10/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;FF06;Primo livello secondo periodo;;05/10/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;FF06;Manutenzione e assistenza tecnica;;05/10/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF06;Manutenzione e assistenza tecnica;;05/10/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF06;;;05/10/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF08;;;01/10/2024;15/06/2025;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;FF08;;;01/10/2024;15/06/2025;0;;Percorso di istruzione di primo livello
+2026-11-27;FF08;;;01/10/2024;15/06/2025;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF08;;;01/10/2024;15/06/2025;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF08;;;01/10/2024;15/06/2025;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF08;;;01/10/2024;15/06/2025;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF08;;;01/10/2024;15/06/2025;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF11;Istituto professionale alberghiero;;23/09/2019;10/06/2020;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF11;Istituto professionale alberghiero;;23/09/2019;10/06/2020;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF12;Alfabetizzazione;;02/10/2025;15/06/2026;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;FF12;Ex scuola media;;02/10/2025;15/06/2026;0;;Percorso di istruzione di primo livello
+2026-11-27;FF13;Alfabetizzazione sezione femminile;;29/09/2025;09/06/2026;31;;Percorso di apprendimento della lingua italiana
+2026-11-27;FF13;Alfabetizzazione sex offender;;29/09/2025;09/06/2026;6;;Percorso di apprendimento della lingua italiana
+2026-11-27;FF13;Alfabetizzazione protetti;;29/09/2025;09/06/2026;6;;Percorso di apprendimento della lingua italiana
+2026-11-27;FF13;1° p:p.d. ex scuola media;;29/09/2025;09/06/2026;13;;Percorso di istruzione di primo livello
+2026-11-27;FF13;2° p:p:d biennio;;29/09/2025;09/06/2026;34;;Percorso di istruzione di primo livello
+2026-11-27;FF13;Gestione ambiente e territorio classe 1°;;15/10/2025;09/06/2026;23;;Percorso di istruzione di secondo livello
+2026-11-27;FF13;Gestione ambiente e territorio classe 2°;;15/10/2025;09/06/2026;11;;Percorso di istruzione di secondo livello
+2026-11-27;FF13;Gestione ambiente e territorio classe 3°;;15/10/2025;09/06/2026;11;;Percorso di istruzione di secondo livello
+2026-11-27;FF13;Gestione ambiente e territorio;;15/10/2025;09/06/2026;8;;Percorso di istruzione di secondo livello
+2026-11-27;FF14;;;05/10/2026;16/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;FF14;;;05/10/2026;16/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;FF14;;;05/10/2026;16/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;FF14;;;23/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF15;Ii classe superiore;;15/09/2026;15/06/2027;14;;Percorso di istruzione di primo livello
+2026-11-27;FF15;I classe superiore;;15/09/2026;15/06/2027;26;;Percorso di istruzione di secondo livello
+2026-11-27;FF15;Iii classe superiore;;15/09/2026;15/06/2027;8;;Percorso di istruzione di secondo livello
+2026-11-27;FF15;Iv classe superiore;;15/09/2026;15/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF16;Scuola media;Licenza media;14/09/2026;08/06/2027;10;;Percorso di istruzione di primo livello
+2026-11-27;FF16;C.s.o. classe a;;07/09/2026;08/06/2027;20;;Percorso di istruzione di primo livello
+2026-11-27;FF16;C.s.o. corso b;;07/09/2026;08/06/2027;27;;Percorso di istruzione di primo livello
+2026-11-27;FF16;Ragioneria 4 anno asc;;15/10/2026;08/06/2027;10;;Percorso di istruzione di secondo livello
+2026-11-27;FF16;Ragioneria 4 anno bsc;;15/10/2026;08/06/2027;10;;Percorso di istruzione di secondo livello
+2026-11-27;FF16;Ragioneria 5 anno bsc;;15/10/2026;08/06/2027;6;;Percorso di istruzione di secondo livello
+2026-11-27;FF16;Ragioneria 5 anno asc;Diploma;15/10/2026;08/06/2027;5;;Percorso di istruzione di secondo livello
+2026-11-27;FF16;Agraria;;02/09/2026;31/12/2041;1;;Universitario
+2026-11-27;FF16;Dams;;02/09/2026;31/12/2041;2;;Universitario
+2026-11-27;FF16;Scienze politiche;;07/05/2026;31/12/2031;1;;Universitario
+2026-11-27;FF16;Scienze dei servizio sociale e sociologia;;28/11/2025;31/12/2031;1;;Universitario
+2026-11-27;FF17;Scuola media alfabetizzazione 2026/2027;;10/10/2026;15/06/2027;5;;Percorso di apprendimento della lingua italiana
+2026-11-27;FF17;Scuola media 2026/2027;;10/10/2026;15/06/2027;18;;Percorso di istruzione di primo livello
+2026-11-27;FF17;Scuola superiore generalista 1° biennio 2026/2027;;10/10/2026;15/06/2027;32;;Percorso di istruzione di secondo livello
+2026-11-27;FF17;Scuola archimede 2° biennio 2026/2027;;10/10/2026;15/06/2027;18;;Percorso di istruzione di secondo livello
+2026-11-27;FF17;Scuola archimede 5°classe 2026/2027;;10/10/2026;15/06/2027;4;;Percorso di istruzione di secondo livello
+2026-11-27;FF17;Scuola alberghiero 2° biennio 2026/2027;;10/10/2026;15/06/2027;22;;Percorso di istruzione di secondo livello
+2026-11-27;FF17;Scuola alberghiero 5° classe 2026/2027;;10/10/2026;15/06/2027;4;;Percorso di istruzione di secondo livello
+2026-11-27;FF17;Scuola liceo artistico 2° biennio 2026/2027;;10/10/2026;15/06/2027;7;;Percorso di istruzione di secondo livello
+2026-11-27;FF17;Scuola liceo artistico 5° classe 202672027;;10/10/2026;15/06/2027;6;;Percorso di istruzione di secondo livello
+2026-11-27;FF17;Uniba dams;Laurea triennale;31/12/2022;31/12/2027;0;;Universitario
+2026-11-27;FF17;Uniba scienze politiche economico amministrativo;Laurea triennale;31/12/2022;31/12/2027;0;;Universitario
+2026-11-27;FF18;Alfabetizzazione lingua italiana (ex elementare);Competenze della lingua italiana;10/09/2018;10/06/2019;6;;Percorso di apprendimento della lingua italiana
+2026-11-27;FF18;Corso primo periodo didattico (ex scuola media);Att. di primo periodo didattico (ex scuola media);10/09/2018;10/06/2019;14;;Percorso di istruzione di primo livello
+2026-11-27;FF18;Marketing e finanza - terzo anno ragioneria;;24/10/2018;10/06/2019;37;;Percorso di istruzione di secondo livello
+2026-11-27;FF19;;;01/10/2026;30/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;FF19;;;23/11/2026;05/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF23;;;30/09/2025;06/07/2026;16;;Percorso di istruzione di secondo livello
+2026-11-27;FF23;;;30/09/2025;06/07/2026;4;;Percorso di istruzione di secondo livello
+2026-11-27;FF23;;;30/09/2025;06/07/2026;8;;Percorso di istruzione di secondo livello
+2026-11-27;FF23;;;30/09/2025;06/07/2026;4;;Percorso di istruzione di secondo livello
+2026-11-27;FF23;;;30/09/2025;06/07/2026;2;;Percorso di istruzione di secondo livello
+2026-11-27;FF24;Corso alfabetizzazione italiana per stranieri (ali;Alfabetizzazione a2;02/10/2018;30/06/2019;5;;Percorso di apprendimento della lingua italiana
+2026-11-27;FF24;Scuola media;Diploma di scuola secondaria di primo grado;02/10/2018;30/06/2019;7;;Percorso di istruzione di primo livello
+2026-11-27;FF24;Primo biennio scuola secondaria di secondo grado;;02/10/2018;30/06/2019;16;;Percorso di istruzione di primo livello
+2026-11-27;FF25;V° anno istituto per le professioni alberghiere;Diploma;10/09/2023;15/06/2024;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF25;V° anno istituto per le professioni alberghiere;Diploma;10/09/2023;15/06/2024;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF29;Alfabetizzazione;;15/09/2025;30/06/2026;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;FF29;Scuola media;;15/09/2025;30/06/2026;0;;Percorso di istruzione di primo livello
+2026-11-27;FF29;1° periodo didattico 2° ciclo 825 ore;;15/09/2025;30/06/2026;0;;Percorso di istruzione di primo livello
+2026-11-27;FF29;1° biennio enogastronomia;;15/09/2025;30/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF29;2° biennio enogastronomia;;15/09/2025;30/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF29;Monoennio enogastronomia;;15/09/2025;30/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF29;1° biennio agraria;;15/09/2025;30/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF29;2° biennio agraria;;15/09/2025;30/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF29;Monoennio agraria;;15/09/2025;30/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF30;;;14/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF30;;;14/09/2026;30/06/2027;4;;Percorso di istruzione di secondo livello
+2026-11-27;FF30;;;14/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF32;Corso f;Disploma di scuola media superiore per geometri;12/09/2018;09/06/2019;27;;Percorso di istruzione di secondo livello
+2026-11-27;FF32;Corso g;Diploma di scuola media superiore per geometri;12/09/2018;09/06/2019;18;;Percorso di istruzione di secondo livello
+2026-11-27;FF32;Corso f;Diploma di scuola media superiore per gemetri;12/09/2018;09/06/2019;20;;Percorso di istruzione di secondo livello
+2026-11-27;FF32;Corso g;Diploma di scuola media superiore per geometri;12/09/2018;09/06/2019;9;;Percorso di istruzione di secondo livello
+2026-11-27;FF32;Corso f;Diploma di scuola media superiore per geometri;12/09/2018;09/06/2019;20;;Percorso di istruzione di secondo livello
+2026-11-27;FF32;Corso g;Diploma di scuola media superiore per geometri;12/09/2018;09/06/2019;5;;Percorso di istruzione di secondo livello
+2026-11-27;FF32;Corso f;Diploma di scuola media superiore per geometri;12/09/2018;09/06/2019;9;;Percorso di istruzione di secondo livello
+2026-11-27;FF32;Corso g;Dipola di scuola media superore per geometri;12/09/2018;09/06/2019;5;;Percorso di istruzione di secondo livello
+2026-11-27;FF32;Corso f;Diploma di scuola media superiore per geometri;12/09/2018;09/06/2019;1;;Percorso di istruzione di secondo livello
+2026-11-27;FF32;Corso g;Diploma di scuola media superore per geometri;12/09/2018;09/06/2019;2;;Percorso di istruzione di secondo livello
+2026-11-27;FF34;Alfabetizzazione;;01/10/2025;10/06/2026;76;;Percorso di apprendimento della lingua italiana
+2026-11-27;FF36;Licenza media sezione femminile;;07/10/2025;15/06/2026;4;;Percorso di istruzione di primo livello
+2026-11-27;FF36;Licenza media sezione femminile;;07/10/2025;15/06/2026;9;;Percorso di istruzione di primo livello
+2026-11-27;FF36;Ampliamento offerta formativa sezione femminile;;07/10/2025;15/06/2026;5;;Percorso di istruzione di primo livello
+2026-11-27;FF56;;;12/09/2018;30/06/2019;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;FF56;;;12/09/2018;30/06/2019;0;;Percorso di istruzione di primo livello
+2026-11-27;FF56;;;12/09/2018;30/06/2019;0;;Percorso di istruzione di primo livello
+2026-11-27;FF58;Aali;;10/09/2026;08/06/2027;4;;Percorso di apprendimento della lingua italiana
+2026-11-27;FF58;;;10/09/2026;08/06/2027;10;;Percorso di istruzione di primo livello
+2026-11-27;FF58;;;10/09/2026;08/06/2027;13;;Percorso di istruzione di primo livello
+2026-11-27;FF58;Percorso garanzie delle competenze (ingl./inform.);;10/09/2026;08/06/2027;20;;Percorso di istruzione di primo livello
+2026-11-27;FF58;;;10/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF58;;;10/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF58;;;10/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF58;;;10/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;FF58;;;21/07/2015;31/12/10000;0;;Universitario
+2026-11-27;FF64;;;29/09/2025;29/06/2026;0;;Percorso di istruzione di primo livello
+2026-11-27;FF64;;;29/09/2025;29/06/2026;0;;Percorso di istruzione di primo livello
+2026-11-27;FF65;I° livello i° periodo;Diploma di primo livello primo periodo;12/09/2024;30/06/2025;2;;Percorso di istruzione di primo livello
+2026-11-27;FF68;Cpia alfabetizzazione anno scolastico 2026-2027;Certificato a2;16/09/2026;30/06/2027;4;;Percorso di apprendimento della lingua italiana
+2026-11-27;FF68;Ampliamento 200 ore anno2026-2027;Licenza elementare;16/09/2026;30/06/2027;4;;Percorso di apprendimento della lingua italiana
+2026-11-27;FM04;Scuola media;;01/10/2024;13/06/2025;13;;Percorso di istruzione di primo livello
+2026-11-27;FM04;Primo biennio superiore;;01/10/2024;13/06/2025;0;;Percorso di istruzione di primo livello
+2026-11-27;HH01;Alfabetizzazione sez. maschile m.s.;;11/09/2026;10/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;HH01;Alfebetizzazione stranieri sez. medicina;;11/09/2026;10/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;HH01;I livello i periodo didattico sez. m.s. maschile;;20/10/2026;10/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;HH01;I livello - i periodo didattico sez. femm. m.s.;;11/09/2026;10/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;HH01;I livello - ii perido didattico sez. cellulare m.s;;11/09/2026;10/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;HH01;I livello - ii perido didattico sez. femm. a.s.3.;;11/09/2026;10/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;HH01;2g cat - i periodo sezione maschile m.s.;;11/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH01;2 cat i periodo ii annualita' sez. femm. m.s.;;11/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH01;3 cat ii periodo i annualita' maschile m.s.;;11/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH01;3 cat ii periodo i annualita' sez. femm. m.s.;;11/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH01;3 cat ii periodo i annualita' sez. femm. a.s.3;;11/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH01;4 cat ii periodo ii annualita' maschile m.s.;;11/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH01;5 cat iii periodo didattico m.s. maschile;;24/11/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH01;5 cat iii periodo sez. femm. m.s.;;11/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH01;5 cat iii periodo sez. femm. a.s.3.;;11/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH01;Scienza del servizio sociale;;07/10/2026;31/08/2027;0;;Universitario
+2026-11-27;HH01;Scienze politiche amministrazione e servizi;;01/09/2026;31/08/2027;0;;Universitario
+2026-11-27;HH02;;;04/11/2026;10/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;HH02;;;04/11/2026;10/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;HH02;;;04/11/2026;10/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;HH02;;;04/11/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH02;;;28/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH02;;;28/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH02;;;28/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH03;A.s. maschile primo liv.1° per. did. ex lic. medi;;18/09/2025;08/06/2026;0;;Percorso di istruzione di primo livello
+2026-11-27;HH03;Sez. femminile primo livello 2° periodo didattico;;18/09/2025;08/06/2026;0;;Percorso di istruzione di primo livello
+2026-11-27;HH03;A.s. maschile primo liv. 2° periodo didattico;;18/09/2025;08/06/2026;0;;Percorso di istruzione di primo livello
+2026-11-27;HH04;Scuola secondaria di i° e ii° l 2 italiano per str;;17/09/2018;15/06/2019;11;;Percorso di apprendimento della lingua italiana
+2026-11-27;HH06;Corso di laurea triennale in scienze economiche;;21/09/2023;20/09/2028;0;;Universitario
+2026-11-27;HH07;Agroambientale;;15/09/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH07;Agroambientale;;15/09/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH07;Agroambientale;;15/09/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH07;Agroambientale;;05/09/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH07;Agroambientale;;15/09/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH08;;;11/09/2026;01/02/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;HH08;;;02/02/2027;09/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;HH08;;;11/09/2026;09/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;HH08;;;11/09/2026;09/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;HH08;;;15/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH08;;;15/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH08;;;15/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH08;;;15/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH08;;;15/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH08;;;18/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH08;;;18/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH08;;;18/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH08;;;18/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH08;;;18/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH08;;;15/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH08;;;15/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH08;;;15/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH08;;;15/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH08;;;15/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH11;Alberghiero as3 i periodo;;21/09/2021;15/06/2022;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH11;Alberghiero as3 ii periodo;;21/09/2021;15/06/2022;11;;Percorso di istruzione di secondo livello
+2026-11-27;HH11;Alberghiero as3 iii periodo;;21/09/2021;15/06/2022;8;;Percorso di istruzione di secondo livello
+2026-11-27;HH11;Liceo artistico ms i periodo;;21/09/2021;15/06/2022;7;;Percorso di istruzione di secondo livello
+2026-11-27;HH11;Liceo artistico as3 i periodo;;21/09/2021;15/06/2022;24;;Percorso di istruzione di secondo livello
+2026-11-27;HH11;Liceo artistico as3 ii periodo;;21/09/2021;15/06/2022;6;;Percorso di istruzione di secondo livello
+2026-11-27;HH11;Liceo artistico as3 iii periodo didattico;;21/09/2021;15/06/2022;5;;Percorso di istruzione di secondo livello
+2026-11-27;HH11;Liceo artistico ms ii periodo;;21/09/2021;15/06/2022;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH12;Alfabetizzazione;Attestato di conoscenza della lingua italiana;06/10/2026;15/07/2027;8;;Percorso di apprendimento della lingua italiana
+2026-11-27;HH12;Scuola media;;06/10/2026;15/07/2027;10;;Percorso di istruzione di primo livello
+2026-11-27;HH12;;;06/10/2026;15/07/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH12;;;06/10/2026;15/07/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH12;;;06/10/2026;15/07/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH12;;;06/10/2026;15/07/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH12;;;06/10/2026;15/07/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH12;;;06/10/2026;15/07/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH12;;;06/10/2026;15/07/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH12;;;06/10/2026;15/07/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH14;;;06/10/2025;10/06/2026;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;HH14;Alfebetizzazione sezione protetti;;06/10/2025;10/06/2026;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;HH14;Primo livello primo periodo didattico;Licenza media;06/10/2025;10/06/2026;6;;Percorso di istruzione di primo livello
+2026-11-27;HH14;Secondo livello secondo periodo didattico;;06/10/2025;10/06/2026;0;;Percorso di istruzione di primo livello
+2026-11-27;HH14;Commerciale geometra;;06/10/2025;10/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH15;;Laurea triennale;15/11/2023;31/12/2027;1;;Universitario
+2026-11-27;HH19;Scuola secondaria di i grado c.d. scuola media;;03/10/2024;30/06/2025;0;;Percorso di istruzione di primo livello
+2026-11-27;HH19;Scuola secondaria di i grado c.d. scuola media;;03/10/2024;30/06/2025;0;;Percorso di istruzione di primo livello
+2026-11-27;HH19;Scuola secondaria di ii livello;;03/10/2024;30/06/2025;0;;Percorso di istruzione di primo livello
+2026-11-27;HH19;Scuola secondaria di i grado c.d. scuola media;;03/10/2024;30/06/2025;0;;Percorso di istruzione di primo livello
+2026-11-27;HH19;Operatore elettrico ed elettronico;;25/11/2024;30/06/2025;31;;Percorso di istruzione di secondo livello
+2026-11-27;HH19;Operatore elettrico ed elettronico;;25/11/2024;30/06/2025;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH20;Liv.a1 alfabetizzazione;;18/09/2026;16/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;HH20;Liv.a2 ex licenza media;;18/09/2026;16/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;HH20;Ipseoa;;14/09/2026;16/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH20;2a;;14/09/2026;16/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH20;3a;;14/09/2026;16/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH20;4 a;;14/09/2026;16/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH20;5 a;;14/09/2026;16/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH39;Scuola agraria;;03/11/2025;15/07/2026;5;;Percorso di istruzione di secondo livello
+2026-11-27;HH41;Alfabetizzazione liv. a1- media sicurezza;;15/09/2026;30/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;HH41;Alfabetizzazione liv.a2- media sicurezza;;15/09/2026;30/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;HH41;Alfabetizzazione liv a2- as2;;15/09/2026;30/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;HH41;I livello-i periodo didattico-media sicurezza;;15/09/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;HH41;I livello-i periodo didattico- as3;;15/09/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;HH41;I.p.s.e.o.a.- alberghiero;;15/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH41;I.p.s.e.o.a. alberghiero;;15/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH41;I.t.i.;;15/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH41;I.t.i.;;15/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH41;I.t.i.;;15/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH41;I.t.i.;;15/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH41;I.t.i.;;15/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;HH41;Economia;;01/10/2026;01/10/2027;0;;Universitario
+2026-11-27;HH41;Servizi giuridici per l'innovazione digitale;;01/10/2026;01/10/2027;0;;Universitario
+2026-11-27;HH41;Filosofia e storia;;01/10/2026;01/10/2027;0;;Universitario
+2026-11-27;HH41;Scienze del turismo;;01/10/2026;01/10/2027;0;;Universitario
+2026-11-27;HH41;Filosofia e storia;;01/10/2026;01/10/2027;0;;Universitario
+2026-11-27;HH41;Economia aziendale;;01/10/2026;01/10/2027;0;;Universitario
+2026-11-27;HH41;Scienze filosofiche-corso magistrale;;01/10/2026;01/10/2027;0;;Universitario
+2026-11-27;HH41;Scienze politiche;;01/10/2026;01/10/2027;0;;Universitario
+2026-11-27;HH41;Scienza della nutrizione;;01/10/2026;01/10/2027;0;;Universitario
+2026-11-27;HH41;Psicologia- corsi singoli;;01/10/2026;01/10/2027;0;;Universitario
+2026-11-27;HH43;Alfabetizzazione;;19/10/2026;30/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;HH43;Scuola secondaria di i grado (licenza media);;19/10/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;HH44;Liceo artistico;;21/10/2026;09/06/2027;22;;Percorso di istruzione di secondo livello
+2026-11-27;HH44;Liceo artistico;;21/10/2026;09/06/2027;8;;Percorso di istruzione di secondo livello
+2026-11-27;HH44;Liceo artistico;;21/10/2026;09/06/2027;4;;Percorso di istruzione di secondo livello
+2026-11-27;HH44;Polo universitario facolta' mediterranea;Laurea;01/04/2024;31/12/2029;10;;Universitario
+2026-11-27;KK01;Primo ciclo di istruzione;;17/09/2026;10/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;KK01;Primo ciclo di istruzione - protetti;;17/09/2026;10/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;KK01;Primo ciclo di istruzione;;17/09/2026;10/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;KK01;Primo ciclo di istruzione - protetti;;17/09/2026;10/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;KK01;Primo ciclo di istruzione;;17/09/2026;10/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;KK01;Primo ciclo di istruzione - protetti;;17/09/2026;10/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;KK01;Istituto professionale per i servizi alberghieri;;15/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK01;Istituti professionali settore servizi alberghieri;;15/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK01;Istituto professionale per i servizi alberghieri;;16/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK01;Istituto professionaleper i servizi alberghieri;;15/08/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK01;Istituto professionale per i servizi alberghieri;;16/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK01;;;01/11/2022;31/10/2027;0;;Universitario
+2026-11-27;KK02;Alfabetizzazione etna - i annualita';;21/09/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;KK02;Alfabetizzazione comuni - i annualita';;18/09/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;KK02;Corso di alfabetizzazione stranieri;;17/09/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;KK02;Alfabetizzazione etna - ii annualita';;21/09/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;KK02;Alfabetizzazione comuni - ii annualita';;18/09/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;KK02;"Liceo artistico ""emilio greco"" catania";;30/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK02;"Liceo artistico ""emilio greco"" catania";;30/09/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK03;Alfabetizzazione -mediterraneo;;15/09/2026;10/01/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;KK03;Percorso di primo livello-protetti;;15/09/2026;10/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;KK03;Percorsi di primo livello-mediterraneo;;15/06/2026;10/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;KK03;Manutenzione e assistenza tecnica -mediterraneo;;15/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK03;Manutenzione e assistenza tecnica;;15/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK03;Manutenzione e asistenza tecnica;;15/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK03;Servizio enogastronomia reparto ionio;;15/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK03;Servizi socio-sanitari-reparto ionio;;15/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK03;Scienze della comunicazione-laurea i storia;;21/04/2026;21/04/2029;0;;Universitario
+2026-11-27;KK03;Scienze attivita' motorie e sportive;;05/02/2026;05/02/2029;0;;Universitario
+2026-11-27;KK04;;;24/09/2025;31/07/2026;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;KK04;;;24/09/2025;31/07/2026;0;;Percorso di istruzione di primo livello
+2026-11-27;KK04;;;24/09/2025;31/07/2026;0;;Percorso di istruzione di primo livello
+2026-11-27;KK05;Alberghiero - 1° anno;;12/10/2026;30/06/2027;12;;Percorso di istruzione di secondo livello
+2026-11-27;KK05;Alberghiero - 5° anno;;12/10/2026;30/06/2027;4;;Percorso di istruzione di secondo livello
+2026-11-27;KK05;Ipsia primo anno m.s.;;20/09/2026;30/06/2027;12;;Percorso di istruzione di secondo livello
+2026-11-27;KK05;Ipsia primo anno a.s.;Passaggio secondo anndo;20/09/2026;30/06/2027;23;;Percorso di istruzione di secondo livello
+2026-11-27;KK05;Ipsia m.s. secondo anno;;20/09/2026;30/06/2027;7;;Percorso di istruzione di secondo livello
+2026-11-27;KK05;Ipsia m.s. 5 anno;;20/09/2026;30/06/2027;3;;Percorso di istruzione di secondo livello
+2026-11-27;KK05;Terzo anno ipsia m. s;;20/09/2026;30/06/2027;9;;Percorso di istruzione di secondo livello
+2026-11-27;KK05;Quinto anno ipsia protetti;;20/09/2026;30/06/2027;8;;Percorso di istruzione di secondo livello
+2026-11-27;KK06;;;21/09/2026;08/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;KK06;;;21/09/2026;08/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;KK06;;;21/09/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK06;;;21/09/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK06;;;21/09/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK06;;;21/09/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK06;;;14/09/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK06;;;14/09/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK06;;;14/09/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK06;;;14/09/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK07;Apprendimento della lingua italiana;;05/10/2026;31/12/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;KK07;;;05/10/2026;10/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;KK07;;;14/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK07;;;14/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK07;;;14/09/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK08;Scuola media inferiore;;12/10/2026;10/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;KK08;Geometra;;08/10/2026;15/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK08;Geometra;;08/10/2026;15/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK08;Alberghiero;;08/10/2026;15/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK08;Alberghiero;;08/10/2026;10/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK08;Alberghiero;;08/10/2026;15/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK08;Alberghiero;;08/10/2026;15/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK08;Alberghiero;;08/10/2026;15/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK08;Alberghiero;;08/10/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK08;Alberghiero;;08/10/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK08;Liceo artistico;;08/10/2026;15/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK09;Servizio sociale in contesti disagiati e criminoge;;01/10/2025;01/10/2028;2;;Universitario
+2026-11-27;KK09;Servizi sociali in contesti disagiati e criminogen;;01/10/2025;01/10/2028;12;;Universitario
+2026-11-27;KK09;Giurisprudenza;Laurea in giurisprudenza;05/11/2024;05/11/2028;0;;Universitario
+2026-11-27;KK09;Scienze e tecnologia per la ristorazione;;05/11/2024;05/11/2027;0;;Universitario
+2026-11-27;KK09;Scienze dell'economia e della gestione aziendale;;05/11/2024;05/11/2027;0;;Universitario
+2026-11-27;KK09;Corso di laurea primo reparto aa 2024-2025;Laurea;05/11/2023;05/11/2027;1;;Universitario
+2026-11-27;KK09;Giurisprudenza;;01/10/2023;01/10/2028;1;;Universitario
+2026-11-27;KK10;I periodo didattico anno 2026/2027;;21/09/2026;15/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK10;Ii periodo didattico anno 2026/2027;;21/09/2026;15/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK10;Iii periodo didattico anno 2026/2027;;21/09/2026;15/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK12;;;04/11/2024;07/06/2025;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;KK12;;;14/10/2024;07/06/2025;0;;Percorso di istruzione di primo livello
+2026-11-27;KK13;;;15/09/2025;09/06/2026;2;;Percorso di apprendimento della lingua italiana
+2026-11-27;KK13;;;15/09/2025;09/06/2026;3;;Percorso di istruzione di primo livello
+2026-11-27;KK13;Enogastronomia ed ospitalità alberghiera;;29/09/2025;09/06/2026;5;;Percorso di istruzione di secondo livello
+2026-11-27;KK13;Enogastronomia ed accoglienza alberghiera;;29/09/2025;09/06/2026;4;;Percorso di istruzione di secondo livello
+2026-11-27;KK13;Enogastronomia ed accoglienza alberghiera;;29/09/2025;09/06/2026;3;;Percorso di istruzione di secondo livello
+2026-11-27;KK13;Enogastronomia ed accoglienza alberghiera;;29/09/2025;09/06/2026;1;;Percorso di istruzione di secondo livello
+2026-11-27;KK14;Alfabetizzazione blocco 200 a.s. 2026/2027;Licenza elementare;25/09/2026;11/06/2027;12;;Percorso di apprendimento della lingua italiana
+2026-11-27;KK14;Alfabetizzazione blocco 50;Ammissione anni successivi;25/09/2026;11/06/2027;3;;Percorso di apprendimento della lingua italiana
+2026-11-27;KK14;Scuola media anno scolastico 2026/2027 blocco 200;Ammessi anno successivo;25/09/2026;11/06/2027;19;;Percorso di istruzione di primo livello
+2026-11-27;KK14;Scuola media 1° periodo didattico;Ammissione anni successivi;25/09/2026;11/06/2027;15;;Percorso di istruzione di primo livello
+2026-11-27;KK14;Istituto prof.di stato per l'industria e l'artig.;Ammissione anni successivi;25/09/2026;11/06/2027;41;;Percorso di istruzione di secondo livello
+2026-11-27;KK14;Ipsia - istit.prof.di stato per l'indust.el'artig.;Ammissione anni successivi;25/09/2026;11/06/2027;14;;Percorso di istruzione di secondo livello
+2026-11-27;KK14;Ipsia ist.prof.di stato per l'indust.e l'artig.;Diploma di maturita' professionale;25/09/2026;11/06/2027;3;;Percorso di istruzione di secondo livello
+2026-11-27;KK14;Servizi per l'enogastronomia e l'osp. alberghiera;Ammessi anni successivi;25/09/2026;11/06/2027;54;;Percorso di istruzione di secondo livello
+2026-11-27;KK14;Servizi per l'enogastronomia e l'osp.alberghiera;Ammisssione anni successivi;25/09/2026;11/06/2027;13;;Percorso di istruzione di secondo livello
+2026-11-27;KK14;Servizi per l'enogastronomia e l'osp.alberghiera;Diploma di maturita' alberghiera;25/09/2026;11/06/2027;6;;Percorso di istruzione di secondo livello
+2026-11-27;KK14;Servizi per l'agricoltura e lo sviluppo rurale;Ammessi anni successivi;25/09/2026;11/06/2027;26;;Percorso di istruzione di secondo livello
+2026-11-27;KK14;Servizi per l'agricoltura e lo sviluppo rurale;Ammessi anni successivi;25/09/2026;11/06/2027;11;;Percorso di istruzione di secondo livello
+2026-11-27;KK14;Liceo artistico;Ammissione anni successivi;25/09/2026;11/06/2027;27;;Percorso di istruzione di secondo livello
+2026-11-27;KK14;Liceo artistico;Ammissione anni successivi;25/09/2026;11/06/2027;4;;Percorso di istruzione di secondo livello
+2026-11-27;KK14;Liceo artistico;Diploma di maturita' artistica;25/09/2026;11/06/2027;1;;Percorso di istruzione di secondo livello
+2026-11-27;KK18;;;07/10/2024;06/06/2025;23;;Percorso di istruzione di primo livello
+2026-11-27;KK18;Servizi per enogastronomia e ospitalita' alberghie;;07/10/2024;06/06/2025;16;;Percorso di istruzione di secondo livello
+2026-11-27;KK19;1 anno alberghiero as3;;12/09/2024;30/06/2025;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK22;Alfabetizzazione;;05/10/2026;30/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;KK22;Scuola media;;05/10/2026;30/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;KK22;Ragioneria 1 f;;05/10/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK22;Ragioneria 2 f;;05/10/2026;30/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK23;Primo ciclo;;12/10/2026;09/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK23;Classe prima ux- primo ciclo;;12/10/2026;09/06/2027;18;;Percorso di istruzione di secondo livello
+2026-11-27;KK23;Secondo ciclo;;12/10/2026;09/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK23;Classe seconda ux;;12/10/2026;09/06/2027;22;;Percorso di istruzione di secondo livello
+2026-11-27;KK23;Terzo ciclo;;12/10/2026;09/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;KK23;Classe terza u;;12/10/2026;09/06/2027;10;;Percorso di istruzione di secondo livello
+2026-11-27;KK23;Management dello sport e delle attivita' motorie;;25/01/2026;25/07/2028;0;;Universitario
+2026-11-27;KK23;Scienze dell'educazione;Laurea;13/12/2023;13/12/2026;1;;Universitario
+2026-11-27;KK23;Studi filosofici e storici;;02/12/2023;02/12/2026;0;;Universitario
+2026-11-27;KK23;Giurisprudenza;Laurea;17/01/2023;17/01/2027;1;;Universitario
+2026-11-27;KK23;Viticoltura ed enologia;;20/11/2022;20/11/2028;1;;Universitario
+2026-11-27;KK23;Scienze e tecnologie agroalimentari;Laurea;30/05/2022;30/05/2027;1;;Universitario
+2026-11-27;KK24;Bic. alfabetizzazione det. comuni stranieri;;10/09/2026;30/06/2027;6;;Percorso di apprendimento della lingua italiana
+2026-11-27;KK24;Bic. alfabetizzazione;;10/09/2026;30/06/2027;2;;Percorso di apprendimento della lingua italiana
+2026-11-27;KK24;Bic. sc. media comuni primo periodo;;10/09/2026;30/06/2027;1;;Percorso di istruzione di primo livello
+2026-11-27;KK24;Bic scuola media primo periodo;;10/09/2026;30/06/2027;9;;Percorso di istruzione di primo livello
+2026-11-27;KK24;Bic. scuola media primo periodo;;10/09/2026;30/06/2027;8;;Percorso di istruzione di primo livello
+2026-11-27;KK24;Bic secondo periodo didattico;;10/09/2026;30/06/2027;23;;Percorso di istruzione di primo livello
+2026-11-27;KK24;Bic.1° e 2° anno alberghiero;;08/09/2026;30/06/2027;24;;Percorso di istruzione di secondo livello
+2026-11-27;KK24;Bic 2° e 3° anno alberghiero;;08/09/2026;30/06/2027;13;;Percorso di istruzione di secondo livello
+2026-11-27;KK24;Bic. 5° anno alberghiero;Diploma di maturita';08/09/2026;30/06/2027;8;;Percorso di istruzione di secondo livello
+2026-11-27;KK24;Scienze del turismo;Laurea triennale;01/10/2025;31/12/2030;1;;Universitario
+2026-11-27;KK24;Giurisprudenza;Laurea magistrale a ciclo unico (quinquennale);01/10/2024;01/10/2030;2;;Universitario
+2026-11-27;KK24;Scienze e tecnologie agrarie;Laurea triennale;01/10/2024;01/10/2028;2;;Universitario
+2026-11-27;KK24;Scienze e tecnologie agrarie;Laurea triennale;01/10/2021;30/06/2028;0;;Universitario
+2026-11-27;KK26;Alfabetizzazione;;05/10/2026;09/06/2027;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;KK26;I livello, i periodo didattico sez. catt;;05/10/2026;09/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;KK26;I° livello, i° periodo didattico sez. a;;05/10/2026;09/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;KK26;I livello, ii periodo didattico sez. a;;05/10/2026;09/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;KK26;I livello ii periodo catt;;05/10/2026;09/06/2027;0;;Percorso di istruzione di primo livello
+2026-11-27;KK29;Enogastronomia e ospitalita' alberghiera;;03/11/2026;09/06/2027;17;;Percorso di istruzione di secondo livello
+2026-11-27;KK29;Enogastronomia e ospitalita' alberghiera;;03/11/2026;09/06/2027;6;;Percorso di istruzione di secondo livello
+2026-11-27;KK29;Enogastronomia e ospitalita' alberghiera;;03/11/2026;09/06/2027;3;;Percorso di istruzione di secondo livello
+2026-11-27;KK29;Enogastronomia e ospitalita' alberghiera;;03/11/2026;09/06/2027;3;;Percorso di istruzione di secondo livello
+2026-11-27;KK29;Enogastronomia e ospitalita' alberghiera;;03/11/2026;09/06/2027;4;;Percorso di istruzione di secondo livello
+2026-11-27;KK33;Primo periodo didattico;Licenza media;18/09/2026;10/06/2027;5;;Percorso di istruzione di primo livello
+2026-11-27;KK33;Biennio materie comuni;;18/09/2026;10/06/2027;10;;Percorso di istruzione di primo livello
+2026-11-27;KK33;Sturzo-morselli;Biennio;19/09/2026;10/06/2027;13;;Percorso di istruzione di secondo livello
+2026-11-27;KK33;Sturzo/morselli;Quarto anno superiori;19/09/2026;10/06/2027;7;;Percorso di istruzione di secondo livello
+2026-11-27;KK33;Sturzo/morselli;;19/09/2026;10/06/2027;1;;Percorso di istruzione di secondo livello
+2026-11-27;LL01;Apparati imp.ti serv.zi tec.ci ind.li e civ.li;;20/10/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;LL01;Apparati imp.ti serv.zi tec.ci ind.li e civ.li;;20/10/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;LL01;Apparati imp.ti serv.zi tec.ci ind.li e civ.li;;20/10/2026;08/06/2027;0;;Percorso di istruzione di secondo livello
+2026-11-27;LL02;Scienze dell'educazione;;01/10/2023;01/10/2027;4;;Universitario
+2026-11-27;LL02;Urbanistica e progettazione ambientale;;01/10/2023;01/10/2027;1;;Universitario
+2026-11-27;LL04;Alfabetizzazione a2;;20/10/2025;10/06/2026;4;;Percorso di apprendimento della lingua italiana
+2026-11-27;LL04;Primo periodo didattico;;20/10/2025;10/06/2026;13;;Percorso di istruzione di primo livello
+2026-11-27;LL04;Biennio;;20/10/2025;10/06/2026;11;;Percorso di istruzione di primo livello
+2026-11-27;LL05;Alfabetizzazione della lingua italiana;;06/11/2023;07/06/2024;6;;Percorso di apprendimento della lingua italiana
+2026-11-27;LL05;Corso di primo livello;Diploma di licenza conclusiva del primo ciclo;06/11/2023;07/06/2024;9;;Percorso di istruzione di primo livello
+2026-11-27;LL05;Corso di primo livello (competenze obbligo format);Competenze obbligo formativo;06/11/2023;07/06/2024;5;;Percorso di istruzione di primo livello
+2026-11-27;LL05;Alfabetizzazione della lingua italiana;;06/11/2023;07/06/2024;6;;Percorso di apprendimento della lingua italiana
+2026-11-27;LL05;Corso di primo livello;Diploma di licenza conclusiva del primo ciclo;06/11/2023;07/06/2024;9;;Percorso di istruzione di primo livello
+2026-11-27;LL05;Corso di primo livello (competenze obbligo format);Competenze obbligo formativo;06/11/2023;07/06/2024;5;;Percorso di istruzione di primo livello
+2026-11-27;LL06;Economia e management del turismo - ateneo di sass;;06/11/2025;30/04/2032;0;;Universitario
+2026-11-27;LL07;;;10/11/2025;10/06/2026;0;;Percorso di apprendimento della lingua italiana
+2026-11-27;LL07;;;10/11/2025;10/06/2026;0;;Percorso di istruzione di primo livello
+2026-11-27;LL07;;;20/10/2025;10/06/2026;0;;Percorso di istruzione di secondo livello
+2026-11-27;LL08;Progettazione gestione e promozione turistica;;07/11/2025;30/04/2029;0;;Universitario
+2026-11-27;LL08;Scienze forestali e ambientali;;07/11/2025;30/04/2029;0;;Universitario
+2026-11-27;LL08;Scienze forestali e ambientaliscienze forestali e;;30/11/2024;30/04/2028;0;;Universitario
+2026-11-27;LL08;Progettazione, gestione e promozione turistica;;30/11/2024;30/04/2028;0;;Universitario
+2026-11-27;LL09;Lettere;;01/10/2025;30/09/2026;0;;Universitario
+2026-11-27;LL09;Filosofia;;01/10/2025;30/09/2026;0;;Universitario
+2026-11-27;LL09;Beni culturali e spettacolo;;01/10/2025;30/09/2026;0;;Universitario
+2026-11-27;LL09;Economia;;01/10/2025;30/09/2026;0;;Universitario
+2026-11-27;LL09;Beni culturali e spettacolo;;01/10/2025;30/09/2026;0;;Universitario
+2026-11-27;LL09;Scienze politiche;;01/10/2025;30/09/2026;0;;Universitario
+2026-11-27;LL09;Giurisprudenza;;01/10/2025;30/09/2026;0;;Universitario
+2026-11-27;LL09;Scienze della comunicazione;;01/10/2025;30/09/2026;0;;Universitario
+2026-11-27;LL09;Filosofia;;01/10/2025;30/09/2026;0;;Universitario
+2026-11-27;LL09;Economia;;01/10/2025;30/09/2026;0;;Universitario
+2026-11-27;LL10;Ling. e cult. x la comunicaz e la cooperaz intern.;;22/04/2025;22/04/2027;1;;Universitario
+2026-11-27;LL10;Cdl scienze culture gastronimiche;;24/01/2025;31/12/2027;1;;Universitario
+2026-11-27;LL10;Corso di laurea in scienze dell educazione;;01/10/2023;31/12/2027;1;;Universitario
+2026-11-27;LL10;Corso di laurea lettere e filosofia;Diploma di laurea;10/11/2022;31/12/2027;1;;Universitario
+2026-11-27;LL10;Cdl comunic. pubbl. e profess. dell'info;;04/11/2022;31/12/2027;2;;Universitario
+2026-11-27;LL10;Corso di laurea in agraria;;01/01/2015;31/12/2027;4;;Universitario
+2026-11-27;LL10;Corso di laurea scienze storiche e culturali;;01/01/2015;31/12/2027;1;;Universitario
+2026-11-27;LL11;Economia, impresa e sostenibilità;Laurea triennale;01/06/2026;30/12/2031;1;;Universitario
+2026-11-27;LL11;Lettere;Laurea triennale;10/10/2025;31/12/10000;3;;Universitario
+2026-11-27;LL11;Scienze naturali;Laurea triennale;10/10/2025;31/12/10000;1;;Universitario
+2026-11-27;LL11;Lettere e filosofia (uniroma1);Laurea triennale;10/10/2025;31/12/10000;1;;Universitario
+2026-11-27;LL11;Lingue, cultura e tecniche per il turismo;Laurea;10/09/2024;31/12/2029;1;;Universitario
+2026-11-27;LL11;Giurisprudenza (lm);Laurea magistrale;10/09/2024;31/12/10000;2;;Universitario
+2026-11-27;LL11;Scienze gastronomiche;Laurea;01/11/2021;31/12/2029;1;;Universitario
+2026-11-27;LL11;Archeologia;Laurea magistrale;01/11/2021;31/12/2027;2;;Universitario
+2026-11-27;LL11;Beni culturali;Laurea;01/11/2019;31/12/10000;0;;Universitario
+2026-11-27;LL11;Scienze storiche e filosofiche;Laurea;01/11/2019;31/12/10000;2;;Universitario
+2026-11-27;LL11;Scienze e tecnologie agrarie;Laurea;01/09/2018;31/12/10000;3;;Universitario
+2026-11-27;LL11;Giurisprudenza;;01/11/2013;31/12/10000;2;;Universitario
+2026-11-27;LL11;Scienze dell'educazione;;01/11/2013;31/12/10000;3;;Universitario

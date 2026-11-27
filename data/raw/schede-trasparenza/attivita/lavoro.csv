@@ -1,0 +1,544 @@
+data;code;gestione;lavorazione;persone_impiegate;turnazione
+2026-11-27;AA02;terzi;Stamperia Bottega solidale, Falegnameria e Stamperia magliette gestita da Bottega Solidale Genova;1;nessuna
+2026-11-27;AA02;amministrazione;lavori domestici e manutenzione ordinaria fabbricati;136;nessuna
+2026-11-27;AA03;terzi;Biscottificio gestita da cooperativa Voci Erranti;5;bimestrale
+2026-11-27;AA03;amministrazione;Lavoro intramurario: fisso e a turnazione;98;bimestrale
+2026-11-27;AA04;terzi;;;nessuna
+2026-11-27;AA04;amministrazione;Cooperativa Coompany gestione tenimento agricolo;4;nessuna
+2026-11-27;AA05;terzi;nessuna;;nessuna
+2026-11-27;AA05;amministrazione;Lavori domestici;10;nessuna
+2026-11-27;AA06;terzi;nessuna;;nessuna
+2026-11-27;AA06;amministrazione;nessuna;;nessuna
+2026-11-27;AA07;terzi;Dematerializzazione dei documenti cartacei con trasformazione in documenti elettronici;1;nessuna
+2026-11-27;AA07;terzi;Saldocarpenteria;2;nessuna
+2026-11-27;AA07;amministrazione;nessuna;;nessuna
+2026-11-27;AA08;terzi;CUPTEL - Servizio telefonico di prenotazione per visite specialistiche ed accertamenti diagnostici presso l'Azienda Sanitaria USL Toscana Nord Ovest.;2;nessuna
+2026-11-27;AA08;amministrazione;Lavanderia e Lavorazioni di tessitoria e di sartoria;81;nessuna
+2026-11-27;AA10;terzi;cooperativa Koala azienda agricola cooperativa Due peperoni azienda agricola;5;annuale
+2026-11-27;AA10;amministrazione;nessuna;;nessuna
+2026-11-27;AA11;terzi;lavanderia industriale, panettteria;7;nessuna
+2026-11-27;AA11;amministrazione;nessuna;;nessuna
+2026-11-27;AA12;terzi;;;nessuna
+2026-11-27;AA12;amministrazione;SARTORIA;70;nessuna
+2026-11-27;AA13;terzi;;;nessuna
+2026-11-27;AA13;amministrazione;Lavoratori dei tenimenti agricoli, lavoratori dei servizi d'istituto, lavoratori dei servizi di manutenzione ordinaria dei fabbricati, scrivani, piantoni e spesini;92;nessuna
+2026-11-27;AA14;terzi;nessuna;;nessuna
+2026-11-27;AA14;amministrazione;Attività di cuoco e aiuto cuoco, addetti alla lavanderia, porta vitto, porta pacchi colloqui, il piantone (all'occorrenza), lo spesino, addetti MOF e scopino;16;nessuna
+2026-11-27;AA16;terzi;È attivo un laboratorio per la produzione di infissi in alluminio e pvc, a cura della Societa' Cooperativa Sociale Auxilium di Sanremo.;5;nessuna
+2026-11-27;AA16;amministrazione;;;nessuna
+2026-11-27;AA19;terzi;"Tipografia gestito dalla Cooperativa "" La Terra Promessa"" Onlus di Novara";2;nessuna
+2026-11-27;AA19;amministrazione;nessuna;;nessuna
+2026-11-27;AA20;terzi;laboratorio di panificazione e prodotti da forno Cooperativa sociale Panatè GliEvitati;4;nessuna
+2026-11-27;AA20;amministrazione;nessuna;;nessuna
+2026-11-27;AA21;terzi;pulizia ambienti;1;nessuna
+2026-11-27;AA21;terzi;Pulizia strade e locali;3;nessuna
+2026-11-27;AA21;terzi;Mensa esterna;1;nessuna
+2026-11-27;AA21;terzi;MAnutenzione edifici esterni;3;nessuna
+2026-11-27;AA21;terzi;"Addetti verificatori antincendio presso ASL 4 ""Chiavarese""";8;nessuna
+2026-11-27;AA21;amministrazione;lavori domestici;15;nessuna
+2026-11-27;AA26;terzi;;;nessuna
+2026-11-27;AA26;amministrazione;Vigneto;4;giornaliera
+2026-11-27;AA27;terzi;nessuna;;nessuna
+2026-11-27;AA27;amministrazione;lavorazioni tipografiche.;5;nessuna
+2026-11-27;AA42;terzi;"Lavanderia industriale, stireria sartoria; Cooperativa Frassati";11;nessuna
+2026-11-27;AA42;terzi;"stireria sartoria; cooperativa patchanka";3;nessuna
+2026-11-27;AA42;terzi;Laboratorio ricondizionamento apparati elettronici ditta service trade spa;12;nessuna
+2026-11-27;AA42;terzi;torrefazione;1;nessuna
+2026-11-27;AA42;terzi;serigrafia cooperativa extraliberi;5;nessuna
+2026-11-27;AA42;terzi;panetteria cooperativa gli evitati;8;nessuna
+2026-11-27;AA42;amministrazione;Mof, cucina detenuti, officina automezzi;40;nessuna
+2026-11-27;AA42;amministrazione;pulizie generali, manutenzione giardini , addetti distribuzione pasti,addetto alla spesa;234;trimestrale
+2026-11-27;AA45;terzi;Laboratorio tipografia laboratorio informatico.;4;nessuna
+2026-11-27;AA45;amministrazione;Attività domestiche. Attività di manutenzione del fabbricato. Attività manutenzione aree verdi.;38;nessuna
+2026-11-27;AA48;terzi;"Bistrò ""idee in fuga""";4;nessuna
+2026-11-27;AA48;terzi;;;nessuna
+2026-11-27;AA48;amministrazione;;;nessuna
+2026-11-27;BB01;terzi;nessuna;;nessuna
+2026-11-27;BB01;amministrazione;nessuna;;nessuna
+2026-11-27;BB02;terzi;gestione dei rifiuti differenziata tramite cooperativa JOYFUL;7;nessuna
+2026-11-27;BB02;amministrazione;Spesini;5;nessuna
+2026-11-27;BB02;amministrazione;addetti all'ufficio MOF;8;nessuna
+2026-11-27;BB02;amministrazione;barbiere;3;nessuna
+2026-11-27;BB02;amministrazione;inservienti cucina;12;nessuna
+2026-11-27;BB02;amministrazione;scopino, gestione delle pulizie uffici amministrativi, sezioni detentive, infermeria;22;nessuna
+2026-11-27;BB03;terzi;"Lavorazioni interne in convenzione, durata regolata dalle singole convenzioni - FIDO, ditta ""Fare Impresa in Dozza "" - Assemblaggio componenti meccaniche n.15 detenuti- Sartoria Coop. ""Siamo Qua"" n. 2 detenute.";17;nessuna
+2026-11-27;BB03;amministrazione;Pulizia degli ambienti, manutenzione del fabbricato, manutenzione del verde, lavanderia, altre lavorazioni domestiche;126;mensile
+2026-11-27;BB04;terzi;Lavorazione terreni agricoli intercinta e aree verdi esterne per produzione di ortaggi e in particolare fragole, comodato d'uso terreni agricoli cooperativa Orto Botanico di Alseno (PC);1;nessuna
+2026-11-27;BB04;amministrazione;;;nessuna
+2026-11-27;BB06;terzi;Arte bianca, produzione di pasticceria secca gestita dalla Cooperativa Calimero;5;nessuna
+2026-11-27;BB06;amministrazione;Lavorazioni di tipo domestico;91;mensile
+2026-11-27;BB07;terzi;serre, produzione biologica ortaggi, lavanderia;8;nessuna
+2026-11-27;BB07;amministrazione;azienda agricola;8;nessuna
+2026-11-27;BB08;terzi;"Laboratorio R.A.E.E. gestito dalla Cooperativa ""Il Germiglio""";2;nessuna
+2026-11-27;BB08;terzi;"""Laboratorio Ricicletta no profit "" gestito dalla Cooperativa Il Germoglio";2;nessuna
+2026-11-27;BB08;amministrazione;Non sono attive lavorazioni, pertanto le uniche attività lavorative proposte alla popolazione detenuta riguardano la attività domestiche quali : MOF, addetti alle cucine, scopini, scrivani/addetto alla spesa, piantoni.;34;nessuna
+2026-11-27;BB09;terzi;Laboratorio ALTREMANI Assemblaggio Materiale Elettrico, gestito dalla Cooperativa Lavoro con recupero materiale apparecchiature elettriche gestito dalla Società Technè;10;nessuna
+2026-11-27;BB09;terzi;Laboratorio MANOLIBERA, riciclo della carta, gestito dalla Cooperativa ALTREMANI;5;nessuna
+2026-11-27;BB09;terzi;Laboratorio NESPAK gestito da cooperativa Altremani - Assemblaggio di contenitori alimentari;4;nessuna
+2026-11-27;BB09;terzi;Servizio di pulizie area sanitaria gestito dalla Cooperativa TREOTTOUNO;1;nessuna
+2026-11-27;BB09;terzi;Laboratorio di saldatura gestito da ALTREMANI;5;nessuna
+2026-11-27;BB09;amministrazione;manutenzione del fabbricato, addetti alle pulizie dei vari reparti, delle aree cortilizie, spazi comuni, uffici, addetti alla spesa, barberia, addetti alla cucina detenuti e addetti alla pulizia uffici direzione.;30/40;nessuna
+2026-11-27;BB10;terzi;;;nessuna
+2026-11-27;BB10;amministrazione;Attività lavorative domestiche, tenimenti agricoli e apicoltura;117;nessuna
+2026-11-27;BB13;terzi;;;nessuna
+2026-11-27;BB13;amministrazione;Lavori domestici, M.O.F.;14;bimestrale
+2026-11-27;BB15;terzi;;;nessuna
+2026-11-27;BB15;amministrazione;;;nessuna
+2026-11-27;BB16;terzi;Laboratori di cioccolateria e sartoria;37;semestrale
+2026-11-27;BB16;amministrazione;Falegnameria;5;bimestrale
+2026-11-27;BB16;amministrazione;Attività domestiche e di manutenzione ordinaria;;nessuna
+2026-11-27;BB17;terzi;"Centro stampa per grafici pubblicitari - gestito dalla Cooperativa ""Homo Faber""";9;nessuna
+2026-11-27;BB17;terzi;"Cablaggio gestito dalla Cooperativa Sociale ""Ozanam""";9;nessuna
+2026-11-27;BB17;amministrazione;;;nessuna
+2026-11-27;BB18;terzi;Laboratorio trasformazione prodotti biologi agroalimentari;2;nessuna
+2026-11-27;BB18;amministrazione;Lavori domestici cioè le attività necessarie al funzionamento della vita interna dell'istituto;99;nessuna
+2026-11-27;BB19;terzi;nessuna;;nessuna
+2026-11-27;BB19;amministrazione;nessuna;;nessuna
+2026-11-27;BB20;terzi;Assemblaggio;05;nessuna
+2026-11-27;BB20;amministrazione;nessuna;;nessuna
+2026-11-27;BB21;terzi;forno per produzione dolciaria;5;nessuna
+2026-11-27;BB21;amministrazione;addetto alla spesa;2;semestrale
+2026-11-27;BB21;amministrazione;cuochi;2;annuale
+2026-11-27;BB21;amministrazione;Aiuto cuoco;1;annuale
+2026-11-27;BB21;amministrazione;gestione orto;4;nessuna
+2026-11-27;BB21;amministrazione;barbiere;2;trimestrale
+2026-11-27;BB21;amministrazione;scrivano;2;trimestrale
+2026-11-27;BB21;amministrazione;addetto lavanderia;1;semestrale
+2026-11-27;BB21;amministrazione;Attività M.O.F.;7;nessuna
+2026-11-27;BB21;amministrazione;addetto alle pulizie/ distribuzione vitto/inserviente;10;mensile
+2026-11-27;BB22;terzi;CARTELLETTE - COOP.PANDORA;7;annuale
+2026-11-27;BB22;terzi;ASSEMBLAGGIO MINUTERIA METALLICA - MIVAN;6;annuale
+2026-11-27;BB22;terzi;SARTORIA - COOP ALICE;2;annuale
+2026-11-27;BB22;terzi;Lavanderia Coop Soc. 2000 -;9;annuale
+2026-11-27;BB22;terzi;METAMORFOSI - FONDAZIONE CASA DELLO SPIRITO - RICICLO LEGNO IMBARCAZIONI SCAFISTI;4;annuale
+2026-11-27;BB22;amministrazione;;;nessuna
+2026-11-27;BB22;amministrazione;ASSISTENTE ALLA PERSONA;25;settimanale
+2026-11-27;BB22;amministrazione;BARBIERE;12;semestrale
+2026-11-27;BB22;amministrazione;BIBLIOTECARIO;3;annuale
+2026-11-27;BB22;amministrazione;ELETTRICISTA;2;annuale
+2026-11-27;BB22;amministrazione;FABBRO;2;annuale
+2026-11-27;BB22;amministrazione;GIARDINIERE;1;annuale
+2026-11-27;BB22;amministrazione;IMBIANCHINO;1;annuale
+2026-11-27;BB22;amministrazione;INSERVIENTI DI CUCINA;9;semestrale
+2026-11-27;BB22;amministrazione;OPERAIO GENERICO ADDETTI ALL'EDILIZIA;1;annuale
+2026-11-27;BB22;amministrazione;ADDETTO ALLE PULIZIE;77;mensile
+2026-11-27;BB22;amministrazione;ADDETTO ALLA SPESA DETENUTI;26;semestrale
+2026-11-27;BB22;amministrazione;DISTRIBUZIONE PASTI;29;bimestrale
+2026-11-27;BB22;amministrazione;CUCINA DETENUTI;12;annuale
+2026-11-27;BB22;amministrazione;AGRICOLTORE/ORTOLANO;6;annuale
+2026-11-27;BB23;terzi;sartoria a filo libero;6;nessuna
+2026-11-27;BB23;amministrazione;art. 21 nelle mansioni di Giardiniere, M.O.F, Addetti alle Pulizie, Portapacchi;28;nessuna
+2026-11-27;BB23;amministrazione;addetto alla lavanderia;5;trimestrale
+2026-11-27;BB23;amministrazione;bibliotecario;2;trimestrale
+2026-11-27;BB23;amministrazione;addetti alle pulizie, addetti alla distribuzione pasti, barbiere, inservienti cucina;121;bimestrale
+2026-11-27;BB23;amministrazione;addetto magazziniere, cuoco e aiuto cuoco, manutenzione ordinaria fabbricati (elettricista, idraulico, muratore), addetti alla spesa nei reparti detentivi;31;annuale
+2026-11-27;BB24;terzi;"Lavorazione ""Pastificio 1908"" persone impiegate 3 DAL 09.09.2024 AL31.01.2025";1;nessuna
+2026-11-27;BB24;amministrazione;Cucina, pulizia, barberia, biblioteca e manutenzione ordinaria dei fabbricati (MOF);10;nessuna
+2026-11-27;BB25;terzi;nessuna;;nessuna
+2026-11-27;BB25;amministrazione;lavori interni su turnazione e a rotazione tra i detenuti;24;bimestrale
+2026-11-27;BB26;terzi;;;nessuna
+2026-11-27;BB26;amministrazione;Art. 21 O.P. e detenuti impiegati in tutte le mansioni generiche e specifiche dell'amministrazione;14;nessuna
+2026-11-27;BB29;terzi;Laboratorio trasformazione alimenti - Cooperativa L'Ovile Falegnameria - Cooperativa L'Ovile Coltivazione areee verdi esterne al muro di cinta - Cooperativa L'Ovile;6;nessuna
+2026-11-27;BB29;amministrazione;Lavanderia;4;nessuna
+2026-11-27;BB30;terzi;progetto rigenerazione stampanti + pc;4;nessuna
+2026-11-27;BB30;terzi;LAVANDERIA INDUSTRIALE;5;nessuna
+2026-11-27;BB30;amministrazione;Addetti alle pulizie, cuochi, barbieri, lavandai, muratori, imbianchini, idraulici, addetti alla cura del verde, bibliotecari, piantoni, addetti all'ufficio spesa.;215;nessuna
+2026-11-27;BB32;terzi;;;nessuna
+2026-11-27;BB32;amministrazione;;;nessuna
+2026-11-27;BB37;terzi;nessuna;;nessuna
+2026-11-27;BB37;amministrazione;Lavori a rotazione. E' presente una sartoria, una falegnameria e un laboratorio.;115;nessuna
+2026-11-27;BB39;terzi;OPERA IN FIORE: Serra per coltivazione piante - OPERA IN FIORE: Sartoria - OFFICINA DELL'ABITARE: Sviluppo competenze digitali - OFFICINA DELL'ABITARE: Rigenerazione apparecchiatura elettronica - CASA DELLO SPIRITO E DELLE ARTI: Laboratorio di liuteria - CASA DELLO SPIRITO E DELLE ARTI: Produzione particole - IL GIORNO DOPO: Laboratorio di disassemblaggio - FUORILUOGHI: Laboratorio tecnico polifunzionale - GLOBAL SERVICE PROVIDER: Normalizzazione, digitalizzazione documenti - 1OUT: Servizio invio e ricezione e-mail - ALBERO DEL PANE: Laboratorio di panificazione;74;nessuna
+2026-11-27;BB39;amministrazione;Servizi d'istituto - Manutenzione ordinaria fabbricato - Servizi extramurari in art. 21 O.P.;307;nessuna
+2026-11-27;BB43;terzi;Nitor Sociale - Pasticceria;6;nessuna
+2026-11-27;BB43;amministrazione;nessuna;;nessuna
+2026-11-27;BB50;terzi;"Coop BEE4 (gestione del call center); VIVAIO-SERRA-VIVICOLTURA Cascina Bollate (gestione delle serre); Coop. ABC (servizio catering); Coop. Alice (laboratorio sartoriale); Coop Bee4 (assemblaggio componenti); Zerografica (copisteria, rilegatura), Coimec (Coibentazioni termoacustiche), Pandora (Progettazione autocad di colonnine energetiche); Vetreria Paci (lavorazione vetro); Lavanderia; Fenixs (disassemblaggio apparecchiature elettroniche); Progetto R.A.E.E. (smaltimento)";205;nessuna
+2026-11-27;BB50;amministrazione;Muratore qualificato - Elettricista - Giardiniere - Idraulico - Imbianchino - Aiuto addetto alla cucina - Addetto alla cucina - Barbiere - Inserviente di cucina - Addetto alla spesa detenuti - Addetto alla distribuzione pasti - Addetto alle pulizie - Inserviente di cucina - Scrivano - Magazziniere - Assistente alla persona - Operaio generico- Fabbro - Bibliotecario - Meccanico comune;326;nessuna
+2026-11-27;CC02;terzi;;;nessuna
+2026-11-27;CC02;amministrazione;Pulizia direzione e caserma agenti con due unità in art.21 o.p.;31;nessuna
+2026-11-27;CC03;terzi;nessuna;;nessuna
+2026-11-27;CC03;amministrazione;nessuna;;nessuna
+2026-11-27;CC05;terzi;2 lavorazioni nel settore occhialeria - 2 lavorazioni nel settore assemblaggio;30;nessuna
+2026-11-27;CC05;amministrazione;;;nessuna
+2026-11-27;CC07;terzi;"Laboratori occupazionali gestiti dalla Cooperativa ""Alternativa Ambiente Cooperativa Sociale""";18;nessuna
+2026-11-27;CC07;amministrazione;;;nessuna
+2026-11-27;CC09;terzi;"Attività ortofrutticola biologica su spazio verdi e serre e laboratorio di assemblaggio, gestita da Cooperativa Sociale ""Memme25"".";10;nessuna
+2026-11-27;CC09;amministrazione;Cucina detenuti, Sopravvitto, Mof, Aree Verdi, Caserma e Direzione.;20;nessuna
+2026-11-27;CC09;amministrazione;"Attività lavorative di natura ""domestica""";30;nessuna
+2026-11-27;CC10;terzi;;;nessuna
+2026-11-27;CC10;amministrazione;;;nessuna
+2026-11-27;CC13;terzi;Nessuna Attività.;;nessuna
+2026-11-27;CC13;amministrazione;Nessuna Attività.;;nessuna
+2026-11-27;CC14;terzi;;;nessuna
+2026-11-27;CC14;amministrazione;;0;nessuna
+2026-11-27;CC16;terzi;realizzazione borse in pvc;4;nessuna
+2026-11-27;CC16;terzi;Serigrafia;3;nessuna
+2026-11-27;CC16;amministrazione;Attività domestiche;19;bimestrale
+2026-11-27;CC16;amministrazione;Attività domestiche;6;semestrale
+2026-11-27;CC16;amministrazione;art. 21 M.O.F.;10;quadrimestrale
+2026-11-27;CC16;amministrazione;Attività domestiche;22;mensile
+2026-11-27;CC16;amministrazione;Attività domestiche;7;quadrimestrale
+2026-11-27;CC17;terzi;"Sono attive le seguenti attività lavorative gestite da enti terzi: - Cooperativa REVERSE, falegnameria; - Cooperativa PANTAREI, panificazione; pasticceria; prodotti dolciari; - Cooperativa PANTAREI, presso il Reparto Femminile, laboratorio di trasformazione alimentare; - Progetto QUID, lavori sartoriali;";35;nessuna
+2026-11-27;CC17;amministrazione;"Sono attive le seguenti lavorazioni gestite dall'amministrazione: - Addetto alla pulizia delle sezioni: - Addetto ala distribuzione dei pasti; - Addetto al sopravvitto; - Addetto alla raccolta dei rifiuti; - Addetto alla organizzazione del magazzino-vestiario detenuti; - Addetto alla lavanderia; - Addetto al servizio barberia; - Addetto alle pulizie area comando/matricola/sala avvocati/sorveglianza generale/area trattamentale; - Addetto alla manutenzione del verde nelle aree esterne; - Addetto alla cucina (cuoco, vice-cuoco, inserviente) - Addetto alle lavorazioni M.O.F.; - Caregiver. I criteri di avvicendamento nelle attività lavorative alle dipendenze dell'Amministrazione variano in relazione ai singoli posti di lavoro.";90;nessuna
+2026-11-27;CC18;terzi;Cucina reparto Antenore e capannone c.d. Lavanderia : La cucina ed il capannone sono state concesse in comodato d'uso alla Coop.t-Essere. Nella cucina si svolgono al momento attività di formazione e produzione gastronomica. 2 tirocinanti detenuti ed un detenuto assunto. Si è in procinto di attrezzare il capannone con assunzione immediata per produzione gastronomica di n° 4 detenuti- a medio termine di n° 45 detenuti. Produzioni: marmellate biologiche-pasticceria-pasta- pane-basi per pizze-catering per mense universitarie. Persone finora inserite dall'inizio attività: N° lavoratori totali: 17 N° lavoratori L.381: 6 (tra cui 1 detenuto) N° tirocinanti SIL: 1 N° tirocinanti RIA, GOL, CC o altre percorsi e progettualità: 5;3;nessuna
+2026-11-27;CC18;amministrazione;addetti alle pulizie;16;mensile
+2026-11-27;CC18;amministrazione;PULIZIA SALA CONVEGNO- CASERMA AGENTI- UFFICI DIREZIONE - SPAZI ESTERNI DEMANIALI-M.O.F. DETENUTI IN REGIME DI LAVORO ALL'ESTERNO;4;nessuna
+2026-11-27;CC18;amministrazione;Manutenzione ordinaria del fabbricato, cucina detenuti, lavanderia, sopravvitto e magazzino detenuti, biblioteca, pulizie piazzali, barbiere;27;annuale
+2026-11-27;CC19;terzi;Laboratorio Cosmetica;2;nessuna
+2026-11-27;CC19;terzi;Addetta mensa agenti;1;nessuna
+2026-11-27;CC19;terzi;Orto;3;nessuna
+2026-11-27;CC19;terzi;Sartoria;1;nessuna
+2026-11-27;CC19;terzi;Lavanderia;22;nessuna
+2026-11-27;CC19;amministrazione;addetta pulizie sezioni;3;mensile
+2026-11-27;CC19;amministrazione;addetta al bar agenti;1;annuale
+2026-11-27;CC19;amministrazione;addetta al sopravitto;1;semestrale
+2026-11-27;CC19;amministrazione;addette alle pulizie direzione/comando/matricola;2;annuale
+2026-11-27;CC19;amministrazione;addetta somministrazione vitto;1;mensile
+2026-11-27;CC19;amministrazione;Inserviente cucina;2;trimestrale
+2026-11-27;CC19;amministrazione;addetta pulizie straordinarie presso sat;1;semestrale
+2026-11-27;CC19;amministrazione;Cuoca;1;annuale
+2026-11-27;CC19;amministrazione;Lavoranti Mof;5;annuale
+2026-11-27;CC19;amministrazione;Aiuto cuoca;1;semestrale
+2026-11-27;CC25;terzi;gestite da terzi assemblaggio, pasticceria, gelateria e cioccolateria, call center, digitalizzazione e legatoria;149;nessuna
+2026-11-27;CC25;amministrazione;lavorazioni domestiche - distribuzione vitto e scopino.;32;mensile
+2026-11-27;CC25;amministrazione;manutenzione ordinaria del fabbricato, preparazione pasti, raccolta differenziata, Cuoco, Aiuto Cuoco e inservinte cucina, addetto al Magazzino e Casellario, Barbiere. Pulizie dei seguenti reparti: Caserma Agenti, Uffici esterniaree verdi, capannoni, reparto Accettazione, sale Colloqui, Ambulatorio Infermeria.;69;nessuna
+2026-11-27;CC26;terzi;;0;nessuna
+2026-11-27;CC26;amministrazione;;0;nessuna
+2026-11-27;CC30;terzi;lavanderia;10;nessuna
+2026-11-27;CC30;terzi;imbottigliamento detersivi;12;nessuna
+2026-11-27;CC30;terzi;assemblaggio;30;nessuna
+2026-11-27;CC30;amministrazione;domestiche;165;bimestrale
+2026-11-27;CC31;terzi;;;nessuna
+2026-11-27;CC31;amministrazione;;;nessuna
+2026-11-27;DD02;terzi;nessuna;;nessuna
+2026-11-27;DD02;amministrazione;nessuna;;nessuna
+2026-11-27;DD03;terzi;BORSE;2;nessuna
+2026-11-27;DD03;amministrazione;Falegnameria - Tenimento agricolo;14;nessuna
+2026-11-27;DD05;terzi;nessuna;;nessuna
+2026-11-27;DD05;amministrazione;scopini, cuoco, operaio generico;3;nessuna
+2026-11-27;DD07;terzi;Produzione vinicola Azienda Frescobaldi;2;nessuna
+2026-11-27;DD07;amministrazione;Le lavorazioni comprendono diverse maestranze: Manutenzione fabbricato, ortofrutticoltura, oliveto, forno;89;nessuna
+2026-11-27;DD08;terzi;nessuna;;nessuna
+2026-11-27;DD08;amministrazione;Le lavorazioni comprendono diverse maestranze: Barbiere, giardiniere, bibliotecario, servizio di pulizia, cucina e M.O.F.;102;nessuna
+2026-11-27;DD09;terzi;nessuna;;nessuna
+2026-11-27;DD09;amministrazione;nessuna;;nessuna
+2026-11-27;DD12;terzi;nessuna;;nessuna
+2026-11-27;DD12;amministrazione;nessuna;;nessuna
+2026-11-27;DD13;terzi;;;nessuna
+2026-11-27;DD13;amministrazione;È attiva una sartoria che effettua commesse per l'Amministrazione penitenziaria (camici, tute da lavoro, pigiami ecc);43;mensile
+2026-11-27;DD14;terzi;nessuna;;nessuna
+2026-11-27;DD14;amministrazione;Sartoria , Tessitoria , Falegnameria , Officina fabbri , m.o.f. , Cucina det.ti , Servizi domestici intramurari , Giardiniere . Lavanderia , Sopravitto detenuti , Magazzino det.ti e Porta pacchi;61;nessuna
+2026-11-27;DD16;terzi;nessuna;;nessuna
+2026-11-27;DD16;amministrazione;Lavori domestici ( cuoco, portavitto, spesino, addetto alle pulizie, addetto al giardinaggio, mof, barbiere, addetto alla raccolta differenziata. inserviente, addetto lavanderia);26;mensile
+2026-11-27;DD17;terzi;;;nessuna
+2026-11-27;DD17;amministrazione;;;nessuna
+2026-11-27;DD18;terzi;nessuna;;nessuna
+2026-11-27;DD18;amministrazione;nessuna;;nessuna
+2026-11-27;DD20;terzi;Facchinaggio gestito cooperativa il MELOGRANO Grosseto;1;nessuna
+2026-11-27;DD20;amministrazione;;;nessuna
+2026-11-27;DD20;amministrazione;Cucina - m.o.f. - scopini (2 sezioni) - lavanderia - barberia - conti correnti - pulizie uffici - piantone;9;mensile
+2026-11-27;DD22;terzi;apicoltura;0;nessuna
+2026-11-27;DD22;amministrazione;Servizi domestici;15;nessuna
+2026-11-27;DD23;terzi;Nessuna;;nessuna
+2026-11-27;DD23;amministrazione;Falegnameria;10;nessuna
+2026-11-27;DD27;terzi;Laboratorio riparazione biciclette - attività di ortovivaismo gestite da Cooperative Ulisse di Firenze;3;nessuna
+2026-11-27;DD27;amministrazione;E' presente in Istituto una azienda agricola ed una attivitÃ di giardinaggio. Coltivazione: ulivo.;5;nessuna
+2026-11-27;DD43;terzi;nessuna;;nessuna
+2026-11-27;DD43;amministrazione;nessuna;;nessuna
+2026-11-27;DD49;terzi;;;nessuna
+2026-11-27;DD49;amministrazione;;;nessuna
+2026-11-27;DD55;terzi;"Azienda Agricola ""Menichetti Nicola""";;nessuna
+2026-11-27;DD55;amministrazione;nessuna;;nessuna
+2026-11-27;EE01;terzi;Centro cup ospedale bambino gesù (COOPERATIVA E-TEAM);9;nessuna
+2026-11-27;EE01;terzi;Centro per la torrefazione del caffè (panta coop arl);15;nessuna
+2026-11-27;EE01;terzi;Data entry autostrade s.p.a. (coop. soc. pantacoop);9;nessuna
+2026-11-27;EE01;terzi;Centro cottura (coop. soc. men at work);3;nessuna
+2026-11-27;EE01;terzi;"Pizzeria ""Non solo catering""";12;nessuna
+2026-11-27;EE01;terzi;"Servizio di lavanderia ""Evolution Word""";2;nessuna
+2026-11-27;EE01;amministrazione;Oltre ai lavori domestici sono presenti scrivani, bibliotecari, barbieri, falegnami, riparatori radio tv;293;nessuna
+2026-11-27;EE02;terzi;;;nessuna
+2026-11-27;EE02;amministrazione;Servizio lavanderia interna e servizio di cucina centrale per detenuti;36;nessuna
+2026-11-27;EE03;terzi;;;nessuna
+2026-11-27;EE03;amministrazione;;;nessuna
+2026-11-27;EE04;terzi;;;nessuna
+2026-11-27;EE04;amministrazione;;;nessuna
+2026-11-27;EE05;terzi;NESSUNA ATTIVITA';;nessuna
+2026-11-27;EE05;amministrazione;;;nessuna
+2026-11-27;EE05;amministrazione;;;nessuna
+2026-11-27;EE05;amministrazione;Lavorazione Calzoleria temporaneamente chiusa.;;nessuna
+2026-11-27;EE05;amministrazione;Lavori di amministrazione domestica per i servizi di istituto (cucina, lavanderia, pulizie, MOF, ecc.).;90;mensile
+2026-11-27;EE06;terzi;;;nessuna
+2026-11-27;EE06;amministrazione;;;nessuna
+2026-11-27;EE07;terzi;muratore;4;giornaliera
+2026-11-27;EE07;terzi;facchinaggio;5;giornaliera
+2026-11-27;EE07;amministrazione;MOF e lavori domestici.;135;nessuna
+2026-11-27;EE09;terzi;Sartoria per 5 detenuti,falegnameria per 7 detenuti, officina fabbri 1 ed agricola per 6;19;nessuna
+2026-11-27;EE09;amministrazione;Addetti alla manutenzione ordinaria del fabbricato, addetti al magazzino, piantoni, addetti alla cucina ed alla spese dei detenuti;57;nessuna
+2026-11-27;EE09;amministrazione;addetti alla barberia, addetti scrivani, addetti alla biblioteca , addetti alla lavanderia;19;nessuna
+2026-11-27;EE09;amministrazione;addetti pulizia e alla distribuizione del vitto;94;bimestrale
+2026-11-27;EE10;terzi;;;nessuna
+2026-11-27;EE10;amministrazione;;;nessuna
+2026-11-27;EE11;terzi;;;nessuna
+2026-11-27;EE11;amministrazione;;;nessuna
+2026-11-27;EE12;terzi;;;nessuna
+2026-11-27;EE12;amministrazione;Falegnameria, Calzoleria, Sartoria in ristrutturazione;;nessuna
+2026-11-27;EE13;terzi;;;nessuna
+2026-11-27;EE13;amministrazione;Attività Portavitto;18;quindicinale
+2026-11-27;EE13;amministrazione;Tenimento Agricolo;3;mensile
+2026-11-27;EE13;amministrazione;Attività Domestiche;130/140;mensile
+2026-11-27;EE14;terzi;;;nessuna
+2026-11-27;EE14;amministrazione;Sono previste solo lavorazioni domestiche non produttive o industriali;30;mensile
+2026-11-27;EE16;terzi;;;nessuna
+2026-11-27;EE16;amministrazione;servizi d'istituto;16;mensile
+2026-11-27;EE17;terzi;;;nessuna
+2026-11-27;EE17;amministrazione;;;nessuna
+2026-11-27;EE18;terzi;"""Dolciaria della Villa"" produzione semilavorati per l'industria dolciaria d'Orsogna dolciaria s.r.l. - Treglio (ch) ditta d'Orsogna dolciaria s.r.l. Treglio (Ch). (E' in procinto di essere realizzato un'espansione con altra linea produttiva interna)";7;nessuna
+2026-11-27;EE18;amministrazione;Attività lavorative connesse al funzionamento dell'istituto: servizi d'istituto cuoco e aiuto cuoco, inserviente di cucina, addetti alla lavanderia addetto alla distribuzione dei pasti addetto alla spesa magazziniere, assistente alla persona, bibliotecari e barbiere - Servizio di manutenzione ordinaria del fabbricato: manovale, idraulico, giardiniere, ortolano, imbianchino e riparatore radio-tv - servizi d'istituto ( cuoco e aiuto cuoco, inserviente di cucina addetto alla lavanderia addetto alla distribuzione del vitto addetto;71;nessuna
+2026-11-27;EE19;terzi;;;nessuna
+2026-11-27;EE19;amministrazione;Settore agricolo: l'azienda agricola di Vasto nasce nel 2003. La gestione è stata sempre della direzione, tranne che per il periodo luglio 2006-giugno 2008 quando la conduzione è stata affidata alla Caritas diocesana dellarcidiocesi di Chieti-Vasto - Dal luglio 2008, la gestione tecnico-economica dell'azienda è curata direttamente dalla direzione della casa lavoro - L'azienda è prevalentemente olivicola. La superficie complessiva è di 14.500 metri quadri e l'80% circa dei terreni 11.380 mq. sono occupati da 272 piante di olivo. Le varietà di olivo coltivate sono il Leccino, la gentile di Chieti insieme ad alcune piante impollinatrici di pendolino - Dalla molitura delle tipologie di olive presenti si ottengono due tipi di olio extravergine di oliva: la gentile di Chieti in purezza oppure commercializzata insieme, in percentuale del 50%, con olio extravergine derivante da olive Leccino - Il restante terreno 3.120 mq. è coltivato ad ortaggi. L'azienda ha 25 arnie, sui terreni esterni al tenimento agricolo, distanti circa 3 km dal mare. Il miele millefiori prodotto è lavorato da una ditta esterna - Si tratta di miele che all'inizio della stagione apistica presenta notevoli presenza di acacia ma, al cambiare delle stagioni, acquisisce le ulteriori essenze e qualità organolettiche della flora presente nella riserva naturale di Punta Aderci, territorio in cui si trova il carcere di Vasto. Il miele della Casa Circondariale di Vasto è stato presentato nel corso del 2010 al salone della giustizia di Rimini. L'azienda agricola è dotata di quattro serre. Due serre, di 320 metri quadri ognuna, sono riservata alla coltura degli ortaggi. Un'altra serra, sempre di 320 mq. alla coltivazione dei funghi - In particolare, champignon, prataiolo e Pleurotus. La quarta di 176 mq. è adibita alla produzione di piante, in prevalenza aromatiche - La possibilità di impiegare internati/detenuti lavoranti è variabile proporzionata alla disponibilità di fondi sul relativo capitolo;4;nessuna
+2026-11-27;EE20;terzi;;;nessuna
+2026-11-27;EE20;amministrazione;;;nessuna
+2026-11-27;EE22;terzi;inesistenti;0;nessuna
+2026-11-27;EE22;amministrazione;Pizzeria - falegnameria - ortocultura- allevamento;12;nessuna
+2026-11-27;EE23;terzi;;;nessuna
+2026-11-27;EE23;amministrazione;;;nessuna
+2026-11-27;EE24;terzi;;;nessuna
+2026-11-27;EE24;amministrazione;Progetto Green Therapy - Lavorazione agricola;6;nessuna
+2026-11-27;EE27;terzi;;;nessuna
+2026-11-27;EE27;amministrazione;Lavorazioni intramurarie;46;nessuna
+2026-11-27;EE28;terzi;Coop. soc. Men at Work - Associazione Gruppo Ideee Laboratorio Ricuciamo - Società Proloco Dol S.r.L. Caseificio - Accademia di Francia produzione marmellate;12;nessuna
+2026-11-27;EE28;amministrazione;Giardinaggio (manutenzione aree verdi interne all'Istituto), manutenzione ordinaria del fabbricato, tenimento agricolo, sartoria, lavanderia, lavori domestici, cuoca - aiuto cuoche - Area Confido: pensione per cani dei dipendenti dell'amministrazione penitenziaria;130;nessuna
+2026-11-27;EE29;terzi;Lavorazione infissi metallici;2;nessuna
+2026-11-27;EE29;amministrazione;lavanderia;1;nessuna
+2026-11-27;EE29;amministrazione;Officina fabbri;1;nessuna
+2026-11-27;EE32;terzi;Pinseria;25;settimanale
+2026-11-27;EE32;amministrazione;;;nessuna
+2026-11-27;EE39;terzi;MEN AT WORK/E-TEAM: Centro cottura - Punto vendita;6;giornaliera
+2026-11-27;EE39;terzi;Cooperativa COOSS: Carrozzeria - Gommista - Officina Meccanica - Elettrauto;1;giornaliera
+2026-11-27;EE39;amministrazione;;;nessuna
+2026-11-27;EE47;terzi;Birrificio;1;nessuna
+2026-11-27;EE47;amministrazione;agricola, lavori domestici, cucina, lavanderia, barberia, scrivano;39;nessuna
+2026-11-27;EE48;terzi;;;nessuna
+2026-11-27;EE48;amministrazione;Attualmente sono impiegati alle dipendenze dell'Amministrazione Penitenziaria detenuti con le seguenti mansioni: cuoco, portavitto, scrivano-spesino, distributore spesa, scrivano, scopino, portapacchi, bibliotecario, magazziniere, addetto alla manutenzione dell'edificio, giardiniere, spazzino per raccolta differenziata, addetti alla lavanderia, barbiere, piantone, scale a rotazione.;107;nessuna
+2026-11-27;FF01;terzi;;;nessuna
+2026-11-27;FF01;amministrazione;Officina Fabbri;7;nessuna
+2026-11-27;FF01;amministrazione;Tipografia;1;nessuna
+2026-11-27;FF01;amministrazione;Falegnameria;6;nessuna
+2026-11-27;FF03;terzi;Laboratorio sartoriale;8;nessuna
+2026-11-27;FF03;terzi;Inizio corso operatore termoidraulico;10;nessuna
+2026-11-27;FF03;amministrazione;Scopino, lavanderia, inservienti, MOF, Ass. alla persona, Cucina detenuti, Magazziniere;105;nessuna
+2026-11-27;FF03;amministrazione;"Riqualificazione area verde ""progetto tutto saporito""";11;nessuna
+2026-11-27;FF04;terzi;;;nessuna
+2026-11-27;FF04;amministrazione;sartoria femminile;7;nessuna
+2026-11-27;FF04;amministrazione;sartoria maschile;16;nessuna
+2026-11-27;FF05;terzi;;;nessuna
+2026-11-27;FF05;amministrazione;Manutenzione istituto 6 unità servizi di pulizia, 43 unità servizi vitto, 16 unità cucinieri e aiuto 14 unità servizi, magazzino 2 unità . Si precisa che il numero delle mansioni è di 134 in quanto un lavorante può svolgere più mansioni;127;nessuna
+2026-11-27;FF06;terzi;;;nessuna
+2026-11-27;FF06;amministrazione;Lavorazioni domestiche e manutenzione ordinaria del fabbricato - la turnazione varia in base alla posizione lavorativa;37;nessuna
+2026-11-27;FF08;terzi;;0;nessuna
+2026-11-27;FF08;amministrazione;;;nessuna
+2026-11-27;FF08;amministrazione;Lavori domestici compresi lavori MOF;99;nessuna
+2026-11-27;FF08;amministrazione;Sartoria ( lavoranti 11);11;nessuna
+2026-11-27;FF11;terzi;;;nessuna
+2026-11-27;FF11;amministrazione;Lavori domestici;110;nessuna
+2026-11-27;FF12;terzi;"Laboratorio di falegnameria e cereria per la costruzione di attrezzature apistiche e lavorazione della cera, gestite dalla cooperativa sociale ""Voli di libertà"" di Campobasso";1;nessuna
+2026-11-27;FF12;amministrazione;;;nessuna
+2026-11-27;FF13;terzi;;0;nessuna
+2026-11-27;FF13;amministrazione;Pulizie ambienti;26;bimestrale
+2026-11-27;FF13;amministrazione;Cuoco e aiuto cuoco cucina detenuti;3;semestrale
+2026-11-27;FF13;amministrazione;Inservienti cucina detenuti;10;trimestrale
+2026-11-27;FF13;amministrazione;barbiere;2;semestrale
+2026-11-27;FF13;amministrazione;facchino porta pacchi;1;annuale
+2026-11-27;FF13;amministrazione;lavanderia;2;semestrale
+2026-11-27;FF13;amministrazione;magazzino;2;semestrale
+2026-11-27;FF13;amministrazione;addetti alla distribuzione spesa detenuti;6;trimestrale
+2026-11-27;FF13;amministrazione;addetti alla distribuzione pasti detenuti;11;trimestrale
+2026-11-27;FF13;amministrazione;giardinieri;2;annuale
+2026-11-27;FF13;amministrazione;Manutenzione ordinaria del fabbricato;11;semestrale
+2026-11-27;FF13;amministrazione;biblioteca;2;annuale
+2026-11-27;FF14;terzi;;;nessuna
+2026-11-27;FF14;amministrazione;mof, servizi: lavanderia, cucina, portapacchi, portavitto, barberia;32;nessuna
+2026-11-27;FF15;terzi;Tarallificio Cooperativa Campo dei Miracoli - Gravina di Puglia (BA);4;nessuna
+2026-11-27;FF15;amministrazione;;;nessuna
+2026-11-27;FF16;terzi;;;nessuna
+2026-11-27;FF16;amministrazione;Addetti alle pulizie sezioni ed uffici, addetti alla manutenzione ordinaria fabbricato, addetti alle cucine, spesini, scrivani e piantoni. Ristrutturazione e recupero di nÂ° 2 stanze detentive da destinare a detenuti da ammettere al lavoro esterno, finanziato da Cassa Ammende che prevede l'assunzione di nÂ° 5 detenuti.;25;nessuna
+2026-11-27;FF17;terzi;"AttivitÃ di manutenzione edile interna con impiego di detenuti lavoratori da parte di Cassa Ammende totale detenuti 5 - Laboratorio di falegnameria ""Uppark"" detenuti 4 - Laboratorio di falegnameria Uppark 4 detenuti";9;nessuna
+2026-11-27;FF17;amministrazione;Agricoltura 2 uomini;2;nessuna
+2026-11-27;FF18;terzi;"Alcuni detenuti beneficiano dell'art. 20ter O.P. e sono impiegati nell'effettuazione di lavori di pubblica utilità presso gli enti comunali limitrofi. Tale iniziativa rientra nell'orbita della giustizia riparativa. La direzione ha proceduto a richiedere e ottenere, mediante presentazione di specifico progetto, il finanziamento da parte dell'Ufficio Dipartimentale ""Cassa delle Ammende"" per concedere un piccolo sostegno economico a titolo di rimborso spese per ciscun detenuto.";6;nessuna
+2026-11-27;FF18;amministrazione;Aiuto Cuoco, Inserviente Cucina, Addetto alla distribuzione pasti, Addetto alla distribuzione spesa detenuti, Addetto pulizie sezioni, Addetto Manutenzione Ordinaria Fabbricato, Giardiniere. L'immissione al lavoro avviene secondo graduatoria. I lavoratori ruotano con cadenza trimestrale, salvo che per i detenuti lavoranti alla M.O.F., perché specializzati, e salvo per i Giardinieri perché lavorano esternamente al reparto detentivo in art.21 O.P.;21;trimestrale
+2026-11-27;FF19;terzi;;0;nessuna
+2026-11-27;FF19;amministrazione;lavori interni all'istituto;13;nessuna
+2026-11-27;FF23;terzi;;;nessuna
+2026-11-27;FF23;amministrazione;Addetti Cucina Detenuti, M.O.F., Pulizie Locali, Lavaggio Automezzi, Barberia, Spesino e Lavori Domestici. La rotazione avviene rispettando la graduatoria redatta ogni sei mesi ai sensi dell'art. 20 O.P.;15;nessuna
+2026-11-27;FF24;terzi;laboratorio per la produzione di ostie e particole destinate al culto;2;semestrale
+2026-11-27;FF24;amministrazione;;;nessuna
+2026-11-27;FF25;terzi;;;nessuna
+2026-11-27;FF25;amministrazione;;;nessuna
+2026-11-27;FF29;terzi;;;nessuna
+2026-11-27;FF29;amministrazione;"Addetti alle pulizie; Addetti alla distribuzione dei generi alimentari; Addetti alla lavanderia; Addetti alla manutenzione ordinaria del fabbricato; Addetti alla Cucina; Barbieri";135;nessuna
+2026-11-27;FF30;terzi;attività lavorativa con mansione di manovale presso i cantieri del Consorzio Hirpinia AV a seguito del protocollo d'intesa tra il Ministero della Giustizia - Dipartimento dell'Amministrazione Penitenziaria e WEBUILD S.p.A.;2;mensile
+2026-11-27;FF30;amministrazione;lavori domestici;92;mensile
+2026-11-27;FF32;terzi;;;nessuna
+2026-11-27;FF32;amministrazione;falegnameria;10;nessuna
+2026-11-27;FF32;amministrazione;sartoria;20;nessuna
+2026-11-27;FF34;terzi;Sartoria reparto femminile;10;nessuna
+2026-11-27;FF34;terzi;sartoria reparto maschile;3;nessuna
+2026-11-27;FF34;terzi;rigenerazione router;4;nessuna
+2026-11-27;FF34;amministrazione;Falegnameria - Coltivazione ortaggi in serra;15;nessuna
+2026-11-27;FF36;terzi;Realizzazione di borse con materiale di riciclaggio - Cooperativa Officina Creativa;2;nessuna
+2026-11-27;FF36;amministrazione;;;nessuna
+2026-11-27;FF56;terzi;Società a Responsabilità limitata Palingen che gestisce un'attività interna di Sartoria. Il progetto denominato Cajola, nella fase iniziale della formazione e dell'avvio è stato finanziato con risorse della Cassa delle Ammende, successivamente sarà la stessa Società Palingen a rilevarne la gestione economica.;6;settimanale
+2026-11-27;FF56;terzi;;;nessuna
+2026-11-27;FF56;amministrazione;Cuoche, addette pulizie varie, porta vitto, consegna spesa detenute, imbianchine, manutenzione ordinaria fabbricato, bariste.;32;nessuna
+2026-11-27;FF58;terzi;lavori socialmente utili - in itinere - riguardanti la cura del verde pubblico sulla base di un protocollo di intesa con il Comune di Napoli ed altre autorità.;4;nessuna
+2026-11-27;FF58;terzi;Liuteria - Progetto Metamorfosi;3;nessuna
+2026-11-27;FF58;terzi;gestione tenimento agricolo;5;nessuna
+2026-11-27;FF58;amministrazione;Officina Meccatronica (centro servizi) per la manutenzione ordinarie, straordinaria e collaudi dei veicoli a targa Polizia penitenziaria del parco auto regionale campano fino 3,5 T;2;nessuna
+2026-11-27;FF58;amministrazione;laboratori di orti e giardini;30;nessuna
+2026-11-27;FF58;amministrazione;laboratorio di sartoria;10;nessuna
+2026-11-27;FF58;amministrazione;Digitalizzazione Archivi;10;nessuna
+2026-11-27;FF58;amministrazione;Falegnameria e officina fabbro;14;nessuna
+2026-11-27;FF64;terzi;;;nessuna
+2026-11-27;FF64;amministrazione;;;nessuna
+2026-11-27;FF65;terzi;;;nessuna
+2026-11-27;FF65;amministrazione;;;nessuna
+2026-11-27;FF68;terzi;"Tenimento agricolo - Cooperativa Sociale ""Il Germoglio""";3;nessuna
+2026-11-27;FF68;terzi;Grafica ed editoria - Ditta Arti Grafiche 2000 sas;1;nessuna
+2026-11-27;FF68;terzi;Ricarica toner - Ditta Toner Italia srl;1;nessuna
+2026-11-27;FF68;amministrazione;Carrozzeria con Annessa Officina Meccanica;4;nessuna
+2026-11-27;FF68;amministrazione;Sartoria;25;nessuna
+2026-11-27;FF68;amministrazione;Tenimento Agricolo;10;nessuna
+2026-11-27;FF68;amministrazione;Tipografia;26;nessuna
+2026-11-27;FM04;terzi;Coltura biologica (gestita da Cooperativa Sociale con sede in loco).;2;nessuna
+2026-11-27;FM04;amministrazione;;;nessuna
+2026-11-27;HH01;terzi;;;nessuna
+2026-11-27;HH01;amministrazione;;;nessuna
+2026-11-27;HH02;terzi;;;nessuna
+2026-11-27;HH02;amministrazione;;;nessuna
+2026-11-27;HH03;terzi;nessuna;;nessuna
+2026-11-27;HH03;amministrazione;Sartoria;5;nessuna
+2026-11-27;HH04;terzi;nessuna;;nessuna
+2026-11-27;HH04;amministrazione;Non vi sono lavorazioni ma esclusivamente lavori relativi ai servizi vari d'Istituto;70;trimestrale
+2026-11-27;HH06;terzi;nessuna;;nessuna
+2026-11-27;HH06;amministrazione;Falegnameria e fabbro con realizzazione di brande per i vari istituti penitenziari su commesse dipartimentali.;6;annuale
+2026-11-27;HH07;terzi;Alluminio;5;semestrale
+2026-11-27;HH07;amministrazione;Lavori domestici;70;trimestrale
+2026-11-27;HH08;terzi;DETENUTI MEDIA SICUREZZA: MANOVALE EDILE - MURATORE;3;trimestrale
+2026-11-27;HH08;amministrazione;DETENUTI MEDIA SICUREZZA: ADDETTO LAVAGGIO AUTOVETTURE - FABBRO;2;semestrale
+2026-11-27;HH08;amministrazione;DETENUTI MEDIA SICUREZZA: ADDETTO ALLA CUCINA - AIUTO ADDETTO ALLA CUCINA - INSERVIENTE DI CUCINA.;6;semestrale
+2026-11-27;HH08;amministrazione;DETENUTI MEDIA SICUREZZA: MANOVALE.;4;semestrale
+2026-11-27;HH08;amministrazione;INTERNATI DI CASA LAVORO E COLONIA AGRICOLA: ADDETTO ALLA DISTRIBUZIONE PASTI - ADDETTO ALLE PULIZIE - BARBIERE - MAGAZZINIERE - FACCHINO - OPERAIO AGRICOLO E FLOROVIVAISTA - ASSISTENTE ALLA PERSONA.;17;trimestrale
+2026-11-27;HH08;amministrazione;DETENUTI MEDIA SICUREZZA: ADDETTO ALLA DISTRIBUZIONE DEI PASTI - ADDETTO ALLA SPESA DETENUTI - ADDETTO ALLE PULIZIE - ASSISTENTE ALLA PERSONA - BARBIERE - FACCHINO - OPERAIO AGRICOLO E FLOROVIVAISTA.;44;trimestrale
+2026-11-27;HH11;terzi;Laboratorio ceramica , laboratorio di pasticceria, laboratorio teatrale e musicale;10;nessuna
+2026-11-27;HH11;amministrazione;Laboratorio falegnameria -Progetto Vigneto;;nessuna
+2026-11-27;HH12;terzi;L'asp n.1 di Cosenza Castrovillari -Val d'Esaro Pollino utilizza con un contratto a tempo indeterminato per 8 ore settimanali distribuite su 6 giorni settimanali per la pulizia dei locali delle infermerie interne all'istituto;2;giornaliera
+2026-11-27;HH12;terzi;Il protocollo d'intesa tra la C.C. di Castrovillari, l'Ente Parco Nazionale del Pollino e l'Anas - Associazione Nazionale Aiuto Sociale - ha impegnato n.2 detenuti, nella stagione estiva 2024, per la IX edizione del progetto AIB, Avvistamento Incendi Boschivi, nel territorio del Parco Nazionale - PROGETTO DA REALIZZARE ANNUALMENTE.;2;settimanale
+2026-11-27;HH12;terzi;"Protocollo d'intesa con il Comune di Castrovillari e l'Associazione ANPANA per la realizzazione dei LAVORI DI PUBBLICA UTILITA' ""MI RISCATTO PER L'AMBIENTE"" - V° EDIZIONE finalizzata alla realizzazione di lavori ex art. 20 ter per la pulizia ed il mantenimento del verde pubblico nella cittadina pollinea. Lavori trimestrali svoltisi dal 01.07.2024 al 15.09.2024";2;settimanale
+2026-11-27;HH12;terzi;protocollo d'Intesa con il Tribunale di Castrovillari per la realizzazione di Lavori di PUBBLICA UTILITA in regime art. 20 ter per la pulizia dell'area esterna dell' aula bunker adiacente l'istituto penitenziario oltre che area esterna al Palazzo di Giustizia anno 2023;2;settimanale
+2026-11-27;HH12;terzi;Convenzione con azienda esterna Legge Smuraglia;2;annuale
+2026-11-27;HH12;amministrazione;Lavori domestici e lavori straordinari gestiti dalla squadra Manutenzione ordinaria fabbricato per la realizzazione dell' Ammodernamento della Caserma Agenti, della Cappella ubicata nella detenzione maschile ed - in parte - della palestra agenti.;45;giornaliera
+2026-11-27;HH12;amministrazione;Laboratorio di sartoria (nel 2024 si è realizzato un corso di cucito in collaborazione con il Rotary Club Cosenza);6;giornaliera
+2026-11-27;HH12;amministrazione;Progetto di lavoro professionalizzante realizzato nel 2024 e finanziato da Cassa Ammende;9;settimanale
+2026-11-27;HH14;terzi;;;nessuna
+2026-11-27;HH14;amministrazione;detenuti lavoranti: 3 barbieri, 2 bibliotecari, 2 magazzinieri, 6 mof manovali, 5 addetti spesa, 2 art.21, 14 addetti pulizia sezione, 2 corridoi vari infermeria e scuole, 6 addetti alla cucina detenuti, 10 distribuzione pasti, 1 portapacchi colloqui, 8 assistenti alla persona;59;nessuna
+2026-11-27;HH15;terzi;;;nessuna
+2026-11-27;HH15;amministrazione;;;nessuna
+2026-11-27;HH19;terzi;nessuna;;nessuna
+2026-11-27;HH19;amministrazione;Lavori specifici;13;semestrale
+2026-11-27;HH19;amministrazione;Lavori generici (domestici, servizi d'Istituto);20;trimestrale
+2026-11-27;HH20;terzi;nessuna;;nessuna
+2026-11-27;HH20;amministrazione;nessuna;;nessuna
+2026-11-27;HH39;terzi;;;nessuna
+2026-11-27;HH39;amministrazione;Manutenzione aree verdi;4;nessuna
+2026-11-27;HH39;amministrazione;Lavori domestici;26;nessuna
+2026-11-27;HH41;terzi;Laboratorio di ceramica - attualmente sospesa;0;nessuna
+2026-11-27;HH41;terzi;Laboratorio di falegnameria;1;nessuna
+2026-11-27;HH41;amministrazione;Servizi domestici - Manutenzione ordinaria fabbriati - Biblioteca - Lavanderia;88;quadrimestrale
+2026-11-27;HH43;terzi;nessuna;;nessuna
+2026-11-27;HH43;amministrazione;Serre;4;nessuna
+2026-11-27;HH43;amministrazione;Falegnameria;8;nessuna
+2026-11-27;HH44;terzi;nessuna;;nessuna
+2026-11-27;HH44;amministrazione;nessuna;;nessuna
+2026-11-27;KK01;terzi;pastificio;4;nessuna
+2026-11-27;KK01;terzi;lavori di pubblica utilità;10;nessuna
+2026-11-27;KK01;terzi;realizzazione sacro carro di Santa Rosalia;8;nessuna
+2026-11-27;KK01;amministrazione;Allo stato i detenuti attualmente presenti vengono di regola impiegati all'interno della struttura , con mansioni prevalentemente di pulizia dei locali sezioni e degli spazi all'aperto (n. 92 detenuti lavoranti). Parte di essi svolge attività lavorative qualificate, perchè in possesso delle relative competenze professionali es. muratori, idraulici, fabbri, falegnami,cuochi, aiuto cuochi, etc. per la manutenzione del fabbricato (n. 18 MOF + n. 9 cucina detenuti). Tenuto conto della particolare condizione di indigenza in cui versa buona parte della popolazione detenuta all'interno di questa Casa di reclusione, la prestazione lavorativa è sottoposta ad un criterio di turnazione necessario ad offrire a quanti più detenuti è possibile una opportunità lavorativa. N. 15 detenuti risultano allo stato ammessi all'art. 21 O.P.;92;nessuna
+2026-11-27;KK02;terzi;"Laboratorio Filodritto per la produzione di prodotti di artigianato tessile - laboratorio interno a manodopera detenuta di genere femminile per la ideazione, produzione e confezionamento di prodotti di sartoria ed artigianato tessile ed artigianato vario da commercializzare nel mercato esterno; attività gestita in convenzione, per anni 3, con la Cooperativa Filodritto di Enna";1;nessuna
+2026-11-27;KK02;amministrazione;I servizi domestici prevedono mansioni di cuciniere, aiuto cuciniere, inserviente di cucina, portapranzo, lavanderia, barbiere, casermiere, spesino, facchino, scopino e piantone - I servizi domestici relativi al casermaggio prevedono le mansioni di fabbro - Nell'ambito della Manutenzione ordinaria del fabbricato M.O.F. sono previste le mansioni di muratore qualificato, manovale, idraulico e imbianchino - Servizio di pulizia presso i locale dell'UDEPE di Catania (persone impiegate n°1 in art. 21 O.P.) - turnazione trimestrale per le detenute;48;nessuna
+2026-11-27;KK03;terzi;;;nessuna
+2026-11-27;KK03;amministrazione;;;nessuna
+2026-11-27;KK04;terzi;;;nessuna
+2026-11-27;KK04;amministrazione;;;nessuna
+2026-11-27;KK05;terzi;Trattasi di detenuti artt. 21 O.P. e semiliberi;49;nessuna
+2026-11-27;KK05;amministrazione;Manutenzione Ordinaria Fabbricato - Servizi d'Istituto -;109;nessuna
+2026-11-27;KK06;terzi;;;nessuna
+2026-11-27;KK06;amministrazione;Officine: falegnameria, sartoria, fabbrile, tessili;52;nessuna
+2026-11-27;KK07;terzi;Laboratorio di pasticceria dipendenti dalla cooperativa Sprigioniamo Sapori di Ragusa;2;nessuna
+2026-11-27;KK07;amministrazione;assistenti alla persona;2;nessuna
+2026-11-27;KK07;amministrazione;addetto distribuzione pasti;8;trimestrale
+2026-11-27;KK07;amministrazione;Addetti magazzino e lavanderia;2;trimestrale
+2026-11-27;KK07;amministrazione;Addetti alla M.O.F,;5;semestrale
+2026-11-27;KK07;amministrazione;Facilitatore linguistico;2;trimestrale
+2026-11-27;KK07;amministrazione;addetti punto vendita;3;trimestrale
+2026-11-27;KK07;amministrazione;Barbiere;2;semestrale
+2026-11-27;KK07;amministrazione;Portapacchi;2;semestrale
+2026-11-27;KK07;amministrazione;Ammessi all'esterno ex art.21 O.P.;4;nessuna
+2026-11-27;KK07;amministrazione;Addetti alla cucina detenuti;6;semestrale
+2026-11-27;KK07;amministrazione;Addetti alla raccolta differenziata;2;trimestrale
+2026-11-27;KK07;amministrazione;Inservienti;11;trimestrale
+2026-11-27;KK07;amministrazione;Falegnameria;2;trimestrale
+2026-11-27;KK08;terzi;;;nessuna
+2026-11-27;KK08;amministrazione;;;nessuna
+2026-11-27;KK09;terzi;;;nessuna
+2026-11-27;KK09;amministrazione;I lavori intramurari sono per la maggior parte di tipo domestico: pulizia della struttura, portavitto, spesino che osservano una turnazione bimestrale. Per quanto riguarda i seguenti lavori: Manutenzione ordinaria fabbricato (n. 4 detenuti), cuoco e sostituto cuoco (n. 2 detenuti) ed ex art. 21 O.P. (n. 3 detenuti) non seguono una turnazione definita.;42;bimestrale
+2026-11-27;KK10;terzi;;;nessuna
+2026-11-27;KK10;amministrazione;;;nessuna
+2026-11-27;KK12;terzi;;;nessuna
+2026-11-27;KK12;amministrazione;Laboratorio di sartoria per commesse dell'Amministrazione;8;nessuna
+2026-11-27;KK13;terzi;;;nessuna
+2026-11-27;KK13;amministrazione;Servizi domestici Cucina Manutenzione;13;nessuna
+2026-11-27;KK14;terzi;;;nessuna
+2026-11-27;KK14;amministrazione;"Addetti alle pulizie dei locali comuni; addetti alla preparazione del vitto; addetti al manutenzione aree verdi; addetti alla manutenzione del fabbricato; addetti alla distribuzione del vitto e sopravvitto; addetti al servizio di barberia; addetti al sopravvitto; addetti all'assistenza personale";84;nessuna
+2026-11-27;KK18;terzi;;;nessuna
+2026-11-27;KK18;amministrazione;;;nessuna
+2026-11-27;KK19;terzi;;;nessuna
+2026-11-27;KK19;amministrazione;servizi domestici e manutenzione fabbricati;45;nessuna
+2026-11-27;KK22;terzi;;;nessuna
+2026-11-27;KK22;amministrazione;Campo non aggiornato;0;nessuna
+2026-11-27;KK23;terzi;Nessuna;;nessuna
+2026-11-27;KK23;amministrazione;Manutenzione ordinaria fabbricati;9;nessuna
+2026-11-27;KK23;amministrazione;Tenimento agricolo;7;nessuna
+2026-11-27;KK24;terzi;;;nessuna
+2026-11-27;KK24;amministrazione;Lavorazioni domestiche - manutenzione caserma - manutenzione cortili passeggio e ristrutturazioe bagni annessi alle camere della sezione detentiva;15;nessuna
+2026-11-27;KK26;terzi;;;nessuna
+2026-11-27;KK26;amministrazione;attività florovivaistica;4;nessuna
+2026-11-27;KK29;terzi;non presenti;;nessuna
+2026-11-27;KK29;amministrazione;non presenti;;nessuna
+2026-11-27;KK33;terzi;;;nessuna
+2026-11-27;KK33;amministrazione;Pulizie, manutenzione ordinaria del fabbricato, cucina, sopravvitto persone impiegate 9 con turnazione mensile;9;nessuna
+2026-11-27;LL01;terzi;Laboratorio di ricamo;12;nessuna
+2026-11-27;LL01;terzi;Laboratorio bijotteria;10;nessuna
+2026-11-27;LL01;amministrazione;addetti manutenzione aree verdi, addetto raccolta differenziata, addetto alle pulizie piani, porta vitto, aiuto cuoco, inservienti, addetto distribuzione merci, muratori, barbiere, imbianchini;140;mensile
+2026-11-27;LL01;amministrazione;Servizio di lavanderia interno;2;nessuna
+2026-11-27;LL02;terzi;;0;nessuna
+2026-11-27;LL02;amministrazione;"Il lavoro alle dipendenze dell'Amministrazione Penitenziaria è soggetto alla turnazione stabilita dalla Commissione lavoro ex art. 20 o.p.; il numero delle persone assunte è dipendente dalle risorse stanziate e dal numero dei detenuti presenti. Le mansioni ordinarie sono: scrivano, magazziniere, porta vivande, cuoco, aiuto cuoco, inserviente cucina; nell'ambito della Manutenzione Ordinaria Fabbricati (M.O.F.), elettricista, fabbro, idraulico, muratore, manovale, imbianchino; addetto alla lavanderia, barbiere, sarto, addetto alle pulizie.";50;nessuna
+2026-11-27;LL04;terzi;;;nessuna
+2026-11-27;LL04;amministrazione;Attività agricola indirizzo zootecnico, foraggiero, orticolo e frutticolo. Nel mese di dicembre sono state impiegate n. 131 persone. I posti di lavoro sono ricoperti per il periodo di tempo previsto dalle categorie specificate nel regolamento dell'istituto, distinte per la tipologia delle mansioni e per la rotazione (annuale, semestrale, trimestrale e mensile).;131;nessuna
+2026-11-27;LL05;terzi;;;nessuna
+2026-11-27;LL05;amministrazione;Manutenzione ordinaria fabbricati ed impianti, allevamento ovini e caprini, lavorazione del latte e caseificazione, agricoltura e orticoltura, cura del bosco.;74;nessuna
+2026-11-27;LL05;amministrazione;"Attività domestiche: lavori di pulizia di uffici e spazi comuni; confezionamento e distribuzione vitto ai detenuti/internati.";17;nessuna
+2026-11-27;LL05;amministrazione;"Attività domestiche: lavori di pulizia di uffici e spazi comuni; confezionamento e distribuzione vitto ai detenuti/internati.";9;quindicinale
+2026-11-27;LL06;terzi;;;nessuna
+2026-11-27;LL06;amministrazione;Servizi vari Istituto;20;quindicinale
+2026-11-27;LL07;terzi;;;nessuna
+2026-11-27;LL07;amministrazione;"Caseificio/dispensa (6 lavoranti); stallieri/pascolanti (18 lavoranti); officina meccanica (6 lavoranti); giardinieri stradini (38 lavoranti); squadra agricola (4 lavoranti); manutenzione ordinaria del fabbricato (3 lavoranti); lavori domestici (49 lavoranti).";126;nessuna
+2026-11-27;LL08;terzi;;;nessuna
+2026-11-27;LL08;amministrazione;Falegnameria;2;nessuna
+2026-11-27;LL09;terzi;;;nessuna
+2026-11-27;LL09;amministrazione;Lavori domestici e manutenzione ordinaria fabbricato;82;nessuna
+2026-11-27;LL10;terzi;;;nessuna
+2026-11-27;LL10;amministrazione;Corso Murales;7;nessuna
+2026-11-27;LL10;amministrazione;Orto Sociale - Tecniche di piantagione e coltura piante decorative officinali;8;nessuna
+2026-11-27;LL10;amministrazione;Lavori intramurari - Addetti pulizie piani, porta vitto, aiuto cuoco, addetto raccolta differenziata, addetto distribuzione merci e riviste, barbiere, muratori, imbianchini, addetti alla lavanderia, manutenzione aree verdi;167;mensile
+2026-11-27;LL10;amministrazione;Lavori extramurari (art.21 ord.penitenziario) - Addetti pulizie, manutenzione aree verdi;15;nessuna
+2026-11-27;LL11;terzi;nessuna;;nessuna
+2026-11-27;LL11;amministrazione;Lavorazioni domestiche e di manutenzione ordinaria del fabbricato: spesino, operatore ecologico, porta vitto, barbiere, addetto alla lavanderia, addetto al casellario, cuoco, aiuto cuoco, inserviente, MOF, bibliotecario, giardinieri, scrivano e assistente ad invalido (per un totale di 64 posti di lavoro);64;mensile
