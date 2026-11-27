@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Raccolta sul Mac (alternativa a raccolta.yml). Ogni lunedì e ogni giorno 12 alle 07:30.
+     Installazione e percorsi: scripts/launchd/README.md. Non installato in automatico. -->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>it.lucalonga.carceri.raccolta</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Volumes/other-eyes/Carceri-2.0/carceri-italia/scripts/raccolta_locale.sh</string>
+    <string>auto</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Weekday</key><integer>1</integer><key>Hour</key><integer>7</integer><key>Minute</key><integer>30</integer></dict>
+    <dict><key>Day</key><integer>12</integer><key>Hour</key><integer>7</integer><key>Minute</key><integer>30</integer></dict>
+  </array>
+  <key>StandardOutPath</key>
+  <string>/Users/luca/Library/Logs/carceri-raccolta.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/luca/Library/Logs/carceri-raccolta.log</string>
+</dict>
+</plist>

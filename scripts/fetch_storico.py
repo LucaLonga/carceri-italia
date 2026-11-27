@@ -91,8 +91,8 @@ def tabelle(pagina: str) -> list[list[list[str]]]:
 
 def salva_grezzo(nome: str, pagina: str) -> None:
     RAW.mkdir(parents=True, exist_ok=True)
-    with gzip.open(RAW / f"{nome}.html.gz", "wt", encoding="utf-8") as f:
-        f.write(pagina)
+    # mtime=0: stesso contenuto, stesso file (niente commit inutili)
+    (RAW / f"{nome}.html.gz").write_bytes(gzip.compress(pagina.encode("utf-8"), mtime=0))
 
 
 def scrivi(p: Path, righe: list[dict], cols: list[str] | None = None) -> None:

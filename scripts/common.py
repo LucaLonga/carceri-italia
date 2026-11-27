@@ -1,6 +1,7 @@
 """Funzioni comuni agli script di raccolta di carceri-italia."""
 from __future__ import annotations
 
+import gzip
 import hashlib
 import re
 import time
@@ -44,6 +45,11 @@ def today() -> str:
 
 def sha256(b: bytes) -> str:
     return hashlib.sha256(b).hexdigest()
+
+
+def scrivi_gz(path: Path, testo: str) -> None:
+    """Scrive testo compresso senza data nell'intestazione gzip: stesso contenuto, stesso file (niente commit inutili)."""
+    path.write_bytes(gzip.compress(testo.encode("utf-8"), mtime=0))
 
 
 def norm_name(s: str) -> str:

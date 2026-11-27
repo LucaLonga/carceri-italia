@@ -35,6 +35,19 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      # Se i server di GitHub non raggiungono giustizia.it il run si ferma qui, con un messaggio chiaro:
+      # in quel caso la raccolta si fa sul Mac (scripts/raccolta_locale.sh, vedi README).
+      - name: giustizia.it raggiungibile?
+        run: |
+          codice=$(curl -sS -o /dev/null -w '%{http_code}' -m 60 \
+            -A "carceri-italia/0.1 (+https://lucalonga.com)" \
+            "https://www.giustizia.it/giustizia/page/it/istituti_penitenziari" || echo "000")
+          echo "risposta di giustizia.it: $codice"
+          if [ "$codice" != "200" ]; then
+            echo "::error::giustizia.it non raggiungibile da GitHub Actions (codice $codice): usare la raccolta sul Mac"
+            exit 1
+          fi
+
       - name: Schede trasparenza
         if: github.event.schedule == '17 5 * * 1' || inputs.cosa == 'tutto' || inputs.cosa == 'schede'
         working-directory: scripts
@@ -57,6 +70,13 @@ jobs:
       - name: Controlli
         working-directory: scripts
         run: python checks.py
+
+      - name: Riepilogo nel run
+        if: always()
+        run: |
+          echo "## Raccolta del $(date -u +%Y-%m-%d)" >> "$GITHUB_STEP_SUMMARY"
+          git status --short data archive | head -50 | sed 's/^/    /' >> "$GITHUB_STEP_SUMMARY"
+          [ -f data/checks/ultimo.md ] && cat data/checks/ultimo.md >> "$GITHUB_STEP_SUMMARY" || true
 
       - name: Commit solo se qualcosa è cambiato
         if: always()

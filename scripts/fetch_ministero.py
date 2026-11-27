@@ -11,7 +11,6 @@ from __future__ import annotations
 
 import argparse
 import csv
-import gzip
 import json
 import re
 import sys
@@ -19,7 +18,7 @@ from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
-from common import DATA, data_da_titolo, get, to_int, today
+from common import DATA, data_da_titolo, get, scrivi_gz, to_int, today
 
 ELENCO = "https://www.giustizia.it/giustizia/page/it/statistiche?selectedNode=0_2&page={n}"
 OUT = DATA / "raw" / "ministero"
@@ -97,8 +96,7 @@ def salva(data_iso: str, url: str) -> dict:
     r = get(url)
     html = r.text
     (OUT / "html").mkdir(parents=True, exist_ok=True)
-    with gzip.open(OUT / "html" / f"{data_iso}.html.gz", "wt", encoding="utf-8") as f:
-        f.write(html)
+    scrivi_gz(OUT / "html" / f"{data_iso}.html.gz", html)
     righe, totale, nota = leggi_tabella(html)
     with open(OUT / f"{data_iso}_capienze-per-istituto.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=[*COLONNE, "sigla_provincia"])
