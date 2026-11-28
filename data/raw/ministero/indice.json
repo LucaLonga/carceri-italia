@@ -1,4 +1,1292 @@
 {
+  "2019-01-31": {
+    "data": "2019-01-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST168760",
+    "scaricato": "2026-11-27",
+    "righe": 190,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50550,
+      "presenti": 60125,
+      "donne": 2580,
+      "stranieri": 20309
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2019-02-28": {
+    "data": "2019-02-28",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST173677",
+    "scaricato": "2026-11-27",
+    "righe": 190,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50522,
+      "presenti": 60348,
+      "donne": 2623,
+      "stranieri": 20325
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2019-03-31": {
+    "data": "2019-03-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST183024",
+    "scaricato": "2026-11-27",
+    "righe": 190,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50514,
+      "presenti": 60611,
+      "donne": 2656,
+      "stranieri": 20412
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2019-04-30": {
+    "data": "2019-04-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST188400",
+    "scaricato": "2026-11-27",
+    "righe": 190,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50511,
+      "presenti": 60439,
+      "donne": 2659,
+      "stranieri": 20324
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2019-05-31": {
+    "data": "2019-05-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST193650",
+    "scaricato": "2026-11-27",
+    "righe": 190,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50528,
+      "presenti": 60476,
+      "donne": 2648,
+      "stranieri": 20277
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2019-06-30": {
+    "data": "2019-06-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST199180",
+    "scaricato": "2026-11-27",
+    "righe": 190,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50496,
+      "presenti": 60522,
+      "donne": 2632,
+      "stranieri": 20224
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2019-07-31": {
+    "data": "2019-07-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST206215",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50480,
+      "presenti": 60254,
+      "donne": 2635,
+      "stranieri": 20080
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2019-08-31": {
+    "data": "2019-08-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST212437",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50469,
+      "presenti": 60741,
+      "donne": 2666,
+      "stranieri": 20351
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2019-09-30": {
+    "data": "2019-09-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST219309",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50472,
+      "presenti": 60881,
+      "donne": 2652,
+      "stranieri": 20225
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2019-10-31": {
+    "data": "2019-10-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST225673",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50474,
+      "presenti": 60985,
+      "donne": 2676,
+      "stranieri": 20149
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2019-11-30": {
+    "data": "2019-11-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST231374",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50476,
+      "presenti": 61174,
+      "donne": 2713,
+      "stranieri": 20091
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2019-12-31": {
+    "data": "2019-12-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST238852",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50688,
+      "presenti": 60769,
+      "donne": 2663,
+      "stranieri": 19888
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2020-01-31": {
+    "data": "2020-01-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST245520",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50692,
+      "presenti": 60971,
+      "donne": 2678,
+      "stranieri": 19841
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2020-02-29": {
+    "data": "2020-02-29",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST250612",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50931,
+      "presenti": 61230,
+      "donne": 2702,
+      "stranieri": 19899
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2020-03-31": {
+    "data": "2020-03-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST267794",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50754,
+      "presenti": 57846,
+      "donne": 2496,
+      "stranieri": 18975
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2020-04-30": {
+    "data": "2020-04-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST271286",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50438,
+      "presenti": 53904,
+      "donne": 2224,
+      "stranieri": 17861
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2020-05-31": {
+    "data": "2020-05-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST276692",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50472,
+      "presenti": 53387,
+      "donne": 2213,
+      "stranieri": 17572
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2020-06-30": {
+    "data": "2020-06-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST281553",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50501,
+      "presenti": 53579,
+      "donne": 2250,
+      "stranieri": 17510
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2020-07-31": {
+    "data": "2020-07-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST285903",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50558,
+      "presenti": 53619,
+      "donne": 2248,
+      "stranieri": 17448
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2020-08-31": {
+    "data": "2020-08-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST289764",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50574,
+      "presenti": 53921,
+      "donne": 2263,
+      "stranieri": 17607
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2020-09-30": {
+    "data": "2020-09-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST301066",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50570,
+      "presenti": 54277,
+      "donne": 2279,
+      "stranieri": 17602
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2020-10-31": {
+    "data": "2020-10-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST301069",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50553,
+      "presenti": 54868,
+      "donne": 2308,
+      "stranieri": 17713
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2020-11-30": {
+    "data": "2020-11-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST308223",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50568,
+      "presenti": 54368,
+      "donne": 2303,
+      "stranieri": 17640
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2020-12-31": {
+    "data": "2020-12-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST314850",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50562,
+      "presenti": 53364,
+      "donne": 2255,
+      "stranieri": 17344
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2021-01-31": {
+    "data": "2021-01-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST319895",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50551,
+      "presenti": 53329,
+      "donne": 2250,
+      "stranieri": 17291
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2021-02-28": {
+    "data": "2021-02-28",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST323234",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50551,
+      "presenti": 53697,
+      "donne": 2252,
+      "stranieri": 17306
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2021-03-31": {
+    "data": "2021-03-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST327697",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50779,
+      "presenti": 53509,
+      "donne": 2239,
+      "stranieri": 17131
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2021-04-30": {
+    "data": "2021-04-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST331096",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50785,
+      "presenti": 53608,
+      "donne": 2238,
+      "stranieri": 17031
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2021-05-31": {
+    "data": "2021-05-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST334403",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50780,
+      "presenti": 53660,
+      "donne": 2224,
+      "stranieri": 16940
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2021-06-30": {
+    "data": "2021-06-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST338675",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50779,
+      "presenti": 53637,
+      "donne": 2228,
+      "stranieri": 17019
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2021-07-31": {
+    "data": "2021-07-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST342771",
+    "scaricato": "2026-11-27",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50877,
+      "presenti": 53129,
+      "donne": 2209,
+      "stranieri": 16829
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2021-08-31": {
+    "data": "2021-08-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST345758",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50867,
+      "presenti": 53557,
+      "donne": 2217,
+      "stranieri": 17066
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2021-09-30": {
+    "data": "2021-09-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST348572",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50857,
+      "presenti": 53930,
+      "donne": 2264,
+      "stranieri": 17209
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2021-10-31": {
+    "data": "2021-10-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST352771",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50851,
+      "presenti": 54307,
+      "donne": 2283,
+      "stranieri": 17315
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2021-11-30": {
+    "data": "2021-11-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST357666",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50809,
+      "presenti": 54593,
+      "donne": 2313,
+      "stranieri": 17302
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2021-12-31": {
+    "data": "2021-12-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST360932",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50835,
+      "presenti": 54134,
+      "donne": 2237,
+      "stranieri": 17043
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2022-01-31": {
+    "data": "2022-01-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST365608",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50862,
+      "presenti": 54372,
+      "donne": 2248,
+      "stranieri": 17103
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2022-02-28": {
+    "data": "2022-02-28",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST369465",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50856,
+      "presenti": 54645,
+      "donne": 2263,
+      "stranieri": 17099
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2022-03-31": {
+    "data": "2022-03-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST374094",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50853,
+      "presenti": 54609,
+      "donne": 2276,
+      "stranieri": 17104
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2022-04-30": {
+    "data": "2022-04-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST377961",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50853,
+      "presenti": 54595,
+      "donne": 2276,
+      "stranieri": 17110
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2022-05-31": {
+    "data": "2022-05-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST382391",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50859,
+      "presenti": 54771,
+      "donne": 2296,
+      "stranieri": 17136
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2022-06-30": {
+    "data": "2022-06-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST386394",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50900,
+      "presenti": 54841,
+      "donne": 2314,
+      "stranieri": 17182
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2022-07-31": {
+    "data": "2022-07-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST390144",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50909,
+      "presenti": 54979,
+      "donne": 2307,
+      "stranieri": 17246
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2022-08-31": {
+    "data": "2022-08-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST393944",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50922,
+      "presenti": 55637,
+      "donne": 2331,
+      "stranieri": 17675
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2022-09-30": {
+    "data": "2022-09-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST398014",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50942,
+      "presenti": 55835,
+      "donne": 2310,
+      "stranieri": 17740
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2022-10-31": {
+    "data": "2022-10-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST401327",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51174,
+      "presenti": 56225,
+      "donne": 2352,
+      "stranieri": 17854
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2022-11-30": {
+    "data": "2022-11-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST405710",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51333,
+      "presenti": 56524,
+      "donne": 2389,
+      "stranieri": 17882
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2022-12-31": {
+    "data": "2022-12-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST410259",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51328,
+      "presenti": 56196,
+      "donne": 2365,
+      "stranieri": 17683
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2023-01-31": {
+    "data": "2023-01-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST414676",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51403,
+      "presenti": 56127,
+      "donne": 2392,
+      "stranieri": 17687
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2023-02-28": {
+    "data": "2023-02-28",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST418777",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51285,
+      "presenti": 56319,
+      "donne": 2425,
+      "stranieri": 17654
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2023-03-31": {
+    "data": "2023-03-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST423466",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51261,
+      "presenti": 56605,
+      "donne": 2477,
+      "stranieri": 17676
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2023-04-30": {
+    "data": "2023-04-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST426356",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51249,
+      "presenti": 56674,
+      "donne": 2480,
+      "stranieri": 17723
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2023-05-31": {
+    "data": "2023-05-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST431165",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51153,
+      "presenti": 57230,
+      "donne": 2504,
+      "stranieri": 17902
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2023-06-30": {
+    "data": "2023-06-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST436158",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51187,
+      "presenti": 57525,
+      "donne": 2512,
+      "stranieri": 17987
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2023-07-31": {
+    "data": "2023-07-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST439073",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51285,
+      "presenti": 57749,
+      "donne": 2510,
+      "stranieri": 18044
+    },
+    "errori": [],
+    "nota_capienza": ""
+  },
+  "2023-08-31": {
+    "data": "2023-08-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST442883",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51206,
+      "presenti": 58428,
+      "donne": 2498,
+      "stranieri": 18414
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2023-09-30": {
+    "data": "2023-09-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST446492",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51285,
+      "presenti": 58987,
+      "donne": 2498,
+      "stranieri": 18572
+    },
+    "errori": [],
+    "nota_capienza": ""
+  },
+  "2023-10-31": {
+    "data": "2023-10-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST447996",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51275,
+      "presenti": 59715,
+      "donne": 2525,
+      "stranieri": 18803
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2023-11-30": {
+    "data": "2023-11-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST449508",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51272,
+      "presenti": 60116,
+      "donne": 2549,
+      "stranieri": 18868
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2023-12-31": {
+    "data": "2023-12-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST454090",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51179,
+      "presenti": 60166,
+      "donne": 2541,
+      "stranieri": 18894
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2024-01-31": {
+    "data": "2024-01-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST459023",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51347,
+      "presenti": 60637,
+      "donne": 2615,
+      "stranieri": 18985
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2024-02-29": {
+    "data": "2024-02-29",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST462936",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51187,
+      "presenti": 60924,
+      "donne": 2611,
+      "stranieri": 19035
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2024-03-31": {
+    "data": "2024-03-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST466343",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51178,
+      "presenti": 61049,
+      "donne": 2619,
+      "stranieri": 19108
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2024-04-30": {
+    "data": "2024-04-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1402560",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51167,
+      "presenti": 61297,
+      "donne": 2649,
+      "stranieri": 19219
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2024-05-31": {
+    "data": "2024-05-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1407300",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51241,
+      "presenti": 61547,
+      "donne": 2663,
+      "stranieri": 19259
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2024-06-30": {
+    "data": "2024-06-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1410601",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51234,
+      "presenti": 61480,
+      "donne": 2682,
+      "stranieri": 19213
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2024-07-31": {
+    "data": "2024-07-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1415275",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51207,
+      "presenti": 61133,
+      "donne": 2682,
+      "stranieri": 19150
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2024-08-31": {
+    "data": "2024-08-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1418233",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 50911,
+      "presenti": 61758,
+      "donne": 2686,
+      "stranieri": 19507
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2024-09-30": {
+    "data": "2024-09-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1424720",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51196,
+      "presenti": 61862,
+      "donne": 2673,
+      "stranieri": 19577
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2024-10-31": {
+    "data": "2024-10-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1428284",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51181,
+      "presenti": 62110,
+      "donne": 2693,
+      "stranieri": 19792
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2024-11-30": {
+    "data": "2024-11-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1433924",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51165,
+      "presenti": 62427,
+      "donne": 2737,
+      "stranieri": 19953
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2024-12-31": {
+    "data": "2024-12-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1437082",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51312,
+      "presenti": 61861,
+      "donne": 2698,
+      "stranieri": 19694
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2025-01-31": {
+    "data": "2025-01-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1442034",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51300,
+      "presenti": 61916,
+      "donne": 2718,
+      "stranieri": 19622
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2025-02-28": {
+    "data": "2025-02-28",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1445643",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51323,
+      "presenti": 62165,
+      "donne": 2729,
+      "stranieri": 19643
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2025-03-31": {
+    "data": "2025-03-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1450708",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51283,
+      "presenti": 62281,
+      "donne": 2703,
+      "stranieri": 19660
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2025-04-30": {
+    "data": "2025-04-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1453639",
+    "scaricato": "2026-11-28",
+    "righe": 190,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51292,
+      "presenti": 62445,
+      "donne": 2725,
+      "stranieri": 19740
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2025-05-31": {
+    "data": "2025-05-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1456995",
+    "scaricato": "2026-11-28",
+    "righe": 190,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51296,
+      "presenti": 62761,
+      "donne": 2737,
+      "stranieri": 19810
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2025-07-31": {
+    "data": "2025-07-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1466193",
+    "scaricato": "2026-11-28",
+    "righe": 190,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51300,
+      "presenti": 62569,
+      "donne": 2712,
+      "stranieri": 19732
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2025-08-31": {
+    "data": "2025-08-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1470079",
+    "scaricato": "2026-11-28",
+    "righe": 190,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51274,
+      "presenti": 63167,
+      "donne": 2740,
+      "stranieri": 20111
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2025-09-30": {
+    "data": "2025-09-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1474218",
+    "scaricato": "2026-11-28",
+    "righe": 190,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51275,
+      "presenti": 63198,
+      "donne": 2759,
+      "stranieri": 20076
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2025-10-31": {
+    "data": "2025-10-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1478558",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51249,
+      "presenti": 63493,
+      "donne": 2777,
+      "stranieri": 20099
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2025-11-30": {
+    "data": "2025-11-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1482948",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51275,
+      "presenti": 63868,
+      "donne": 2772,
+      "stranieri": 20211
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2025-12-31": {
+    "data": "2025-12-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1486466",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51277,
+      "presenti": 63499,
+      "donne": 2754,
+      "stranieri": 20116
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2026-01-31": {
+    "data": "2026-01-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1489993",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51271,
+      "presenti": 63734,
+      "donne": 2782,
+      "stranieri": 20206
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2026-02-28": {
+    "data": "2026-02-28",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1494315",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51268,
+      "presenti": 63801,
+      "donne": 2778,
+      "stranieri": 20192
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2026-03-31": {
+    "data": "2026-03-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1498130",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51259,
+      "presenti": 63997,
+      "donne": 2804,
+      "stranieri": 20130
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2026-04-30": {
+    "data": "2026-04-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1502622",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51265,
+      "presenti": 64436,
+      "donne": 2844,
+      "stranieri": 20307
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2026-05-31": {
+    "data": "2026-05-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1506540",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51269,
+      "presenti": 64741,
+      "donne": 2881,
+      "stranieri": 20350
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2026-06-30": {
+    "data": "2026-06-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1510931",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51180,
+      "presenti": 64773,
+      "donne": 2891,
+      "stranieri": 20351
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2026-07-31": {
+    "data": "2026-07-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1515340",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51221,
+      "presenti": 64793,
+      "donne": 2902,
+      "stranieri": 20303
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2026-08-31": {
+    "data": "2026-08-31",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1518875",
+    "scaricato": "2026-11-28",
+    "righe": 189,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51220,
+      "presenti": 65661,
+      "donne": 2964,
+      "stranieri": 20674
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
+  "2026-09-30": {
+    "data": "2026-09-30",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1522607",
+    "scaricato": "2026-11-28",
+    "righe": 190,
+    "totale_dichiarato": {
+      "capienza_regolamentare": 51319,
+      "presenti": 66063,
+      "donne": 2968,
+      "stranieri": 20856
+    },
+    "errori": [],
+    "nota_capienza": "(*) I posti sono calcolati sulla base del criterio di 9 mq per singolo detenuto + 5 mq per gli altri, lo stesso per cui in Italia viene concessa l’abitabilità alle abitazioni, più favorevole rispetto ai 6 mq + 4 stabiliti dal CPT + servizi sanitari. Il dato sulla capienza non tiene conto di eventuali situazioni transitorie che comportano scostamenti temporanei dal valore indicato."
+  },
   "2026-10-31": {
     "data": "2026-10-31",
     "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1527243",

@@ -1,4 +1,4 @@
-# Controlli del 2026-11-27
+# Controlli del 2026-11-28
 
 ## Ministero, tabella al 2026-10-31
 
