@@ -6,6 +6,7 @@
 - coerenza interna delle schede: posti non disponibili <= posti regolamentari, stanze non disp. <= stanze
 - struttura delle schede: sezioni o campi nuovi o spariti tra le ultime due copie di struttura/ (avviso, non errore:
   è un segnale da guardare, non un guasto)
+- dimensioni: nessun file in git (né in arrivo nel prossimo commit) sopra 1 MB, salvo .dimensioni-ammesse (errore)
 """
 from __future__ import annotations
 
@@ -13,7 +14,9 @@ import csv
 import json
 import sys
 
-from common import DATA, norm_name, today
+import subprocess
+
+from common import DATA, LIMITE_GIT, ROOT, norm_name, today
 
 REF = DATA / "reference" / "istituti.csv"
 
@@ -43,6 +46,24 @@ def confronta_strutture() -> list[str]:
     righe.append(f"- voci presenti in un numero diverso di schede: {len(cambiate)}")
     righe += [f"  - {v}: {len(vp[v])} → {len(vd[v])}" for v in cambiate[:30]]
     return righe
+
+
+def file_troppo_grandi() -> list[str]:
+    """File tracciati da git o pronti per il commit (data, archive) sopra LIMITE_GIT, esclusi gli ammessi."""
+    ammessi_p = ROOT / ".dimensioni-ammesse"
+    ammessi = {l.split("#")[0].split()[0] for l in ammessi_p.read_text(encoding="utf-8").splitlines()
+               if l.split("#")[0].strip()} if ammessi_p.exists() else set()
+    try:
+        tracciati = subprocess.run(["git", "ls-files", "--cached", "--others", "--exclude-standard"],
+                                   cwd=ROOT, check=True, capture_output=True, text=True).stdout.splitlines()
+    except (OSError, subprocess.CalledProcessError):
+        return []
+    out = []
+    for f in tracciati:
+        p = ROOT / f
+        if f not in ammessi and p.is_file() and p.stat().st_size > LIMITE_GIT:
+            out.append(f"{f} ({p.stat().st_size // 1024} KB)")
+    return out
 
 
 def main() -> int:
@@ -90,6 +111,12 @@ def main() -> int:
         report.append(f"- totali: {tot}")
 
     report += confronta_strutture()
+
+    grandi = file_troppo_grandi()
+    report.append("\n## Dimensioni\n")
+    report.append(f"- file sopra 1 MB in git o in arrivo (esclusi .dimensioni-ammesse): {len(grandi) or 'nessuno'}")
+    report += [f"  - ERRORE {g}" for g in grandi]
+    errori += bool(grandi)
 
     out = DATA / "checks"
     out.mkdir(parents=True, exist_ok=True)

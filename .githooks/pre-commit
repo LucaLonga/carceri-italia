@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Rifiuta i commit con file sopra 1 MB (regola del 2026-11-28), salvo quelli elencati in .dimensioni-ammesse.
+# Attivazione, una volta per ogni copia del repository:  git config core.hooksPath .githooks
+LIMITE=1000000
+ammessi="$(sed 's/#.*//' .dimensioni-ammesse 2>/dev/null | awk 'NF {print $1}')"
+errori=0
+while IFS= read -r -d '' f; do
+  dim=$(git cat-file -s ":$f" 2>/dev/null || echo 0)
+  if [ "$dim" -gt "$LIMITE" ] && ! grep -qxF "$f" <<< "$ammessi"; then
+    echo "file sopra 1 MB: $f ($((dim / 1024)) KB). Copie dei documenti: release documenti-AAAA-MM; testi: in parti." >&2
+    errori=1
+  fi
+done < <(git diff --cached --name-only --diff-filter=AM -z)
+exit $errori
