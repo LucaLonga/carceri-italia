@@ -1,0 +1,3313 @@
+{
+ "eventi_critici": {
+  "voci": 1,
+  "celle": 272,
+  "voci_con_errori": 0,
+  "dettaglio": [
+   {
+    "voce_id": "eventi-critici-negli-istituti-penitenziari-anni-1992-2025_SST241783",
+    "data": "",
+    "titolo": "Eventi critici negli istituti penitenziari - Anni 1992 - 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST241783",
+    "celle": 272,
+    "errori": []
+   }
+  ]
+ },
+ "detenute_madri": {
+  "voci": 90,
+  "celle": 4692,
+  "voci_con_errori": 0,
+  "dettaglio": [
+   {
+    "voce_id": "2016-05-31_SST1244314",
+    "data": "2016-05-31",
+    "titolo": "Detenute madri con figli al seguito - 31 maggio 2016",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1244314",
+    "celle": 54,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-01-31_SST168795",
+    "data": "2019-01-31",
+    "titolo": "Detenute madri con figli al seguito - 31 gennaio 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST168795",
+    "celle": 66,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-02-28_SST173698",
+    "data": "2019-02-28",
+    "titolo": "Detenute madri con figli al seguito - 28 febbraio 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST173698",
+    "celle": 66,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-03-31_SST183018",
+    "data": "2019-03-31",
+    "titolo": "Detenute madri con figli al seguito - 31 marzo 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST183018",
+    "celle": 60,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-04-30_SST188375",
+    "data": "2019-04-30",
+    "titolo": "Detenute madri con figli al seguito - 30 aprile 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST188375",
+    "celle": 72,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-05-31_SST193611",
+    "data": "2019-05-31",
+    "titolo": "Detenute madri con figli al seguito - 31 maggio 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST193611",
+    "celle": 54,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-06-30_SST199183",
+    "data": "2019-06-30",
+    "titolo": "Detenute madri con figli al seguito - 30 giugno 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST199183",
+    "celle": 54,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-07-31_SST206227",
+    "data": "2019-07-31",
+    "titolo": "Detenute madri con figli al seguito - 31 luglio 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST206227",
+    "celle": 60,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-08-31_SST212425",
+    "data": "2019-08-31",
+    "titolo": "Detenute madri con figli al seguito - 31 agosto 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST212425",
+    "celle": 66,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-09-30_SST219304",
+    "data": "2019-09-30",
+    "titolo": "Detenute madri con figli al seguito - 30 settembre 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST219304",
+    "celle": 60,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-10-31_SST225670",
+    "data": "2019-10-31",
+    "titolo": "Detenute madri con figli al seguito - 31 ottobre 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST225670",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-11-30_SST231183",
+    "data": "2019-11-30",
+    "titolo": "Detenute madri con figli al seguito - 30 novembre 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST231183",
+    "celle": 90,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-12-31_SST238899",
+    "data": "2019-12-31",
+    "titolo": "Detenute madri con figli al seguito - 31 dicembre 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST238899",
+    "celle": 66,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-01-31_SST245505",
+    "data": "2020-01-31",
+    "titolo": "Detenute madri con figli al seguito - 31 gennaio 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST245505",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-02-29_SST250526",
+    "data": "2020-02-29",
+    "titolo": "Detenute madri con figli al seguito - 29 febbraio 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST250526",
+    "celle": 60,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-03-31_SST264712",
+    "data": "2020-03-31",
+    "titolo": "Detenute madri con figli al seguito - 31 marzo 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST264712",
+    "celle": 60,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-04-30_SST271263",
+    "data": "2020-04-30",
+    "titolo": "Detenute madri con figli al seguito - 30 aprile 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST271263",
+    "celle": 60,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-05-31_SST276688",
+    "data": "2020-05-31",
+    "titolo": "Detenute madri con figli al seguito - 31 maggio 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST276688",
+    "celle": 66,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-06-30_SST281544",
+    "data": "2020-06-30",
+    "titolo": "Detenute madri con figli al seguito - 30 giugno 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST281544",
+    "celle": 66,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-07-31_SST285900",
+    "data": "2020-07-31",
+    "titolo": "Detenute madri con figli al seguito - 31 luglio 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST285900",
+    "celle": 78,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-08-31_SST289752",
+    "data": "2020-08-31",
+    "titolo": "Detenute madri con figli al seguito - 31 agosto 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST289752",
+    "celle": 72,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-09-30_SST293980",
+    "data": "2020-09-30",
+    "titolo": "Detenute madri con figli al seguito - 30 settembre 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST293980",
+    "celle": 72,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-10-31_SST301114",
+    "data": "2020-10-31",
+    "titolo": "Detenute madri con figli al seguito - 31 ottobre 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST301114",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-11-30_SST308218",
+    "data": "2020-11-30",
+    "titolo": "Detenute madri con figli al seguito - 30 novembre 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST308218",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-12-31_SST314856",
+    "data": "2020-12-31",
+    "titolo": "Detenute madri con figli al seguito - 31 dicembre 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST314856",
+    "celle": 78,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-01-31_SST319840",
+    "data": "2021-01-31",
+    "titolo": "Detenute madri con figli al seguito - 31 gennaio 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST319840",
+    "celle": 54,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-02-28_SST323233",
+    "data": "2021-02-28",
+    "titolo": "Detenute madri con figli al seguito - 28 febbraio 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST323233",
+    "celle": 54,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-03-31_SST327700",
+    "data": "2021-03-31",
+    "titolo": "Detenute madri con figli al seguito - 31 marzo 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST327700",
+    "celle": 66,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-04-30_SST331100",
+    "data": "2021-04-30",
+    "titolo": "Detenute madri con figli al seguito - 30 aprile 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST331100",
+    "celle": 60,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-05-31_SST334405",
+    "data": "2021-05-31",
+    "titolo": "Detenute madri con figli al seguito - 31 maggio 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST334405",
+    "celle": 48,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-06-30_SST338684",
+    "data": "2021-06-30",
+    "titolo": "Detenute madri con figli al seguito - 30 giugno 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST338684",
+    "celle": 42,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-07-31_SST342776",
+    "data": "2021-07-31",
+    "titolo": "Detenute madri con figli al seguito - 31 luglio 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST342776",
+    "celle": 48,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-08-31_SST345756",
+    "data": "2021-08-31",
+    "titolo": "Detenute madri con figli al seguito - 31 agosto 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST345756",
+    "celle": 42,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-09-30_SST348569",
+    "data": "2021-09-30",
+    "titolo": "Detenute madri con figli al seguito - 30 settembre 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST348569",
+    "celle": 42,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-10-31_SST352787",
+    "data": "2021-10-31",
+    "titolo": "Detenute madri con figli al seguito - 31 ottobre 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST352787",
+    "celle": 42,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-11-30_SST357672",
+    "data": "2021-11-30",
+    "titolo": "Detenute madri con figli al seguito - 30 novembre 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST357672",
+    "celle": 42,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-12-31_SST360941",
+    "data": "2021-12-31",
+    "titolo": "Detenute madri con figli al seguito - 31 dicembre 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST360941",
+    "celle": 36,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-01-31_SST364956",
+    "data": "2022-01-31",
+    "titolo": "Detenute madri con figli al seguito - 31 gennaio 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST364956",
+    "celle": 36,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-02-28_SST369470",
+    "data": "2022-02-28",
+    "titolo": "Detenute madri con figli al seguito - 28 febbraio 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST369470",
+    "celle": 42,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-03-31_SST374289",
+    "data": "2022-03-31",
+    "titolo": "Detenute madri con figli al seguito - 31 marzo 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST374289",
+    "celle": 42,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-04-30_SST378072",
+    "data": "2022-04-30",
+    "titolo": "Detenute madri con figli al seguito - 30 aprile 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST378072",
+    "celle": 30,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-05-31_SST382387",
+    "data": "2022-05-31",
+    "titolo": "Detenute madri con figli al seguito - 31 maggio 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST382387",
+    "celle": 42,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-06-30_SST386396",
+    "data": "2022-06-30",
+    "titolo": "Detenute madri con figli al seguito - 30 giugno 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST386396",
+    "celle": 54,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-07-31_SST390154",
+    "data": "2022-07-31",
+    "titolo": "Detenute madri con figli al seguito - 31 luglio 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST390154",
+    "celle": 48,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-08-31_SST393938",
+    "data": "2022-08-31",
+    "titolo": "Detenute madri con figli al seguito - 31 agosto 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST393938",
+    "celle": 42,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-09-30_SST398002",
+    "data": "2022-09-30",
+    "titolo": "Detenute madri con figli al seguito - 30 settembre 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST398002",
+    "celle": 36,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-10-31_SST401339",
+    "data": "2022-10-31",
+    "titolo": "Detenute madri con figli al seguito - 31 ottobre 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST401339",
+    "celle": 42,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-11-30_SST405704",
+    "data": "2022-11-30",
+    "titolo": "Detenute madri con figli al seguito - 30 novembre 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST405704",
+    "celle": 36,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-12-31_SST410261",
+    "data": "2022-12-31",
+    "titolo": "Detenute madri con figli al seguito - 31 dicembre 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST410261",
+    "celle": 30,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-01-31_SST414673",
+    "data": "2023-01-31",
+    "titolo": "Detenute madri con figli al seguito - 31 gennaio 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST414673",
+    "celle": 42,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-02-28_SST418771",
+    "data": "2023-02-28",
+    "titolo": "Detenute madri con figli al seguito - 28 febbraio 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST418771",
+    "celle": 48,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-03-31_SST423471",
+    "data": "2023-03-31",
+    "titolo": "Detenute madri con figli al seguito - 31 marzo 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST423471",
+    "celle": 54,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-04-30_SST426346",
+    "data": "2023-04-30",
+    "titolo": "Detenute madri con figli al seguito - 30 aprile 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST426346",
+    "celle": 42,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-05-31_SST431153",
+    "data": "2023-05-31",
+    "titolo": "Detenute madri con figli al seguito - 31 maggio 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST431153",
+    "celle": 54,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-06-30_SST436113",
+    "data": "2023-06-30",
+    "titolo": "Detenute madri con figli al seguito - 30 giugno 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST436113",
+    "celle": 54,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-07-31_SST439091",
+    "data": "2023-07-31",
+    "titolo": "Detenute madri con figli al seguito - 31 luglio 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST439091",
+    "celle": 48,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-08-31_SST442884",
+    "data": "2023-08-31",
+    "titolo": "Detenute madri con figli al seguito - 31 agosto 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST442884",
+    "celle": 36,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-09-30_SST446496",
+    "data": "2023-09-30",
+    "titolo": "Detenute madri con figli al seguito - 30 settembre 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST446496",
+    "celle": 54,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-10-31_SST447995",
+    "data": "2023-10-31",
+    "titolo": "Detenute madri con figli al seguito - 31 ottobre 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST447995",
+    "celle": 60,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-11-30_SST449574",
+    "data": "2023-11-30",
+    "titolo": "Detenute madri con figli al seguito - 30 novembre 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST449574",
+    "celle": 60,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-12-31_SST453327",
+    "data": "2023-12-31",
+    "titolo": "Detenute madri con figli al seguito - 31 dicembre 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST453327",
+    "celle": 60,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-01-31_SST459026",
+    "data": "2024-01-31",
+    "titolo": "Detenute madri con figli al seguito - 31 gennaio 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST459026",
+    "celle": 60,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-02-29_SST462944",
+    "data": "2024-02-29",
+    "titolo": "Detenute madri con figli al seguito - 29 febbraio 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST462944",
+    "celle": 54,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-03-31_SST466359",
+    "data": "2024-03-31",
+    "titolo": "Detenute madri con figli al seguito - 31 marzo 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST466359",
+    "celle": 54,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-04-30_SST1402559",
+    "data": "2024-04-30",
+    "titolo": "Detenute madri con figli al seguito - 30 aprile 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1402559",
+    "celle": 54,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-05-31_SST1407301",
+    "data": "2024-05-31",
+    "titolo": "Detenute madri con figli al seguito - 31 maggio 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1407301",
+    "celle": 48,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-06-30_SST1410634",
+    "data": "2024-06-30",
+    "titolo": "Detenute madri con figli al seguito - 30 giugno 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1410634",
+    "celle": 48,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-07-31_SST1415281",
+    "data": "2024-07-31",
+    "titolo": "Detenute madri con figli al seguito - 31 luglio 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1415281",
+    "celle": 48,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-08-31_SST1418338",
+    "data": "2024-08-31",
+    "titolo": "Detenute madri con figli al seguito - 31 agosto 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1418338",
+    "celle": 48,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-10-31_SST1424718",
+    "data": "2024-10-31",
+    "titolo": "Detenute madri con figli al seguito - 31 ottobre 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1424718",
+    "celle": 48,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-11-30_SST1433892",
+    "data": "2024-11-30",
+    "titolo": "Detenute madri con figli al seguito - 30 novembre 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1433892",
+    "celle": 48,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-12-31_SST1437086",
+    "data": "2024-12-31",
+    "titolo": "Detenute madri con figli al seguito - 31 dicembre 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1437086",
+    "celle": 36,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-01-31_SST1442038",
+    "data": "2025-01-31",
+    "titolo": "Detenute madri con figli al seguito - 31 gennaio 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1442038",
+    "celle": 36,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-02-28_SST1445641",
+    "data": "2025-02-28",
+    "titolo": "Detenute madri con figli al seguito - 28 febbraio 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1445641",
+    "celle": 36,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-03-31_SST1450707",
+    "data": "2025-03-31",
+    "titolo": "Detenute madri con figli al seguito - 31 marzo 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1450707",
+    "celle": 36,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-04-30_SST1453640",
+    "data": "2025-04-30",
+    "titolo": "Detenute madri con figli al seguito - 30 aprile 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1453640",
+    "celle": 36,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-05-31_SST1456997",
+    "data": "2025-05-31",
+    "titolo": "Detenute madri con figli al seguito - 31 maggio 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1456997",
+    "celle": 54,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-07-31_SST1466186",
+    "data": "2025-07-31",
+    "titolo": "Detenute madri con figli al seguito - 31 luglio 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1466186",
+    "celle": 42,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-08-31_SST1470057",
+    "data": "2025-08-31",
+    "titolo": "Detenute madri con figli al seguito - 31 agosto 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1470057",
+    "celle": 42,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-09-30_SST1473987",
+    "data": "2025-09-30",
+    "titolo": "Detenute madri con figli al seguito - 30 settembre 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1473987",
+    "celle": 42,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-10-31_SST1478561",
+    "data": "2025-10-31",
+    "titolo": "Detenute madri con figli al seguito - 31 ottobre 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1478561",
+    "celle": 48,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-11-30_SST1482957",
+    "data": "2025-11-30",
+    "titolo": "Detenute madri con figli al seguito - 30 novembre 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1482957",
+    "celle": 48,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-12-31_SST1486468",
+    "data": "2025-12-31",
+    "titolo": "Detenute madri con figli al seguito - 31 dicembre 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1486468",
+    "celle": 48,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-01-31_SST1489980",
+    "data": "2026-01-31",
+    "titolo": "Detenute madri con figli al seguito - 31 gennaio 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1489980",
+    "celle": 42,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-02-28_SST1494330",
+    "data": "2026-02-28",
+    "titolo": "Detenute madri con figli al seguito - 28 febbraio 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1494330",
+    "celle": 36,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-03-31_SST1498117",
+    "data": "2026-03-31",
+    "titolo": "Detenute madri con figli al seguito - 31 marzo 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1498117",
+    "celle": 42,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-04-30_SST1502626",
+    "data": "2026-04-30",
+    "titolo": "Detenute madri con figli al seguito - 30 aprile 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1502626",
+    "celle": 30,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-05-31_SST1506528",
+    "data": "2026-05-31",
+    "titolo": "Detenute madri con figli al seguito - 31 maggio 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1506528",
+    "celle": 48,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-06-30_SST1510929",
+    "data": "2026-06-30",
+    "titolo": "Detenute madri con figli al seguito - 30 giugno 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1510929",
+    "celle": 48,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-07-31_SST1515345",
+    "data": "2026-07-31",
+    "titolo": "Detenute madri con figli al seguito - 31 luglio 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1515345",
+    "celle": 48,
+    "errori": []
+   }
+  ]
+ },
+ "pena_residua": {
+  "voci": 15,
+  "celle": 5790,
+  "voci_con_errori": 0,
+  "dettaglio": [
+   {
+    "voce_id": "2019-06-30_SST201375",
+    "data": "2019-06-30",
+    "titolo": "Detenuti condannati per pena residua - 30 giugno 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST201375",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-12-31_SST242986",
+    "data": "2019-12-31",
+    "titolo": "Detenuti condannati per pena residua - 31 dicembre 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST242986",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-12-31_SST316833",
+    "data": "2020-12-31",
+    "titolo": "Detenuti condannati per pena residua - 31 dicembre 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST316833",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-06-30_SST340219",
+    "data": "2021-06-30",
+    "titolo": "Detenuti condannati per pena residua - 30 giugno 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST340219",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-12-31_SST361919",
+    "data": "2021-12-31",
+    "titolo": "Detenuti condannati per pena residua - 31 Dicembre 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST361919",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-06-30_SST388654",
+    "data": "2022-06-30",
+    "titolo": "Detenuti condannati per pena residua - 30 giugno 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST388654",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-12-31_SST417068",
+    "data": "2022-12-31",
+    "titolo": "Detenuti condannati per pena residua - 31 dicembre 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST417068",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-06-30_SST455299",
+    "data": "2023-06-30",
+    "titolo": "Detenuti condannati per pena residua - 30 giugno 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST455299",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-06-30_SST436555",
+    "data": "2023-06-30",
+    "titolo": "Detenuti condannati per pena residua - 30 giugno 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST436555",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-12-31_SST455300",
+    "data": "2023-12-31",
+    "titolo": "Detenuti condannati per pena residua - 31 dicembre 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST455300",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-06-30_SST1412875",
+    "data": "2024-06-30",
+    "titolo": "Detenuti condannati per pena residua - 30 giugno 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1412875",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-12-31_SST1438127",
+    "data": "2024-12-31",
+    "titolo": "Detenuti condannati per pena residua - 31 dicembre 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1438127",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-06-30_SST1462536",
+    "data": "2025-06-30",
+    "titolo": "Detenuti condannati per pena residua - 30 giugno 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1462536",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-12-31_SST1491593",
+    "data": "2025-12-31",
+    "titolo": "Detenuti condannati per pena residua - 31 dicembre 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1491593",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-06-30_SST1513428",
+    "data": "2026-06-30",
+    "titolo": "Detenuti condannati per pena residua - 30 giugno 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1513428",
+    "celle": 386,
+    "errori": []
+   }
+  ]
+ },
+ "pena_residua_anni": {
+  "voci": 1,
+  "celle": 294,
+  "voci_con_errori": 0,
+  "dettaglio": [
+   {
+    "voce_id": "detenuti-per-durata-della-pena-residua-anni-2005-2025_SST674047",
+    "data": "",
+    "titolo": "Detenuti per durata della pena residua - Anni 2005 - 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST674047",
+    "celle": 294,
+    "errori": []
+   }
+  ]
+ },
+ "ingressi_liberta": {
+  "voci": 15,
+  "celle": 2106,
+  "voci_con_errori": 0,
+  "dettaglio": [
+   {
+    "voce_id": "ingressi-in-carcere-dalla-libert-anni-1991-2025_SST165653",
+    "data": "",
+    "titolo": "Ingressi in carcere dalla libertà - Anni 1991 - 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST165653",
+    "celle": 315,
+    "errori": []
+   },
+   {
+    "voce_id": "ingressi-in-carcere-dalla-libert-anno-2019_SST317112",
+    "data": "",
+    "titolo": "Ingressi in carcere dalla libertà - Anno 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST317112",
+    "celle": 128,
+    "errori": []
+   },
+   {
+    "voce_id": "ingressi-in-carcere-dalla-libert-anno-2020_SST242959",
+    "data": "",
+    "titolo": "Ingressi in carcere dalla libertà - Anno 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST242959",
+    "celle": 128,
+    "errori": []
+   },
+   {
+    "voce_id": "ingressi-in-carcere-dalla-libert-anno-2021_SST361838",
+    "data": "",
+    "titolo": "Ingressi in carcere dalla libertà - Anno 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST361838",
+    "celle": 128,
+    "errori": []
+   },
+   {
+    "voce_id": "ingressi-in-carcere-dalla-libert-anno-2022_SST417048",
+    "data": "",
+    "titolo": "Ingressi in carcere dalla libertà - Anno 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST417048",
+    "celle": 128,
+    "errori": []
+   },
+   {
+    "voce_id": "ingressi-in-carcere-dalla-libert-anno-2023_SST455265",
+    "data": "",
+    "titolo": "Ingressi in carcere dalla libertà - Anno 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST455265",
+    "celle": 128,
+    "errori": []
+   },
+   {
+    "voce_id": "ingressi-in-carcere-dalla-libert-anno-2024_SST1438130",
+    "data": "",
+    "titolo": "Ingressi in carcere dalla libertà - Anno 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1438130",
+    "celle": 128,
+    "errori": []
+   },
+   {
+    "voce_id": "ingressi-in-carcere-dalla-libert-anno-2025_SST1491519",
+    "data": "",
+    "titolo": "Ingressi in carcere dalla libertà - Anno 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1491519",
+    "celle": 128,
+    "errori": []
+   },
+   {
+    "voce_id": "ingressi-in-carcere-dalla-libert-i-semestre-2021_SST340202",
+    "data": "",
+    "titolo": "Ingressi in carcere dalla libertà - I semestre 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST340202",
+    "celle": 127,
+    "errori": []
+   },
+   {
+    "voce_id": "ingressi-in-carcere-dalla-libert-prima-semestre-2024_SST1412848",
+    "data": "",
+    "titolo": "Ingressi in carcere dalla libertà - Prima Semestre 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1412848",
+    "celle": 128,
+    "errori": []
+   },
+   {
+    "voce_id": "ingressi-in-carcere-dalla-libert-prima-semestre-2026_SST1513497",
+    "data": "",
+    "titolo": "Ingressi in carcere dalla libertà - Prima Semestre 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1513497",
+    "celle": 128,
+    "errori": []
+   },
+   {
+    "voce_id": "ingressi-in-carcere-dalla-libert-primo-semestre-2019_SST201318",
+    "data": "",
+    "titolo": "Ingressi in carcere dalla libertà - Primo semestre 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST201318",
+    "celle": 128,
+    "errori": []
+   },
+   {
+    "voce_id": "ingressi-in-carcere-dalla-libert-primo-semestre-2020_SST282342",
+    "data": "",
+    "titolo": "Ingressi in carcere dalla libertà - Primo semestre 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST282342",
+    "celle": 128,
+    "errori": []
+   },
+   {
+    "voce_id": "ingressi-in-carcere-dalla-libert-primo-semestre-2022_SST388555",
+    "data": "",
+    "titolo": "Ingressi in carcere dalla libertà - Primo semestre 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST388555",
+    "celle": 128,
+    "errori": []
+   },
+   {
+    "voce_id": "ingressi-in-carcere-dalla-libert-primo-semestre-2023_SST437427",
+    "data": "",
+    "titolo": "Ingressi in carcere dalla libertà - Primo semestre 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST437427",
+    "celle": 128,
+    "errori": []
+   }
+  ]
+ },
+ "lavoranti": {
+  "voci": 15,
+  "celle": 4089,
+  "voci_con_errori": 0,
+  "dettaglio": [
+   {
+    "voce_id": "detenuti-lavoranti-serie-storica-anni-1991-2026_SST168616",
+    "data": "",
+    "titolo": "Detenuti Lavoranti Serie Storica - Anni 1991 - 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST168616",
+    "celle": 497,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-06-30_SST208328",
+    "data": "2019-06-30",
+    "titolo": "Detenuti lavoranti - 30 giugno 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST208328",
+    "celle": 256,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-12-31_SST250595",
+    "data": "2019-12-31",
+    "titolo": "Detenuti lavoranti - 31 dicembre 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST250595",
+    "celle": 255,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-06-30_SST293506",
+    "data": "2020-06-30",
+    "titolo": "Detenuti lavoranti - 30 giugno 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST293506",
+    "celle": 257,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-12-31_SST326021",
+    "data": "2020-12-31",
+    "titolo": "Detenuti lavoranti - 31 dicembre 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST326021",
+    "celle": 254,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-06-30_SST346581",
+    "data": "2021-06-30",
+    "titolo": "Detenuti lavoranti - 30 giugno 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST346581",
+    "celle": 257,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-12-31_SST376216",
+    "data": "2021-12-31",
+    "titolo": "Detenuti lavoranti - 31 dicembre 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST376216",
+    "celle": 257,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-06-30_SST421117",
+    "data": "2022-06-30",
+    "titolo": "Detenuti lavoranti - 30 giugno 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST421117",
+    "celle": 257,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-12-31_SST420614",
+    "data": "2022-12-31",
+    "titolo": "Detenuti lavoranti - 31 dicembre 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST420614",
+    "celle": 257,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-06-30_SST448893",
+    "data": "2023-06-30",
+    "titolo": "Detenuti lavoranti - 30 giugno 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST448893",
+    "celle": 257,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-12-31_SST1408331",
+    "data": "2023-12-31",
+    "titolo": "Detenuti lavoranti - 31 dicembre 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1408331",
+    "celle": 257,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-06-30_SST1427610",
+    "data": "2024-06-30",
+    "titolo": "Detenuti lavoranti - 30 giugno 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1427610",
+    "celle": 257,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-12-31_SST1447684",
+    "data": "2024-12-31",
+    "titolo": "Detenuti lavoranti - 31 dicembre 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1447684",
+    "celle": 257,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-06-30_SST1481259",
+    "data": "2025-06-30",
+    "titolo": "Detenuti lavoranti - 30 giugno 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1481259",
+    "celle": 257,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-12-31_SST1493347",
+    "data": "2025-12-31",
+    "titolo": "Detenuti lavoranti - 31 dicembre 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1493347",
+    "celle": 257,
+    "errori": []
+   }
+  ]
+ },
+ "lavoranti_datore": {
+  "voci": 14,
+  "celle": 3516,
+  "voci_con_errori": 0,
+  "dettaglio": [
+   {
+    "voce_id": "detenuti-lavoranti-per-datore-di-lavoro-30-giugno2025_SST1481266",
+    "data": "",
+    "titolo": "Detenuti lavoranti per datore di lavoro - 30 giugno2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1481266",
+    "celle": 252,
+    "errori": []
+   },
+   {
+    "voce_id": "detenuti-lavoranti-per-datore-di-lavoro-31dicembre-2021_SST376124",
+    "data": "",
+    "titolo": "Detenuti lavoranti per datore di lavoro - 31dicembre 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST376124",
+    "celle": 252,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-06-30_SST208334",
+    "data": "2019-06-30",
+    "titolo": "Detenuti lavoranti per datore di lavoro - 30 giugno 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST208334",
+    "celle": 252,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-12-31_SST250604",
+    "data": "2019-12-31",
+    "titolo": "Detenuti lavoranti per datore di lavoro - 31 dicembre 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST250604",
+    "celle": 252,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-06-30_SST293513",
+    "data": "2020-06-30",
+    "titolo": "Detenuti lavoranti per datore di lavoro - 30 giugno 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST293513",
+    "celle": 252,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-12-31_SST326025",
+    "data": "2020-12-31",
+    "titolo": "Detenuti lavoranti per datore di lavoro - 31 dicembre 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST326025",
+    "celle": 252,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-06-30_SST346584",
+    "data": "2021-06-30",
+    "titolo": "Detenuti lavoranti per datore di lavoro - 30 giugno 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST346584",
+    "celle": 252,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-06-30_SST421095",
+    "data": "2022-06-30",
+    "titolo": "Detenuti lavoranti per datore di lavoro - 30 giugno 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST421095",
+    "celle": 252,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-12-31_SST420625",
+    "data": "2022-12-31",
+    "titolo": "Detenuti lavoranti per datore di lavoro - 31 dicembre 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST420625",
+    "celle": 252,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-06-30_SST448908",
+    "data": "2023-06-30",
+    "titolo": "Detenuti lavoranti per datore di lavoro - 30 giugno 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST448908",
+    "celle": 252,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-12-31_SST1408338",
+    "data": "2023-12-31",
+    "titolo": "Detenuti lavoranti per datore di lavoro - 31 dicembre 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1408338",
+    "celle": 246,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-06-30_SST1427612",
+    "data": "2024-06-30",
+    "titolo": "Detenuti lavoranti per datore di lavoro - 30 giugno 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1427612",
+    "celle": 252,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-12-31_SST1447732",
+    "data": "2024-12-31",
+    "titolo": "Detenuti lavoranti per datore di lavoro - 31 dicembre 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1447732",
+    "celle": 252,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-12-31_SST1493351",
+    "data": "2025-12-31",
+    "titolo": "Detenuti lavoranti per datore di lavoro - 31 dicembre 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1493351",
+    "celle": 246,
+    "errori": []
+   }
+  ]
+ },
+ "lavoranti_serie_storica": {
+  "voci": 1,
+  "celle": 497,
+  "voci_con_errori": 0,
+  "dettaglio": [
+   {
+    "voce_id": "detenuti-lavoranti-serie-storica-anni-1991-2026_SST168616",
+    "data": "",
+    "titolo": "Detenuti Lavoranti Serie Storica - Anni 1991 - 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST168616",
+    "celle": 497,
+    "errori": []
+   }
+  ]
+ },
+ "corsi_professionali": {
+  "voci": 13,
+  "celle": 4249,
+  "voci_con_errori": 0,
+  "dettaglio": [
+   {
+    "voce_id": "detenuti-inseriti-in-corsi-professionali-i-semestre-2019_SST208340",
+    "data": "",
+    "titolo": "Detenuti inseriti in corsi professionali - I Semestre 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST208340",
+    "celle": 336,
+    "errori": []
+   },
+   {
+    "voce_id": "detenuti-inseriti-in-corsi-professionali-i-semestre-2021_SST346593",
+    "data": "",
+    "titolo": "Detenuti inseriti in corsi professionali - I semestre 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST346593",
+    "celle": 327,
+    "errori": []
+   },
+   {
+    "voce_id": "detenuti-inseriti-in-corsi-professionali-ii-semestre-2019_SST250623",
+    "data": "",
+    "titolo": "Detenuti inseriti in corsi professionali - II semestre 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST250623",
+    "celle": 328,
+    "errori": []
+   },
+   {
+    "voce_id": "detenuti-inseriti-in-corsi-professionali-ii-semestre-2020_SST326078",
+    "data": "",
+    "titolo": "Detenuti inseriti in corsi professionali - II semestre 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST326078",
+    "celle": 272,
+    "errori": []
+   },
+   {
+    "voce_id": "detenuti-inseriti-in-corsi-professionali-ii-semestre-2021_SST376223",
+    "data": "",
+    "titolo": "Detenuti inseriti in corsi professionali - II semestre 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST376223",
+    "celle": 328,
+    "errori": []
+   },
+   {
+    "voce_id": "detenuti-inseriti-in-corsi-professionali-primo-semestre-2022_SST421197",
+    "data": "",
+    "titolo": "Detenuti inseriti in corsi professionali - Primo semestre 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST421197",
+    "celle": 327,
+    "errori": []
+   },
+   {
+    "voce_id": "detenuti-inseriti-in-corsi-professionali-primo-semestre-2023_SST449008",
+    "data": "",
+    "titolo": "Detenuti inseriti in corsi professionali - Primo semestre 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST449008",
+    "celle": 334,
+    "errori": []
+   },
+   {
+    "voce_id": "tenuti-inseriti-in-corsi-professionali-secondo-semestre-2022_SST420606",
+    "data": "",
+    "titolo": "Detenuti inseriti in corsi professionali - Secondo semestre 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST420606",
+    "celle": 333,
+    "errori": []
+   },
+   {
+    "voce_id": "tenuti-inseriti-in-corsi-professionali-secondo-semestre-2023_SST1408365",
+    "data": "",
+    "titolo": "Detenuti inseriti in corsi professionali - Secondo semestre 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1408365",
+    "celle": 331,
+    "errori": []
+   },
+   {
+    "voce_id": "detenuti-inseriti-in-corsi-professionali-primo-semestre-2024_SST1427620",
+    "data": "",
+    "titolo": "Detenuti inseriti in corsi professionali - primo semestre 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1427620",
+    "celle": 335,
+    "errori": []
+   },
+   {
+    "voce_id": "detenuti-inseriti-in-corsi-professionali-primo-semestre-2025_SST1481277",
+    "data": "",
+    "titolo": "Detenuti inseriti in corsi professionali - primo semestre 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1481277",
+    "celle": 334,
+    "errori": []
+   },
+   {
+    "voce_id": "tenuti-inseriti-in-corsi-professionali-secondo-semestre-2024_SST1447686",
+    "data": "",
+    "titolo": "Detenuti inseriti in corsi professionali - secondo semestre 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1447686",
+    "celle": 328,
+    "errori": []
+   },
+   {
+    "voce_id": "tenuti-inseriti-in-corsi-professionali-secondo-semestre-2025_SST1493354",
+    "data": "",
+    "titolo": "Detenuti inseriti in corsi professionali - secondo semestre 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1493354",
+    "celle": 336,
+    "errori": []
+   }
+  ]
+ },
+ "percorsi_istruzione": {
+  "voci": 8,
+  "celle": 472,
+  "voci_con_errori": 0,
+  "dettaglio": [
+   {
+    "voce_id": "attivit-trattamentali-percorsi-d-istruzione-anno-2018-2019_SST283967",
+    "data": "",
+    "titolo": "Attività trattamentali - Percorsi d'istruzione - Anno 2018 - 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST283967",
+    "celle": 59,
+    "errori": []
+   },
+   {
+    "voce_id": "attivit-trattamentali-percorsi-d-istruzione-anno-2019-2020_SST303893",
+    "data": "",
+    "titolo": "Attività trattamentali - Percorsi d'istruzione - Anno 2019 - 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST303893",
+    "celle": 59,
+    "errori": []
+   },
+   {
+    "voce_id": "attivit-trattamentali-percorsi-d-istruzione-anno-2020-2021_SST351856",
+    "data": "",
+    "titolo": "Attività trattamentali - Percorsi d'istruzione - Anno 2020 - 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST351856",
+    "celle": 59,
+    "errori": []
+   },
+   {
+    "voce_id": "attivit-trattamentali-percorsi-d-istruzione-anno-2021-2022_SST402559",
+    "data": "",
+    "titolo": "Attività trattamentali - Percorsi d'istruzione - Anno 2021 - 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST402559",
+    "celle": 59,
+    "errori": []
+   },
+   {
+    "voce_id": "attivit-trattamentali-percorsi-d-istruzione-anno-2022-2023_SST450251",
+    "data": "",
+    "titolo": "Attività trattamentali - Percorsi d'istruzione - Anno 2022 - 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST450251",
+    "celle": 59,
+    "errori": []
+   },
+   {
+    "voce_id": "attivit-trattamentali-percorsi-d-istruzione-anno-2023-2024_SST1441955",
+    "data": "",
+    "titolo": "Attività trattamentali - Percorsi d'istruzione - Anno 2023 - 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1441955",
+    "celle": 59,
+    "errori": []
+   },
+   {
+    "voce_id": "attivit-trattamentali-percorsi-d-istruzione-anno-2024-2025_SST1479459",
+    "data": "",
+    "titolo": "Attività trattamentali - Percorsi d'istruzione - Anno 2024 - 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1479459",
+    "celle": 59,
+    "errori": []
+   },
+   {
+    "voce_id": "attivit-trattamentali-percorsi-d-istruzione-anno-2025-2026_SST1497142",
+    "data": "",
+    "titolo": "Attività trattamentali - Percorsi d'istruzione - Anno 2025 - 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1497142",
+    "celle": 59,
+    "errori": []
+   }
+  ]
+ },
+ "permessi_premio": {
+  "voci": 13,
+  "celle": 273,
+  "voci_con_errori": 0,
+  "dettaglio": [
+   {
+    "voce_id": "permessi-premio-concessi-ai-detenuti-anno-2019_SST317118",
+    "data": "",
+    "titolo": "Permessi premio concessi ai detenuti - Anno 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST317118",
+    "celle": 21,
+    "errori": []
+   },
+   {
+    "voce_id": "permessi-premio-concessi-ai-detenuti-anno-2020_SST242971",
+    "data": "",
+    "titolo": "Permessi premio concessi ai detenuti - Anno 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST242971",
+    "celle": 21,
+    "errori": []
+   },
+   {
+    "voce_id": "permessi-premio-concessi-ai-detenuti-anno-2021_SST361854",
+    "data": "",
+    "titolo": "Permessi premio concessi ai detenuti - Anno 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST361854",
+    "celle": 21,
+    "errori": []
+   },
+   {
+    "voce_id": "permessi-premio-concessi-ai-detenuti-anno-2022_SST417050",
+    "data": "",
+    "titolo": "Permessi premio concessi ai detenuti - Anno 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST417050",
+    "celle": 21,
+    "errori": []
+   },
+   {
+    "voce_id": "permessi-premio-concessi-ai-detenuti-anno-2023_SST437440",
+    "data": "",
+    "titolo": "Permessi premio concessi ai detenuti - Anno 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST437440",
+    "celle": 21,
+    "errori": []
+   },
+   {
+    "voce_id": "permessi-premio-concessi-ai-detenuti-anno-2024_SST1437888",
+    "data": "",
+    "titolo": "Permessi premio concessi ai detenuti - Anno 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1437888",
+    "celle": 21,
+    "errori": []
+   },
+   {
+    "voce_id": "permessi-premio-concessi-ai-detenuti-anno-2025_SST1491572",
+    "data": "",
+    "titolo": "Permessi premio concessi ai detenuti - Anno 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1491572",
+    "celle": 21,
+    "errori": []
+   },
+   {
+    "voce_id": "permessi-premio-concessi-ai-detenuti-primo-semestre-2019_SST201321",
+    "data": "",
+    "titolo": "Permessi premio concessi ai detenuti - Primo semestre 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST201321",
+    "celle": 21,
+    "errori": []
+   },
+   {
+    "voce_id": "permessi-premio-concessi-ai-detenuti-primo-semestre-2020_SST282345",
+    "data": "",
+    "titolo": "Permessi premio concessi ai detenuti - Primo semestre 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST282345",
+    "celle": 21,
+    "errori": []
+   },
+   {
+    "voce_id": "permessi-premio-concessi-ai-detenuti-primo-semestre-2021_SST340204",
+    "data": "",
+    "titolo": "Permessi premio concessi ai detenuti - Primo semestre 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST340204",
+    "celle": 21,
+    "errori": []
+   },
+   {
+    "voce_id": "permessi-premio-concessi-ai-detenuti-primo-semestre-2022_SST388570",
+    "data": "",
+    "titolo": "Permessi premio concessi ai detenuti - Primo semestre 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST388570",
+    "celle": 21,
+    "errori": []
+   },
+   {
+    "voce_id": "permessi-premio-concessi-ai-detenuti-primo-semestre-2024_SST1412860",
+    "data": "",
+    "titolo": "Permessi premio concessi ai detenuti - Primo semestre 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1412860",
+    "celle": 21,
+    "errori": []
+   },
+   {
+    "voce_id": "permessi-premio-concessi-ai-detenuti-primo-semestre-2026_SST1513435",
+    "data": "",
+    "titolo": "Permessi premio concessi ai detenuti - Primo semestre 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1513435",
+    "celle": 21,
+    "errori": []
+   }
+  ]
+ },
+ "usciti_legge_199": {
+  "voci": 91,
+  "celle": 7644,
+  "voci_con_errori": 0,
+  "dettaglio": [
+   {
+    "voce_id": "2019-01-31_SST168943",
+    "data": "2019-01-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 gennaio 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST168943",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-02-28_SST173705",
+    "data": "2019-02-28",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 28 febbraio 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST173705",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-03-31_SST183076",
+    "data": "2019-03-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 marzo 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST183076",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-04-30_SST194132",
+    "data": "2019-04-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 aprile 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST194132",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-05-31_SST188421",
+    "data": "2019-05-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 maggio 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST188421",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-06-30_SST199429",
+    "data": "2019-06-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 giugno 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST199429",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-07-31_SST206270",
+    "data": "2019-07-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 luglio 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST206270",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-08-31_SST212440",
+    "data": "2019-08-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 agosto 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST212440",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-09-30_SST219493",
+    "data": "2019-09-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 settembre 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST219493",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-10-31_SST225679",
+    "data": "2019-10-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 ottobre 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST225679",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-11-30_SST231434",
+    "data": "2019-11-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 novembre 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST231434",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-12-31_SST238942",
+    "data": "2019-12-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 dicembre 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST238942",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-01-31_SST245524",
+    "data": "2020-01-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 gennaio 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST245524",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-02-29_SST250616",
+    "data": "2020-02-29",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 29 febbraio 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST250616",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-03-31_SST264729",
+    "data": "2020-03-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 marzo 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST264729",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-04-30_SST271290",
+    "data": "2020-04-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 aprile 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST271290",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-05-31_SST276697",
+    "data": "2020-05-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 maggio 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST276697",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-06-30_SST281601",
+    "data": "2020-06-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 giugno 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST281601",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-07-31_SST285908",
+    "data": "2020-07-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 luglio 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST285908",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-08-31_SST289781",
+    "data": "2020-08-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 agosto 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST289781",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-09-30_SST293976",
+    "data": "2020-09-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 settembre 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST293976",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-10-31_SST301837",
+    "data": "2020-10-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 ottobre 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST301837",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-11-30_SST308226",
+    "data": "2020-11-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 novembre 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST308226",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-12-31_SST314859",
+    "data": "2020-12-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 dicembre 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST314859",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-01-31_SST320024",
+    "data": "2021-01-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 gennaio 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST320024",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-02-28_SST323250",
+    "data": "2021-02-28",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 28 febbraio 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST323250",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-03-31_SST327797",
+    "data": "2021-03-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 marzo 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST327797",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-04-30_SST331141",
+    "data": "2021-04-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 aprile 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST331141",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-05-31_SST334407",
+    "data": "2021-05-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 maggio 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST334407",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-06-30_SST338817",
+    "data": "2021-06-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 giugno 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST338817",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-07-31_SST342781",
+    "data": "2021-07-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 luglio 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST342781",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-08-31_SST345820",
+    "data": "2021-08-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 agosto 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST345820",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-09-30_SST348615",
+    "data": "2021-09-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 Settembre 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST348615",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-10-31_SST352822",
+    "data": "2021-10-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 ottobre 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST352822",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-11-30_SST357674",
+    "data": "2021-11-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 novembre 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST357674",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-01-31_SST360944",
+    "data": "2022-01-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 gennaio 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST360944",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-02-28_SST369486",
+    "data": "2022-02-28",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 28 febbraio 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST369486",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-03-31_SST374635",
+    "data": "2022-03-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 marzo 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST374635",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-04-30_SST378360",
+    "data": "2022-04-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 aprile 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST378360",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-05-31_SST382400",
+    "data": "2022-05-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 maggio 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST382400",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-06-30_SST386453",
+    "data": "2022-06-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 giugno 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST386453",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-07-31_SST390156",
+    "data": "2022-07-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 luglio 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST390156",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-08-31_SST393946",
+    "data": "2022-08-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 agosto 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST393946",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-09-30_SST398167",
+    "data": "2022-09-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 settembre 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST398167",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-10-31_SST401352",
+    "data": "2022-10-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 ottobre 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST401352",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-11-30_SST405716",
+    "data": "2022-11-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 novembre 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST405716",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-12-31_SST410299",
+    "data": "2022-12-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 dicembre 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST410299",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-01-31_SST418826",
+    "data": "2023-01-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 gennaio 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST418826",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-02-28_SST414648",
+    "data": "2023-02-28",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 28 febbraio 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST414648",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-04-30_SST426371",
+    "data": "2023-04-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 aprile 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST426371",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-05-31_SST431169",
+    "data": "2023-05-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 maggio 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST431169",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-06-30_SST436155",
+    "data": "2023-06-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 giugno 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST436155",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-07-31_SST439098",
+    "data": "2023-07-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 luglio 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST439098",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-08-31_SST443007",
+    "data": "2023-08-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 agosto 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST443007",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-09-30_SST446764",
+    "data": "2023-09-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 settembre 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST446764",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-10-31_SST447998",
+    "data": "2023-10-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 ottobre 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST447998",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-11-30_SST449576",
+    "data": "2023-11-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 novembre 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST449576",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-12-31_SST453342",
+    "data": "2023-12-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 dicembre 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST453342",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-01-31_SST459029",
+    "data": "2024-01-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 gennaio 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST459029",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-02-29_SST462948",
+    "data": "2024-02-29",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 29 febbraio 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST462948",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-03-31_SST466369",
+    "data": "2024-03-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 marzo 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST466369",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-04-30_SST1402568",
+    "data": "2024-04-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 aprile 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1402568",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-05-31_SST1407303",
+    "data": "2024-05-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 maggio 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1407303",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-06-30_SST1410590",
+    "data": "2024-06-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 giugno 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1410590",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-07-31_SST1415284",
+    "data": "2024-07-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 luglio 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1415284",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-08-31_SST1418230",
+    "data": "2024-08-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 agosto 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1418230",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-09-30_SST1424816",
+    "data": "2024-09-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 settembre 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1424816",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-10-31_SST1428286",
+    "data": "2024-10-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 ottobre 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1428286",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-11-30_SST1433862",
+    "data": "2024-11-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 novembre 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1433862",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-12-31_SST1437089",
+    "data": "2024-12-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 dicembre 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1437089",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-01-31_SST1442046",
+    "data": "2025-01-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 gennaio 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1442046",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-02-28_SST1445646",
+    "data": "2025-02-28",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 28 febbraio 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1445646",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-03-31_SST1450687",
+    "data": "2025-03-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 marzo 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1450687",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-04-30_SST1453641",
+    "data": "2025-04-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 aprile 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1453641",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-05-31_SST1456996",
+    "data": "2025-05-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 maggio 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1456996",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-07-31_SST1466189",
+    "data": "2025-07-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 luglio 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1466189",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-08-31_SST1470083",
+    "data": "2025-08-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 agosto 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1470083",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-09-30_SST1473990",
+    "data": "2025-09-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 settembre 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1473990",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-10-31_SST1478573",
+    "data": "2025-10-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 ottobre 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1478573",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-11-30_SST1483002",
+    "data": "2025-11-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 novembre 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1483002",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-12-31_SST1486469",
+    "data": "2025-12-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 dicembre 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1486469",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-01-31_SST1489977",
+    "data": "2026-01-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 gennaio 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1489977",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-02-28_SST1494331",
+    "data": "2026-02-28",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 28 febbraio 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1494331",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-03-31_SST1498136",
+    "data": "2026-03-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 marzo 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1498136",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-04-30_SST1502627",
+    "data": "2026-04-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 aprile 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1502627",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-05-31_SST1506523",
+    "data": "2026-05-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 maggio 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1506523",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-06-30_SST1510938",
+    "data": "2026-06-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 giugno 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1510938",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-07-31_SST1515348",
+    "data": "2026-07-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 luglio 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1515348",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-08-31_SST1518878",
+    "data": "2026-08-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 agosto 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1518878",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-09-30_SST1522543",
+    "data": "2026-09-30",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 30 settembre 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1522543",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-10-31_SST1527248",
+    "data": "2026-10-31",
+    "titolo": "Detenuti usciti dagli istituti penitenziari per effetto della legge 199/2010 - aggiornamento al 31 ottobre 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1527248",
+    "celle": 84,
+    "errori": []
+   }
+  ]
+ },
+ "classi_eta": {
+  "voci": 14,
+  "celle": 7210,
+  "voci_con_errori": 0,
+  "dettaglio": [
+   {
+    "voce_id": "2019-06-30_SST201609",
+    "data": "2019-06-30",
+    "titolo": "Detenuti per classi di età - 30 giugno 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST201609",
+    "celle": 515,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-12-31_SST243192",
+    "data": "2019-12-31",
+    "titolo": "Detenuti per classi di età - 31 dicembre 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST243192",
+    "celle": 515,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-06-30_SST282629",
+    "data": "2020-06-30",
+    "titolo": "Detenuti per classi di età - 30 giugno 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST282629",
+    "celle": 515,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-12-31_SST317032",
+    "data": "2020-12-31",
+    "titolo": "Detenuti per classi di età - 31 dicembre 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST317032",
+    "celle": 515,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-06-30_SST340302",
+    "data": "2021-06-30",
+    "titolo": "Detenuti per classi di età - 30 giugno 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST340302",
+    "celle": 515,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-12-31_SST361925",
+    "data": "2021-12-31",
+    "titolo": "Detenuti per classi di età - 31 dicembre 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST361925",
+    "celle": 515,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-06-30_SST388675",
+    "data": "2022-06-30",
+    "titolo": "Detenuti per classi di età - 30 giugno 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST388675",
+    "celle": 515,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-12-31_SST417096",
+    "data": "2022-12-31",
+    "titolo": "Detenuti per classi di età - 31 dicembre 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST417096",
+    "celle": 515,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-06-30_SST436577",
+    "data": "2023-06-30",
+    "titolo": "Detenuti per classi di età - 30 giugno 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST436577",
+    "celle": 515,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-06-30_SST455313",
+    "data": "2024-06-30",
+    "titolo": "Detenuti per classi di età - 30 giugno 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST455313",
+    "celle": 515,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-12-31_SST1438136",
+    "data": "2024-12-31",
+    "titolo": "Detenuti per classi di età - 31 dicembre 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1438136",
+    "celle": 515,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-06-30_SST1462543",
+    "data": "2025-06-30",
+    "titolo": "Detenuti per classi di età - 30 giugno 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1462543",
+    "celle": 515,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-12-31_SST1491599",
+    "data": "2025-12-31",
+    "titolo": "Detenuti per classi di età - 31 dicembre 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1491599",
+    "celle": 515,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-06-30_SST1513434",
+    "data": "2026-06-30",
+    "titolo": "Detenuti per classi di età - 30 giugno 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1513434",
+    "celle": 515,
+    "errori": []
+   }
+  ]
+ },
+ "classi_eta_anni": {
+  "voci": 1,
+  "celle": 252,
+  "voci_con_errori": 0,
+  "dettaglio": [
+   {
+    "voce_id": "detenuti-per-classi-di-et-anni-2005-2025_SST613888",
+    "data": "",
+    "titolo": "Detenuti per classi di età - Anni 2005 - 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST613888",
+    "celle": 252,
+    "errori": []
+   }
+  ]
+ },
+ "posizione_giuridica_anni": {
+  "voci": 1,
+  "celle": 162,
+  "voci_con_errori": 0,
+  "dettaglio": [
+   {
+    "voce_id": "detenuti-presenti-per-posizione-giuridica-anni-2008-2025_SST996131",
+    "data": "",
+    "titolo": "Detenuti presenti per posizione giuridica - Anni 2008 - 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST996131",
+    "celle": 162,
+    "errori": []
+   }
+  ]
+ },
+ "madri_asili_nido": {
+  "voci": 14,
+  "celle": 1303,
+  "voci_con_errori": 0,
+  "dettaglio": [
+   {
+    "voce_id": "detenute-madri-e-asili-nido-anni-1993-2026_SST165689",
+    "data": "",
+    "titolo": "Detenute madri e asili nido - Anni 1993 - 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST165689",
+    "celle": 335,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-06-30_SST207628",
+    "data": "2019-06-30",
+    "titolo": "Detenute madri e asili nido - 30 giugno 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST207628",
+    "celle": 76,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-12-31_SST317324",
+    "data": "2019-12-31",
+    "titolo": "Detenute madri e asili nido - 31 dicembre 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST317324",
+    "celle": 80,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-06-30_SST244346",
+    "data": "2020-06-30",
+    "titolo": "Detenute madri e asili nido - 30 giugno 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST244346",
+    "celle": 85,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-12-31_SST324131",
+    "data": "2020-12-31",
+    "titolo": "Detenute madri e asili nido - 31 dicembre 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST324131",
+    "celle": 74,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-12-31_SST343319",
+    "data": "2021-12-31",
+    "titolo": "Detenute madri e asili nido - 31 dicembre 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST343319",
+    "celle": 74,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-06-30_SST390425",
+    "data": "2022-06-30",
+    "titolo": "Detenute madri e asili nido - 30 giugno 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST390425",
+    "celle": 68,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-12-31_SST418257",
+    "data": "2022-12-31",
+    "titolo": "Detenute madri e asili nido - 31 dicembre 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST418257",
+    "celle": 68,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-06-30_SST443770",
+    "data": "2023-06-30",
+    "titolo": "Detenute madri e asili nido - 30 giugno 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST443770",
+    "celle": 84,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-06-30_SST1414470",
+    "data": "2024-06-30",
+    "titolo": "Detenute madri e asili nido - 30 giugno 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1414470",
+    "celle": 86,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-12-31_SST1445391",
+    "data": "2024-12-31",
+    "titolo": "Detenute madri e asili nido - 31 dicembre 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1445391",
+    "celle": 66,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-06-30_SST1512358",
+    "data": "2025-06-30",
+    "titolo": "Detenute madri e asili nido - 30 giugno 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1512358",
+    "celle": 79,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-12-31_SST1514369",
+    "data": "2025-12-31",
+    "titolo": "Detenute madri e asili nido - 31 dicembre 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1514369",
+    "celle": 67,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-06-30_SST1518662",
+    "data": "2026-06-30",
+    "titolo": "Detenute madri e asili nido - 30 giugno 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1518662",
+    "celle": 61,
+    "errori": []
+   }
+  ]
+ },
+ "posizione_giuridica_regione": {
+  "voci": 92,
+  "celle": 35511,
+  "voci_con_errori": 0,
+  "dettaglio": [
+   {
+    "voce_id": "2019-01-31_SST168910",
+    "data": "2019-01-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 gennaio 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST168910",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-02-28_SST173662",
+    "data": "2019-02-28",
+    "titolo": "Detenuti presenti - aggiornamento al 28 febbraio 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST173662",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-03-31_SST183060",
+    "data": "2019-03-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 marzo 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST183060",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-04-30_SST188292",
+    "data": "2019-04-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 aprile 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST188292",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-05-31_SST193636",
+    "data": "2019-05-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 maggio 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST193636",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-06-30_SST206255",
+    "data": "2019-06-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 giugno 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST206255",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-07-31_SST199192",
+    "data": "2019-07-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 luglio 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST199192",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-08-31_SST212433",
+    "data": "2019-08-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 agosto 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST212433",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-09-30_SST219327",
+    "data": "2019-09-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 settembre 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST219327",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-10-31_SST225648",
+    "data": "2019-10-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 ottobre 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST225648",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-11-30_SST231289",
+    "data": "2019-11-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 novembre 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST231289",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2019-12-31_SST238877",
+    "data": "2019-12-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 dicembre 2019",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST238877",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-01-31_SST245309",
+    "data": "2020-01-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 gennaio 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST245309",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-02-29_SST250530",
+    "data": "2020-02-29",
+    "titolo": "Detenuti presenti - aggiornamento al 29 febbraio 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST250530",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-03-31_SST264737",
+    "data": "2020-03-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 marzo 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST264737",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-04-30_SST271278",
+    "data": "2020-04-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 aprile 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST271278",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-05-31_SST276680",
+    "data": "2020-05-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 maggio 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST276680",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-06-30_SST281517",
+    "data": "2020-06-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 giugno 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST281517",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-07-31_SST285889",
+    "data": "2020-07-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 luglio 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST285889",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-08-31_SST289733",
+    "data": "2020-08-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 agosto 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST289733",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-09-30_SST293959",
+    "data": "2020-09-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 settembre 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST293959",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-10-31_SST301096",
+    "data": "2020-10-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 ottobre 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST301096",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-11-30_SST308212",
+    "data": "2020-11-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 novembre 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST308212",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2020-12-31_SST314822",
+    "data": "2020-12-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 dicembre 2020",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST314822",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-01-31_SST320013",
+    "data": "2021-01-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 gennaio 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST320013",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-02-28_SST323230",
+    "data": "2021-02-28",
+    "titolo": "Detenuti presenti - aggiornamento al 28 febbraio 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST323230",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-03-31_SST327707",
+    "data": "2021-03-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 marzo 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST327707",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-04-30_SST331079",
+    "data": "2021-04-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 aprile 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST331079",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-05-31_SST334398",
+    "data": "2021-05-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 maggio 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST334398",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-06-30_SST338688",
+    "data": "2021-06-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 giugno 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST338688",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-08-31_SST345746",
+    "data": "2021-08-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 agosto 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST345746",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-09-30_SST348583",
+    "data": "2021-09-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 settembre 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST348583",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-10-31_SST352730",
+    "data": "2021-10-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 ottobre 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST352730",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-11-30_SST357663",
+    "data": "2021-11-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 novembre 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST357663",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2021-12-31_SST360929",
+    "data": "2021-12-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 dicembre 2021",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST360929",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-01-31_SST365654",
+    "data": "2022-01-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 gennaio 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST365654",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-02-28_SST369452",
+    "data": "2022-02-28",
+    "titolo": "Detenuti presenti - aggiornamento al 28 febbraio 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST369452",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-03-31_SST374273",
+    "data": "2022-03-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 marzo 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST374273",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-04-30_SST378226",
+    "data": "2022-04-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 aprile 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST378226",
+    "celle": 385,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-05-31_SST382370",
+    "data": "2022-05-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 maggio 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST382370",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-06-30_SST386405",
+    "data": "2022-06-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 giugno 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST386405",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-07-31_SST390152",
+    "data": "2022-07-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 luglio 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST390152",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-08-31_SST393945",
+    "data": "2022-08-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 agosto 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST393945",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-09-30_SST398010",
+    "data": "2022-09-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 settembre 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST398010",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-10-31_SST401332",
+    "data": "2022-10-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 ottobre 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST401332",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-11-30_SST405707",
+    "data": "2022-11-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 novembre 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST405707",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2022-12-31_SST410260",
+    "data": "2022-12-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 dicembre 2022",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST410260",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-01-31_SST414661",
+    "data": "2023-01-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 gennaio 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST414661",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-02-28_SST418758",
+    "data": "2023-02-28",
+    "titolo": "Detenuti presenti - aggiornamento al 28 febbraio 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST418758",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-04-30_SST426348",
+    "data": "2023-04-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 aprile 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST426348",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-05-31_SST431144",
+    "data": "2023-05-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 maggio 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST431144",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-06-30_SST436103",
+    "data": "2023-06-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 giugno 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST436103",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-07-31_SST439077",
+    "data": "2023-07-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 luglio 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST439077",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-08-31_SST442882",
+    "data": "2023-08-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 agosto 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST442882",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-09-30_SST446494",
+    "data": "2023-09-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 settembre 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST446494",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-10-31_SST447997",
+    "data": "2023-10-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 ottobre 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST447997",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-11-30_SST454080",
+    "data": "2023-11-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 novembre 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST454080",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2023-12-31_SST449575",
+    "data": "2023-12-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 dicembre 2023",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST449575",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-01-31_SST459008",
+    "data": "2024-01-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 gennaio 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST459008",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-02-29_SST462947",
+    "data": "2024-02-29",
+    "titolo": "Detenuti presenti - aggiornamento al 29 febbraio 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST462947",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-03-31_SST466364",
+    "data": "2024-03-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 marzo 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST466364",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-04-30_SST1402558",
+    "data": "2024-04-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 aprile 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1402558",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-05-31_SST1407291",
+    "data": "2024-05-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 maggio 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1407291",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-06-30_SST1410631",
+    "data": "2024-06-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 giugno 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1410631",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-07-31_SST1415279",
+    "data": "2024-07-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 luglio 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1415279",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-08-31_SST1418238",
+    "data": "2024-08-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 agosto 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1418238",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-09-30_SST1424707",
+    "data": "2024-09-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 settembre 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1424707",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-10-31_SST1428634",
+    "data": "2024-10-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 ottobre 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1428634",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-11-30_SST1433625",
+    "data": "2024-11-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 novembre 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1433625",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2024-12-31_SST1437074",
+    "data": "2024-12-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 dicembre 2024",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1437074",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-01-31_SST1442001",
+    "data": "2025-01-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 gennaio 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1442001",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-02-28_SST1445624",
+    "data": "2025-02-28",
+    "titolo": "Detenuti presenti - aggiornamento al 28 febbraio 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1445624",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-03-31_SST1450679",
+    "data": "2025-03-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 marzo 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1450679",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-04-30_SST1453634",
+    "data": "2025-04-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 aprile 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1453634",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-05-31_SST1456994",
+    "data": "2025-05-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 maggio 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1456994",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-06-30_SST1460719",
+    "data": "2025-06-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 giugno 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1460719",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-07-31_SST1466182",
+    "data": "2025-07-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 luglio 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1466182",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-08-31_SST1470061",
+    "data": "2025-08-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 agosto 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1470061",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-09-30_SST1473963",
+    "data": "2025-09-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 settembre 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1473963",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-10-31_SST1478510",
+    "data": "2025-10-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 ottobre 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1478510",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-11-30_SST1482939",
+    "data": "2025-11-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 novembre 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1482939",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2025-12-31_SST1486455",
+    "data": "2025-12-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 dicembre 2025",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1486455",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-01-31_SST1489965",
+    "data": "2026-01-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 gennaio 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1489965",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-02-28_SST1494310",
+    "data": "2026-02-28",
+    "titolo": "Detenuti presenti - aggiornamento al 28 febbraio 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1494310",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-03-31_SST1498108",
+    "data": "2026-03-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 marzo 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1498108",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-04-30_SST1502619",
+    "data": "2026-04-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 aprile 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1502619",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-05-31_SST1506498",
+    "data": "2026-05-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 maggio 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1506498",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-06-30_SST1510914",
+    "data": "2026-06-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 giugno 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1510914",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-07-31_SST1515323",
+    "data": "2026-07-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 luglio 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1515323",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-08-31_SST1518874",
+    "data": "2026-08-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 agosto 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1518874",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-09-30_SST1522518",
+    "data": "2026-09-30",
+    "titolo": "Detenuti presenti - aggiornamento al 30 settembre 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1522518",
+    "celle": 386,
+    "errori": []
+   },
+   {
+    "voce_id": "2026-10-31_SST1527188",
+    "data": "2026-10-31",
+    "titolo": "Detenuti presenti - aggiornamento al 31 ottobre 2026",
+    "url": "https://www.giustizia.it/giustizia/it/mg_1_14_1.page?contentId=SST1527188",
+    "celle": 386,
+    "errori": []
+   }
+  ]
+ }
+}
