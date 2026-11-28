@@ -62,4 +62,5 @@ if ! command -v archivebox >/dev/null 2>&1; then
 fi
 echo "Aggiungo $N URL ad ArchiveBox in $DATA_DIR"
 cd "$DATA_DIR"
-archivebox add --depth=0 --tag=carceri-italia < "$TMP"
+# ArchiveBox 0.9: gli URL si passano come argomenti (a blocchi di 100: un crawl per blocco)
+xargs -n 100 archivebox add --depth=0 --tag=carceri-italia --parser=txt < "$TMP"
