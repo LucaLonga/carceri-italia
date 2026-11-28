@@ -8,6 +8,8 @@
 #   metodo      scrape (script automatico) | download (script scarica il file) | manuale (si ottiene a mano, si tiene copia in data/manual)
 #   frequenza   quanto spesso cambia alla fonte
 #   archivia    true = lo script salva copia locale + estratto + Wayback Machine; la lista alimenta anche ArchiveBox in locale
+#   copia_locale false = niente copia nel repository (testi protetti: Antigone, editori), solo Wayback e ArchiveBox.
+#               Nel repository si copiano per intero solo documenti dello Stato (art. 5 L. 633/1941) e testi con licenza libera.
 #   licenza     licenza o condizioni d'uso dichiarate [VERIFICARE dove indicato]
 #   note        cosa contiene e perché serve
 
@@ -77,6 +79,7 @@ fonti:
     metodo: download
     frequenza: annuale
     archivia: true
+    copia_locale: false   # testo protetto dal diritto d'autore: solo Wayback e ArchiveBox
     licenza: "[VERIFICARE] chiedere ad Antigone per il riuso dei dati"
     note: 'XXII Rapporto "Tutto chiuso" (2026), capitolo sui numeri. Dati al 30.4.2026.'
 
@@ -87,6 +90,7 @@ fonti:
     metodo: download
     frequenza: annuale
     archivia: true
+    copia_locale: false   # testo protetto dal diritto d'autore: solo Wayback e ArchiveBox
     licenza: "[VERIFICARE]"
     note: Versione PDF del XXII Rapporto.
 
@@ -159,6 +163,7 @@ fonti:
     metodo: download
     frequenza: annuale
     archivia: true
+    copia_locale: false   # testo protetto dal diritto d'autore: solo Wayback e ArchiveBox
     licenza: "[VERIFICARE]"
     note: >
       SPACE I: densità carceraria per 100 posti, confronto europeo. Usa la capacità dichiarata

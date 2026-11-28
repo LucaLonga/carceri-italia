@@ -10,6 +10,7 @@ Serie storica dal Ministero della Giustizia (DAP, Sezione statistica). Raccolta:
 | `regionale_mensile.csv` | stesse colonne per regione | dal gennaio 2019 | [verificata] |
 | `per_istituto_mensile.csv` | capienza regolamentare, presenti, donne, stranieri per istituto | dal gennaio 2019 | [verificata] |
 | `inventario_ministero.csv` | tutte le voci dell'elenco statistiche (titolo, data, link) | archivio online | [verificata] |
+| `inventario_serie.csv` | le voci dell'inventario raggruppate in serie: livello (istituto, regione, nazionale), frequenza, contenuto, domande del piano collegate, proposta di raccolta (si, forse, no) | 2026-11-28 | [calcolato] |
 | `copertura.csv` | per ogni anno dal 2000: che cosa esiste, da dove viene, buchi | 2000-oggi | [calcolato] |
 
 **Buchi dichiarati**: la capienza (nazionale e per istituto) prima del 2019 non è nell'archivio online del

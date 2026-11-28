@@ -1,0 +1,51 @@
+# Elenchi ufficiali da cui scripts/documenti_ufficiali.py prende i documenti nuovi.
+# Ogni documento nuovo si scarica, se ne estrae il testo e si misura la pertinenza (parole chiave sul carcere,
+# istituti citati). I documenti pertinenti si conservano interi in archive/files/ con il testo in archive/text/,
+# hanno uno snapshot Wayback e una riga nuova in data/rassegna/documenti.csv.
+# Sono documenti dello Stato: atti ufficiali esclusi dal diritto d'autore (art. 5 L. 633/1941).
+#
+#   id      lo stesso id della watchlist del repository privato
+#   link    espressione regolare: quali link dell'elenco sono documenti
+#   tipo    tipo della rassegna
+elenchi:
+  - id: min-risposte-interrogazioni
+    ente: Ministero della Giustizia
+    url: https://www.giustizia.it/giustizia/page/it/risposte_scritte_ad_interrogazioni_parlamentari
+    link: 'interrogazione_.*\.pdf$'
+    tipo: risposta interrogazione
+
+  - id: min-circolari-dap
+    ente: Ministero della Giustizia, DAP
+    url: https://www.giustizia.it/giustizia/page/it/decreti_circolari_direttive_provvedimenti_note?facetNode_1=0_2&facetNode_2=4_10&selectedNode=0_2
+    link: 'provvedimento_ministeriale_selezionato\?contentId='
+    tipo: circolare
+
+  - id: min-circolari-strutture
+    ente: Ministero della Giustizia
+    url: https://www.giustizia.it/giustizia/page/it/decreti_circolari_direttive_provvedimenti_note?selectedNode=0_2_7
+    link: 'provvedimento_ministeriale_selezionato\?contentId='
+    tipo: circolare
+
+  - id: csc-programma
+    ente: Commissario straordinario per l'edilizia penitenziaria
+    url: https://www.giustizia.it/giustizia/page/it/csc_programma_interventi
+    link: '\.pdf$'
+    tipo: relazione
+
+  - id: csc-stato-attuazione
+    ente: Commissario straordinario per l'edilizia penitenziaria
+    url: https://www.giustizia.it/giustizia/page/it/csc_stato_attuazione_programma
+    link: '\.pdf$'
+    tipo: relazione
+
+  - id: garante-report
+    ente: Garante nazionale dei diritti delle persone private della libertà personale
+    url: https://www.garantenazionaleprivatiliberta.it/gnpl/it/approfondimenti.page?metadata_category_frame4=report
+    link: '(contentId=|\.pdf$)'
+    tipo: rapporto
+
+  - id: garante-relazioni
+    ente: Garante nazionale dei diritti delle persone private della libertà personale
+    url: https://www.garantenazionaleprivatiliberta.it/gnpl/it/pubblicazioni_relazioni.page
+    link: '(contentId=|\.pdf$)'
+    tipo: relazione

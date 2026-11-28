@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
     inputs:
       cosa:
-        description: "tutto | schede | ministero | archivio | wayback-schede"
+        description: "tutto | schede | ministero | archivio | wayback-schede | wayback-falliti"
         default: "tutto"
 
 permissions:
@@ -24,7 +24,7 @@ concurrency:
 jobs:
   raccolta:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 120   # l’archivio ora copia anche i documenti della rassegna
     steps:
       - uses: actions/checkout@v4
 
@@ -62,6 +62,7 @@ jobs:
         if: github.event.schedule == '37 5 12 * *' || inputs.cosa == 'tutto' || inputs.cosa == 'archivio'
         working-directory: scripts
         env:
+          GH_TOKEN: ${{ github.token }}   # gh release upload: copie nella release documenti-AAAA-MM
           IA_ACCESS_KEY: ${{ secrets.IA_ACCESS_KEY }}
           IA_SECRET_KEY: ${{ secrets.IA_SECRET_KEY }}
         run: python archive_sources.py
@@ -96,7 +97,7 @@ jobs:
   # lungo, che non blocca i dati e non fallisce mai.
   wayback-schede:
     needs: raccolta
-    if: always() && (github.event.schedule == '37 5 12 * *' || inputs.cosa == 'tutto' || inputs.cosa == 'wayback-schede')
+    if: always() && (github.event.schedule == '37 5 12 * *' || inputs.cosa == 'tutto' || inputs.cosa == 'wayback-schede' || inputs.cosa == 'wayback-falliti')
     runs-on: ubuntu-latest
     timeout-minutes: 350
     steps:
@@ -114,7 +115,7 @@ jobs:
         env:
           IA_ACCESS_KEY: ${{ secrets.IA_ACCESS_KEY }}
           IA_SECRET_KEY: ${{ secrets.IA_SECRET_KEY }}
-        run: python archive_sources.py --schede --pausa 15
+        run: python archive_sources.py --schede --pausa 15 ${{ inputs.cosa == 'wayback-falliti' && '--solo-falliti' || '' }}
         continue-on-error: true
 
       - name: Commit dell'esito

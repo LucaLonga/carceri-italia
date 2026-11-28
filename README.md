@@ -52,6 +52,8 @@ GitHub Actions (`.github/workflows/raccolta.yml`):
 - il 12 di ogni mese: tabelle mensili del Ministero (con recupero dei mesi passati) e archivio delle fonti;
   poi, in un job a parte, uno snapshot Wayback di ognuna delle 190 schede (`archive/wayback_schede.csv`);
 - dopo ogni raccolta: controlli; commit solo se i dati sono cambiati. Se uno script fallisce, GitHub manda una notifica.
+- ogni giorno (`documenti.yml`): documenti ufficiali nuovi e pertinenti dagli elenchi di `archive/elenchi_ufficiali.yml`,
+  conservati interi con testo e Wayback, e nuove righe in `data/rassegna/documenti.csv`;
 - ogni tre mesi e a mano (`antigone.yml`): schede dell'Osservatorio di Antigone e abbinamento;
 - solo a mano (`storico.yml`): serie storica dal Ministero.
 
@@ -73,8 +75,15 @@ Per la Wayback Machine con l'API autenticata: chiavi S3 di archive.org nei secre
 
 ## Conservazione delle fonti
 
-Ogni fonte importante si conserva in tre modi: copia dei dati e della pagina nel repository
-(CSV, Markdown, JSON, PDF), snapshot sulla Wayback Machine, copia locale con ArchiveBox.
+Ogni fonte importante si conserva in tre modi: copia dei dati e della pagina, snapshot sulla Wayback Machine,
+copia locale con ArchiveBox. **In git nessun file sopra 1 MB** (regola del 2026-11-28): le copie integrali di
+pagine e documenti (`archive/files/`, fuori da git) sono allegate alla release mensile `documenti-AAAA-MM`
+(pre-release, mai "latest"); nel repository restano il testo estratto (`archive/text/`, diviso in parti sopra
+1 MB), sha256, dimensione, URL, data e `release_url` in `archive/manifest.csv`. Un file con la stessa sha256
+già caricato non si ricarica. Si copiano interi solo documenti dello Stato (art. 5 L. 633/1941) e testi con
+licenza libera: per Antigone e gli editori solo Wayback e ArchiveBox (`copia_locale: false` in `sources.yml`).
+Il controllo è in `scripts/checks.py` e nell'hook `.githooks/pre-commit`
+(attivazione: `git config core.hooksPath .githooks`); eccezioni in `.dimensioni-ammesse`.
 Le schede trasparenza hanno un indirizzo stabile (`dettaglio_scheda_istituto_penitenziario?s=<MII>`,
 in `data/reference/istituti_dap.csv`) e si archiviano anche sulla Wayback Machine. (Una versione
 precedente di questo README diceva che si aprivano solo con POST e non erano archiviabili: era sbagliato.)

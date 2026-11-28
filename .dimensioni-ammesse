@@ -1,0 +1,4 @@
+# File in git sopra 1 MB ammessi per eccezione (uno per riga, percorso dalla radice; # = commento).
+# Regola del 2026-11-28: in git nessun file sopra 1 MB. Le copie dei documenti vanno nelle release
+# documenti-AAAA-MM; i testi lunghi si dividono in parti (archive/text/<id>.parteN.md).
+docs/riferimenti/mappa-carceri-ws-data-visualization-2023_9.jpg   # poster del 2024, su main prima della regola
