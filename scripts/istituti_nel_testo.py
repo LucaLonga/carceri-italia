@@ -82,6 +82,16 @@ def codici_dap(testo: str) -> tuple[list[str], list[str]]:
     return sorted(certi), sorted(ambigui - certi)
 
 
+def punteggio(testo: str) -> int:
+    """Quante volte compaiono le parole chiave: per i documenti lunghi (risposte, relazioni) che citano il
+    carcere di passaggio serve più di una parola."""
+    return len(_CHIAVE_I.findall(testo)) + len(re.findall(r"\bDAP\b", testo))
+
+
+SOGLIA_DOCUMENTI = 3  # parole chiave in tutto il documento perché un documento ufficiale sia "pertinente"
+# (tarata il 2026-11-28 su 12 risposte alle interrogazioni: con 3 entrano quelle su attività in carcere e concorsi DAP)
+
+
 def pertinente(testo: str) -> bool:
     """Vero se il testo contiene almeno una parola chiave sul carcere ("DAP" solo in maiuscolo)."""
     return bool(_CHIAVE.search(testo) or _CHIAVE_I.search(testo))

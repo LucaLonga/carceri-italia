@@ -52,6 +52,8 @@ GitHub Actions (`.github/workflows/raccolta.yml`):
 - il 12 di ogni mese: tabelle mensili del Ministero (con recupero dei mesi passati) e archivio delle fonti;
   poi, in un job a parte, uno snapshot Wayback di ognuna delle 190 schede (`archive/wayback_schede.csv`);
 - dopo ogni raccolta: controlli; commit solo se i dati sono cambiati. Se uno script fallisce, GitHub manda una notifica.
+- ogni giorno (`documenti.yml`): documenti ufficiali nuovi e pertinenti dagli elenchi di `archive/elenchi_ufficiali.yml`,
+  conservati interi con testo e Wayback, e nuove righe in `data/rassegna/documenti.csv`;
 - ogni tre mesi e a mano (`antigone.yml`): schede dell'Osservatorio di Antigone e abbinamento;
 - solo a mano (`storico.yml`): serie storica dal Ministero.
 
