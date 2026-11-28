@@ -14,3 +14,7 @@
 ## Struttura delle schede
 
 - copie salvate: 1; niente da confrontare
+
+## Dimensioni
+
+- file sopra 1 MB in git o in arrivo (esclusi .dimensioni-ammesse): nessuno
