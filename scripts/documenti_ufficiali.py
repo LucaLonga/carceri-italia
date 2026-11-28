@@ -3,7 +3,7 @@ circolari, relazioni del Commissario e del Garante).
 
 Per ogni documento nuovo di un elenco:
   1. lo scarica e ne estrae il testo (PDF o pagina HTML);
-  2. misura la pertinenza: parole chiave sul carcere (almeno SOGLIA_DOCUMENTI, o una nell'oggetto) e istituti citati;
+  2. misura la pertinenza: parole chiave sul carcere (almeno SOGLIA_DOCUMENTI) e istituti citati;
   3. se è pertinente: copia intera in archive/files/<id>/, testo in archive/text/<id>.md, snapshot Wayback
      (si riusa uno snapshot recente se c'è già), riga in archive/manifest.csv e in data/rassegna/documenti.csv
      con temi, affermazioni e verifica [DA COMPILARE: Luca].
@@ -31,7 +31,7 @@ from bs4 import BeautifulSoup
 
 from archive_sources import CAMPI as CAMPI_MANIFEST, MANIFEST, html_a_markdown, pdf_a_markdown, wayback
 from common import ARCHIVE, DATA, ROOT, get, session, sha256, today
-from istituti_nel_testo import SOGLIA_DOCUMENTI, codici_dap, pertinente, punteggio, riconosci
+from istituti_nel_testo import SOGLIA_DOCUMENTI, codici_dap, punteggio, riconosci
 
 ELENCHI = ARCHIVE / "elenchi_ufficiali.yml"
 VISTI = ARCHIVE / "documenti_visti.csv"
@@ -78,11 +78,9 @@ def analizza(url: str, pausa: float = 1.0) -> dict:
     certi, ambigui = codici_dap(md)
     nomi = sorted({t["testo"] for t in riconosci(md)})
     p = punteggio(md)
-    # pertinente: abbastanza parole chiave, oppure (solo per i PDF) il carcere è già nell'oggetto, all'inizio
-    oggetto = md.split("---", 2)[-1][:1500]
     return {"url": url, "url_file": url_file, "contenuto": contenuto, "estensione": ".pdf" if pdf else ".html",
             "testo": md, "punteggio": p,
-            "pertinente": p >= SOGLIA_DOCUMENTI or (pdf and p >= 1 and pertinente(oggetto)), "codici_dap": certi, "codici_dap_ambigui": ambigui,
+            "pertinente": p >= SOGLIA_DOCUMENTI, "codici_dap": certi, "codici_dap_ambigui": ambigui,
             "istituti_citati": nomi}
 
 
