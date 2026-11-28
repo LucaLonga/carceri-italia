@@ -31,8 +31,8 @@ I documenti nuovi degli elenchi ufficiali (`archive/elenchi_ufficiali.yml`: risp
 circolari DAP, Commissario, Garante) entrano da soli ogni giorno con `scripts/documenti_ufficiali.py`
 (workflow `documenti`), se sono pertinenti: almeno 3 parole chiave sul carcere nel testo. Ogni documento visto, pertinente o no, è in `archive/documenti_visti.csv`. La prima lettura
 del 2026-11-28 ha preso come base gli elenchi e analizzato i 12 documenti più recenti di ciascuno.
-Sono documenti dello Stato (art. 5 L. 633/1941): si conservano interi in `archive/files/`, con il testo
-in `archive/text/`.
+Sono documenti dello Stato (art. 5 L. 633/1941): si conservano interi negli allegati della release
+mensile `documenti-AAAA-MM` (`release_url` in `archive/manifest.csv`), con il testo in `archive/text/`.
 
 Ogni URL è anche in `archive/extra_urls.txt` (copia locale e Wayback con `scripts/archive_sources.py`) e
 ArchiveBox lo legge da qui. I documenti nuovi trovati dalla sorveglianza arrivano come candidati nel

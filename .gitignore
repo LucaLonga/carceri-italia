@@ -8,3 +8,7 @@ site/dist/
 
 # Grezzo senza licenza di riuso dichiarata (Antigone): resta solo in locale
 data/raw-locale/
+
+# Copie integrali dei documenti: fuori da git, negli allegati delle release mensili documenti-AAAA-MM
+# (archive/manifest.csv: sha256, dimensione, release_url). In git solo il testo estratto in archive/text/.
+archive/files/

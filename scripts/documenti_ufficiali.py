@@ -4,7 +4,8 @@ circolari, relazioni del Commissario e del Garante).
 Per ogni documento nuovo di un elenco:
   1. lo scarica e ne estrae il testo (PDF o pagina HTML);
   2. misura la pertinenza: parole chiave sul carcere (almeno SOGLIA_DOCUMENTI) e istituti citati;
-  3. se è pertinente: copia intera in archive/files/<id>/, testo in archive/text/<id>.md, snapshot Wayback
+  3. se è pertinente: copia intera in archive/files/<id>/ (fuori da git) caricata nella release mensile
+     documenti-AAAA-MM, testo in archive/text/<id>.md, snapshot Wayback
      (si riusa uno snapshot recente se c'è già), riga in archive/manifest.csv e in data/rassegna/documenti.csv
      con temi, affermazioni e verifica [DA COMPILARE: Luca].
 Ogni documento visto finisce in archive/documenti_visti.csv, pertinente o no.
@@ -30,7 +31,7 @@ import yaml
 from bs4 import BeautifulSoup
 
 from archive_sources import CAMPI as CAMPI_MANIFEST, MANIFEST, html_a_markdown, pdf_a_markdown, wayback
-from common import ARCHIVE, DATA, ROOT, get, session, sha256, today
+from common import ARCHIVE, DATA, ROOT, get, pubblica_in_release, release_gia_caricata, scrivi_testo, session, sha256, today
 from istituti_nel_testo import SOGLIA_DOCUMENTI, codici_dap, punteggio, riconosci
 
 ELENCHI = ARCHIVE / "elenchi_ufficiali.yml"
@@ -136,13 +137,15 @@ def conserva(doc: dict, el: dict, titolo: str, usa_wayback: bool) -> str:
     dest = ARCHIVE / "files" / fid / f"{today()}{doc['estensione']}"
     dest.parent.mkdir(parents=True, exist_ok=True)
     dest.write_bytes(doc["contenuto"])
-    (ARCHIVE / "text").mkdir(exist_ok=True)
-    (ARCHIVE / "text" / f"{fid}.md").write_text(doc["testo"], encoding="utf-8")
+    scrivi_testo(fid, doc["testo"])
+    h = sha256(doc["contenuto"])
+    release = release_gia_caricata(h, MANIFEST) or pubblica_in_release(dest, f"{fid}_{dest.name}")
     snap = wayback_recente(doc["url"]) if usa_wayback else ""
     with MANIFEST.open("a", newline="", encoding="utf-8") as f:
         csv.DictWriter(f, fieldnames=CAMPI_MANIFEST).writerow({
-            "data": today(), "id": fid, "url": doc["url"], "sha256": sha256(doc["contenuto"]),
-            "file": str(dest.relative_to(ROOT)), "wayback": snap, "esito": "salvato (documenti_ufficiali)"})
+            "data": today(), "id": fid, "url": doc["url"], "sha256": h, "dimensione": len(doc["contenuto"]),
+            "file": str(dest.relative_to(ROOT)), "release_url": release, "wayback": snap,
+            "esito": "salvato (documenti_ufficiali)"})
     rid = prossimo_id_rassegna()
     with RASSEGNA.open(encoding="utf-8") as f:
         cols = next(csv.reader(f))

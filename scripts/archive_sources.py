@@ -1,7 +1,9 @@
 """Conserva le fonti in tre modi.
 
 Per ogni URL con `archivia: true` in sources.yml e per ogni riga di archive/extra_urls.txt:
-  1. scarica la pagina o il file e ne salva una copia in archive/files/<id>/ (solo se è cambiata);
+  1. scarica la pagina o il file e ne salva una copia in archive/files/<id>/ (solo se è cambiata). La cartella è
+     fuori da git: la copia va come allegato della release mensile documenti-AAAA-MM (release_url nel
+     manifest); un file con la stessa sha256 già caricato non si ricarica;
   2. salva un estratto leggibile in Markdown (archive/text/<id>.md): testo delle pagine HTML e dei PDF;
   3. chiede alla Wayback Machine di salvarla (Save Page Now) e annota l'indirizzo dello snapshot.
 Tutto finisce in archive/manifest.csv (data, id, url, sha256, file locale, wayback, esito).
@@ -41,11 +43,11 @@ from pypdf import PdfReader
 
 logging.getLogger("pypdf").setLevel(logging.ERROR)  # avvisi sui font, non errori
 
-from common import ARCHIVE, ROOT, session, sha256, today
+from common import ARCHIVE, ROOT, pubblica_in_release, release_gia_caricata, scrivi_testo, session, sha256, today
 
 MANIFEST = ARCHIVE / "manifest.csv"
 WAYBACK_SCHEDE = ARCHIVE / "wayback_schede.csv"
-CAMPI = ["data", "id", "url", "sha256", "file", "wayback", "esito"]
+CAMPI = ["data", "id", "url", "sha256", "dimensione", "file", "release_url", "wayback", "esito"]
 NON_SCARICABILI = {"looker"}  # pagine che si leggono solo in un browser: solo Wayback e ArchiveBox
 
 
@@ -225,8 +227,11 @@ def main() -> int:
                         dest.parent.mkdir(parents=True, exist_ok=True)
                         dest.write_bytes(r.content)
                         riga["file"] = str(dest.relative_to(ROOT))
+                        riga["dimensione"] = len(r.content)
+                        riga["release_url"] = (release_gia_caricata(h, MANIFEST)
+                                               or pubblica_in_release(dest, f"{f['id']}_{dest.name}"))
                         md = html_a_markdown(r.text, f["url"]) if ext == ".html" else pdf_a_markdown(r.content, f["url"])
-                        (ARCHIVE / "text" / f"{f['id']}.md").write_text(md, encoding="utf-8")
+                        scrivi_testo(f["id"], md)
                         riga["esito"] = "salvato"
                 except Exception as e:  # noqa: BLE001
                     riga["esito"] = f"download fallito: {e}"
