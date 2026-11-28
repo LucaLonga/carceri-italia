@@ -1,18 +1,25 @@
-# Pagine da conservare oltre alle fonti di sources.yml: articoli, comunicati, PDF.
+# Pagine e documenti ufficiali da conservare oltre alle fonti di sources.yml.
+# Articoli di stampa e rapporti non ufficiali NON vanno qui: stanno nella rassegna del repository privato.
 # Una per riga:  URL  [id-facoltativo]
 # Le righe che iniziano con # sono ignorate.
 
-# Garante nazionale, report e comunicati
-https://sistemapenale.it/it/documenti/pubblicato-il-report-analitico-osservatorio-penitenziario-adulti-del-garante-nazionale-dei-diritti-delle-persone-private-della-liberta-personale  sistemapenale-garante-report-2025
-https://sistemapenale.it/pdf_contenuti/1751906645_20250530-analisi-dati-adulti.pdf  garante-analisi-dati-2025-05-30
-https://sistemapenale.it/it/documenti/decessi-in-carcere-pubblicato-il-report-del-garante-nazionale-aggiornato-al-31-agosto-2026  sistemapenale-garante-decessi-2026
-
-# Stampa
-https://www.agi.it/cronaca/news/2026-04-24/carceri-italia-dati-36741480/  agi-2026-04-24-garante
-https://www.agi.it/cronaca/news/2026-05-19/carceri-antigone-sovraffollamento-alternative-37126425/  agi-2026-05-19-antigone
-
-# Antigone, rapporti precedenti
-https://www.antigone.it/upload2/uploads/docs/CSNodoallagola.pdf  antigone-xx-rapporto-cs
-
 # Ministero: schede trasparenza (pagina indice) e note sul calcolo della capienza
 https://www.giustizia.it/giustizia/page/it/istituti_penitenziari  dap-schede-indice
+
+# Rassegna pubblica (data/rassegna/documenti.csv): documenti ufficiali
+https://www.giustizia.it/cmsresources/cms/documents/interrogazione_giachetti_risposta_6feb2026.pdf  min-interrogazione-giachetti-2026-02-06
+https://www.giustizia.it/cmsresources/cms/documents/interrogazione_ghirra_risposta_21gen2026.pdf  min-interrogazione-ghirra-2026-01-21
+https://www.giustizia.it/cmsresources/cms/documents/interrogazione_ghirra_risposta_23mar2026.pdf  min-interrogazione-ghirra-2026-03-23
+https://www.giustizia.it/cmsresources/cms/documents/interrogazione_licheri_e_licheri_risposta_24feb2026.pdf  min-interrogazione-licheri-2026-02-24
+https://www.giustizia.it/cmsresources/cms/documents/interrogazione_serracchiani_e_altri_risposta_5mag2026.pdf  min-interrogazione-serracchiani-2026-05-05
+https://www.giustizia.it/cmsresources/cms/documents/interrogazione_ascari_risposta_24apr2026.pdf  min-interrogazione-ascari-2026-04-24
+https://www.giustizia.it/cmsresources/cms/documents/interrogazione_aloisio_risposta_24apr2026.pdf  min-interrogazione-aloisio-2026-04-24
+https://www.giustizia.it/cmsresources/cms/documents/interrogazione_cafiero_de_raho_e_cherchi_17feb2026.pdf  min-interrogazione-cafiero-2026-02-17
+https://www.giustizia.it/cmsresources/cms/documents/csc_relazione_al_30giu2026.pdf  commissario-edilizia-relazione-2026-06-30
+https://www.giustizia.it/cmsresources/cms/documents/direttiva_ministro2026_all_6_obiettivi_DAP.pdf  min-direttiva-2026-obiettivi-dap
+https://www.camera.it/temiap/2026/03/06/OCD177-8855.pdf  camera-ocd177-8855-edilizia-2026
+https://documenti.camera.it/_dati/leg19/lavori/documentiparlamentari/indiceetesti/116/004/INTERO.pdf  camera-doc116-4-2026
+https://documenti.camera.it/_dati/leg19/lavori/documentiparlamentari/indiceetesti/009/004v01/INTERO.pdf  min-relazione-giustizia-2026-vol1
+https://documenti.camera.it/leg19/documentiAcquisiti/COM02/Audizioni/leg19.com02.Audizioni.Memoria.PUBBLICO.ideGes.89098.06-05-2026-16-15-47.052.pdf  camera-audizione-commissario-2026-05-06
+https://www.giustizia.it/cmsresources/cms/documents/csc_programma_edilizia_pen_2025_2027.pdf  commissario-programma-edilizia-2025-2027
+https://documenti.camera.it/_dati/leg17/lavori/documentiparlamentari/indiceetesti/211/002_RS/00000027.pdf  min-relazione-2014-schede-informative
